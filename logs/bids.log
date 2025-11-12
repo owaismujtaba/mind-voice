@@ -1,0 +1,33 @@
+[2025-11-10 13:50:00] [INFO] Creating BIDS Dataset
+[2025-11-10 13:50:00] [INFO] subjetc:01 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P001/ses-S001/eeg/sub-P001_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-10 13:50:00] [INFO] Reading raw XDF file
+[2025-11-10 13:58:23] [INFO] Initializing BIDSDataset Class
+[2025-11-10 13:58:23] [INFO] Preprocessing eeg, resampling
+[2025-11-10 13:58:54] [INFO] Setting bidspath
+[2025-11-10 13:58:54] [INFO] Creating BIDS File for EEG
+[2025-11-10 13:58:58] [INFO] Creating BIDS File for Audio
+[2025-11-10 14:03:32] [INFO] Creating BIDS Dataset
+[2025-11-10 14:03:32] [INFO] subjetc:01 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P001/ses-S001/eeg/sub-P001_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-10 14:03:32] [INFO] Reading raw XDF file
+[2025-11-10 14:03:32] [INFO] Initializing BIDSDataset Class
+[2025-11-10 14:03:47] [INFO] Creating BIDS Dataset
+[2025-11-10 14:03:47] [INFO] subjetc:01 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P001/ses-S001/eeg/sub-P001_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-10 14:03:47] [INFO] Reading raw XDF file
+[2025-11-10 15:58:29] [INFO] Initializing BIDSDataset Class
+[2025-11-10 15:58:29] [INFO] Preprocessing eeg, resampling
+[2025-11-10 15:58:55] [INFO] Creating BIDS Dataset
+[2025-11-10 15:58:55] [INFO] subjetc:01 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P001/ses-S001/eeg/sub-P001_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-10 15:58:55] [INFO] Reading raw XDF file
+[2025-11-10 16:09:34] [INFO] Creating BIDS Dataset
+[2025-11-10 16:09:34] [INFO] subjetc:01 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P001/ses-S001/eeg/sub-P001_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-10 16:09:34] [INFO] Reading raw XDF file
+[2025-11-10 16:17:46] [INFO] Initializing BIDSDataset Class
+[2025-11-10 16:17:46] [INFO] Preprocessing eeg, resampling
+[2025-11-10 16:24:35] [INFO] Creating BIDS Dataset
+[2025-11-10 16:24:35] [INFO] subjetc:01 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P001/ses-S001/eeg/sub-P001_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-10 16:24:35] [INFO] Reading raw XDF file
+[2025-11-10 16:30:38] [INFO] Creating BIDS Dataset
+[2025-11-10 16:30:38] [INFO] subjetc:01 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P001/ses-S001/eeg/sub-P001_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-10 16:30:38] [INFO] Reading raw XDF file
+[2025-11-10 16:38:58] [INFO] Setting DIBS
+[2025-11-10 16:39:33] [INFO] Setting DIBS

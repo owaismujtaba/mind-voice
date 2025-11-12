@@ -1,0 +1,304 @@
+[2025-11-12 14:39:50] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-12 14:39:52] [INFO] T-test (Peak): t=-3.281, p=3.566e-03
+[2025-11-12 14:39:52] [INFO] T-test (Mean): t=-2.479, p=2.173e-02
+[2025-11-12 14:39:52] [INFO] Summary: 
+ Peak -3.281, 3.566e-03,
+ Mean -2.479, 2.173e-02
+[2025-11-12 14:39:52] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.png
+[2025-11-12 14:39:52] [INFO] Starting Grand ERP Rest Visualization
+[2025-11-12 14:39:52] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:39:52] [INFO] Loading data for sub-01, ses-01
+[2025-11-12 14:39:52] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:39:52] [INFO] Loading Processed EEG Data: sub-01 ses-01
+[2025-11-12 14:39:54] [INFO] Building epochs
+[2025-11-12 14:39:54] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:39:54] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:39:54] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:39:54] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:39:54] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:39:54] [INFO] Loading data for sub-02, ses-01
+[2025-11-12 14:39:54] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:39:54] [INFO] Loading Processed EEG Data: sub-02 ses-01
+[2025-11-12 14:39:55] [INFO] Building epochs
+[2025-11-12 14:39:55] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:39:55] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:39:56] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:39:56] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:39:56] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:39:56] [INFO] Loading data for sub-03, ses-01
+[2025-11-12 14:39:56] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:39:56] [INFO] Loading Processed EEG Data: sub-03 ses-01
+[2025-11-12 14:39:57] [INFO] Building epochs
+[2025-11-12 14:39:57] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:39:57] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:39:57] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:39:57] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:39:57] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:39:57] [INFO] Loading data for sub-04, ses-01
+[2025-11-12 14:39:57] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:39:57] [INFO] Loading Processed EEG Data: sub-04 ses-01
+[2025-11-12 14:39:59] [INFO] Building epochs
+[2025-11-12 14:39:59] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:39:59] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:39:59] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:39:59] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:39:59] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:39:59] [INFO] Loading data for sub-04, ses-02
+[2025-11-12 14:39:59] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:39:59] [INFO] Loading Processed EEG Data: sub-04 ses-02
+[2025-11-12 14:40:01] [INFO] Building epochs
+[2025-11-12 14:40:01] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:01] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:01] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:01] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:01] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:01] [INFO] Loading data for sub-05, ses-01
+[2025-11-12 14:40:01] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:01] [INFO] Loading Processed EEG Data: sub-05 ses-01
+[2025-11-12 14:40:02] [INFO] Building epochs
+[2025-11-12 14:40:02] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:03] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:03] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:03] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:03] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:03] [INFO] Loading data for sub-05, ses-02
+[2025-11-12 14:40:03] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:03] [INFO] Loading Processed EEG Data: sub-05 ses-02
+[2025-11-12 14:40:04] [INFO] Building epochs
+[2025-11-12 14:40:04] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:04] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:04] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:04] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:05] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:05] [INFO] Loading data for sub-06, ses-01
+[2025-11-12 14:40:05] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:05] [INFO] Loading Processed EEG Data: sub-06 ses-01
+[2025-11-12 14:40:06] [INFO] Building epochs
+[2025-11-12 14:40:06] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:06] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:06] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:06] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:06] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:06] [INFO] Loading data for sub-06, ses-02
+[2025-11-12 14:40:06] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:06] [INFO] Loading Processed EEG Data: sub-06 ses-02
+[2025-11-12 14:40:07] [INFO] Building epochs
+[2025-11-12 14:40:07] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:08] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:08] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:08] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:08] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:08] [INFO] Loading data for sub-07, ses-01
+[2025-11-12 14:40:08] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:08] [INFO] Loading Processed EEG Data: sub-07 ses-01
+[2025-11-12 14:40:09] [INFO] Building epochs
+[2025-11-12 14:40:09] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:09] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:10] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:10] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:10] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:10] [INFO] Loading data for sub-08, ses-01
+[2025-11-12 14:40:10] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:10] [INFO] Loading Processed EEG Data: sub-08 ses-01
+[2025-11-12 14:40:11] [INFO] Building epochs
+[2025-11-12 14:40:11] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:11] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:11] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:11] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:12] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:12] [INFO] Loading data for sub-09, ses-01
+[2025-11-12 14:40:12] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:12] [INFO] Loading Processed EEG Data: sub-09 ses-01
+[2025-11-12 14:40:13] [INFO] Building epochs
+[2025-11-12 14:40:13] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:13] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:13] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:13] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:13] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:13] [INFO] Loading data for sub-09, ses-02
+[2025-11-12 14:40:13] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:13] [INFO] Loading Processed EEG Data: sub-09 ses-02
+[2025-11-12 14:40:14] [INFO] Building epochs
+[2025-11-12 14:40:14] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:15] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:15] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:15] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:15] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:15] [INFO] Loading data for sub-10, ses-01
+[2025-11-12 14:40:15] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:15] [INFO] Loading Processed EEG Data: sub-10 ses-01
+[2025-11-12 14:40:16] [INFO] Building epochs
+[2025-11-12 14:40:16] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:16] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:17] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:17] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:17] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:17] [INFO] Loading data for sub-11, ses-01
+[2025-11-12 14:40:17] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:17] [INFO] Loading Processed EEG Data: sub-11 ses-01
+[2025-11-12 14:40:18] [INFO] Building epochs
+[2025-11-12 14:40:18] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:18] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:18] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:18] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:19] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:19] [INFO] Loading data for sub-12, ses-01
+[2025-11-12 14:40:19] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:19] [INFO] Loading Processed EEG Data: sub-12 ses-01
+[2025-11-12 14:40:20] [INFO] Building epochs
+[2025-11-12 14:40:20] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:20] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:20] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:20] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:21] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:21] [INFO] Loading data for sub-12, ses-02
+[2025-11-12 14:40:21] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:21] [INFO] Loading Processed EEG Data: sub-12 ses-02
+[2025-11-12 14:40:22] [INFO] Building epochs
+[2025-11-12 14:40:22] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:22] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:22] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:22] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:22] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:22] [INFO] Loading data for sub-13, ses-01
+[2025-11-12 14:40:22] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:22] [INFO] Loading Processed EEG Data: sub-13 ses-01
+[2025-11-12 14:40:24] [INFO] Building epochs
+[2025-11-12 14:40:24] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:24] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:24] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:24] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:24] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:24] [INFO] Loading data for sub-13, ses-02
+[2025-11-12 14:40:24] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:24] [INFO] Loading Processed EEG Data: sub-13 ses-02
+[2025-11-12 14:40:26] [INFO] Building epochs
+[2025-11-12 14:40:26] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:26] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:26] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:26] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:26] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:26] [INFO] Loading data for sub-14, ses-01
+[2025-11-12 14:40:26] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:26] [INFO] Loading Processed EEG Data: sub-14 ses-01
+[2025-11-12 14:40:28] [INFO] Building epochs
+[2025-11-12 14:40:28] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:28] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:28] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:28] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:28] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:28] [INFO] Loading data for sub-15, ses-01
+[2025-11-12 14:40:28] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:28] [INFO] Loading Processed EEG Data: sub-15 ses-01
+[2025-11-12 14:40:30] [INFO] Building epochs
+[2025-11-12 14:40:30] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:30] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:30] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-12 14:40:30] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-12 14:40:30] [INFO] Running pipeline in data-only mode
+[2025-11-12 14:40:30] [INFO] Loading data for sub-15, ses-02
+[2025-11-12 14:40:30] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-12 14:40:30] [INFO] Loading Processed EEG Data: sub-15 ses-02
+[2025-11-12 14:40:30] [INFO] Building epochs
+[2025-11-12 14:40:30] [INFO]  Creating epochs for condition: Visual Change
+[2025-11-12 14:40:30] [INFO]  Creating epochs for condition: No Visual Change
+[2025-11-12 14:40:30] [INFO]  Epochs 1: (16, 3, 701)
+[2025-11-12 14:40:30] [INFO]  Epochs 2: (16, 3, 701)
+[2025-11-12 14:40:32] [INFO] Completed Grand ERP Rest Visualization
+[2025-11-12 14:40:32] [INFO] Grand ERP plot saved at: results/images/grand_erp_rest_visual.png
+[2025-11-12 14:40:32] [INFO] Plotting accuracy plot
+[2025-11-12 14:40:33] [INFO]         accuracy
+count  15.000000
+mean    0.739952
+std     0.089234
+min     0.571895
+25%     0.677288
+50%     0.751634
+75%     0.798203
+max     0.875817
+[2025-11-12 14:40:33] [INFO] Plotting confusion matrix
+[2025-11-12 14:40:34] [INFO] Confusion matrix plot saved to results/images/cm.png
+[2025-11-12 14:40:34] [INFO] Confusion matrix data:
+        Overt  Covert  Rest
+Overt    2001      87   106
+Covert    327    1549   319
+Rest      385     430  1380
+[2025-11-12 14:40:34] [INFO] Plotting metrics
+[2025-11-12 14:40:36] [INFO] Metrics plot saved to results/images/overt_covert_rest_metrics.png
+[2025-11-12 14:40:36] [INFO] Metrics data:
+   subject_id session_id  precision    recall        f1
+0          05         02   0.800408  0.797386  0.791048
+1          11         01   0.705441  0.709150  0.701799
+2          08         01   0.878213  0.875817  0.875752
+3          05         01   0.738903  0.738562  0.736747
+4          10         01   0.671622  0.647059  0.633043
+5          13         01   0.797040  0.784314  0.780159
+6          15         02   0.924667  0.924208  0.923112
+7          12         02   0.748196  0.748366  0.742259
+8          14         01   0.772840  0.761438  0.753388
+9          06         01   0.756898  0.725490  0.719272
+10         09         02   0.881976  0.875817  0.874272
+11         07         01   0.653462  0.647059  0.641367
+12         04         02   0.745681  0.633987  0.620533
+13         09         01   0.830603  0.823529  0.825368
+14         12         01   0.776238  0.754902  0.745325
+15         01         01   0.665934  0.620915  0.597036
+16         15         01   0.810471  0.764706  0.764571
+17         02         01   0.665455  0.571895  0.549990
+18         06         02   0.718794  0.689542  0.693884
+19         04         01   0.874709  0.862745  0.860712
+20         03         01   0.827381  0.807190  0.803830
+21         13         02   0.802856  0.794118  0.787040
+[2025-11-12 14:40:36] [INFO] Metrics summary per subject:
+   subject_id  precision    recall        f1
+0          01   0.665934  0.620915  0.597036
+1          02   0.665455  0.571895  0.549990
+2          03   0.827381  0.807190  0.803830
+3          04   0.810195  0.748366  0.740623
+4          05   0.769655  0.767974  0.763898
+5          06   0.737846  0.707516  0.706578
+6          07   0.653462  0.647059  0.641367
+7          08   0.878213  0.875817  0.875752
+8          09   0.856290  0.849673  0.849820
+9          10   0.671622  0.647059  0.633043
+10         11   0.705441  0.709150  0.701799
+11         12   0.762217  0.751634  0.743792
+12         13   0.799948  0.789216  0.783600
+13         14   0.772840  0.761438  0.753388
+14         15   0.867569  0.844457  0.843842
+[2025-11-12 14:40:36] [INFO] Class-wise precision:
+class_id
+0    0.782048
+1    0.772887
+2    0.783120
+Name: precision, dtype: float64
+[2025-11-12 14:40:36] [INFO] Class-wise recall:
+class_id
+0    0.913136
+1    0.711709
+2    0.633101
+Name: recall, dtype: float64
+[2025-11-12 14:40:36] [INFO] Class-wise F1 score:
+class_id
+0    0.828259
+1    0.721097
+2    0.686058
+Name: f1, dtype: float64
+[2025-11-12 14:40:36] [INFO] Class-wise precision standard deviation:
+class_id
+0    0.152522
+1    0.104383
+2    0.102148
+Name: precision, dtype: float64
+[2025-11-12 14:40:36] [INFO] Class-wise recall standard deviation:
+class_id
+0    0.088555
+1    0.192325
+2    0.162317
+Name: recall, dtype: float64
+[2025-11-12 14:40:36] [INFO] Class-wise F1 score standard deviation:
+class_id
+0    0.087085
+1    0.115602
+2    0.113067
+Name: f1, dtype: float64

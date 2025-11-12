@@ -1,0 +1,608 @@
+[2025-11-10 18:03:45] [INFO] Setting DIBS
+[2025-11-10 18:03:45] [INFO] Loading data for sub-01, ses-01
+[2025-11-10 18:03:45] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:03:45] [INFO] Loading Processed EEG Data: sub-01 ses-01
+[2025-11-10 18:03:46] [INFO] Building epochs
+[2025-11-10 18:03:47] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:03:47] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:03:47] [INFO] Visual P100: latency=0.112s, peak=3.04µV, mean=0.12µV
+[2025-11-10 18:03:47] [INFO] Rest P100: latency=0.089s, peak=0.96µV, mean=-0.79µV
+[2025-11-10 18:03:47] [INFO] Plotting P100
+[2025-11-10 18:04:16] [INFO] Setting DIBS
+[2025-11-10 18:04:16] [INFO] Loading data for sub-01, ses-01
+[2025-11-10 18:04:16] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:04:16] [INFO] Loading Processed EEG Data: sub-01 ses-01
+[2025-11-10 18:04:17] [INFO] Building epochs
+[2025-11-10 18:04:18] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:04:18] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:04:18] [INFO] Visual P100: latency=0.112s, peak=3.04µV, mean=0.12µV
+[2025-11-10 18:04:18] [INFO] Rest P100: latency=0.089s, peak=0.96µV, mean=-0.79µV
+[2025-11-10 18:04:18] [INFO] Plotting P100
+[2025-11-10 18:04:18] [INFO] Initializing Plotter
+[2025-11-10 18:04:18] [INFO] Plotting Evoked
+[2025-11-10 18:04:56] [INFO] Setting DIBS
+[2025-11-10 18:04:56] [INFO] Loading data for sub-01, ses-01
+[2025-11-10 18:04:56] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:04:56] [INFO] Loading Processed EEG Data: sub-01 ses-01
+[2025-11-10 18:04:58] [INFO] Building epochs
+[2025-11-10 18:04:58] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:04:58] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:04:58] [INFO] Visual P100: latency=0.112s, peak=3.04µV, mean=0.12µV
+[2025-11-10 18:04:58] [INFO] Rest P100: latency=0.089s, peak=0.96µV, mean=-0.79µV
+[2025-11-10 18:04:58] [INFO] Plotting P100
+[2025-11-10 18:04:58] [INFO] Initializing Plotter
+[2025-11-10 18:04:58] [INFO] Plotting Evoked
+[2025-11-10 18:04:58] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:04:58] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-01_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:04:58] [INFO] Loading data for sub-02, ses-01
+[2025-11-10 18:04:58] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:04:58] [INFO] Loading Processed EEG Data: sub-02 ses-01
+[2025-11-10 18:05:01] [INFO] Building epochs
+[2025-11-10 18:05:02] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:02] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:02] [INFO] Visual P100: latency=0.120s, peak=4.79µV, mean=0.86µV
+[2025-11-10 18:05:02] [INFO] Rest P100: latency=0.120s, peak=0.80µV, mean=-1.94µV
+[2025-11-10 18:05:02] [INFO] Plotting P100
+[2025-11-10 18:05:02] [INFO] Initializing Plotter
+[2025-11-10 18:05:02] [INFO] Plotting Evoked
+[2025-11-10 18:05:02] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:02] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-02_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:05:02] [INFO] Loading data for sub-03, ses-01
+[2025-11-10 18:05:02] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:02] [INFO] Loading Processed EEG Data: sub-03 ses-01
+[2025-11-10 18:05:05] [INFO] Building epochs
+[2025-11-10 18:05:06] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:06] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:06] [INFO] Visual P100: latency=0.111s, peak=7.03µV, mean=3.86µV
+[2025-11-10 18:05:06] [INFO] Rest P100: latency=0.080s, peak=0.41µV, mean=-2.88µV
+[2025-11-10 18:05:06] [INFO] Plotting P100
+[2025-11-10 18:05:06] [INFO] Initializing Plotter
+[2025-11-10 18:05:06] [INFO] Plotting Evoked
+[2025-11-10 18:05:06] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:06] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-03_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:05:06] [INFO] Loading data for sub-04, ses-01
+[2025-11-10 18:05:06] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:06] [INFO] Loading Processed EEG Data: sub-04 ses-01
+[2025-11-10 18:05:09] [INFO] Building epochs
+[2025-11-10 18:05:10] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:10] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:10] [INFO] Visual P100: latency=0.120s, peak=4.53µV, mean=1.79µV
+[2025-11-10 18:05:10] [INFO] Rest P100: latency=0.113s, peak=2.08µV, mean=1.02µV
+[2025-11-10 18:05:10] [INFO] Plotting P100
+[2025-11-10 18:05:10] [INFO] Initializing Plotter
+[2025-11-10 18:05:10] [INFO] Plotting Evoked
+[2025-11-10 18:05:10] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:10] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-04_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:05:10] [INFO] Loading data for sub-04, ses-02
+[2025-11-10 18:05:10] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:10] [INFO] Loading Processed EEG Data: sub-04 ses-02
+[2025-11-10 18:05:12] [INFO] Building epochs
+[2025-11-10 18:05:12] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:13] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:13] [INFO] Visual P100: latency=0.120s, peak=2.69µV, mean=0.70µV
+[2025-11-10 18:05:13] [INFO] Rest P100: latency=0.080s, peak=1.15µV, mean=-0.39µV
+[2025-11-10 18:05:13] [INFO] Plotting P100
+[2025-11-10 18:05:13] [INFO] Initializing Plotter
+[2025-11-10 18:05:13] [INFO] Plotting Evoked
+[2025-11-10 18:05:13] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:13] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-04_ses-02_p100_Visual_Rest.csv
+[2025-11-10 18:05:13] [INFO] Loading data for sub-05, ses-01
+[2025-11-10 18:05:13] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:13] [INFO] Loading Processed EEG Data: sub-05 ses-01
+[2025-11-10 18:05:14] [INFO] Building epochs
+[2025-11-10 18:05:14] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:14] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:14] [INFO] Visual P100: latency=0.120s, peak=1.03µV, mean=-1.04µV
+[2025-11-10 18:05:14] [INFO] Rest P100: latency=0.116s, peak=1.27µV, mean=-0.36µV
+[2025-11-10 18:05:14] [INFO] Plotting P100
+[2025-11-10 18:05:14] [INFO] Initializing Plotter
+[2025-11-10 18:05:14] [INFO] Plotting Evoked
+[2025-11-10 18:05:15] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:15] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-05_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:05:15] [INFO] Loading data for sub-05, ses-02
+[2025-11-10 18:05:15] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:15] [INFO] Loading Processed EEG Data: sub-05 ses-02
+[2025-11-10 18:05:16] [INFO] Building epochs
+[2025-11-10 18:05:16] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:16] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:16] [INFO] Visual P100: latency=0.120s, peak=1.30µV, mean=-2.45µV
+[2025-11-10 18:05:16] [INFO] Rest P100: latency=0.113s, peak=2.35µV, mean=-1.11µV
+[2025-11-10 18:05:16] [INFO] Plotting P100
+[2025-11-10 18:05:16] [INFO] Initializing Plotter
+[2025-11-10 18:05:16] [INFO] Plotting Evoked
+[2025-11-10 18:05:16] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:16] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-05_ses-02_p100_Visual_Rest.csv
+[2025-11-10 18:05:16] [INFO] Loading data for sub-06, ses-01
+[2025-11-10 18:05:16] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:16] [INFO] Loading Processed EEG Data: sub-06 ses-01
+[2025-11-10 18:05:18] [INFO] Building epochs
+[2025-11-10 18:05:18] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:18] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:18] [INFO] Visual P100: latency=0.120s, peak=8.70µV, mean=4.63µV
+[2025-11-10 18:05:18] [INFO] Rest P100: latency=0.080s, peak=-3.80µV, mean=-5.11µV
+[2025-11-10 18:05:18] [INFO] Plotting P100
+[2025-11-10 18:05:18] [INFO] Initializing Plotter
+[2025-11-10 18:05:18] [INFO] Plotting Evoked
+[2025-11-10 18:05:18] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:18] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-06_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:05:18] [INFO] Loading data for sub-06, ses-02
+[2025-11-10 18:05:18] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:18] [INFO] Loading Processed EEG Data: sub-06 ses-02
+[2025-11-10 18:05:19] [INFO] Building epochs
+[2025-11-10 18:05:20] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:20] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:20] [INFO] Visual P100: latency=0.120s, peak=10.77µV, mean=4.81µV
+[2025-11-10 18:05:20] [INFO] Rest P100: latency=0.088s, peak=0.37µV, mean=-1.16µV
+[2025-11-10 18:05:20] [INFO] Plotting P100
+[2025-11-10 18:05:20] [INFO] Initializing Plotter
+[2025-11-10 18:05:20] [INFO] Plotting Evoked
+[2025-11-10 18:05:20] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:20] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-06_ses-02_p100_Visual_Rest.csv
+[2025-11-10 18:05:20] [INFO] Loading data for sub-07, ses-01
+[2025-11-10 18:05:20] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:20] [INFO] Loading Processed EEG Data: sub-07 ses-01
+[2025-11-10 18:05:21] [INFO] Building epochs
+[2025-11-10 18:05:22] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:22] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:22] [INFO] Visual P100: latency=0.115s, peak=7.69µV, mean=2.04µV
+[2025-11-10 18:05:22] [INFO] Rest P100: latency=0.108s, peak=17.23µV, mean=7.99µV
+[2025-11-10 18:05:22] [INFO] Plotting P100
+[2025-11-10 18:05:22] [INFO] Initializing Plotter
+[2025-11-10 18:05:22] [INFO] Plotting Evoked
+[2025-11-10 18:05:22] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:22] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-07_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:05:22] [INFO] Loading data for sub-08, ses-01
+[2025-11-10 18:05:22] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:22] [INFO] Loading Processed EEG Data: sub-08 ses-01
+[2025-11-10 18:05:23] [INFO] Building epochs
+[2025-11-10 18:05:23] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:23] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:23] [INFO] Visual P100: latency=0.119s, peak=14.03µV, mean=7.59µV
+[2025-11-10 18:05:23] [INFO] Rest P100: latency=0.120s, peak=2.37µV, mean=0.92µV
+[2025-11-10 18:05:23] [INFO] Plotting P100
+[2025-11-10 18:05:23] [INFO] Initializing Plotter
+[2025-11-10 18:05:23] [INFO] Plotting Evoked
+[2025-11-10 18:05:24] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:24] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-08_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:05:24] [INFO] Loading data for sub-09, ses-01
+[2025-11-10 18:05:24] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:24] [INFO] Loading Processed EEG Data: sub-09 ses-01
+[2025-11-10 18:05:25] [INFO] Building epochs
+[2025-11-10 18:05:25] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:25] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:25] [INFO] Visual P100: latency=0.120s, peak=7.71µV, mean=1.63µV
+[2025-11-10 18:05:25] [INFO] Rest P100: latency=0.120s, peak=0.40µV, mean=-2.06µV
+[2025-11-10 18:05:25] [INFO] Plotting P100
+[2025-11-10 18:05:25] [INFO] Initializing Plotter
+[2025-11-10 18:05:25] [INFO] Plotting Evoked
+[2025-11-10 18:05:26] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:26] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-09_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:05:26] [INFO] Loading data for sub-09, ses-02
+[2025-11-10 18:05:26] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:26] [INFO] Loading Processed EEG Data: sub-09 ses-02
+[2025-11-10 18:05:27] [INFO] Building epochs
+[2025-11-10 18:05:27] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:27] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:27] [INFO] Visual P100: latency=0.120s, peak=3.62µV, mean=0.42µV
+[2025-11-10 18:05:27] [INFO] Rest P100: latency=0.120s, peak=0.53µV, mean=0.07µV
+[2025-11-10 18:05:27] [INFO] Plotting P100
+[2025-11-10 18:05:27] [INFO] Initializing Plotter
+[2025-11-10 18:05:27] [INFO] Plotting Evoked
+[2025-11-10 18:05:27] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:27] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-09_ses-02_p100_Visual_Rest.csv
+[2025-11-10 18:05:27] [INFO] Loading data for sub-10, ses-01
+[2025-11-10 18:05:27] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:27] [INFO] Loading Processed EEG Data: sub-10 ses-01
+[2025-11-10 18:05:28] [INFO] Building epochs
+[2025-11-10 18:05:29] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:29] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:29] [INFO] Visual P100: latency=0.120s, peak=8.70µV, mean=3.82µV
+[2025-11-10 18:05:29] [INFO] Rest P100: latency=0.120s, peak=2.61µV, mean=0.56µV
+[2025-11-10 18:05:29] [INFO] Plotting P100
+[2025-11-10 18:05:29] [INFO] Initializing Plotter
+[2025-11-10 18:05:29] [INFO] Plotting Evoked
+[2025-11-10 18:05:29] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:29] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-10_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:05:29] [INFO] Loading data for sub-11, ses-01
+[2025-11-10 18:05:29] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:29] [INFO] Loading Processed EEG Data: sub-11 ses-01
+[2025-11-10 18:05:30] [INFO] Building epochs
+[2025-11-10 18:05:31] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:31] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:31] [INFO] Visual P100: latency=0.086s, peak=2.32µV, mean=1.02µV
+[2025-11-10 18:05:31] [INFO] Rest P100: latency=0.119s, peak=2.34µV, mean=0.64µV
+[2025-11-10 18:05:31] [INFO] Plotting P100
+[2025-11-10 18:05:31] [INFO] Initializing Plotter
+[2025-11-10 18:05:31] [INFO] Plotting Evoked
+[2025-11-10 18:05:31] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:31] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-11_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:05:31] [INFO] Loading data for sub-12, ses-01
+[2025-11-10 18:05:31] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:31] [INFO] Loading Processed EEG Data: sub-12 ses-01
+[2025-11-10 18:05:32] [INFO] Building epochs
+[2025-11-10 18:05:33] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:33] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:33] [INFO] Visual P100: latency=0.120s, peak=2.82µV, mean=0.89µV
+[2025-11-10 18:05:33] [INFO] Rest P100: latency=0.120s, peak=3.77µV, mean=2.30µV
+[2025-11-10 18:05:33] [INFO] Plotting P100
+[2025-11-10 18:05:33] [INFO] Initializing Plotter
+[2025-11-10 18:05:33] [INFO] Plotting Evoked
+[2025-11-10 18:05:33] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:33] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-12_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:05:33] [INFO] Loading data for sub-12, ses-02
+[2025-11-10 18:05:33] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:33] [INFO] Loading Processed EEG Data: sub-12 ses-02
+[2025-11-10 18:05:34] [INFO] Building epochs
+[2025-11-10 18:05:35] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:35] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:35] [INFO] Visual P100: latency=0.118s, peak=5.60µV, mean=2.35µV
+[2025-11-10 18:05:35] [INFO] Rest P100: latency=0.120s, peak=6.11µV, mean=4.37µV
+[2025-11-10 18:05:35] [INFO] Plotting P100
+[2025-11-10 18:05:35] [INFO] Initializing Plotter
+[2025-11-10 18:05:35] [INFO] Plotting Evoked
+[2025-11-10 18:05:35] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:35] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-12_ses-02_p100_Visual_Rest.csv
+[2025-11-10 18:05:35] [INFO] Loading data for sub-13, ses-01
+[2025-11-10 18:05:35] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:35] [INFO] Loading Processed EEG Data: sub-13 ses-01
+[2025-11-10 18:05:36] [INFO] Building epochs
+[2025-11-10 18:05:37] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:37] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:37] [INFO] Visual P100: latency=0.120s, peak=14.17µV, mean=3.96µV
+[2025-11-10 18:05:37] [INFO] Rest P100: latency=0.117s, peak=-0.19µV, mean=-1.95µV
+[2025-11-10 18:05:37] [INFO] Plotting P100
+[2025-11-10 18:05:37] [INFO] Initializing Plotter
+[2025-11-10 18:05:37] [INFO] Plotting Evoked
+[2025-11-10 18:05:37] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:37] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-13_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:05:37] [INFO] Loading data for sub-13, ses-02
+[2025-11-10 18:05:37] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:37] [INFO] Loading Processed EEG Data: sub-13 ses-02
+[2025-11-10 18:05:38] [INFO] Building epochs
+[2025-11-10 18:05:39] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:39] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:39] [INFO] Visual P100: latency=0.120s, peak=14.14µV, mean=4.52µV
+[2025-11-10 18:05:39] [INFO] Rest P100: latency=0.120s, peak=0.12µV, mean=-3.12µV
+[2025-11-10 18:05:39] [INFO] Plotting P100
+[2025-11-10 18:05:39] [INFO] Initializing Plotter
+[2025-11-10 18:05:39] [INFO] Plotting Evoked
+[2025-11-10 18:05:39] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:39] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-13_ses-02_p100_Visual_Rest.csv
+[2025-11-10 18:05:39] [INFO] Loading data for sub-14, ses-01
+[2025-11-10 18:05:39] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:39] [INFO] Loading Processed EEG Data: sub-14 ses-01
+[2025-11-10 18:05:41] [INFO] Building epochs
+[2025-11-10 18:05:41] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:41] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:41] [INFO] Visual P100: latency=0.120s, peak=4.06µV, mean=-0.59µV
+[2025-11-10 18:05:41] [INFO] Rest P100: latency=0.103s, peak=0.51µV, mean=-0.24µV
+[2025-11-10 18:05:41] [INFO] Plotting P100
+[2025-11-10 18:05:41] [INFO] Initializing Plotter
+[2025-11-10 18:05:41] [INFO] Plotting Evoked
+[2025-11-10 18:05:41] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:41] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-14_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:05:41] [INFO] Loading data for sub-15, ses-01
+[2025-11-10 18:05:41] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:41] [INFO] Loading Processed EEG Data: sub-15 ses-01
+[2025-11-10 18:05:42] [INFO] Building epochs
+[2025-11-10 18:05:43] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:05:43] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:05:43] [INFO] Visual P100: latency=0.120s, peak=2.02µV, mean=-0.91µV
+[2025-11-10 18:05:43] [INFO] Rest P100: latency=0.102s, peak=2.10µV, mean=0.95µV
+[2025-11-10 18:05:43] [INFO] Plotting P100
+[2025-11-10 18:05:43] [INFO] Initializing Plotter
+[2025-11-10 18:05:43] [INFO] Plotting Evoked
+[2025-11-10 18:05:43] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:43] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-15_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:05:43] [INFO] Loading data for sub-15, ses-02
+[2025-11-10 18:05:43] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:05:43] [INFO] Loading Processed EEG Data: sub-15 ses-02
+[2025-11-10 18:05:43] [INFO] Building epochs
+[2025-11-10 18:05:44] [INFO]  Epochs 1: (61, 64, 701)
+[2025-11-10 18:05:44] [INFO]  Epochs 2: (61, 64, 701)
+[2025-11-10 18:05:44] [INFO] Visual P100: latency=0.120s, peak=2.12µV, mean=-1.23µV
+[2025-11-10 18:05:44] [INFO] Rest P100: latency=0.083s, peak=-0.77µV, mean=-3.65µV
+[2025-11-10 18:05:44] [INFO] Plotting P100
+[2025-11-10 18:05:44] [INFO] Initializing Plotter
+[2025-11-10 18:05:44] [INFO] Plotting Evoked
+[2025-11-10 18:05:44] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:05:44] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-15_ses-02_p100_Visual_Rest.csv
+[2025-11-10 18:08:06] [INFO] Setting DIBS
+[2025-11-10 18:08:06] [INFO] Loading data for sub-01, ses-01
+[2025-11-10 18:08:06] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:08:06] [INFO] Loading Processed EEG Data: sub-01 ses-01
+[2025-11-10 18:08:07] [INFO] Building epochs
+[2025-11-10 18:08:08] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:08:08] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:08:08] [INFO] Visual P100: latency=0.112s, peak=3.04µV, mean=0.12µV
+[2025-11-10 18:08:08] [INFO] Rest P100: latency=0.089s, peak=0.96µV, mean=-0.79µV
+[2025-11-10 18:08:08] [INFO] Plotting P100
+[2025-11-10 18:08:08] [INFO] Initializing Plotter
+[2025-11-10 18:08:08] [INFO] Plotting Evoked
+[2025-11-10 18:09:16] [INFO] Setting DIBS
+[2025-11-10 18:09:17] [INFO] Loading data for sub-01, ses-01
+[2025-11-10 18:09:17] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:17] [INFO] Loading Processed EEG Data: sub-01 ses-01
+[2025-11-10 18:09:18] [INFO] Building epochs
+[2025-11-10 18:09:18] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:18] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:18] [INFO] Visual P100: latency=0.112s, peak=3.04µV, mean=0.12µV
+[2025-11-10 18:09:18] [INFO] Rest P100: latency=0.089s, peak=0.96µV, mean=-0.79µV
+[2025-11-10 18:09:18] [INFO] Plotting P100
+[2025-11-10 18:09:18] [INFO] Initializing Plotter
+[2025-11-10 18:09:18] [INFO] Plotting Evoked
+[2025-11-10 18:09:19] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:19] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-01_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:19] [INFO] Loading data for sub-02, ses-01
+[2025-11-10 18:09:19] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:19] [INFO] Loading Processed EEG Data: sub-02 ses-01
+[2025-11-10 18:09:20] [INFO] Building epochs
+[2025-11-10 18:09:20] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:20] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:20] [INFO] Visual P100: latency=0.120s, peak=4.79µV, mean=0.86µV
+[2025-11-10 18:09:20] [INFO] Rest P100: latency=0.120s, peak=0.80µV, mean=-1.94µV
+[2025-11-10 18:09:20] [INFO] Plotting P100
+[2025-11-10 18:09:20] [INFO] Initializing Plotter
+[2025-11-10 18:09:20] [INFO] Plotting Evoked
+[2025-11-10 18:09:20] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:20] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-02_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:20] [INFO] Loading data for sub-03, ses-01
+[2025-11-10 18:09:20] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:20] [INFO] Loading Processed EEG Data: sub-03 ses-01
+[2025-11-10 18:09:22] [INFO] Building epochs
+[2025-11-10 18:09:22] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:22] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:22] [INFO] Visual P100: latency=0.111s, peak=7.03µV, mean=3.86µV
+[2025-11-10 18:09:22] [INFO] Rest P100: latency=0.080s, peak=0.41µV, mean=-2.88µV
+[2025-11-10 18:09:22] [INFO] Plotting P100
+[2025-11-10 18:09:22] [INFO] Initializing Plotter
+[2025-11-10 18:09:22] [INFO] Plotting Evoked
+[2025-11-10 18:09:22] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:22] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-03_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:22] [INFO] Loading data for sub-04, ses-01
+[2025-11-10 18:09:22] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:22] [INFO] Loading Processed EEG Data: sub-04 ses-01
+[2025-11-10 18:09:24] [INFO] Building epochs
+[2025-11-10 18:09:24] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:24] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:24] [INFO] Visual P100: latency=0.120s, peak=4.53µV, mean=1.79µV
+[2025-11-10 18:09:24] [INFO] Rest P100: latency=0.113s, peak=2.08µV, mean=1.02µV
+[2025-11-10 18:09:24] [INFO] Plotting P100
+[2025-11-10 18:09:24] [INFO] Initializing Plotter
+[2025-11-10 18:09:24] [INFO] Plotting Evoked
+[2025-11-10 18:09:24] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:24] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-04_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:24] [INFO] Loading data for sub-04, ses-02
+[2025-11-10 18:09:24] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:24] [INFO] Loading Processed EEG Data: sub-04 ses-02
+[2025-11-10 18:09:26] [INFO] Building epochs
+[2025-11-10 18:09:26] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:26] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:26] [INFO] Visual P100: latency=0.120s, peak=2.69µV, mean=0.70µV
+[2025-11-10 18:09:26] [INFO] Rest P100: latency=0.080s, peak=1.15µV, mean=-0.39µV
+[2025-11-10 18:09:26] [INFO] Plotting P100
+[2025-11-10 18:09:26] [INFO] Initializing Plotter
+[2025-11-10 18:09:26] [INFO] Plotting Evoked
+[2025-11-10 18:09:26] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:26] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-04_ses-02_p100_Visual_Rest.csv
+[2025-11-10 18:09:27] [INFO] Loading data for sub-05, ses-01
+[2025-11-10 18:09:27] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:27] [INFO] Loading Processed EEG Data: sub-05 ses-01
+[2025-11-10 18:09:28] [INFO] Building epochs
+[2025-11-10 18:09:28] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:28] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:28] [INFO] Visual P100: latency=0.120s, peak=1.03µV, mean=-1.04µV
+[2025-11-10 18:09:28] [INFO] Rest P100: latency=0.116s, peak=1.27µV, mean=-0.36µV
+[2025-11-10 18:09:28] [INFO] Plotting P100
+[2025-11-10 18:09:28] [INFO] Initializing Plotter
+[2025-11-10 18:09:28] [INFO] Plotting Evoked
+[2025-11-10 18:09:28] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:28] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-05_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:28] [INFO] Loading data for sub-05, ses-02
+[2025-11-10 18:09:28] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:28] [INFO] Loading Processed EEG Data: sub-05 ses-02
+[2025-11-10 18:09:29] [INFO] Building epochs
+[2025-11-10 18:09:30] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:30] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:30] [INFO] Visual P100: latency=0.120s, peak=1.30µV, mean=-2.45µV
+[2025-11-10 18:09:30] [INFO] Rest P100: latency=0.113s, peak=2.35µV, mean=-1.11µV
+[2025-11-10 18:09:30] [INFO] Plotting P100
+[2025-11-10 18:09:30] [INFO] Initializing Plotter
+[2025-11-10 18:09:30] [INFO] Plotting Evoked
+[2025-11-10 18:09:30] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:30] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-05_ses-02_p100_Visual_Rest.csv
+[2025-11-10 18:09:30] [INFO] Loading data for sub-06, ses-01
+[2025-11-10 18:09:30] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:30] [INFO] Loading Processed EEG Data: sub-06 ses-01
+[2025-11-10 18:09:31] [INFO] Building epochs
+[2025-11-10 18:09:31] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:31] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:32] [INFO] Visual P100: latency=0.120s, peak=8.70µV, mean=4.63µV
+[2025-11-10 18:09:32] [INFO] Rest P100: latency=0.080s, peak=-3.80µV, mean=-5.11µV
+[2025-11-10 18:09:32] [INFO] Plotting P100
+[2025-11-10 18:09:32] [INFO] Initializing Plotter
+[2025-11-10 18:09:32] [INFO] Plotting Evoked
+[2025-11-10 18:09:32] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:32] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-06_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:32] [INFO] Loading data for sub-06, ses-02
+[2025-11-10 18:09:32] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:32] [INFO] Loading Processed EEG Data: sub-06 ses-02
+[2025-11-10 18:09:33] [INFO] Building epochs
+[2025-11-10 18:09:33] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:33] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:33] [INFO] Visual P100: latency=0.120s, peak=10.77µV, mean=4.81µV
+[2025-11-10 18:09:33] [INFO] Rest P100: latency=0.088s, peak=0.37µV, mean=-1.16µV
+[2025-11-10 18:09:33] [INFO] Plotting P100
+[2025-11-10 18:09:33] [INFO] Initializing Plotter
+[2025-11-10 18:09:33] [INFO] Plotting Evoked
+[2025-11-10 18:09:33] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:33] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-06_ses-02_p100_Visual_Rest.csv
+[2025-11-10 18:09:33] [INFO] Loading data for sub-07, ses-01
+[2025-11-10 18:09:33] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:33] [INFO] Loading Processed EEG Data: sub-07 ses-01
+[2025-11-10 18:09:35] [INFO] Building epochs
+[2025-11-10 18:09:35] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:35] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:35] [INFO] Visual P100: latency=0.115s, peak=7.69µV, mean=2.04µV
+[2025-11-10 18:09:35] [INFO] Rest P100: latency=0.108s, peak=17.23µV, mean=7.99µV
+[2025-11-10 18:09:35] [INFO] Plotting P100
+[2025-11-10 18:09:35] [INFO] Initializing Plotter
+[2025-11-10 18:09:35] [INFO] Plotting Evoked
+[2025-11-10 18:09:35] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:35] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-07_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:35] [INFO] Loading data for sub-08, ses-01
+[2025-11-10 18:09:35] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:35] [INFO] Loading Processed EEG Data: sub-08 ses-01
+[2025-11-10 18:09:36] [INFO] Building epochs
+[2025-11-10 18:09:37] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:37] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:37] [INFO] Visual P100: latency=0.119s, peak=14.03µV, mean=7.59µV
+[2025-11-10 18:09:37] [INFO] Rest P100: latency=0.120s, peak=2.37µV, mean=0.92µV
+[2025-11-10 18:09:37] [INFO] Plotting P100
+[2025-11-10 18:09:37] [INFO] Initializing Plotter
+[2025-11-10 18:09:37] [INFO] Plotting Evoked
+[2025-11-10 18:09:37] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:37] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-08_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:37] [INFO] Loading data for sub-09, ses-01
+[2025-11-10 18:09:37] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:37] [INFO] Loading Processed EEG Data: sub-09 ses-01
+[2025-11-10 18:09:38] [INFO] Building epochs
+[2025-11-10 18:09:38] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:38] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:39] [INFO] Visual P100: latency=0.120s, peak=7.71µV, mean=1.63µV
+[2025-11-10 18:09:39] [INFO] Rest P100: latency=0.120s, peak=0.40µV, mean=-2.06µV
+[2025-11-10 18:09:39] [INFO] Plotting P100
+[2025-11-10 18:09:39] [INFO] Initializing Plotter
+[2025-11-10 18:09:39] [INFO] Plotting Evoked
+[2025-11-10 18:09:39] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:39] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-09_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:39] [INFO] Loading data for sub-09, ses-02
+[2025-11-10 18:09:39] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:39] [INFO] Loading Processed EEG Data: sub-09 ses-02
+[2025-11-10 18:09:40] [INFO] Building epochs
+[2025-11-10 18:09:40] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:40] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:40] [INFO] Visual P100: latency=0.120s, peak=3.62µV, mean=0.42µV
+[2025-11-10 18:09:40] [INFO] Rest P100: latency=0.120s, peak=0.53µV, mean=0.07µV
+[2025-11-10 18:09:40] [INFO] Plotting P100
+[2025-11-10 18:09:40] [INFO] Initializing Plotter
+[2025-11-10 18:09:40] [INFO] Plotting Evoked
+[2025-11-10 18:09:41] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:41] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-09_ses-02_p100_Visual_Rest.csv
+[2025-11-10 18:09:41] [INFO] Loading data for sub-10, ses-01
+[2025-11-10 18:09:41] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:41] [INFO] Loading Processed EEG Data: sub-10 ses-01
+[2025-11-10 18:09:42] [INFO] Building epochs
+[2025-11-10 18:09:42] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:42] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:42] [INFO] Visual P100: latency=0.120s, peak=8.70µV, mean=3.82µV
+[2025-11-10 18:09:42] [INFO] Rest P100: latency=0.120s, peak=2.61µV, mean=0.56µV
+[2025-11-10 18:09:42] [INFO] Plotting P100
+[2025-11-10 18:09:42] [INFO] Initializing Plotter
+[2025-11-10 18:09:42] [INFO] Plotting Evoked
+[2025-11-10 18:09:42] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:42] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-10_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:42] [INFO] Loading data for sub-11, ses-01
+[2025-11-10 18:09:42] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:42] [INFO] Loading Processed EEG Data: sub-11 ses-01
+[2025-11-10 18:09:43] [INFO] Building epochs
+[2025-11-10 18:09:44] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:44] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:44] [INFO] Visual P100: latency=0.086s, peak=2.32µV, mean=1.02µV
+[2025-11-10 18:09:44] [INFO] Rest P100: latency=0.119s, peak=2.34µV, mean=0.64µV
+[2025-11-10 18:09:44] [INFO] Plotting P100
+[2025-11-10 18:09:44] [INFO] Initializing Plotter
+[2025-11-10 18:09:44] [INFO] Plotting Evoked
+[2025-11-10 18:09:44] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:44] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-11_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:44] [INFO] Loading data for sub-12, ses-01
+[2025-11-10 18:09:44] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:44] [INFO] Loading Processed EEG Data: sub-12 ses-01
+[2025-11-10 18:09:45] [INFO] Building epochs
+[2025-11-10 18:09:46] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:46] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:46] [INFO] Visual P100: latency=0.120s, peak=2.82µV, mean=0.89µV
+[2025-11-10 18:09:46] [INFO] Rest P100: latency=0.120s, peak=3.77µV, mean=2.30µV
+[2025-11-10 18:09:46] [INFO] Plotting P100
+[2025-11-10 18:09:46] [INFO] Initializing Plotter
+[2025-11-10 18:09:46] [INFO] Plotting Evoked
+[2025-11-10 18:09:46] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:46] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-12_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:46] [INFO] Loading data for sub-12, ses-02
+[2025-11-10 18:09:46] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:46] [INFO] Loading Processed EEG Data: sub-12 ses-02
+[2025-11-10 18:09:47] [INFO] Building epochs
+[2025-11-10 18:09:48] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:48] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:48] [INFO] Visual P100: latency=0.118s, peak=5.60µV, mean=2.35µV
+[2025-11-10 18:09:48] [INFO] Rest P100: latency=0.120s, peak=6.11µV, mean=4.37µV
+[2025-11-10 18:09:48] [INFO] Plotting P100
+[2025-11-10 18:09:48] [INFO] Initializing Plotter
+[2025-11-10 18:09:48] [INFO] Plotting Evoked
+[2025-11-10 18:09:48] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:48] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-12_ses-02_p100_Visual_Rest.csv
+[2025-11-10 18:09:48] [INFO] Loading data for sub-13, ses-01
+[2025-11-10 18:09:48] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:48] [INFO] Loading Processed EEG Data: sub-13 ses-01
+[2025-11-10 18:09:49] [INFO] Building epochs
+[2025-11-10 18:09:50] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:50] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:50] [INFO] Visual P100: latency=0.120s, peak=14.17µV, mean=3.96µV
+[2025-11-10 18:09:50] [INFO] Rest P100: latency=0.117s, peak=-0.19µV, mean=-1.95µV
+[2025-11-10 18:09:50] [INFO] Plotting P100
+[2025-11-10 18:09:50] [INFO] Initializing Plotter
+[2025-11-10 18:09:50] [INFO] Plotting Evoked
+[2025-11-10 18:09:50] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:50] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-13_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:50] [INFO] Loading data for sub-13, ses-02
+[2025-11-10 18:09:50] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:50] [INFO] Loading Processed EEG Data: sub-13 ses-02
+[2025-11-10 18:09:51] [INFO] Building epochs
+[2025-11-10 18:09:51] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:51] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:52] [INFO] Visual P100: latency=0.120s, peak=14.14µV, mean=4.52µV
+[2025-11-10 18:09:52] [INFO] Rest P100: latency=0.120s, peak=0.12µV, mean=-3.12µV
+[2025-11-10 18:09:52] [INFO] Plotting P100
+[2025-11-10 18:09:52] [INFO] Initializing Plotter
+[2025-11-10 18:09:52] [INFO] Plotting Evoked
+[2025-11-10 18:09:52] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:52] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-13_ses-02_p100_Visual_Rest.csv
+[2025-11-10 18:09:52] [INFO] Loading data for sub-14, ses-01
+[2025-11-10 18:09:52] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:52] [INFO] Loading Processed EEG Data: sub-14 ses-01
+[2025-11-10 18:09:53] [INFO] Building epochs
+[2025-11-10 18:09:54] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:54] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:54] [INFO] Visual P100: latency=0.120s, peak=4.06µV, mean=-0.59µV
+[2025-11-10 18:09:54] [INFO] Rest P100: latency=0.103s, peak=0.51µV, mean=-0.24µV
+[2025-11-10 18:09:54] [INFO] Plotting P100
+[2025-11-10 18:09:54] [INFO] Initializing Plotter
+[2025-11-10 18:09:54] [INFO] Plotting Evoked
+[2025-11-10 18:09:54] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:54] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-14_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:54] [INFO] Loading data for sub-15, ses-01
+[2025-11-10 18:09:54] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:54] [INFO] Loading Processed EEG Data: sub-15 ses-01
+[2025-11-10 18:09:55] [INFO] Building epochs
+[2025-11-10 18:09:55] [INFO]  Epochs 1: (130, 64, 701)
+[2025-11-10 18:09:55] [INFO]  Epochs 2: (130, 64, 701)
+[2025-11-10 18:09:56] [INFO] Visual P100: latency=0.120s, peak=2.02µV, mean=-0.91µV
+[2025-11-10 18:09:56] [INFO] Rest P100: latency=0.102s, peak=2.10µV, mean=0.95µV
+[2025-11-10 18:09:56] [INFO] Plotting P100
+[2025-11-10 18:09:56] [INFO] Initializing Plotter
+[2025-11-10 18:09:56] [INFO] Plotting Evoked
+[2025-11-10 18:09:56] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:56] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-15_ses-01_p100_Visual_Rest.csv
+[2025-11-10 18:09:56] [INFO] Loading data for sub-15, ses-02
+[2025-11-10 18:09:56] [INFO] Initializing BIDSDatasetReader Class
+[2025-11-10 18:09:56] [INFO] Loading Processed EEG Data: sub-15 ses-02
+[2025-11-10 18:09:56] [INFO] Building epochs
+[2025-11-10 18:09:56] [INFO]  Epochs 1: (61, 64, 701)
+[2025-11-10 18:09:56] [INFO]  Epochs 2: (61, 64, 701)
+[2025-11-10 18:09:56] [INFO] Visual P100: latency=0.120s, peak=2.12µV, mean=-1.23µV
+[2025-11-10 18:09:56] [INFO] Rest P100: latency=0.083s, peak=-0.77µV, mean=-3.65µV
+[2025-11-10 18:09:56] [INFO] Plotting P100
+[2025-11-10 18:09:56] [INFO] Initializing Plotter
+[2025-11-10 18:09:56] [INFO] Plotting Evoked
+[2025-11-10 18:09:56] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-10 18:09:56] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-15_ses-02_p100_Visual_Rest.csv
