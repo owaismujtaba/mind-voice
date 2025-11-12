@@ -1,7 +1,6 @@
 import mne
 import numpy as np
 
-import config as config
 
 from src.dataset.data_reader import BIDSDatasetReader
 from src.utils.graphics import styled_print, print_criteria
@@ -18,7 +17,7 @@ class EEGEpochBuilder:
     """
     def __init__(self, eeg_data, trial_mode='', trial_unit='', 
                  experiment_mode='', trial_boundary='', 
-                 trial_type='', modality=''):
+                 trial_type='', modality='', channels=None):
         styled_print('', 'Initializing EEGEpochBuilder Class', 'red', panel=True)
         self.eeg_data = eeg_data
         self.annotations = eeg_data.annotations
@@ -26,7 +25,9 @@ class EEGEpochBuilder:
             trial_mode, trial_unit, experiment_mode,
             trial_boundary, trial_type, modality
         ]
-
+        self.channels = channels
+        if channels:
+            self.eeg_data.pick_channels(self.channels)  # Pick specified channels
     def _filter_events(self):
         """
         Filters EEG event annotations based on predefined criteria.

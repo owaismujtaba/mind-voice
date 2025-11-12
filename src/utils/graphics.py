@@ -9,7 +9,6 @@ from rich import box
 
 console = Console()
 
-import config as config
 
 
 def styled_print(icon: str, text: str, color: str, bold: bool = True, panel: bool = False):

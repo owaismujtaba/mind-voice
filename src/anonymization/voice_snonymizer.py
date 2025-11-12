@@ -10,7 +10,7 @@ class VoiceAnonymizerPipeline:
     A pipeline-style class for voice anonymization using pitch and formant shifting.
     """
 
-    def __init__(self, pitch_steps=4, formant_ratio=1.2, target_sr=16000):
+    def __init__(self, pitch_steps=4, formant_ratio=1.2, target_sr=16000, logger=None):
         """
         Initializes the VoiceAnonymizerPipeline.
 
@@ -22,7 +22,8 @@ class VoiceAnonymizerPipeline:
         self.pitch_steps = pitch_steps
         self.formant_ratio = formant_ratio
         self.target_sr = target_sr
-
+        self.logger = logger
+        self.logger.info('Initializing VoicAnonymizer Pipeline;')
     def load(self, file_path):
         """
         Loads audio and resamples to target sample rate.
@@ -33,6 +34,7 @@ class VoiceAnonymizerPipeline:
         Returns:
             tuple: (audio, sample_rate)
         """
+        self.logger.info('Loading audio file')
         try:
             audio, sr = librosa.load(file_path, sr=self.target_sr)
             return audio, sr
@@ -50,6 +52,7 @@ class VoiceAnonymizerPipeline:
         Returns:
             np.ndarray: Pitch-shifted audio.
         """
+        self.logger.info('Applying pitch shift')
         try:
             return librosa.effects.pitch_shift(audio, sr=sr, n_steps=self.pitch_steps)
         except Exception as e:
@@ -66,6 +69,7 @@ class VoiceAnonymizerPipeline:
         Returns:
             np.ndarray: Formant-shifted audio.
         """
+        self.logger.info('Applying formant shift')
         try:
             snd = parselmouth.Sound(audio, sampling_frequency=sr)
             # Change gender parameters: pitch floor, pitch ceiling, formant ratio, pitch range, duration
@@ -96,6 +100,7 @@ class VoiceAnonymizerPipeline:
         Returns:
             np.ndarray: Transformed anonymized audio.
         """
+        self.logger.info('Anonymizing the audio')
         if pitch:
             audio = self.pitch_shift(audio, sr)
         if formant:
@@ -134,6 +139,7 @@ class VoiceAnonymizerPipeline:
             sr (int): Sample rate.
             output_path (str): Destination file path.
         """
+        self.logger.info('Saving audio')
         try:
             sf.write(output_path, audio, sr)
             print(f"Anonymized audio saved to '{output_path}'")

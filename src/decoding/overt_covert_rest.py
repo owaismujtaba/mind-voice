@@ -9,8 +9,13 @@ class SpeechEEGDatasetLoader:
         subject_id: str,
         session_id: str,
         label:int,
-        condition_config: dict   
+        condition_config: dict , 
+        config,
+        logger
     ) -> None:
+        self.config=config
+        self.logger = logger
+        self.logger.info('Initializing SpeechEEGDatasetLoader')
         self.subject_id = subject_id
         self.session_id = session_id
         self.label = label
@@ -19,7 +24,9 @@ class SpeechEEGDatasetLoader:
     def load_data(self):
         self.bids_reader = BIDSDatasetReader(
             sub_id=self.subject_id,
-            ses_id=self.session_id
+            ses_id=self.session_id,
+            config=self.config,
+            logger=self.logger
         )
         self.eeg = self.bids_reader.processed_file
         return self
@@ -36,6 +43,7 @@ class SpeechEEGDatasetLoader:
         """
         self.load_data()
         config = self.condition_config
+        self.logger.info(config)
         return   EEGEpochBuilder(
             eeg_data=self.eeg,
             trial_mode=config["trial_mode"],

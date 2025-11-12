@@ -3,12 +3,11 @@ import numpy as np
 import os
 from pathlib import Path
 import seaborn as sns
-import config as config
 
 class P100Plotter:
     def __init__(self, 
             condition1: 'P100ComponentAnalyzer', condition2: 'P100ComponentAnalyzer', 
-            name1, name2, sub_id, ses_id
+            name1, name2, sub_id, ses_id, config, logger
             ):
         """
         Initialize the P100 plotter.
@@ -17,13 +16,16 @@ class P100Plotter:
             condition1 (P100ComponentAnalyzer): First condition analyzer.
             condition2 (P100ComponentAnalyzer): Second condition analyzer.
         """
-        print('Initializing Plotter')
         self.condition1 = condition1
         self.condition2 = condition2
         self.name1 = name1
         self.name2 = name2
         self.sub_id = sub_id
         self.ses_id = ses_id
+        self.logger = logger
+        self.config = config
+        self.logger.info('Initializing Plotter')
+
 
     def plot_evokeds(self):
         """
@@ -31,6 +33,7 @@ class P100Plotter:
         Converts data to microvolts, includes channel names in legend, highlights 80–120 ms window,
         and adds a vertical line at 0 ms.
         """
+        self.logger.info('Plotting Evoked')
         evoked_1 = self.condition1.get_evoked()
         evoked_2 = self.condition2.get_evoked()
 
@@ -86,9 +89,10 @@ class P100Plotter:
         plt.tight_layout()
 
         # Save figure
-        directory = Path(config.IMAGES_DIR, f'sub-{self.sub_id}', f'ses-{self.ses_id}')
+        directory = Path(os.getcwd(), self.config['analysis']['results_dir'], 'P100', 'Plots')
+        #directory = Path(directory, f'sub-{self.sub_id}', f'ses-{self.ses_id}')
         os.makedirs(directory, exist_ok=True)
-        plot_name = f'p_100_component_{self.name1}_{self.name2}_mean.png'
+        plot_name =f'sub-{self.sub_id}_ses-{self.ses_id}_p-100-{self.name1}_{self.name2}_mean.png'
         filepath = Path(directory, plot_name)
 
         plt.savefig(filepath, dpi=300)

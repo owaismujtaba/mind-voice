@@ -1,3 +1,0 @@
-subject_id,session_id,condition,latency,peak,mean
-03,01,Visual Change,0.109,5.227087351231877,3.0690444257755587
-03,01,No Visual Change,0.08,0.22983946456830975,-2.0143829594927496

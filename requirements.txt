@@ -2,3 +2,5 @@ mnelab
 pyxdf
 pyprep
 mne
+imblearn
+praat-parselmouth

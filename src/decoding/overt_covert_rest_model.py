@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 import tensorflow as tf
 from tensorflow.keras import layers, models, metrics
 from tensorflow.keras.losses import SparseCategoricalCrossentropy
@@ -6,6 +7,7 @@ from tensorflow.keras.optimizers import Adam
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.callbacks import EarlyStopping
 
+import pdb
 
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
@@ -37,7 +39,7 @@ class OvertCoverRestClassifier(tf.keras.Model):
         metrics=[metrics.SparseCategoricalAccuracy()]
     )
 
-    def trainWithSplit(self, X, y, validationSplit=0.2, epochs=50, batchSize=128, shuffle=True):
+    def trainWithSplit(self, X, y, validationSplit=0.2, epochs=50, batchSize=128, shuffle=True, logger=None):
         X_train, X_val, y_train, y_val = train_test_split(
             X, y, test_size=validationSplit, stratify=y, random_state=42, shuffle=shuffle
         )
@@ -69,7 +71,17 @@ class OvertCoverRestClassifier(tf.keras.Model):
         report = classification_report(y_val, y_pred, digits=4, output_dict=True)
         conf_matrix = confusion_matrix(y_val, y_pred)
         accuracy = accuracy_score(y_val, y_pred)
+        hist = pd.DataFrame(history.history)
+        if logger:
+            for epoch in range(hist.shape[0]):
+                logger.info(
+                    f"Epoch {epoch+1}/{epochs} - "
+                    f"loss: {hist['loss'][epoch]:.4f}, "
+                    f"val_loss: {hist['val_loss'][epoch]:.4f}, "
+                    f"accuracy: {hist['sparse_categorical_accuracy'][epoch]:.4f}, "
+                    f"val_accuracy:{hist['val_sparse_categorical_accuracy'][epoch]:.4f}")
 
+        
         return accuracy, report, conf_matrix
     def evaluate(self, testData):
         return self.model.evaluate(testData)

@@ -1,11 +1,14 @@
 import os
 import pandas as pd
 from mne.epochs import Epochs
+from pathlib import Path
 
 from src.dataset.data_reader import BIDSDatasetReader
 from src.dataset.eeg_epoch_builder import EEGEpochBuilder
 from src.analysis.p_100_analyser import P100ComponentAnalyzer
 from src.visualizations.p100_plotter import P100Plotter
+
+import pdb
 
 
 class P100AnalysisPipeline:
@@ -19,7 +22,9 @@ class P100AnalysisPipeline:
         session_id: str,
         condition1_config: dict,
         condition2_config: dict,
-        channels: list[str]
+        channels: list[str],
+        logger,
+        config
     ) -> None:
         """
         Initialize the pipeline with subject/session info and condition configurations.
@@ -38,6 +43,8 @@ class P100AnalysisPipeline:
         self.channels = channels
         self.analyzer1: P100ComponentAnalyzer = None
         self.analyzer2: P100ComponentAnalyzer = None
+        self.logger = logger
+        self.config = config
         self.eeg = None
         self.epochs1: Epochs = None
         self.epochs2: Epochs = None
@@ -49,12 +56,14 @@ class P100AnalysisPipeline:
         Returns:
             P100AnalysisPipeline: self
         """
+        self.logger.info(f'Loading data for sub-{self.subject_id}, ses-{self.session_id}')
         self.bids_reader = BIDSDatasetReader(
             sub_id=self.subject_id,
-            ses_id=self.session_id
+            ses_id=self.session_id,
+            logger=self.logger,
+            config=self.config
         )
         self.eeg = self.bids_reader.processed_file
-        return self
 
     def build_epochs(self) -> 'P100AnalysisPipeline':
         """
@@ -63,9 +72,11 @@ class P100AnalysisPipeline:
         Returns:
             P100AnalysisPipeline: self
         """
+        self.logger.info('Building epochs')
         self.epochs1 = self._create_epochs(self.condition1_config)
         self.epochs2 = self._create_epochs(self.condition2_config)
-        return self
+        self.logger.info(f' Epochs 1: {str(self.epochs1.get_data().shape)}')
+        self.logger.info(f' Epochs 2: {self.epochs2.get_data().shape}')
 
     def _create_epochs(self, config: dict) -> Epochs:
         """
@@ -77,6 +88,7 @@ class P100AnalysisPipeline:
         Returns:
             Epochs: MNE Epochs object
         """
+        self.logger.info(f' Creating epochs for condition: {config["label"]}')
         return EEGEpochBuilder(
             eeg_data=self.eeg,
             trial_mode=config["trial_mode"],
@@ -84,7 +96,8 @@ class P100AnalysisPipeline:
             experiment_mode=config["experiment_mode"],
             trial_boundary=config["trial_boundary"],
             trial_type=config["trial_type"],
-            modality=config["modality"]
+            modality=config["modality"],
+            channels=self.channels,
         ).create_epochs(
             tmin=config["tmin"],
             tmax=config["tmax"]
@@ -109,12 +122,12 @@ class P100AnalysisPipeline:
         lat1, peak1, mean1 = self.analyzer1.get_p100_peak()
         lat2, peak2, mean2 = self.analyzer2.get_p100_peak()
 
-        print(f"{self.condition1_config['label']} P100: "
+        self.logger.info(f"{self.condition1_config['label']} P100: "
               f"latency={lat1:.3f}s, peak={peak1:.2f}µV, mean={mean1:.2f}µV")
-        print(f"{self.condition2_config['label']} P100: "
+        
+        self.logger.info(f"{self.condition2_config['label']} P100: "
               f"latency={lat2:.3f}s, peak={peak2:.2f}µV, mean={mean2:.2f}µV")
 
-        return self
 
     def plot(self) -> 'P100AnalysisPipeline':
         """
@@ -123,16 +136,18 @@ class P100AnalysisPipeline:
         Returns:
             P100AnalysisPipeline: self
         """
+        self.logger.info('Plotting P100')
         plotter = P100Plotter(
             condition1=self.analyzer1,
             condition2=self.analyzer2,
             name1=self.condition1_config['label'],
             name2=self.condition2_config['label'],
             sub_id=self.subject_id,
-            ses_id=self.session_id
+            ses_id=self.session_id,
+            config=self.config,
+            logger=self.logger
         )
         plotter.plot_evokeds()
-        return self
 
     def save_results(self, output_dir: str = "p100_results") -> 'P100AnalysisPipeline':
         """
@@ -144,7 +159,12 @@ class P100AnalysisPipeline:
         Returns:
             P100AnalysisPipeline: self
         """
+        self.logger.info('Saving results to CSV')
+        results_dir = self.config['analysis']['results_dir']
+        output_dir = Path(os.getcwd(), results_dir, 'P100')
         os.makedirs(output_dir, exist_ok=True)
+        self.logger.info(f'Saving results to {output_dir}')
+
 
         results = {
             "subject_id": self.subject_id,
@@ -174,10 +194,10 @@ class P100AnalysisPipeline:
             f"sub-{self.subject_id}_ses-{self.session_id}_p100_{name1}_{name2}.csv"
         )
         df.to_csv(csv_path, index=False)
-        print(f"Results saved to {csv_path}")
+        self.logger.info(f"Results saved to {csv_path}")
         return self
 
-    def run(self, save_csv: bool = True) -> 'P100AnalysisPipeline':
+    def run(self, save_csv: bool = True, get_data_only=False) -> 'P100AnalysisPipeline':
         """
         Execute the entire pipeline from loading to analysis and plotting.
 
@@ -187,7 +207,16 @@ class P100AnalysisPipeline:
         Returns:
             P100AnalysisPipeline: self
         """
-        self.load_data().build_epochs().analyze().plot()
-        if save_csv:
-            self.save_results()
-        return self
+        if get_data_only:
+            self.logger.info('Running pipeline in data-only mode')
+            self.load_data()
+            self.build_epochs()
+            return self
+        else:
+            self.load_data()
+            self.build_epochs()
+            self.analyze()
+            self.plot()
+            if save_csv:
+                self.save_results()
+            return self
