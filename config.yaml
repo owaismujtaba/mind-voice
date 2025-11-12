@@ -13,7 +13,7 @@ analysis:
         low: 0.1
         high: 120
 
-    decoding: True
+    decoding: False
 
 
 anonymize:
@@ -23,5 +23,9 @@ anonymize:
 
 
 plotting:
-    peak_mean_amplitude: False
-    grand_erp_visual_real: False
+    peak_mean_amplitude: True
+    grand_erp_visual_real: True
+    accuracy_plots: True
+    metrics_plots: True
+    confusion_matrix: True
+    display_per_class_metrics: True

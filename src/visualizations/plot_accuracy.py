@@ -83,7 +83,6 @@ def plot_accuracy_per_subject(df):
 def load_decoding_accuracies(results_dir):
     files = glob.glob(results_dir)
     records = []
-    print(files)
     # Regex to pull out sub-XX and ses-XX
     filename_re = re.compile(r"sub-([0-9a-zA-Z]+)_ses-([0-9a-zA-Z]+)_.*_accuracy\.csv")
 
@@ -118,10 +117,10 @@ def load_decoding_accuracies(results_dir):
 def plot_accuracy(logger):
     logger.info('Plotting accuracy plot')
     accuracy = load_decoding_accuracies("results/DecodingResults/*_accuracy.csv")
-    accuracy = pd.DataFrame(results)
+    accuracy = pd.DataFrame(accuracy)
     plot_accuracy_per_subject(accuracy)
     subj_acc = accuracy.groupby('subject_id')['accuracy'].mean().reset_index()
-    print(subj_acc.describe())
+    logger.info(subj_acc.describe())
     
 
 

@@ -12,6 +12,10 @@ from src.anonymization.voice_snonymizer import VoiceAnonymizerPipeline
 
 from src.visualizations.peak_mean_visual_rest import plot_peak_mean_visual_novisual
 from src.visualizations.erp_grand_visual_rest import plot_grand_erp_rest_visual
+from src.visualizations.plot_accuracy import plot_accuracy
+from src.visualizations.plot_confusion_matrix import plot_confusion_matrix
+from src.visualizations.plot_metrics import plot_metrics
+from src.visualizations.display_per_class_metrics import display_classwise
 
 from src.utils.logger import create_logger
 
@@ -124,11 +128,22 @@ if plot_config['peak_mean_amplitude']:
 
 if plot_config['grand_erp_visual_real']:
     plot_grand_erp_rest_visual(config, logger)
+    
+if plot_config['accuracy_plots']:
+    plot_accuracy(logger)
 
 
+    
+if plot_config['confusion_matrix']:
+    plot_confusion_matrix(logger)
 
 
+if plot_config['metrics_plots']:
+    plot_metrics(logger)
 
+
+if plot_config['display_per_class_metrics']:
+    display_classwise(logger)
 
 
 
