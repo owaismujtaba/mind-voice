@@ -1,10 +1,4 @@
-Okay, I have gathered all the information from your provided files and have a comprehensive understanding of your project. This is a very well-structured and detailed framework!
-
-Here is the complete README.md file for your `mind-voice` project:
-
----
-
-# mind-voice
+#### mind-voice
 
 ## Real-time Brainwave to Speech Synthesis & Comprehensive EEG Analysis Framework
 
