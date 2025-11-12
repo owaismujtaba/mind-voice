@@ -1,27 +1,13 @@
-Okay, I have gathered all the information from your provided files and have a comprehensive understanding of your project. This is a very well-structured and detailed framework!
+## Mind Voice: A Multimodal EEG-Audio Dataset for Overt and Covert Iberian Spanish Speech Production
 
-Here is the complete README.md file for your `mind-voice` project:
 
----
-
-# mind-voice
-
-## Real-time Brainwave to Speech Synthesis & Comprehensive EEG Analysis Framework
-
-Mind-Voice is an advanced research framework designed for the analysis of electroencephalography (EEG) data, focusing on event-related potentials (ERPs), brainwave decoding for imagined (covert) and overt speech, and even voice anonymization. This project provides a robust, modular pipeline for handling BIDS-formatted EEG datasets, performing detailed signal processing, machine learning-based classification, and comprehensive data visualization.
-
-### Project Goals
-
-*   **EEG-based Communication:** Explore the potential for translating brainwave signals into actionable communication, particularly for individuals with communication impairments.
-*   **Detailed ERP Analysis:** Provide tools for classical event-related potential analysis, such as P100 component detection and comparison across conditions.
-*   **Speech Decoding:** Develop and evaluate machine learning models for decoding overt, covert (imagined), and resting speech states from EEG.
-*   **Voice Anonymization:** Offer a utility for anonymizing audio data using pitch and formant shifting, useful for protecting participant privacy in speech-related studies.
-*   **BIDS Compliance:** Ensure data organization and processing adhere to the Brain Imaging Data Structure (BIDS) standard for enhanced reproducibility and collaboration.
+Mind-Voice is an advanced research framework designed for the analysis of electroencephalography (EEG) data, focusing on event-related potentials (ERPs), brainwave decoding for imagined speech (covert/overt), and even voice anonymization. This project provides a robust pipeline for handling BIDS-formatted EEG datasets, performing detailed signal processing, machine learning-based classification, and comprehensive data visualization.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Technological Stack](#technological-stack)
 - [Project Structure](#project-structure)
 - [How It Works](#how-it-works)
 - [Getting Started](#getting-started)
@@ -29,136 +15,144 @@ Mind-Voice is an advanced research framework designed for the analysis of electr
   - [Installation](#installation)
   - [Configuration](#configuration)
 - [Usage](#usage)
-  - [Running the Main Pipeline](#running-the-main-pipeline)
   - [BIDS Dataset Creation](#bids-dataset-creation)
   - [P100 ERP Analysis](#p100-erp-analysis)
-  - [Brainwave Decoding (Overt/Covert/Rest Speech)](#brainwave-decoding-overtcovertrest-speech)
+  - [Brainwave Decoding (Overt/Covert Speech)](#brainwave-decoding-overtcovert-speech)
   - [Voice Anonymization](#voice-anonymization)
-  - [Visualizations & Reporting](#visualizations--reporting)
-- [Results & Visualizations](#results--visualizations)
+  - [Visualizations](#visualizations)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
 ## Introduction
 
-The "mind-voice" project represents a step towards understanding and leveraging brain activity for communication and research. From handling raw EEG data to sophisticated machine learning decoding and robust statistical visualization, this framework aims to be a comprehensive toolkit for researchers in neurocognition, brain-computer interfaces (BCI), and speech science. The inclusion of voice anonymization further enhances its utility for ethical data management.
+The ability to communicate directly from thought has long been a subject of science fiction. Mind-Voice endeavors to bring this closer to reality by capturing, analyzing, and interpreting brainwave data (e.g., EEG signals) and converting it into audible speech or classifying cognitive states. This project offers a comprehensive suite of tools for neuroscientific research, from raw data ingestion and preprocessing to advanced machine learning and rich data visualization. It also includes a unique voice anonymization component, broadening its application scope.
 
 ## Features
 
-*   **BIDS Dataset Management:**
-    *   Creation of BIDS-compliant datasets from raw XDF files.
-    *   Efficient reading and loading of preprocessed BIDS EEG data.
-*   **Robust EEG Preprocessing:**
-    *   Resampling, channel type setting, and montage application.
-    *   Bad channel detection and interpolation using `pyprep`.
-    *   Frequency filtering.
-    *   Referencing (e.g., common average).
-    *   Artifact removal via Independent Component Analysis (ICA) targeting EOG artifacts.
-*   **Flexible EEG Epoching:**
-    *   Dynamic epoch creation based on detailed event annotations (trial mode, unit, experiment mode, boundary, type, modality).
-    *   Customizable time windows (`tmin`, `tmax`) for epochs.
-*   **P100 ERP Analysis Pipeline:**
-    *   Automated extraction and comparison of P100 component (latency, peak amplitude, mean amplitude) between two experimental conditions on specified occipital channels.
-    *   Generation of individual and grand-average ERP plots.
-    *   Statistical comparison of P100 metrics (e.g., paired t-tests).
-*   **Brainwave Decoding Pipeline (Overt/Covert/Rest):**
-    *   Classification of EEG signals corresponding to overt speech, covert (imagined) speech, and resting states.
-    *   Utilizes a dedicated Convolutional Neural Network (CNN) architecture optimized for time-series EEG data.
-    *   Includes data balancing (oversampling using `imblearn`) and per-sample/per-channel normalization for robust model training.
-    *   Comprehensive evaluation with accuracy, classification reports, and confusion matrices.
-*   **Voice Anonymization Pipeline:**
-    *   Applies pitch and formant shifting to audio files using `librosa` and `parselmouth`.
-    *   Configurable pitch steps and formant ratio for varying degrees of anonymization.
-*   **Rich Visualizations & Reporting:**
-    *   Plots for individual subject ERPs (e.g., occipital evoked responses).
-    *   Grand average ERP plots for multiple conditions.
-    *   Box plots and scatter plots for P100 peak/mean amplitudes with statistical indicators.
-    *   Bar plots for per-subject decoding accuracy and overall classification metrics (precision, recall, F1-score).
-    *   Heatmaps for aggregated confusion matrices.
-    *   Detailed logger output for tracking pipeline execution and results.
+*   **BIDS Dataset Creation & Management:** Tools for organizing raw XDF data into a BIDS-compliant structure, ensuring standardized data handling.
+*   **Robust EEG Preprocessing Pipeline:** Implements advanced signal processing techniques including:
+    *   Channel type setting and montage application.
+    *   Bad channel detection (deviation, correlation) and interpolation using `pyprep`.
+    *   Band-pass filtering.
+    *   EEG re-referencing.
+    *   Artifact removal via Independent Component Analysis (ICA) for EOG artifacts.
+*   **Flexible EEG Epoching:** Dynamic creation of `mne.Epochs` objects based on detailed event annotations (trial mode, unit, experiment mode, boundary, type, modality), allowing precise isolation of cognitive events.
+*   **P100 ERP Component Analysis:** A dedicated pipeline for identifying, quantifying (latency, peak/mean amplitude), and comparing P100 event-related potential components across different experimental conditions, particularly relevant for visual processing.
+*   **Brainwave Decoding (Overt/Covert Speech & Rest):**
+    *   Implementation of a Convolutional Neural Network (CNN) classifier for differentiating between overt speech, covert (imagined) speech, and resting states from EEG signals.
+    *   Includes strategies for handling data imbalance using `RandomOverSampler`.
+    *   Normalization per sample and per channel to optimize model performance.
+*   **Voice Anonymization:** A unique pipeline for transforming audio signals using pitch shifting (`librosa`) and formant shifting (`parselmouth`) to protect speaker identity.
+*   **Comprehensive Visualization & Reporting:**
+    *   Plotting of individual and grand average ERPs.
+    *   Visualizations of P100 peak/mean amplitudes with statistical comparisons (paired t-tests).
+    *   Detailed decoding performance plots: accuracy per subject, aggregated confusion matrices, and per-class precision, recall, and F1-scores.
+*   **Modular Pipeline Design:** Clear separation of concerns into dedicated pipelines (`P100AnalysisPipeline`, `OvertCovertRestPipeline`, `VoiceAnonymizerPipeline`) for reusability and scalability.
+*   **Configurable Workflow:** Utilizes a `config.yaml` file for easy adjustment of dataset paths, preprocessing parameters, analysis settings, and plotting options.
+*   **Logging:** Integrated logging for tracking pipeline execution, warnings, and errors.
+
+
+### Technological Foundation
+
+Mind Voice is built on a foundation of open-source Python libraries widely used in the scientific and machine learning communities:
+
+*   🐍 **Core Language:** Python 3.8+
+
+*   🧠 **EEG/Neuroimaging:**
+    *   `mne` & `mne-bids`: Core libraries for EEG data analysis and BIDS standard compatibility.
+    *   `pyprep`: For robust EEG preprocessing, including bad channel detection.
+    *   `mnelab` & `pyxdf`: For reading raw XDF data files.
+
+*   🤖 **Machine Learning/Deep Learning:**
+    *   `tensorflow`: For building and training the CNN classification models.
+    *   `scikit-learn` & `imblearn`: For data splitting, evaluation metrics, and handling class imbalance.
+
+*   🔊 **Audio Processing:**
+    *   `librosa`: For general audio loading and processing like pitch shifting.
+    *   `parselmouth`: For advanced voice manipulation, specifically formant shifting.
+    *   `soundfile`: For saving audio files.
+
+*   🐼 **Data Manipulation:**
+    *   `numpy`: Fundamental package for numerical computation.
+    *   `pandas`: For data structuring and analysis.
+    *   `pyyaml`: For loading configuration files.
+
+*   📊 **Visualization:**
+    *   `matplotlib`: For creating static, interactive, and animated visualizations.
+    *   `seaborn`: For aesthetically pleasing statistical graphics.
+
+*   ⚙️ **Utilities:**
+    *   `pathlib`, `glob`, `os`: For object-oriented filesystem paths and operations.
+    *   `rich`: For rich text and beautiful formatting in the terminal.
+
+
 
 ## Project Structure
 
-The project is organized into several key directories:
+The project is organized into logical directories to enhance modularity and maintainability:
 
 ```
 mind-voice/
-├── run.py                       # Main script to execute pipelines based on config.yaml
-├── config.yaml                  # Global configuration file for all pipelines
-├── requirements.txt             # Python dependencies
+├── run.py                          # Main script to execute pipelines based on config.yaml
+├── config.yaml                     # Configuration file for dataset paths, pipelines, and settings
+├── requirements.txt                # List of Python dependencies
 ├── src/
-│   ├── analysis/                # Core analysis modules
-│   │   ├── covert_overt.py      # Speech event extraction and ERP plotting for overt/covert
-│   │   ├── p_100_analyser.py    # P100 component detection and quantification
-│   │   ├── registery.py         # EEG epoch extraction for visual/rest conditions (multiple implement.)
-│   │   └── __init__.py
-│   ├── anonymization/           # Audio anonymization module
-│   │   ├── voice_snonymizer.py  # Voice pitch and formant shifting pipeline
-│   │   └── __init__.py
-│   ├── dataset/                 # Data handling, BIDS, preprocessing, epoching
-│   │   ├── bids.py              # BIDS dataset creation from XDF
-│   │   ├── data_loader.py       # Generic EEG data epoching based on annotations
-│   │   ├── data_reader.py       # Reads raw XDF/BIDS EEG, applies full preprocessing
-│   │   ├── eeg_epoch_builder.py # Specific EEG epoch builder with channel picking
-│   │   └── __init__.py
-│   ├── decoding/                # Machine learning models for brainwave decoding
-│   │   ├── overt_covert_rest.py # Data loader for overt/covert/rest classification
-│   │   ├── overt_covert_rest_model.py # CNN model for overt/covert/rest classification
-│   │   └── __init__.py
-│   ├── pipelines/               # End-to-end analytical workflows
-│   │   ├── overt_covert_rest_pipeline.py # Pipeline for brainwave decoding
-│   │   ├── p100_pipeline.py     # Pipeline for P100 ERP analysis
-│   │   └── __init__.py
-│   ├── utils/                   # Helper functions
-│   │   ├── data.py              # YAML configuration loader
-│   │   ├── graphics.py          # Styled console output using rich
-│   │   └── logger.py            # Custom logging setup
-│   └── visualizations/          # Plotting and reporting scripts
-│       ├── display_per_class_metrics.py # Displays classification metrics per class
-│       ├── erp_grand_visual_rest.py   # Plots grand average ERP for visual/rest conditions
-│       ├── p100_plotter.py            # Specific P100 ERP plotting
-│       ├── peak_mean_visual_rest.py   # Plots P100 peak/mean amplitudes & performs t-tests
-│       ├── plot_accuracy.py           # Plots decoding accuracy per subject
-│       ├── plot_confusion_matrix.py   # Plots aggregated confusion matrix
-│       ├── plot_metrics.py            # Plots aggregated precision, recall, F1 per subject
-│       └── __init__.py
-└── results/                     # Directory for generated output (images, CSVs)
-    ├── DecodingResults/
-    ├── P100/
-    ├── images/
-    └── ...
+│   ├── analysis/                   # Contains core analysis modules
+│   │   ├── covert_overt.py         # Extracts and processes epochs for covert/overt speech and silence
+│   │   ├── p_100_analyser.py       # Analyzes P100 components (latency, amplitude)
+│   │   └── registery.py            # Extracts and processes epochs for visual/rest conditions
+│   ├── anonymization/              # Modules for voice anonymization
+│   │   └── voice_snonymizer.py     # Pipeline for pitch and formant shifting of audio
+│   ├── dataset/                    # Data handling, loading, and preprocessing
+│   │   ├── bids.py                 # Functions for creating BIDS datasets from XDF
+│   │   ├── data_loader.py          # General utility for epoch creation from EEG data
+│   │   ├── data_reader.py          # Reads raw XDF or BIDS EEG data, handles preprocessing
+│   │   └── eeg_epoch_builder.py    # Builds MNE epochs based on event annotations and filters
+│   ├── decoding/                   # Modules for EEG decoding/classification
+│   │   ├── overt_covert.py         # Specific data loader for overt/covert/rest classification
+│   │   └── overt_covert_rest_model.py # CNN model for overt/covert/rest classification
+│   ├── pipelines/                  # Orchestrates the execution of analysis workflows
+│   │   ├── overt_covert_rest_pipeline.py # End-to-end pipeline for brainwave decoding
+│   │   └── p100_pipeline.py        # End-to-end pipeline for P100 ERP analysis
+│   └── utils/                      # Helper utilities and shared functions
+│       ├── data.py                 # Utility for loading YAML configuration files
+│       └── graphics.py             # Functions for styled console output (e.g., using rich)
+└── results/                        # Output directory for CSVs, plots, and models
+    ├── DecodingResults/            # Contains accuracy, reports, confusion matrices from decoding
+    ├── P100/                       # Contains P100 analysis results (CSVs, plots)
+    └── images/                     # General image outputs and aggregated plots
 ```
 
 ## How It Works
 
-The `run.py` script serves as the central orchestrator, reading `config.yaml` to determine which analysis pipelines and visualizations to execute.
+The `mind-voice` project follows a structured approach, orchestrated by the `run.py` script and `config.yaml`.
 
-1.  **Data Ingestion & BIDS:** Raw data (typically XDF) is first read by `src/dataset/data_reader.py` and then organized into a BIDS-compliant structure using `src/dataset/bids.py`. This ensures standardized data paths and metadata.
-2.  **EEG Preprocessing:** `src/dataset/data_reader.py` applies a robust preprocessing pipeline to the raw EEG data, including filtering, bad channel interpolation, and ICA-based artifact removal, resulting in a clean `mne.io.Raw` object.
-3.  **Epoching:** For specific analyses, `src/dataset/eeg_epoch_builder.py` (or `src/dataset/data_loader.py`) creates `mne.Epochs` objects by identifying events in the preprocessed EEG annotations based on user-defined criteria from the configuration.
-4.  **P100 Analysis (P100AnalysisPipeline):**
-    *   Epochs for two conditions (e.g., 'Visual', 'Rest') are created.
-    *   `src/analysis/p_100_analyser.py` identifies and quantifies the P100 component (latency, peak, mean amplitude) on specified occipital channels.
-    *   Results are saved and plotted using `src/visualizations/p100_plotter.py` and statistically summarized by `src/visualizations/peak_mean_visual_rest.py`.
-5.  **Brainwave Decoding (OvertCovertRestPipeline):**
-    *   Epochs for 'Overt', 'Covert', and 'Rest' conditions are extracted by `src/decoding/overt_covert_rest.py`.
-    *   Data is prepared by addressing class imbalance using oversampling and normalization.
-    *   A custom CNN model (`src/decoding/overt_covert_rest_model.py`) is trained to classify the EEG epochs.
-    *   Performance metrics (accuracy, precision, recall, F1, confusion matrix) are saved and visualized by scripts in `src/visualizations/`.
-6.  **Voice Anonymization (VoiceAnonymizerPipeline):**
-    *   Separately, `src/anonymization/voice_snonymizer.py` provides a utility to load audio, apply pitch and formant shifts, and save the anonymized output. This can be used independently or as part of a larger audio processing workflow.
-7.  **Visualization & Reporting:** Scripts in `src/visualizations/` are responsible for aggregating results across subjects and generating high-quality plots and statistical summaries to clearly present findings.
+1.  **Configuration:** The `config.yaml` file defines which pipelines to run, specifies input/output directories, and sets parameters for data loading, preprocessing, analysis, and plotting.
+2.  **BIDS Dataset Creation (Optional):** If configured, `run.py` first calls the `create_bids_dataset` function from `src/dataset/bids.py`. This process reads raw XDF files (using `src/dataset/data_reader.py`), performs initial EEG resampling, and organizes the data into a BIDS-compliant directory structure using `mne-bids`. This ensures data standardization for subsequent analyses.
+3.  **Data Loading and Preprocessing:** The `BIDSDatasetReader` (`src/dataset/data_reader.py`) is central to loading either raw XDF data or pre-existing BIDS data. It then applies a comprehensive preprocessing pipeline:
+    *   Setting channel types and applying a standard EEG montage.
+    *   Identifying and interpolating noisy channels using `pyprep`.
+    *   Applying band-pass filters to the EEG data.
+    *   Setting an EEG reference.
+    *   Removing artifacts (e.g., EOG) using Independent Component Analysis (ICA). Processed data is saved to a `derivatives` folder to avoid re-computation.
+4.  **Epoching:** `EEGEpochBuilder` (`src/dataset/eeg_epoch_builder.py`) and `DataLoader` (`src/dataset/data_loader.py`) are used to extract specific time segments (epochs) from the continuous EEG data. This is done based on detailed event annotations embedded in the EEG files, allowing for precise isolation of experimental conditions like visual stimuli, overt speech, covert speech, or rest periods.
+5.  **Analysis Pipelines:**
+    *   **P100 Analysis:** The `P100AnalysisPipeline` (`src/pipelines/p100_pipeline.py`) loads epoched data for visual and control (rest/fixation) conditions. The `P100ComponentAnalyzer` (`src/analysis/p_100_analyser.py`) then computes P100 peak latency and amplitude. Results are saved as CSVs and visualized by `P100Plotter` (`src/visualizations/p100_plotter.py`).
+    *   **Brainwave Decoding:** The `OvertCovertRestPipeline` (`src/pipelines/overt_covert_rest_pipeline.py`) prepares epoched data for overt, covert, and rest conditions. It addresses class imbalance using `RandomOverSampler` and normalizes the data. An `OvertCoverRestClassifier` (`src/decoding/overt_covert_rest_model.py`), a custom CNN model, is then trained to classify these states. Performance metrics (accuracy, confusion matrix, classification report) are saved.
+6.  **Voice Anonymization:** The `VoiceAnonymizerPipeline` (`src/anonymization/voice_snonymizer.py`) processes audio files by applying pitch and formant shifting using `librosa` and `parselmouth`, respectively, to create anonymized audio outputs.
+7.  **Visualization & Reporting:** Various scripts in `src/visualizations` (e.g., `plot_accuracy.py`, `plot_confusion_matrix.py`, `erp_grand_visual_rest.py`, `peak_mean_visual_rest.py`) generate informative plots and aggregate statistical summaries to effectively communicate the findings from the analysis pipelines.
 
 ## Getting Started
 
-Follow these instructions to get a copy of the project up and running on your local machine.
+To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
-*   **Python 3.8+**
-*   **Git**
-*   **An XDF-compatible EEG device** if you plan to create a new BIDS dataset from raw recordings, otherwise a pre-existing BIDS dataset.
+*   Python 3.8+
+*   `pip` (Python package installer)
+*   An EEG device (e.g., Emotiv, OpenBCI) compatible with XDF streaming if you intend to create a BIDS dataset from raw captures.
+*   (Optional but Recommended) A GPU for faster machine learning model training and inference with TensorFlow.
 
 ### Installation
 
@@ -168,10 +162,10 @@ Follow these instructions to get a copy of the project up and running on your lo
     cd mind-voice
     ```
 
-2.  **Create and activate a virtual environment (recommended):**
+2.  **Create a virtual environment (recommended):**
     ```bash
     python -m venv venv
-    source venv/bin/activate # On Windows: `venv\Scripts\activate`
+    source venv/bin/activate  # On Windows: `venv\Scripts\activate`
     ```
 
 3.  **Install the required Python packages:**
@@ -179,109 +173,102 @@ Follow these instructions to get a copy of the project up and running on your lo
     pip install -r requirements.txt
     ```
 
+4.  **Install EEG device SDK/drivers (if applicable):**
+    Refer to your specific EEG device manufacturer's documentation for any necessary software or driver installations to ensure data streaming.
+
 ### Configuration
 
-All pipeline execution is controlled by `config.yaml`. Before running, review and adjust this file:
+All pipeline execution and parameters are controlled via the `config.yaml` file located in the root directory.
 
-```yaml
-dataset:
-  create_bids: False # Set to True to create a BIDS dataset from XDF files
-  config_path: "config/filepaths.yaml" # Path to YAML with XDF file info
-  BIDS_DIR: "BIDS" # Root directory for the BIDS dataset
+Before running, you should:
 
-anonymize:
-  anonymize_audio: False # Set to True to run the voice anonymization pipeline
-  pitch_steps: 4 # Semitones for pitch shift
-  formant_ratio: 1.2 # Formant scaling factor
-
-analysis:
-  p100: False # Set to True to run the P100 analysis pipeline
-  decoding: False # Set to True to run the brainwave decoding pipeline
-  results_dir: "results" # Directory to save analysis results (CSVs, plots)
-
-eeg_filter: # EEG filter parameters (used by BIDSDatasetReader)
-  low: 1.0
-  high: 40.0
-
-# ... other configurations like EEG_SR, AUDIO_SR, EEG_MONTAGE, ICA_PARAMS
-# (Ensure these are defined in your actual config.yaml)
-
-plotting: # Control which visualizations to generate after analyses
-  peak_mean_amplitude: False
-  grand_erp_visual_real: False
-  accuracy_plots: False
-  confusion_matrix: False
-  metrics_plots: False
-  display_per_class_metrics: False
-```
-
-#### `config/filepaths.yaml` (for BIDS dataset creation)
-
-If `dataset.create_bids` is `True`, you'll need a `config/filepaths.yaml` file (or similar, specified by `dataset.config_path`) that lists your raw XDF files and their corresponding subject/session IDs:
-
-```yaml
-filepaths:
-  - path: "/path/to/your/rawdata/sub-01_ses-01_task-VCV_run-01_eeg.xdf"
-    subject_id: "01"
-    session_id: "01"
-  - path: "/path/to/your/rawdata/sub-02_ses-01_task-VCV_run-01_eeg.xdf"
-    subject_id: "02"
-    session_id: "01"
-  # Add more files as needed
-```
+1.  **Update `dataset.BIDS_DIR`:** Specify the absolute path where your BIDS dataset will be stored or is currently located.
+2.  **Configure `dataset.create_bids`:** Set to `true` if you need to create a new BIDS dataset from XDF files, then define `dataset.config_path` to point to a YAML file detailing your raw XDF file paths, subject IDs, and session IDs.
+3.  **Enable/Disable Pipelines:** Use the boolean flags under `analysis` (e.g., `p100`, `decoding`) and `anonymize.anonymize_audio` to select which parts of the pipeline to execute.
+4.  **Adjust Parameters:** Modify preprocessing parameters (e.g., `eeg_filter`), analysis-specific settings, and plotting options as needed.
 
 ## Usage
 
-### Running the Main Pipeline
-
-Execute the `run.py` script. It will automatically run the pipelines and generate plots based on the settings in `config.yaml`.
+Once configured, execute the main `run.py` script:
 
 ```bash
 python run.py
 ```
 
+The script will automatically trigger the enabled pipelines and generate outputs based on your `config.yaml` settings.
+
 ### BIDS Dataset Creation
 
-To convert raw XDF data into a BIDS-compliant structure:
-1.  Ensure `dataset.create_bids` is `True` in `config.yaml`.
-2.  Update `dataset.config_path` to point to a YAML file listing your raw XDFs (e.g., `config/filepaths.yaml`).
-3.  Run `python run.py`. This will create the BIDS structure under the directory specified by `dataset.BIDS_DIR`.
+If `dataset.create_bids` is `true` in `config.yaml`, the pipeline will:
+1.  Read specified raw XDF files.
+2.  Resample EEG data to a consistent frequency.
+3.  Write EEG data into a BIDS-compliant structure.
+    *(Note: Audio BIDS file creation is present in the codebase but currently commented out in `src/dataset/bids.py` and `run.py`.)*
 
 ### P100 ERP Analysis
 
-To perform P100 ERP analysis for visual stimulus vs. rest conditions:
-1.  Set `analysis.p100` to `True` in `config.yaml`.
-2.  Ensure your BIDS dataset is prepared (or disable `dataset.create_bids`).
-3.  Adjust `plotting.peak_mean_amplitude` and `plotting.grand_erp_visual_real` to `True` to generate relevant plots.
-4.  Run `python run.py`.
-    *   Results (latencies, amplitudes) will be saved in `results/P100/`.
-    *   Plots will be saved in `results/P100/Plots/` and `results/images/`.
+To run the P100 analysis pipeline, set `analysis.p100` to `true` in `config.yaml`.
+The pipeline will:
+1.  Load preprocessed EEG data for each subject and session.
+2.  Create epochs for 'Visual' (stimulus onset) and 'Rest' (fixation) conditions based on annotations.
+3.  Compute P100 peak latency and amplitude for specified occipital channels (default: `PO3`, `POz`, `PO4`).
+4.  Generate individual subject ERP plots and save them to `results/P100/Plots/`.
+5.  Save P100 metrics (latency, peak, mean amplitude) for each subject and condition to `results/P100/` as CSV files.
+6.  Generate grand average ERP plots and statistical comparisons of peak/mean amplitudes across all subjects (if `plot_config.peak_mean_amplitude` and `plot_config.grand_erp_visual_real` are `true`).
 
-### Brainwave Decoding (Overt/Covert/Rest Speech)
+### Brainwave Decoding (Overt/Covert Speech)
 
-To train and evaluate the CNN classifier for overt/covert/rest states:
-1.  Set `analysis.decoding` to `True` in `config.yaml`.
-2.  Ensure your BIDS dataset is prepared.
-3.  Enable `plotting.accuracy_plots`, `plotting.confusion_matrix`, `plotting.metrics_plots`, and `plotting.display_per_class_metrics` to visualize the classifier's performance.
-4.  Run `python run.py`.
-    *   Classification reports, accuracy, and confusion matrices will be saved in `results/DecodingResults/`.
-    *   Plots will be saved in `results/images/`.
+To run the brainwave decoding pipeline, set `analysis.decoding` to `true` in `config.yaml`.
+The pipeline will:
+1.  Load preprocessed EEG data for each subject and session.
+2.  Create epochs for 'Overt Speech', 'Covert Speech', and 'Rest' conditions.
+3.  Address class imbalance using `RandomOverSampler`.
+4.  Normalize the EEG data.
+5.  Train a Convolutional Neural Network (CNN) classifier to differentiate between these three states.
+6.  Save the validation accuracy, a detailed classification report, and the confusion matrix for each subject to `results/DecodingResults/` as CSV files.
+7.  Generate aggregated plots for accuracy, precision/recall/F1-score, and a confusion matrix across all subjects (if `plot_config.accuracy_plots`, `plot_config.metrics_plots`, `plot_config.confusion_matrix`, and `plot_config.display_per_class_metrics` are `true`).
 
 ### Voice Anonymization
 
-To anonymize audio files:
-1.  Set `anonymize.anonymize_audio` to `True` in `config.yaml`.
-2.  Configure `anonymize.pitch_steps` and `anonymize.formant_ratio` as desired.
-3.  Ensure your BIDS dataset contains audio files (or modify `run.py` to point to specific audio files).
-4.  Run `python run.py`. Anonymized audio files will be saved within the subject's BIDS `audio` directory.
+To anonymize audio files, set `anonymize.anonymize_audio` to `true` in `config.yaml`.
+The pipeline will:
+1.  Identify audio files (e.g., `.wav`) within your BIDS dataset's audio directories.
+2.  Apply pitch shifting and formant shifting to the audio.
+3.  Save the anonymized audio as `anonymized.wav` in the same directory.
 
-### Visualizations & Reporting
+### Visualizations
 
-Individual visualization scripts can also be called directly for debugging or specific plotting needs, but are primarily orchestrated by `run.py` when their corresponding `plotting` flags are set to `True` in `config.yaml`.
+The `plot_config` section in `config.yaml` controls which visualizations are generated after the analysis pipelines run. Enabling these flags will:
+*   **`peak_mean_amplitude`**: Plot individual and mean P100 peak and mean amplitudes, including paired t-test results.
+*   **`grand_erp_visual_real`**: Plot the grand average ERP for visual and rest conditions.
+*   **`accuracy_plots`**: Visualize decoding accuracy per subject.
+*   **`confusion_matrix`**: Generate an aggregated heatmap of the confusion matrix from decoding results.
+*   **`metrics_plots`**: Plot aggregated precision, recall, and F1-scores per subject.
+*   **`display_per_class_metrics`**: Log and display class-wise precision, recall, and F1-scores, including standard deviations.
 
-## Results & Visualizations
+All plots are saved to the `results/images/` directory.
 
-Upon running the pipelines with plotting enabled, the `results/images` directory will contain various plots, including:
+## Contributing
 
-#### Grand Average ERP
-A grand average ERP across all subjects for visual change vs. no visual change conditions, typically highlighting occipital channels.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also open an issue with the tag "enhancement".
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+*(Note: A `LICENSE` file should be created in your repository with the MIT License text.)*
+
+## Contact
+
+Owais Mujtaba - owais.mujtaba123@gmail.com 
+
+Project Link: [https://github.com/owaismujtaba/mind-voice](https://github.com/owaismujtaba/mind-voice)
+
+---
