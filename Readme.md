@@ -1,6 +1,4 @@
-## mind-voice
-
-## Real-time Brainwave to Speech Synthesis & Comprehensive EEG Analysis Framework
+## Mind Voice: A Multimodal EEG-Audio Dataset for Overt and Covert Iberian Spanish Speech Production
 
 Mind-Voice is an advanced research framework designed for the analysis of electroencephalography (EEG) data, focusing on event-related potentials (ERPs), brainwave decoding for imagined (covert) and overt speech, and even voice anonymization. This project provides a robust, modular pipeline for handling BIDS-formatted EEG datasets, performing detailed signal processing, machine learning-based classification, and comprehensive data visualization.
 
