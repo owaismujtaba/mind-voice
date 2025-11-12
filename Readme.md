@@ -1,4 +1,4 @@
-#### mind-voice
+## mind-voice
 
 ## Real-time Brainwave to Speech Synthesis & Comprehensive EEG Analysis Framework
 
