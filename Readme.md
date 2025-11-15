@@ -28,6 +28,8 @@ Mind-Voice is an advanced research framework designed for the analysis of electr
 
 The ability to communicate directly from thought has long been a subject of science fiction. Mind-Voice endeavors to bring this closer to reality by capturing, analyzing, and interpreting brainwave data (e.g., EEG signals) and converting it into audible speech or classifying cognitive states. This project offers a comprehensive suite of tools for neuroscientific research, from raw data ingestion and preprocessing to advanced machine learning and rich data visualization. It also includes a unique voice anonymization component, broadening its application scope.
 
+## Dataset
+Dataset can be downloaded form the url (https://osf.io/6sh5d/)
 ## Features
 
 *   **BIDS Dataset Creation & Management:** Tools for organizing raw XDF data into a BIDS-compliant structure, ensuring standardized data handling.
