@@ -30,6 +30,7 @@ The ability to communicate directly from thought has long been a subject of scie
 
 ## Dataset
 Dataset can be downloaded form the url (https://osf.io/6sh5d/)
+The dataset is in BIDS format. Download and modify the config.py file accordingly
 ## Features
 
 *   **BIDS Dataset Creation & Management:** Tools for organizing raw XDF data into a BIDS-compliant structure, ensuring standardized data handling.
