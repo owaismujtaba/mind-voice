@@ -1,0 +1,264 @@
+[2025-11-18 12:38:48] [INFO] Initializing ICAAnalyzer for Subject: 01, Session: 01
+[2025-11-18 12:38:48] [INFO] Loading Raw Data
+[2025-11-18 12:38:55] [INFO] Setting  Channels and Montage
+[2025-11-18 12:38:55] [INFO] Finding Bad Channels
+[2025-11-18 12:40:08] [INFO] Identified 3 Bad Channels: ['Fp2', 'Fp1', 'AF8']
+[2025-11-18 12:40:08] [INFO] Interpolating Bad Channels
+[2025-11-18 12:40:08] [INFO] Saving Bad Channels Information
+[2025-11-18 12:40:08] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-01_ses-01_bad_channels.json
+[2025-11-18 12:40:08] [INFO] Applying Filter
+[2025-11-18 12:42:23] [INFO] ICA Fitting Complete
+[2025-11-18 12:42:23] [INFO] Saving ICA Components
+[2025-11-18 12:42:23] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-01_ses-01_ica.fif
+[2025-11-18 12:42:23] [INFO] Initializing ICAAnalyzer for Subject: 02, Session: 01
+[2025-11-18 12:42:23] [INFO] Loading Raw Data
+[2025-11-18 12:42:30] [INFO] Setting  Channels and Montage
+[2025-11-18 12:42:30] [INFO] Finding Bad Channels
+[2025-11-18 12:43:44] [INFO] Identified 5 Bad Channels: ['AF3', 'FT9', 'Fp2', 'F3', 'Fp1']
+[2025-11-18 12:43:44] [INFO] Interpolating Bad Channels
+[2025-11-18 12:43:44] [INFO] Saving Bad Channels Information
+[2025-11-18 12:43:44] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-02_ses-01_bad_channels.json
+[2025-11-18 12:43:44] [INFO] Applying Filter
+[2025-11-18 12:47:41] [INFO] ICA Fitting Complete
+[2025-11-18 12:47:41] [INFO] Saving ICA Components
+[2025-11-18 12:47:41] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-02_ses-01_ica.fif
+[2025-11-18 12:47:41] [INFO] Initializing ICAAnalyzer for Subject: 03, Session: 01
+[2025-11-18 12:47:41] [INFO] Loading Raw Data
+[2025-11-18 12:47:49] [INFO] Setting  Channels and Montage
+[2025-11-18 12:47:49] [INFO] Finding Bad Channels
+[2025-11-18 12:48:59] [INFO] Identified 3 Bad Channels: ['Fp2', 'Fp1', 'AFz']
+[2025-11-18 12:48:59] [INFO] Interpolating Bad Channels
+[2025-11-18 12:49:00] [INFO] Saving Bad Channels Information
+[2025-11-18 12:49:00] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-03_ses-01_bad_channels.json
+[2025-11-18 12:49:00] [INFO] Applying Filter
+[2025-11-18 12:51:47] [INFO] ICA Fitting Complete
+[2025-11-18 12:51:47] [INFO] Saving ICA Components
+[2025-11-18 12:51:47] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-03_ses-01_ica.fif
+[2025-11-18 12:51:47] [INFO] Initializing ICAAnalyzer for Subject: 04, Session: 01
+[2025-11-18 12:51:47] [INFO] Loading Raw Data
+[2025-11-18 12:51:55] [INFO] Setting  Channels and Montage
+[2025-11-18 12:51:55] [INFO] Finding Bad Channels
+[2025-11-18 12:53:15] [INFO] Identified 4 Bad Channels: ['POz', 'P1', 'P7', 'CP1']
+[2025-11-18 12:53:15] [INFO] Interpolating Bad Channels
+[2025-11-18 12:53:16] [INFO] Saving Bad Channels Information
+[2025-11-18 12:53:16] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-04_ses-01_bad_channels.json
+[2025-11-18 12:53:16] [INFO] Applying Filter
+[2025-11-18 12:56:55] [INFO] ICA Fitting Complete
+[2025-11-18 12:56:55] [INFO] Saving ICA Components
+[2025-11-18 12:56:55] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-04_ses-01_ica.fif
+[2025-11-18 12:56:55] [INFO] Initializing ICAAnalyzer for Subject: 04, Session: 02
+[2025-11-18 12:56:55] [INFO] Loading Raw Data
+[2025-11-18 12:57:03] [INFO] Setting  Channels and Montage
+[2025-11-18 12:57:03] [INFO] Finding Bad Channels
+[2025-11-18 12:58:16] [INFO] Identified 5 Bad Channels: ['Fp2', 'AF8', 'AF7', 'Fp1', 'P2']
+[2025-11-18 12:58:16] [INFO] Interpolating Bad Channels
+[2025-11-18 12:58:17] [INFO] Saving Bad Channels Information
+[2025-11-18 12:58:17] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-04_ses-02_bad_channels.json
+[2025-11-18 12:58:17] [INFO] Applying Filter
+[2025-11-18 13:01:22] [INFO] ICA Fitting Complete
+[2025-11-18 13:01:22] [INFO] Saving ICA Components
+[2025-11-18 13:01:22] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-04_ses-02_ica.fif
+[2025-11-18 13:01:22] [INFO] Initializing ICAAnalyzer for Subject: 05, Session: 01
+[2025-11-18 13:01:22] [INFO] Loading Raw Data
+[2025-11-18 13:01:30] [INFO] Setting  Channels and Montage
+[2025-11-18 13:01:30] [INFO] Finding Bad Channels
+[2025-11-18 13:02:36] [INFO] Identified 2 Bad Channels: ['Fp2', 'P5']
+[2025-11-18 13:02:36] [INFO] Interpolating Bad Channels
+[2025-11-18 13:02:37] [INFO] Saving Bad Channels Information
+[2025-11-18 13:02:37] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-05_ses-01_bad_channels.json
+[2025-11-18 13:02:37] [INFO] Applying Filter
+[2025-11-18 13:05:53] [INFO] ICA Fitting Complete
+[2025-11-18 13:05:53] [INFO] Saving ICA Components
+[2025-11-18 13:05:53] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-05_ses-01_ica.fif
+[2025-11-18 13:05:53] [INFO] Initializing ICAAnalyzer for Subject: 05, Session: 02
+[2025-11-18 13:05:53] [INFO] Loading Raw Data
+[2025-11-18 13:06:00] [INFO] Setting  Channels and Montage
+[2025-11-18 13:06:00] [INFO] Finding Bad Channels
+[2025-11-18 13:07:05] [INFO] Identified 6 Bad Channels: ['FCz', 'FT9', 'Fp2', 'AF8', 'AF7', 'Fp1']
+[2025-11-18 13:07:05] [INFO] Interpolating Bad Channels
+[2025-11-18 13:07:05] [INFO] Saving Bad Channels Information
+[2025-11-18 13:07:05] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-05_ses-02_bad_channels.json
+[2025-11-18 13:07:05] [INFO] Applying Filter
+[2025-11-18 13:10:02] [INFO] ICA Fitting Complete
+[2025-11-18 13:10:02] [INFO] Saving ICA Components
+[2025-11-18 13:10:02] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-05_ses-02_ica.fif
+[2025-11-18 13:10:03] [INFO] Initializing ICAAnalyzer for Subject: 06, Session: 01
+[2025-11-18 13:10:03] [INFO] Loading Raw Data
+[2025-11-18 13:10:10] [INFO] Setting  Channels and Montage
+[2025-11-18 13:10:10] [INFO] Finding Bad Channels
+[2025-11-18 13:11:25] [INFO] Identified 4 Bad Channels: ['P1', 'F4', 'O2', 'F2']
+[2025-11-18 13:11:25] [INFO] Interpolating Bad Channels
+[2025-11-18 13:11:26] [INFO] Saving Bad Channels Information
+[2025-11-18 13:11:26] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-06_ses-01_bad_channels.json
+[2025-11-18 13:11:26] [INFO] Applying Filter
+[2025-11-18 13:13:55] [INFO] ICA Fitting Complete
+[2025-11-18 13:13:55] [INFO] Saving ICA Components
+[2025-11-18 13:13:55] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-06_ses-01_ica.fif
+[2025-11-18 13:13:55] [INFO] Initializing ICAAnalyzer for Subject: 06, Session: 02
+[2025-11-18 13:13:55] [INFO] Loading Raw Data
+[2025-11-18 13:14:03] [INFO] Setting  Channels and Montage
+[2025-11-18 13:14:03] [INFO] Finding Bad Channels
+[2025-11-18 13:15:11] [INFO] Identified 1 Bad Channels: ['F4']
+[2025-11-18 13:15:11] [INFO] Interpolating Bad Channels
+[2025-11-18 13:15:11] [INFO] Saving Bad Channels Information
+[2025-11-18 13:15:11] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-06_ses-02_bad_channels.json
+[2025-11-18 13:15:11] [INFO] Applying Filter
+[2025-11-18 13:17:46] [INFO] ICA Fitting Complete
+[2025-11-18 13:17:46] [INFO] Saving ICA Components
+[2025-11-18 13:17:46] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-06_ses-02_ica.fif
+[2025-11-18 13:17:46] [INFO] Initializing ICAAnalyzer for Subject: 07, Session: 01
+[2025-11-18 13:17:46] [INFO] Loading Raw Data
+[2025-11-18 13:17:53] [INFO] Setting  Channels and Montage
+[2025-11-18 13:17:53] [INFO] Finding Bad Channels
+[2025-11-18 13:19:00] [INFO] Identified 5 Bad Channels: ['FC6', 'F8', 'Fp2', 'FCz', 'FT10']
+[2025-11-18 13:19:00] [INFO] Interpolating Bad Channels
+[2025-11-18 13:19:00] [INFO] Saving Bad Channels Information
+[2025-11-18 13:19:00] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-07_ses-01_bad_channels.json
+[2025-11-18 13:19:00] [INFO] Applying Filter
+[2025-11-18 13:22:18] [INFO] ICA Fitting Complete
+[2025-11-18 13:22:18] [INFO] Saving ICA Components
+[2025-11-18 13:22:18] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-07_ses-01_ica.fif
+[2025-11-18 13:22:18] [INFO] Initializing ICAAnalyzer for Subject: 08, Session: 01
+[2025-11-18 13:22:18] [INFO] Loading Raw Data
+[2025-11-18 13:22:26] [INFO] Setting  Channels and Montage
+[2025-11-18 13:22:26] [INFO] Finding Bad Channels
+[2025-11-18 13:23:34] [INFO] Identified 4 Bad Channels: ['Fp2', 'Fp1', 'AF8', 'AF7']
+[2025-11-18 13:23:34] [INFO] Interpolating Bad Channels
+[2025-11-18 13:23:34] [INFO] Saving Bad Channels Information
+[2025-11-18 13:23:34] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-08_ses-01_bad_channels.json
+[2025-11-18 13:23:34] [INFO] Applying Filter
+[2025-11-18 13:25:37] [INFO] ICA Fitting Complete
+[2025-11-18 13:25:37] [INFO] Saving ICA Components
+[2025-11-18 13:25:37] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-08_ses-01_ica.fif
+[2025-11-18 13:25:37] [INFO] Initializing ICAAnalyzer for Subject: 09, Session: 01
+[2025-11-18 13:25:37] [INFO] Loading Raw Data
+[2025-11-18 13:25:44] [INFO] Setting  Channels and Montage
+[2025-11-18 13:25:44] [INFO] Finding Bad Channels
+[2025-11-18 13:26:56] [INFO] Identified 3 Bad Channels: ['PO7', 'O1', 'PO3']
+[2025-11-18 13:26:56] [INFO] Interpolating Bad Channels
+[2025-11-18 13:26:56] [INFO] Saving Bad Channels Information
+[2025-11-18 13:26:56] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-09_ses-01_bad_channels.json
+[2025-11-18 13:26:56] [INFO] Applying Filter
+[2025-11-18 13:30:03] [INFO] ICA Fitting Complete
+[2025-11-18 13:30:03] [INFO] Saving ICA Components
+[2025-11-18 13:30:03] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-09_ses-01_ica.fif
+[2025-11-18 13:30:03] [INFO] Initializing ICAAnalyzer for Subject: 09, Session: 02
+[2025-11-18 13:30:03] [INFO] Loading Raw Data
+[2025-11-18 13:30:10] [INFO] Setting  Channels and Montage
+[2025-11-18 13:30:10] [INFO] Finding Bad Channels
+[2025-11-18 13:31:16] [INFO] Identified 1 Bad Channels: ['AF8']
+[2025-11-18 13:31:16] [INFO] Interpolating Bad Channels
+[2025-11-18 13:31:17] [INFO] Saving Bad Channels Information
+[2025-11-18 13:31:17] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-09_ses-02_bad_channels.json
+[2025-11-18 13:31:17] [INFO] Applying Filter
+[2025-11-18 13:33:30] [INFO] ICA Fitting Complete
+[2025-11-18 13:33:30] [INFO] Saving ICA Components
+[2025-11-18 13:33:30] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-09_ses-02_ica.fif
+[2025-11-18 13:33:30] [INFO] Initializing ICAAnalyzer for Subject: 10, Session: 01
+[2025-11-18 13:33:30] [INFO] Loading Raw Data
+[2025-11-18 13:33:38] [INFO] Setting  Channels and Montage
+[2025-11-18 13:33:38] [INFO] Finding Bad Channels
+[2025-11-18 13:34:48] [INFO] Identified 0 Bad Channels: []
+[2025-11-18 13:34:48] [INFO] Interpolating Bad Channels
+[2025-11-18 13:34:48] [INFO] Saving Bad Channels Information
+[2025-11-18 13:34:48] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-10_ses-01_bad_channels.json
+[2025-11-18 13:34:48] [INFO] Applying Filter
+[2025-11-18 13:37:51] [INFO] ICA Fitting Complete
+[2025-11-18 13:37:51] [INFO] Saving ICA Components
+[2025-11-18 13:37:51] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-10_ses-01_ica.fif
+[2025-11-18 13:37:51] [INFO] Initializing ICAAnalyzer for Subject: 11, Session: 01
+[2025-11-18 13:37:51] [INFO] Loading Raw Data
+[2025-11-18 13:37:59] [INFO] Setting  Channels and Montage
+[2025-11-18 13:37:59] [INFO] Finding Bad Channels
+[2025-11-18 13:39:09] [INFO] Identified 3 Bad Channels: ['Fp2', 'Fp1', 'AF8']
+[2025-11-18 13:39:09] [INFO] Interpolating Bad Channels
+[2025-11-18 13:39:09] [INFO] Saving Bad Channels Information
+[2025-11-18 13:39:09] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-11_ses-01_bad_channels.json
+[2025-11-18 13:39:10] [INFO] Applying Filter
+[2025-11-18 13:41:48] [INFO] ICA Fitting Complete
+[2025-11-18 13:41:48] [INFO] Saving ICA Components
+[2025-11-18 13:41:48] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-11_ses-01_ica.fif
+[2025-11-18 13:41:48] [INFO] Initializing ICAAnalyzer for Subject: 12, Session: 01
+[2025-11-18 13:41:48] [INFO] Loading Raw Data
+[2025-11-18 13:41:56] [INFO] Setting  Channels and Montage
+[2025-11-18 13:41:56] [INFO] Finding Bad Channels
+[2025-11-18 13:43:17] [INFO] Identified 1 Bad Channels: ['CP4']
+[2025-11-18 13:43:17] [INFO] Interpolating Bad Channels
+[2025-11-18 13:43:17] [INFO] Saving Bad Channels Information
+[2025-11-18 13:43:17] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-12_ses-01_bad_channels.json
+[2025-11-18 13:43:17] [INFO] Applying Filter
+[2025-11-18 13:47:01] [INFO] ICA Fitting Complete
+[2025-11-18 13:47:01] [INFO] Saving ICA Components
+[2025-11-18 13:47:01] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-12_ses-01_ica.fif
+[2025-11-18 13:47:01] [INFO] Initializing ICAAnalyzer for Subject: 12, Session: 02
+[2025-11-18 13:47:01] [INFO] Loading Raw Data
+[2025-11-18 13:47:08] [INFO] Setting  Channels and Montage
+[2025-11-18 13:47:08] [INFO] Finding Bad Channels
+[2025-11-18 13:48:37] [INFO] Identified 2 Bad Channels: ['Fp2', 'Fp1']
+[2025-11-18 13:48:37] [INFO] Interpolating Bad Channels
+[2025-11-18 13:48:38] [INFO] Saving Bad Channels Information
+[2025-11-18 13:48:38] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-12_ses-02_bad_channels.json
+[2025-11-18 13:48:38] [INFO] Applying Filter
+[2025-11-18 13:51:14] [INFO] ICA Fitting Complete
+[2025-11-18 13:51:14] [INFO] Saving ICA Components
+[2025-11-18 13:51:14] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-12_ses-02_ica.fif
+[2025-11-18 13:51:14] [INFO] Initializing ICAAnalyzer for Subject: 13, Session: 01
+[2025-11-18 13:51:14] [INFO] Loading Raw Data
+[2025-11-18 13:51:22] [INFO] Setting  Channels and Montage
+[2025-11-18 13:51:22] [INFO] Finding Bad Channels
+[2025-11-18 13:52:44] [INFO] Identified 2 Bad Channels: ['Fp2', 'AF8']
+[2025-11-18 13:52:44] [INFO] Interpolating Bad Channels
+[2025-11-18 13:52:45] [INFO] Saving Bad Channels Information
+[2025-11-18 13:52:45] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-13_ses-01_bad_channels.json
+[2025-11-18 13:52:45] [INFO] Applying Filter
+[2025-11-18 13:55:58] [INFO] ICA Fitting Complete
+[2025-11-18 13:55:58] [INFO] Saving ICA Components
+[2025-11-18 13:55:58] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-13_ses-01_ica.fif
+[2025-11-18 13:55:58] [INFO] Initializing ICAAnalyzer for Subject: 13, Session: 02
+[2025-11-18 13:55:58] [INFO] Loading Raw Data
+[2025-11-18 13:56:05] [INFO] Setting  Channels and Montage
+[2025-11-18 13:56:05] [INFO] Finding Bad Channels
+[2025-11-18 13:57:25] [INFO] Identified 4 Bad Channels: ['F8', 'Fp2', 'Fp1', 'AF8']
+[2025-11-18 13:57:25] [INFO] Interpolating Bad Channels
+[2025-11-18 13:57:26] [INFO] Saving Bad Channels Information
+[2025-11-18 13:57:26] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-13_ses-02_bad_channels.json
+[2025-11-18 13:57:26] [INFO] Applying Filter
+[2025-11-18 14:00:37] [INFO] ICA Fitting Complete
+[2025-11-18 14:00:37] [INFO] Saving ICA Components
+[2025-11-18 14:00:37] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-13_ses-02_ica.fif
+[2025-11-18 14:00:37] [INFO] Initializing ICAAnalyzer for Subject: 14, Session: 01
+[2025-11-18 14:00:37] [INFO] Loading Raw Data
+[2025-11-18 14:00:45] [INFO] Setting  Channels and Montage
+[2025-11-18 14:00:45] [INFO] Finding Bad Channels
+[2025-11-18 14:02:21] [INFO] Identified 0 Bad Channels: []
+[2025-11-18 14:02:21] [INFO] Interpolating Bad Channels
+[2025-11-18 14:02:21] [INFO] Saving Bad Channels Information
+[2025-11-18 14:02:21] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-14_ses-01_bad_channels.json
+[2025-11-18 14:02:21] [INFO] Applying Filter
+[2025-11-18 14:05:33] [INFO] ICA Fitting Complete
+[2025-11-18 14:05:33] [INFO] Saving ICA Components
+[2025-11-18 14:05:33] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-14_ses-01_ica.fif
+[2025-11-18 14:05:33] [INFO] Initializing ICAAnalyzer for Subject: 15, Session: 01
+[2025-11-18 14:05:33] [INFO] Loading Raw Data
+[2025-11-18 14:05:41] [INFO] Setting  Channels and Montage
+[2025-11-18 14:05:41] [INFO] Finding Bad Channels
+[2025-11-18 14:06:46] [INFO] Identified 0 Bad Channels: []
+[2025-11-18 14:06:46] [INFO] Interpolating Bad Channels
+[2025-11-18 14:06:46] [INFO] Saving Bad Channels Information
+[2025-11-18 14:06:46] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-15_ses-01_bad_channels.json
+[2025-11-18 14:06:46] [INFO] Applying Filter
+[2025-11-18 14:09:31] [INFO] ICA Fitting Complete
+[2025-11-18 14:09:31] [INFO] Saving ICA Components
+[2025-11-18 14:09:31] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-15_ses-01_ica.fif
+[2025-11-18 14:09:31] [INFO] Initializing ICAAnalyzer for Subject: 15, Session: 02
+[2025-11-18 14:09:31] [INFO] Loading Raw Data
+[2025-11-18 14:09:32] [INFO] Setting  Channels and Montage
+[2025-11-18 14:09:32] [INFO] Finding Bad Channels
+[2025-11-18 14:09:49] [INFO] Identified 0 Bad Channels: []
+[2025-11-18 14:09:49] [INFO] Interpolating Bad Channels
+[2025-11-18 14:09:49] [INFO] Saving Bad Channels Information
+[2025-11-18 14:09:49] [INFO] Saved bad channels info to /home/owaismujtaba/projects/mind-voice/results/ica/sub-15_ses-02_bad_channels.json
+[2025-11-18 14:09:49] [INFO] Applying Filter
+[2025-11-18 14:10:29] [INFO] ICA Fitting Complete
+[2025-11-18 14:10:29] [INFO] Saving ICA Components
+[2025-11-18 14:10:29] [INFO] Saved ICA components to /home/owaismujtaba/projects/mind-voice/processed/sub-15_ses-02_ica.fif
