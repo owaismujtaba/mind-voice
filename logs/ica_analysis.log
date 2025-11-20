@@ -1,198 +1,57 @@
-[2025-11-19 14:34:51] [INFO] Initializing ICAAnalyzer for Subject: 01, Session: 01
-[2025-11-19 14:34:51] [INFO] Setting up directories for ICA
-[2025-11-19 14:34:51] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-01_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:34:51] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-01_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:34:51] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-01_ses-01_bad_channels.json
-[2025-11-19 14:34:51] [INFO] Setting up BIDS Path
-[2025-11-19 14:34:51] [INFO] Loading Raw Data
-[2025-11-19 14:34:59] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:35:01] [INFO] Subject: 01 | Session: 01 | Overt SNR Improvement Ratio: 0.3304 | Covert SNR Improvement Ratio: 0.5849
-[2025-11-19 14:35:01] [INFO] Initializing ICAAnalyzer for Subject: 02, Session: 01
-[2025-11-19 14:35:01] [INFO] Setting up directories for ICA
-[2025-11-19 14:35:01] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-02_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:35:01] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-02_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:35:01] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-02_ses-01_bad_channels.json
-[2025-11-19 14:35:01] [INFO] Setting up BIDS Path
-[2025-11-19 14:35:01] [INFO] Loading Raw Data
-[2025-11-19 14:35:09] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:35:12] [INFO] Subject: 02 | Session: 01 | Overt SNR Improvement Ratio: 0.9988 | Covert SNR Improvement Ratio: 0.9989
-[2025-11-19 14:35:12] [INFO] Initializing ICAAnalyzer for Subject: 03, Session: 01
-[2025-11-19 14:35:12] [INFO] Setting up directories for ICA
-[2025-11-19 14:35:12] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-03_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:35:12] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-03_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:35:12] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-03_ses-01_bad_channels.json
-[2025-11-19 14:35:12] [INFO] Setting up BIDS Path
-[2025-11-19 14:35:12] [INFO] Loading Raw Data
-[2025-11-19 14:35:20] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:35:24] [INFO] Subject: 03 | Session: 01 | Overt SNR Improvement Ratio: 0.8249 | Covert SNR Improvement Ratio: 0.9126
-[2025-11-19 14:35:24] [INFO] Initializing ICAAnalyzer for Subject: 04, Session: 01
-[2025-11-19 14:35:24] [INFO] Setting up directories for ICA
-[2025-11-19 14:35:24] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-04_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:35:24] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-04_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:35:24] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-04_ses-01_bad_channels.json
-[2025-11-19 14:35:24] [INFO] Setting up BIDS Path
-[2025-11-19 14:35:24] [INFO] Loading Raw Data
-[2025-11-19 14:35:33] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:35:38] [INFO] Subject: 04 | Session: 01 | Overt SNR Improvement Ratio: 0.9821 | Covert SNR Improvement Ratio: 0.9894
-[2025-11-19 14:35:38] [INFO] Initializing ICAAnalyzer for Subject: 04, Session: 02
-[2025-11-19 14:35:38] [INFO] Setting up directories for ICA
-[2025-11-19 14:35:38] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-04_ses-02_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:35:38] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-04_ses-02_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:35:38] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-04_ses-02_bad_channels.json
-[2025-11-19 14:35:38] [INFO] Setting up BIDS Path
-[2025-11-19 14:35:38] [INFO] Loading Raw Data
-[2025-11-19 14:35:46] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:35:51] [INFO] Subject: 04 | Session: 02 | Overt SNR Improvement Ratio: 0.8293 | Covert SNR Improvement Ratio: 0.8472
-[2025-11-19 14:35:51] [INFO] Initializing ICAAnalyzer for Subject: 05, Session: 01
-[2025-11-19 14:35:51] [INFO] Setting up directories for ICA
-[2025-11-19 14:35:51] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-05_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:35:51] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-05_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:35:51] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-05_ses-01_bad_channels.json
-[2025-11-19 14:35:51] [INFO] Setting up BIDS Path
-[2025-11-19 14:35:51] [INFO] Loading Raw Data
-[2025-11-19 14:35:59] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:36:04] [INFO] Subject: 05 | Session: 01 | Overt SNR Improvement Ratio: 0.0397 | Covert SNR Improvement Ratio: 0.1489
-[2025-11-19 14:36:04] [INFO] Initializing ICAAnalyzer for Subject: 05, Session: 02
-[2025-11-19 14:36:04] [INFO] Setting up directories for ICA
-[2025-11-19 14:36:04] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-05_ses-02_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:36:04] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-05_ses-02_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:36:04] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-05_ses-02_bad_channels.json
-[2025-11-19 14:36:04] [INFO] Setting up BIDS Path
-[2025-11-19 14:36:04] [INFO] Loading Raw Data
-[2025-11-19 14:36:11] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:36:16] [INFO] Subject: 05 | Session: 02 | Overt SNR Improvement Ratio: 0.8896 | Covert SNR Improvement Ratio: 0.8978
-[2025-11-19 14:36:16] [INFO] Initializing ICAAnalyzer for Subject: 06, Session: 01
-[2025-11-19 14:36:16] [INFO] Setting up directories for ICA
-[2025-11-19 14:36:16] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-06_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:36:16] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-06_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:36:16] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-06_ses-01_bad_channels.json
-[2025-11-19 14:36:16] [INFO] Setting up BIDS Path
-[2025-11-19 14:36:16] [INFO] Loading Raw Data
-[2025-11-19 14:36:24] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:36:29] [INFO] Subject: 06 | Session: 01 | Overt SNR Improvement Ratio: 0.9887 | Covert SNR Improvement Ratio: 0.9853
-[2025-11-19 14:36:29] [INFO] Initializing ICAAnalyzer for Subject: 06, Session: 02
-[2025-11-19 14:36:29] [INFO] Setting up directories for ICA
-[2025-11-19 14:36:29] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-06_ses-02_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:36:29] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-06_ses-02_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:36:29] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-06_ses-02_bad_channels.json
-[2025-11-19 14:36:29] [INFO] Setting up BIDS Path
-[2025-11-19 14:36:29] [INFO] Loading Raw Data
-[2025-11-19 14:36:37] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:36:41] [INFO] Subject: 06 | Session: 02 | Overt SNR Improvement Ratio: 0.9898 | Covert SNR Improvement Ratio: 0.9957
-[2025-11-19 14:36:41] [INFO] Initializing ICAAnalyzer for Subject: 07, Session: 01
-[2025-11-19 14:36:41] [INFO] Setting up directories for ICA
-[2025-11-19 14:36:41] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-07_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:36:41] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-07_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:36:41] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-07_ses-01_bad_channels.json
-[2025-11-19 14:36:41] [INFO] Setting up BIDS Path
-[2025-11-19 14:36:41] [INFO] Loading Raw Data
-[2025-11-19 14:36:49] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:36:54] [INFO] Subject: 07 | Session: 01 | Overt SNR Improvement Ratio: 0.9801 | Covert SNR Improvement Ratio: 0.9824
-[2025-11-19 14:36:54] [INFO] Initializing ICAAnalyzer for Subject: 08, Session: 01
-[2025-11-19 14:36:54] [INFO] Setting up directories for ICA
-[2025-11-19 14:36:54] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-08_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:36:54] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-08_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:36:54] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-08_ses-01_bad_channels.json
-[2025-11-19 14:36:54] [INFO] Setting up BIDS Path
-[2025-11-19 14:36:54] [INFO] Loading Raw Data
-[2025-11-19 14:37:02] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:37:06] [INFO] Subject: 08 | Session: 01 | Overt SNR Improvement Ratio: 0.1587 | Covert SNR Improvement Ratio: 0.2044
-[2025-11-19 14:37:06] [INFO] Initializing ICAAnalyzer for Subject: 09, Session: 01
-[2025-11-19 14:37:06] [INFO] Setting up directories for ICA
-[2025-11-19 14:37:06] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-09_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:37:06] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-09_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:37:06] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-09_ses-01_bad_channels.json
-[2025-11-19 14:37:06] [INFO] Setting up BIDS Path
-[2025-11-19 14:37:06] [INFO] Loading Raw Data
-[2025-11-19 14:37:14] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:37:19] [INFO] Subject: 09 | Session: 01 | Overt SNR Improvement Ratio: 0.9873 | Covert SNR Improvement Ratio: 0.9936
-[2025-11-19 14:37:19] [INFO] Initializing ICAAnalyzer for Subject: 09, Session: 02
-[2025-11-19 14:37:19] [INFO] Setting up directories for ICA
-[2025-11-19 14:37:19] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-09_ses-02_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:37:19] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-09_ses-02_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:37:19] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-09_ses-02_bad_channels.json
-[2025-11-19 14:37:19] [INFO] Setting up BIDS Path
-[2025-11-19 14:37:19] [INFO] Loading Raw Data
-[2025-11-19 14:37:27] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:37:32] [INFO] Subject: 09 | Session: 02 | Overt SNR Improvement Ratio: 0.6737 | Covert SNR Improvement Ratio: 0.6497
-[2025-11-19 14:37:32] [INFO] Initializing ICAAnalyzer for Subject: 10, Session: 01
-[2025-11-19 14:37:32] [INFO] Setting up directories for ICA
-[2025-11-19 14:37:32] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-10_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:37:32] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-10_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:37:32] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-10_ses-01_bad_channels.json
-[2025-11-19 14:37:32] [INFO] Setting up BIDS Path
-[2025-11-19 14:37:32] [INFO] Loading Raw Data
-[2025-11-19 14:37:40] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:37:45] [INFO] Subject: 10 | Session: 01 | Overt SNR Improvement Ratio: 0.9475 | Covert SNR Improvement Ratio: 0.9598
-[2025-11-19 14:37:45] [INFO] Initializing ICAAnalyzer for Subject: 11, Session: 01
-[2025-11-19 14:37:45] [INFO] Setting up directories for ICA
-[2025-11-19 14:37:45] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-11_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:37:45] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-11_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:37:45] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-11_ses-01_bad_channels.json
-[2025-11-19 14:37:45] [INFO] Setting up BIDS Path
-[2025-11-19 14:37:45] [INFO] Loading Raw Data
-[2025-11-19 14:37:53] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:37:57] [INFO] Subject: 11 | Session: 01 | Overt SNR Improvement Ratio: 0.1657 | Covert SNR Improvement Ratio: 0.4930
-[2025-11-19 14:37:58] [INFO] Initializing ICAAnalyzer for Subject: 12, Session: 01
-[2025-11-19 14:37:58] [INFO] Setting up directories for ICA
-[2025-11-19 14:37:58] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-12_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:37:58] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-12_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:37:58] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-12_ses-01_bad_channels.json
-[2025-11-19 14:37:58] [INFO] Setting up BIDS Path
-[2025-11-19 14:37:58] [INFO] Loading Raw Data
-[2025-11-19 14:38:06] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:38:11] [INFO] Subject: 12 | Session: 01 | Overt SNR Improvement Ratio: 0.8624 | Covert SNR Improvement Ratio: 0.8678
-[2025-11-19 14:38:11] [INFO] Initializing ICAAnalyzer for Subject: 12, Session: 02
-[2025-11-19 14:38:11] [INFO] Setting up directories for ICA
-[2025-11-19 14:38:11] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-12_ses-02_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:38:11] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-12_ses-02_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:38:11] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-12_ses-02_bad_channels.json
-[2025-11-19 14:38:11] [INFO] Setting up BIDS Path
-[2025-11-19 14:38:11] [INFO] Loading Raw Data
-[2025-11-19 14:38:19] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:38:27] [INFO] Subject: 12 | Session: 02 | Overt SNR Improvement Ratio: 0.5813 | Covert SNR Improvement Ratio: 0.7673
-[2025-11-19 14:38:27] [INFO] Initializing ICAAnalyzer for Subject: 13, Session: 01
-[2025-11-19 14:38:27] [INFO] Setting up directories for ICA
-[2025-11-19 14:38:27] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-13_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:38:27] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-13_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:38:27] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-13_ses-01_bad_channels.json
-[2025-11-19 14:38:27] [INFO] Setting up BIDS Path
-[2025-11-19 14:38:27] [INFO] Loading Raw Data
-[2025-11-19 14:38:35] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:38:41] [INFO] Subject: 13 | Session: 01 | Overt SNR Improvement Ratio: 0.5675 | Covert SNR Improvement Ratio: 0.6397
-[2025-11-19 14:38:41] [INFO] Initializing ICAAnalyzer for Subject: 13, Session: 02
-[2025-11-19 14:38:41] [INFO] Setting up directories for ICA
-[2025-11-19 14:38:41] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-13_ses-02_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:38:41] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-13_ses-02_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:38:41] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-13_ses-02_bad_channels.json
-[2025-11-19 14:38:41] [INFO] Setting up BIDS Path
-[2025-11-19 14:38:41] [INFO] Loading Raw Data
-[2025-11-19 14:38:49] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:38:55] [INFO] Subject: 13 | Session: 02 | Overt SNR Improvement Ratio: 0.5003 | Covert SNR Improvement Ratio: 0.5228
-[2025-11-19 14:38:55] [INFO] Initializing ICAAnalyzer for Subject: 14, Session: 01
-[2025-11-19 14:38:55] [INFO] Setting up directories for ICA
-[2025-11-19 14:38:55] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-14_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:38:55] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-14_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:38:55] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-14_ses-01_bad_channels.json
-[2025-11-19 14:38:55] [INFO] Setting up BIDS Path
-[2025-11-19 14:38:55] [INFO] Loading Raw Data
-[2025-11-19 14:39:04] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:39:13] [INFO] Subject: 14 | Session: 01 | Overt SNR Improvement Ratio: 0.8289 | Covert SNR Improvement Ratio: 0.8561
-[2025-11-19 14:39:13] [INFO] Initializing ICAAnalyzer for Subject: 15, Session: 01
-[2025-11-19 14:39:13] [INFO] Setting up directories for ICA
-[2025-11-19 14:39:13] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-15_ses-01_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:39:13] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-15_ses-01_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:39:13] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-15_ses-01_bad_channels.json
-[2025-11-19 14:39:13] [INFO] Setting up BIDS Path
-[2025-11-19 14:39:13] [INFO] Loading Raw Data
-[2025-11-19 14:39:20] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:39:24] [INFO] Subject: 15 | Session: 01 | Overt SNR Improvement Ratio: 0.9573 | Covert SNR Improvement Ratio: 0.9576
-[2025-11-19 14:39:24] [INFO] Initializing ICAAnalyzer for Subject: 15, Session: 02
-[2025-11-19 14:39:24] [INFO] Setting up directories for ICA
-[2025-11-19 14:39:24] [INFO] ICA data will be saved to BIDS/derivaties/ica/data/sub-15_ses-02_task-VCV_run-01_desc-ica_eeg.fif
-[2025-11-19 14:39:24] [INFO] ICA components will be saved to BIDS/derivaties/ica/components/sub-15_ses-02_task-VCV_run-01_desc-ica_components.fif
-[2025-11-19 14:39:24] [INFO] Bad channels info will be saved to BIDS/derivaties/ica/bads/sub-15_ses-02_bad_channels.json
-[2025-11-19 14:39:24] [INFO] Setting up BIDS Path
-[2025-11-19 14:39:24] [INFO] Loading Raw Data
-[2025-11-19 14:39:25] [INFO] ICA has already been processed for this subject and session. Loading existing data.
-[2025-11-19 14:39:27] [INFO] Subject: 15 | Session: 02 | Overt SNR Improvement Ratio: 0.9612 | Covert SNR Improvement Ratio: 0.9620
+[2025-11-20 15:30:29] [INFO] Initializing ICADataloader for Subject: 01, Session: 01
+[2025-11-20 15:30:29] [INFO] ************************************************************
+[2025-11-20 15:30:29] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 15:30:29] [INFO] ************************************************************
+[2025-11-20 15:30:29] [INFO] Loading Raw Data
+[2025-11-20 15:30:37] [INFO] Setting refrence : ['FCz']
+[2025-11-20 15:30:38] [INFO] Setting EEG Reference
+[2025-11-20 15:30:38] [INFO] Precprcessing EEG
+[2025-11-20 15:30:38] [INFO] Applying notch filter
+[2025-11-20 15:31:13] [INFO] Initializing ICADataloader for Subject: 01, Session: 01
+[2025-11-20 15:31:13] [INFO] ************************************************************
+[2025-11-20 15:31:13] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 15:31:13] [INFO] ************************************************************
+[2025-11-20 15:31:13] [INFO] Loading Raw Data
+[2025-11-20 15:31:21] [INFO] Setting refrence : ['FCz']
+[2025-11-20 15:31:21] [INFO] Setting EEG Reference
+[2025-11-20 15:31:21] [INFO] Precprcessing EEG
+[2025-11-20 15:31:21] [INFO] Applying notch filter
+[2025-11-20 15:31:26] [INFO] Notch filter completed
+[2025-11-20 15:32:45] [INFO] Initializing ICADataloader for Subject: 01, Session: 01
+[2025-11-20 15:32:45] [INFO] ************************************************************
+[2025-11-20 15:32:45] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 15:32:45] [INFO] ************************************************************
+[2025-11-20 15:32:45] [INFO] Loading Raw Data
+[2025-11-20 15:32:53] [INFO] Setting refrence : ['FCz']
+[2025-11-20 15:32:54] [INFO] Setting EEG Reference
+[2025-11-20 15:32:54] [INFO] Precprcessing EEG
+[2025-11-20 15:32:54] [INFO] Applying notch filter
+[2025-11-20 15:32:59] [INFO] Notch filter completed
+[2025-11-20 15:33:26] [INFO] Applying bandpass low: 0.1, high: 120.0
+[2025-11-20 15:33:53] [INFO] Initializing ICADataloader for Subject: 01, Session: 01
+[2025-11-20 15:33:53] [INFO] ************************************************************
+[2025-11-20 15:33:53] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 15:33:53] [INFO] ************************************************************
+[2025-11-20 15:33:53] [INFO] Loading Raw Data
+[2025-11-20 15:34:01] [INFO] Setting refrence : ['FCz']
+[2025-11-20 15:34:02] [INFO] Setting EEG Reference
+[2025-11-20 15:34:02] [INFO] Precprcessing EEG
+[2025-11-20 15:34:02] [INFO] Applying notch filter
+[2025-11-20 15:34:06] [INFO] Notch filter completed
+[2025-11-20 15:34:06] [INFO] Applying bandpass low: 0.1, high: 120.0
+[2025-11-20 15:34:12] [INFO] Bandpass completed
+[2025-11-20 15:34:12] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 15:37:48] [INFO] ICA Completed
+[2025-11-20 15:38:33] [INFO] Initializing ICADataloader for Subject: 01, Session: 01
+[2025-11-20 15:38:33] [INFO] ************************************************************
+[2025-11-20 15:38:33] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 15:38:33] [INFO] ************************************************************
+[2025-11-20 15:38:33] [INFO] Loading Raw Data
+[2025-11-20 15:38:41] [INFO] Setting refrence : ['FCz']
+[2025-11-20 15:38:42] [INFO] Setting EEG Reference
+[2025-11-20 15:38:42] [INFO] Precprcessing EEG
+[2025-11-20 15:38:42] [INFO] Applying notch filter
+[2025-11-20 15:38:47] [INFO] Notch filter completed
+[2025-11-20 15:38:47] [INFO] Applying bandpass low: 0.1, high: 120.0
+[2025-11-20 15:38:53] [INFO] Bandpass completed
+[2025-11-20 15:38:53] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}

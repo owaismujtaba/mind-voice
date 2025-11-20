@@ -39,3 +39,10 @@ def print_criteria(criteria):
         table.add_row(f"{icon} {name}", str(value))
     
     console.print(table)
+    
+    
+def log_print(logger, text):
+    logger.info('*'*60)
+    text = '*'* 10 + text + '*'*10
+    logger.info(text)
+    logger.info('*'*60)

@@ -9,9 +9,6 @@ import os
 import json
 import numpy as np
 
-import pdb
-
-
 class ICADataLoader:
     def __init__(self, subject_id, session_id, config, logger):
         self.subject_id = subject_id
@@ -19,26 +16,7 @@ class ICADataLoader:
         self.config = config
         self.logger = logger
 
-        self.logger.info(f"Initializing ICADataloader for Subject: {subject_id}, Session: {session_id}")
-
-        datareader = BIDSDatasetReader(
-            config=self.config,
-            logger=logger,
-            subject=self.subject_id,
-            session=self.session_id
-        )
-        
-        
-        datareader.preprocess_eeg(bandpass=True, ica=True)
-        pdb.set_trace()
-class ICADataLoader1:
-    def __init__(self, subject_id, session_id, config, logger):
-        self.subject_id = subject_id
-        self.session_id = session_id
-        self.config = config
-        self.logger = logger
-
-        self.logger.info(f"Initializing ICADataloader for Subject: {subject_id}, Session: {session_id}")
+        self.logger.info(f"Initializing ICAAnalyzer for Subject: {subject_id}, Session: {session_id}")
 
         self.raw = None
         self.ica = None
