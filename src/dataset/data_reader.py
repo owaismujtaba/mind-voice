@@ -11,6 +11,8 @@ from src.utils.graphics import log_print
 
 import pdb
 
+mne.set_config('MNE_USE_CUDA', 'true')
+os.environ['MNE_CUDA_SEGMENT_SIZE'] = '16384'
 
 class XDFDataReader:
     def __init__(self, filepath,logger, sub_id='01', ses_id='01', load_eeg=True, load_audio=False):
@@ -103,7 +105,7 @@ class BIDSDatasetReader:
         
         self.logger.info('Applying notch filter')
         self.processed_eeg = self.raw_eeg.copy()
-        self.processed_eeg.notch_filter(self.config['preprocessing']['NOTCH'])
+        self.processed_eeg.notch_filter(self.config['preprocessing']['NOTCH'],  n_jobs=16)
         self.logger.info('Notch filter completed')
         
         if bandpass:

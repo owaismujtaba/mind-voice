@@ -28,7 +28,7 @@ class SpeechEEGDatasetLoader:
             config=self.config,
             logger=self.logger
         )
-        self.eeg = self.bids_reader.processed_file
+        self.eeg = self.bids_reader.preprocess_eeg
         return self
     
     def _create_epochs(self) -> Epochs:

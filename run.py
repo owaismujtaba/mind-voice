@@ -154,8 +154,6 @@ if analysis_config['ica']:
     subject_ids = layout.get_subjects()
 
     for sub in subject_ids:
-        if sub not in ['12', '13', '14', '15']:
-            continue
         session_ids = layout.get_sessions(subject=sub)  
         for ses in session_ids:
            
