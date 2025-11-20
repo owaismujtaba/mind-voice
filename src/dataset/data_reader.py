@@ -53,6 +53,8 @@ class BIDSDatasetReader:
         self.config = config
         log_print(logger, ' Initalizing BIDSDatasetReader')
         self._setup_paths()
+        self.load_raw_eeg()
+        self._set_reference()
         
     def _setup_paths(self):
         self.bidspath = BIDSPath(
@@ -96,8 +98,7 @@ class BIDSDatasetReader:
             self.load_processed(filepath)
             return 
         
-        self.load_raw_eeg()
-        self._set_reference()
+        
         
         
         self.logger.info('Applying notch filter')

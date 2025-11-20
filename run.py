@@ -149,7 +149,7 @@ if plot_config['display_per_class_metrics']:
 
 
 if analysis_config['ica']:
-    logger = create_logger('ica_analysis')
+    logger = create_logger('ica_analysis_1')
     layout = BIDSLayout(dataset_config['BIDS_DIR'], validate=True)
     subject_ids = layout.get_subjects()
 
