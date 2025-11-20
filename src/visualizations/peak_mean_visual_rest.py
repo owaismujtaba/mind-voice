@@ -55,6 +55,7 @@ def plot_peak_mean_visual_novisual(logger):
 
     all_dfs = [pd.read_csv(f) for f in csv_files]
     combined_df = pd.concat(all_dfs, ignore_index=True)
+    combined_df = combined_df.groupby(by=['subject_id', 'condition']).mean().reset_index()
 
     # Filter and extract data
     visual = combined_df.loc[combined_df['condition'] == 'Visual', ['mean', 'peak']].reset_index(drop=True)

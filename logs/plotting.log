@@ -302,3 +302,24 @@ class_id
 1    0.115602
 2    0.113067
 Name: f1, dtype: float64
+[2025-11-20 20:04:28] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-20 20:04:29] [INFO] T-test (Peak): t=-5.149, p=4.218e-05
+[2025-11-20 20:04:29] [INFO] T-test (Mean): t=-3.464, p=2.323e-03
+[2025-11-20 20:04:29] [INFO] Summary: 
+ Peak -5.149, 4.218e-05,
+ Mean -3.464, 2.323e-03
+[2025-11-20 20:04:29] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.png
+[2025-11-20 20:22:56] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-20 20:22:58] [INFO] T-test (Peak): t=-5.149, p=4.218e-05
+[2025-11-20 20:22:58] [INFO] T-test (Mean): t=-3.464, p=2.323e-03
+[2025-11-20 20:22:58] [INFO] Summary: 
+ Peak -5.149, 4.218e-05,
+ Mean -3.464, 2.323e-03
+[2025-11-20 20:22:58] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.png
+[2025-11-20 20:34:13] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-20 20:34:14] [INFO] T-test (Peak): t=-4.884, p=2.415e-04
+[2025-11-20 20:34:14] [INFO] T-test (Mean): t=-3.658, p=2.583e-03
+[2025-11-20 20:34:14] [INFO] Summary: 
+ Peak -4.884, 2.415e-04,
+ Mean -3.658, 2.583e-03
+[2025-11-20 20:34:14] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.png

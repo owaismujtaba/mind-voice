@@ -364,3 +364,58 @@
 [2025-11-20 17:40:48] [INFO] ICA Completed
 [2025-11-20 17:40:49] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-120.0_ICA-True/sub-15_ses-02_processed.fif
 [2025-11-20 17:40:49] [INFO] Subject: 15 | Session: 02 | Overt SNR Improvement Ratio: 0.3518 | Covert SNR Improvement Ratio: 0.5772
+[2025-11-20 20:37:53] [INFO] Initializing ICADataloader for Subject: 01, Session: 01
+[2025-11-20 20:37:53] [INFO] ************************************************************
+[2025-11-20 20:37:53] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:37:53] [INFO] ************************************************************
+[2025-11-20 20:37:53] [INFO] Loading Raw Data
+[2025-11-20 20:38:01] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:38:02] [INFO] Setting EEG Reference
+[2025-11-20 20:38:02] [INFO] Precprcessing EEG
+[2025-11-20 20:38:02] [INFO] Processed file present
+[2025-11-20 20:38:04] [INFO] Subject: 01 | Session: 01 | Overt SNR Improvement Ratio: -0.0628 | Covert SNR Improvement Ratio: -0.1754
+[2025-11-20 20:38:04] [INFO] Initializing ICADataloader for Subject: 02, Session: 01
+[2025-11-20 20:38:04] [INFO] ************************************************************
+[2025-11-20 20:38:04] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:38:04] [INFO] ************************************************************
+[2025-11-20 20:38:04] [INFO] Loading Raw Data
+[2025-11-20 20:38:12] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:38:12] [INFO] Setting EEG Reference
+[2025-11-20 20:38:12] [INFO] Precprcessing EEG
+[2025-11-20 20:38:12] [INFO] Processed file present
+[2025-11-20 20:38:15] [INFO] Subject: 02 | Session: 01 | Overt SNR Improvement Ratio: 0.2276 | Covert SNR Improvement Ratio: 0.2524
+[2025-11-20 20:38:15] [INFO] Initializing ICADataloader for Subject: 03, Session: 01
+[2025-11-20 20:38:15] [INFO] ************************************************************
+[2025-11-20 20:38:15] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:38:15] [INFO] ************************************************************
+[2025-11-20 20:38:15] [INFO] Loading Raw Data
+[2025-11-20 20:38:23] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:38:23] [INFO] Setting EEG Reference
+[2025-11-20 20:38:23] [INFO] Precprcessing EEG
+[2025-11-20 20:38:23] [INFO] Processed file present
+[2025-11-20 20:38:26] [INFO] Subject: 03 | Session: 01 | Overt SNR Improvement Ratio: 0.1529 | Covert SNR Improvement Ratio: 0.0722
+[2025-11-20 20:38:26] [INFO] Initializing ICADataloader for Subject: 04, Session: 01
+[2025-11-20 20:38:26] [INFO] ************************************************************
+[2025-11-20 20:38:26] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:38:26] [INFO] ************************************************************
+[2025-11-20 20:38:26] [INFO] Loading Raw Data
+[2025-11-20 20:38:34] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:38:35] [INFO] Setting EEG Reference
+[2025-11-20 20:38:35] [INFO] Precprcessing EEG
+[2025-11-20 20:38:35] [INFO] Processed file present
+[2025-11-20 20:38:37] [INFO] Subject: 04 | Session: 01 | Overt SNR Improvement Ratio: 0.3964 | Covert SNR Improvement Ratio: 0.0611
+[2025-11-20 20:38:37] [INFO] Initializing ICADataloader for Subject: 04, Session: 02
+[2025-11-20 20:38:37] [INFO] ************************************************************
+[2025-11-20 20:38:37] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:38:37] [INFO] ************************************************************
+[2025-11-20 20:38:37] [INFO] Loading Raw Data
+[2025-11-20 20:38:45] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:38:45] [INFO] Setting EEG Reference
+[2025-11-20 20:38:45] [INFO] Precprcessing EEG
+[2025-11-20 20:38:45] [INFO] Processed file present
+[2025-11-20 20:38:48] [INFO] Subject: 04 | Session: 02 | Overt SNR Improvement Ratio: 0.0665 | Covert SNR Improvement Ratio: -0.0273
+[2025-11-20 20:38:48] [INFO] Initializing ICADataloader for Subject: 05, Session: 01
+[2025-11-20 20:38:48] [INFO] ************************************************************
+[2025-11-20 20:38:48] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:38:48] [INFO] ************************************************************
+[2025-11-20 20:38:48] [INFO] Loading Raw Data

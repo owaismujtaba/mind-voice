@@ -23,12 +23,14 @@ class SpeechEEGDatasetLoader:
 
     def load_data(self):
         self.bids_reader = BIDSDatasetReader(
-            sub_id=self.subject_id,
-            ses_id=self.session_id,
+            subject=self.subject_id,
+            session=self.session_id,
             config=self.config,
             logger=self.logger
         )
-        self.eeg = self.bids_reader.preprocess_eeg
+        self.bids_reader.preprocess_eeg(bandpass=True, ica=True)
+        self.eeg = self.bids_reader.processed_eeg
+        
         return self
     
     def _create_epochs(self) -> Epochs:

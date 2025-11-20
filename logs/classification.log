@@ -1217,3 +1217,66 @@
 [2025-11-12 14:18:34] [INFO] Initializing BIDSDatasetReader Class
 [2025-11-12 14:18:34] [INFO] Loading Processed EEG Data: sub-01 ses-01
 [2025-11-12 14:18:35] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5}
+[2025-11-20 19:11:59] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-20 19:11:59] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-20 19:12:26] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-20 19:12:26] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-20 19:12:26] [INFO] ************************************************************
+[2025-11-20 19:12:26] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:12:26] [INFO] ************************************************************
+[2025-11-20 19:12:26] [INFO] Loading Raw Data
+[2025-11-20 19:12:38] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:12:39] [INFO] Setting EEG Reference
+[2025-11-20 19:12:39] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5}
+[2025-11-20 19:14:23] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-20 19:14:23] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-20 19:14:23] [INFO] ************************************************************
+[2025-11-20 19:14:23] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:14:23] [INFO] ************************************************************
+[2025-11-20 19:14:23] [INFO] Loading Raw Data
+[2025-11-20 19:14:46] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:14:48] [INFO] Setting EEG Reference
+[2025-11-20 19:16:41] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-20 19:16:41] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-20 19:16:41] [INFO] ************************************************************
+[2025-11-20 19:16:41] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:16:41] [INFO] ************************************************************
+[2025-11-20 19:16:41] [INFO] Loading Raw Data
+[2025-11-20 19:16:51] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:16:53] [INFO] Setting EEG Reference
+[2025-11-20 19:16:53] [INFO] Precprcessing EEG
+[2025-11-20 19:16:53] [INFO] Processed file present
+[2025-11-20 19:17:16] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-20 19:17:16] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-20 19:17:16] [INFO] ************************************************************
+[2025-11-20 19:17:16] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:17:16] [INFO] ************************************************************
+[2025-11-20 19:17:16] [INFO] Loading Raw Data
+[2025-11-20 19:17:27] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:17:28] [INFO] Setting EEG Reference
+[2025-11-20 19:17:28] [INFO] Precprcessing EEG
+[2025-11-20 19:17:28] [INFO] Processed file present
+[2025-11-20 19:17:30] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5}
+[2025-11-20 19:17:31] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-20 19:17:31] [INFO] ************************************************************
+[2025-11-20 19:17:31] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:17:31] [INFO] ************************************************************
+[2025-11-20 19:17:31] [INFO] Loading Raw Data
+[2025-11-20 19:17:42] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:17:43] [INFO] Setting EEG Reference
+[2025-11-20 19:17:43] [INFO] Precprcessing EEG
+[2025-11-20 19:17:43] [INFO] Processed file present
+[2025-11-20 19:17:45] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5}
+[2025-11-20 19:17:45] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-20 19:17:45] [INFO] ************************************************************
+[2025-11-20 19:17:45] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:17:45] [INFO] ************************************************************
+[2025-11-20 19:17:45] [INFO] Loading Raw Data
+[2025-11-20 19:17:56] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:17:57] [INFO] Setting EEG Reference
+[2025-11-20 19:17:57] [INFO] Precprcessing EEG
+[2025-11-20 19:17:57] [INFO] Processed file present
+[2025-11-20 19:17:58] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5}
+[2025-11-20 19:17:59] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-20 19:17:59] [INFO] Normalizing X
+[2025-11-20 19:18:00] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1742 timepoints

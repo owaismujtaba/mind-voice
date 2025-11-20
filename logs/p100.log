@@ -1733,3 +1733,410 @@
 [2025-11-20 19:06:21] [INFO] Applying bandpass low: 0.1, high: 40.0
 [2025-11-20 19:06:27] [INFO] Bandpass completed
 [2025-11-20 19:06:27] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 19:10:45] [INFO] ICA Completed
+[2025-11-20 19:10:47] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-06_ses-01_processed.fif
+[2025-11-20 19:10:47] [INFO] Building epochs
+[2025-11-20 19:10:47] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 19:10:48] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 19:10:48] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 19:10:48] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 19:10:48] [INFO] Visual P100: latency=0.119s, peak=8.19µV, mean=4.29µV
+[2025-11-20 19:10:48] [INFO] Rest P100: latency=0.080s, peak=-4.13µV, mean=-5.16µV
+[2025-11-20 19:10:48] [INFO] Plotting P100
+[2025-11-20 19:10:48] [INFO] Initializing Plotter
+[2025-11-20 19:10:48] [INFO] Plotting Evoked
+[2025-11-20 19:10:48] [INFO] Saving results to CSV
+[2025-11-20 19:10:48] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 19:10:48] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-06_ses-01_p100_Visual_Rest.csv
+[2025-11-20 19:10:48] [INFO] Loading data for sub-06, ses-02
+[2025-11-20 19:10:48] [INFO] ************************************************************
+[2025-11-20 19:10:48] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:10:48] [INFO] ************************************************************
+[2025-11-20 19:10:48] [INFO] Loading Raw Data
+[2025-11-20 19:10:55] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:10:56] [INFO] Setting EEG Reference
+[2025-11-20 19:10:56] [INFO] Precprcessing EEG
+[2025-11-20 19:10:56] [INFO] Applying notch filter
+[2025-11-20 19:11:04] [INFO] Notch filter completed
+[2025-11-20 19:11:04] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 19:11:10] [INFO] Bandpass completed
+[2025-11-20 19:11:10] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 19:13:59] [INFO] ICA Completed
+[2025-11-20 19:14:01] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-06_ses-02_processed.fif
+[2025-11-20 19:14:01] [INFO] Building epochs
+[2025-11-20 19:14:01] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 19:14:02] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 19:14:02] [INFO]  Epochs 1: (130, 3, 701)
+[2025-11-20 19:14:02] [INFO]  Epochs 2: (130, 3, 701)
+[2025-11-20 19:14:02] [INFO] Visual P100: latency=0.120s, peak=11.15µV, mean=4.99µV
+[2025-11-20 19:14:02] [INFO] Rest P100: latency=0.086s, peak=0.05µV, mean=-1.23µV
+[2025-11-20 19:14:02] [INFO] Plotting P100
+[2025-11-20 19:14:02] [INFO] Initializing Plotter
+[2025-11-20 19:14:02] [INFO] Plotting Evoked
+[2025-11-20 19:14:02] [INFO] Saving results to CSV
+[2025-11-20 19:14:02] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 19:14:02] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-06_ses-02_p100_Visual_Rest.csv
+[2025-11-20 19:14:02] [INFO] Loading data for sub-07, ses-01
+[2025-11-20 19:14:02] [INFO] ************************************************************
+[2025-11-20 19:14:02] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:14:02] [INFO] ************************************************************
+[2025-11-20 19:14:02] [INFO] Loading Raw Data
+[2025-11-20 19:14:10] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:14:10] [INFO] Setting EEG Reference
+[2025-11-20 19:14:10] [INFO] Precprcessing EEG
+[2025-11-20 19:14:10] [INFO] Applying notch filter
+[2025-11-20 19:14:19] [INFO] Notch filter completed
+[2025-11-20 19:14:19] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 19:14:24] [INFO] Bandpass completed
+[2025-11-20 19:14:24] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 19:18:59] [INFO] ICA Completed
+[2025-11-20 19:19:01] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-07_ses-01_processed.fif
+[2025-11-20 19:19:01] [INFO] Building epochs
+[2025-11-20 19:19:01] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 19:19:01] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 19:19:01] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 19:19:01] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 19:19:01] [INFO] Visual P100: latency=0.119s, peak=4.75µV, mean=0.83µV
+[2025-11-20 19:19:01] [INFO] Rest P100: latency=0.104s, peak=-0.85µV, mean=-1.16µV
+[2025-11-20 19:19:01] [INFO] Plotting P100
+[2025-11-20 19:19:01] [INFO] Initializing Plotter
+[2025-11-20 19:19:01] [INFO] Plotting Evoked
+[2025-11-20 19:19:01] [INFO] Saving results to CSV
+[2025-11-20 19:19:01] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 19:19:01] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-07_ses-01_p100_Visual_Rest.csv
+[2025-11-20 19:19:01] [INFO] Loading data for sub-08, ses-01
+[2025-11-20 19:19:01] [INFO] ************************************************************
+[2025-11-20 19:19:01] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:19:01] [INFO] ************************************************************
+[2025-11-20 19:19:01] [INFO] Loading Raw Data
+[2025-11-20 19:19:09] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:19:10] [INFO] Setting EEG Reference
+[2025-11-20 19:19:10] [INFO] Precprcessing EEG
+[2025-11-20 19:19:10] [INFO] Applying notch filter
+[2025-11-20 19:19:18] [INFO] Notch filter completed
+[2025-11-20 19:19:18] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 19:19:23] [INFO] Bandpass completed
+[2025-11-20 19:19:23] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 19:21:34] [INFO] ICA Completed
+[2025-11-20 19:21:36] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-08_ses-01_processed.fif
+[2025-11-20 19:21:36] [INFO] Building epochs
+[2025-11-20 19:21:36] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 19:21:37] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 19:21:37] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 19:21:37] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 19:21:37] [INFO] Visual P100: latency=0.119s, peak=13.91µV, mean=7.56µV
+[2025-11-20 19:21:37] [INFO] Rest P100: latency=0.119s, peak=2.54µV, mean=1.10µV
+[2025-11-20 19:21:37] [INFO] Plotting P100
+[2025-11-20 19:21:37] [INFO] Initializing Plotter
+[2025-11-20 19:21:37] [INFO] Plotting Evoked
+[2025-11-20 19:21:37] [INFO] Saving results to CSV
+[2025-11-20 19:21:37] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 19:21:37] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-08_ses-01_p100_Visual_Rest.csv
+[2025-11-20 19:21:37] [INFO] Loading data for sub-09, ses-01
+[2025-11-20 19:21:37] [INFO] ************************************************************
+[2025-11-20 19:21:37] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:21:37] [INFO] ************************************************************
+[2025-11-20 19:21:37] [INFO] Loading Raw Data
+[2025-11-20 19:21:45] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:21:45] [INFO] Setting EEG Reference
+[2025-11-20 19:21:45] [INFO] Precprcessing EEG
+[2025-11-20 19:21:45] [INFO] Applying notch filter
+[2025-11-20 19:21:54] [INFO] Notch filter completed
+[2025-11-20 19:21:54] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 19:22:00] [INFO] Bandpass completed
+[2025-11-20 19:22:00] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 19:23:49] [INFO] ICA Completed
+[2025-11-20 19:23:51] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-09_ses-01_processed.fif
+[2025-11-20 19:23:51] [INFO] Building epochs
+[2025-11-20 19:23:51] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 19:23:51] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 19:23:52] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 19:23:52] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 19:23:52] [INFO] Visual P100: latency=0.119s, peak=7.18µV, mean=1.57µV
+[2025-11-20 19:23:52] [INFO] Rest P100: latency=0.119s, peak=-0.23µV, mean=-2.11µV
+[2025-11-20 19:23:52] [INFO] Plotting P100
+[2025-11-20 19:23:52] [INFO] Initializing Plotter
+[2025-11-20 19:23:52] [INFO] Plotting Evoked
+[2025-11-20 19:23:52] [INFO] Saving results to CSV
+[2025-11-20 19:23:52] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 19:23:52] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-09_ses-01_p100_Visual_Rest.csv
+[2025-11-20 19:23:52] [INFO] Loading data for sub-09, ses-02
+[2025-11-20 19:23:52] [INFO] ************************************************************
+[2025-11-20 19:23:52] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:23:52] [INFO] ************************************************************
+[2025-11-20 19:23:52] [INFO] Loading Raw Data
+[2025-11-20 19:23:59] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:24:00] [INFO] Setting EEG Reference
+[2025-11-20 19:24:00] [INFO] Precprcessing EEG
+[2025-11-20 19:24:00] [INFO] Applying notch filter
+[2025-11-20 19:24:08] [INFO] Notch filter completed
+[2025-11-20 19:24:08] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 19:24:13] [INFO] Bandpass completed
+[2025-11-20 19:24:13] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 19:26:29] [INFO] ICA Completed
+[2025-11-20 19:26:31] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-09_ses-02_processed.fif
+[2025-11-20 19:26:31] [INFO] Building epochs
+[2025-11-20 19:26:31] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 19:26:31] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 19:26:31] [INFO]  Epochs 1: (130, 3, 701)
+[2025-11-20 19:26:31] [INFO]  Epochs 2: (130, 3, 701)
+[2025-11-20 19:26:31] [INFO] Visual P100: latency=0.120s, peak=4.31µV, mean=0.76µV
+[2025-11-20 19:26:31] [INFO] Rest P100: latency=0.120s, peak=2.09µV, mean=1.12µV
+[2025-11-20 19:26:31] [INFO] Plotting P100
+[2025-11-20 19:26:31] [INFO] Initializing Plotter
+[2025-11-20 19:26:31] [INFO] Plotting Evoked
+[2025-11-20 19:26:31] [INFO] Saving results to CSV
+[2025-11-20 19:26:31] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 19:26:31] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-09_ses-02_p100_Visual_Rest.csv
+[2025-11-20 19:26:31] [INFO] Loading data for sub-10, ses-01
+[2025-11-20 19:26:31] [INFO] ************************************************************
+[2025-11-20 19:26:31] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:26:31] [INFO] ************************************************************
+[2025-11-20 19:26:31] [INFO] Loading Raw Data
+[2025-11-20 19:26:39] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:26:40] [INFO] Setting EEG Reference
+[2025-11-20 19:26:40] [INFO] Precprcessing EEG
+[2025-11-20 19:26:40] [INFO] Applying notch filter
+[2025-11-20 19:26:48] [INFO] Notch filter completed
+[2025-11-20 19:26:48] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 19:26:54] [INFO] Bandpass completed
+[2025-11-20 19:26:54] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 19:30:03] [INFO] ICA Completed
+[2025-11-20 19:30:05] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-10_ses-01_processed.fif
+[2025-11-20 19:30:05] [INFO] Building epochs
+[2025-11-20 19:30:05] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 19:30:05] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 19:30:06] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 19:30:06] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 19:30:06] [INFO] Visual P100: latency=0.119s, peak=8.39µV, mean=3.61µV
+[2025-11-20 19:30:06] [INFO] Rest P100: latency=0.119s, peak=2.14µV, mean=0.48µV
+[2025-11-20 19:30:06] [INFO] Plotting P100
+[2025-11-20 19:30:06] [INFO] Initializing Plotter
+[2025-11-20 19:30:06] [INFO] Plotting Evoked
+[2025-11-20 19:30:06] [INFO] Saving results to CSV
+[2025-11-20 19:30:06] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 19:30:06] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-10_ses-01_p100_Visual_Rest.csv
+[2025-11-20 19:30:06] [INFO] Loading data for sub-11, ses-01
+[2025-11-20 19:30:06] [INFO] ************************************************************
+[2025-11-20 19:30:06] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:30:06] [INFO] ************************************************************
+[2025-11-20 19:30:06] [INFO] Loading Raw Data
+[2025-11-20 19:30:14] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:30:14] [INFO] Setting EEG Reference
+[2025-11-20 19:30:14] [INFO] Precprcessing EEG
+[2025-11-20 19:30:14] [INFO] Applying notch filter
+[2025-11-20 19:30:23] [INFO] Notch filter completed
+[2025-11-20 19:30:23] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 19:30:28] [INFO] Bandpass completed
+[2025-11-20 19:30:28] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 19:33:05] [INFO] ICA Completed
+[2025-11-20 19:33:08] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-11_ses-01_processed.fif
+[2025-11-20 19:33:08] [INFO] Building epochs
+[2025-11-20 19:33:08] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 19:33:08] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 19:33:08] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 19:33:08] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 19:33:08] [INFO] Visual P100: latency=0.088s, peak=2.12µV, mean=0.95µV
+[2025-11-20 19:33:08] [INFO] Rest P100: latency=0.114s, peak=1.58µV, mean=0.57µV
+[2025-11-20 19:33:08] [INFO] Plotting P100
+[2025-11-20 19:33:08] [INFO] Initializing Plotter
+[2025-11-20 19:33:08] [INFO] Plotting Evoked
+[2025-11-20 19:33:08] [INFO] Saving results to CSV
+[2025-11-20 19:33:08] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 19:33:08] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-11_ses-01_p100_Visual_Rest.csv
+[2025-11-20 19:33:08] [INFO] Loading data for sub-12, ses-01
+[2025-11-20 19:33:08] [INFO] ************************************************************
+[2025-11-20 19:33:08] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:33:08] [INFO] ************************************************************
+[2025-11-20 19:33:08] [INFO] Loading Raw Data
+[2025-11-20 19:33:16] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:33:17] [INFO] Setting EEG Reference
+[2025-11-20 19:33:17] [INFO] Precprcessing EEG
+[2025-11-20 19:33:17] [INFO] Applying notch filter
+[2025-11-20 19:33:27] [INFO] Notch filter completed
+[2025-11-20 19:33:27] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 19:33:33] [INFO] Bandpass completed
+[2025-11-20 19:33:33] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 19:39:01] [INFO] ICA Completed
+[2025-11-20 19:39:04] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-12_ses-01_processed.fif
+[2025-11-20 19:39:04] [INFO] Building epochs
+[2025-11-20 19:39:04] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 19:39:04] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 19:39:04] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 19:39:04] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 19:39:04] [INFO] Visual P100: latency=0.119s, peak=2.68µV, mean=0.84µV
+[2025-11-20 19:39:04] [INFO] Rest P100: latency=0.119s, peak=3.17µV, mean=2.00µV
+[2025-11-20 19:39:04] [INFO] Plotting P100
+[2025-11-20 19:39:04] [INFO] Initializing Plotter
+[2025-11-20 19:39:04] [INFO] Plotting Evoked
+[2025-11-20 19:39:05] [INFO] Saving results to CSV
+[2025-11-20 19:39:05] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 19:39:05] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-12_ses-01_p100_Visual_Rest.csv
+[2025-11-20 19:39:05] [INFO] Loading data for sub-12, ses-02
+[2025-11-20 19:39:05] [INFO] ************************************************************
+[2025-11-20 19:39:05] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:39:05] [INFO] ************************************************************
+[2025-11-20 19:39:05] [INFO] Loading Raw Data
+[2025-11-20 19:39:12] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:39:13] [INFO] Setting EEG Reference
+[2025-11-20 19:39:13] [INFO] Precprcessing EEG
+[2025-11-20 19:39:13] [INFO] Applying notch filter
+[2025-11-20 19:39:23] [INFO] Notch filter completed
+[2025-11-20 19:39:23] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 19:39:30] [INFO] Bandpass completed
+[2025-11-20 19:39:30] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 19:43:39] [INFO] ICA Completed
+[2025-11-20 19:43:42] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-12_ses-02_processed.fif
+[2025-11-20 19:43:42] [INFO] Building epochs
+[2025-11-20 19:43:42] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 19:43:42] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 19:43:42] [INFO]  Epochs 1: (130, 3, 701)
+[2025-11-20 19:43:42] [INFO]  Epochs 2: (130, 3, 701)
+[2025-11-20 19:43:42] [INFO] Visual P100: latency=0.116s, peak=5.84µV, mean=2.98µV
+[2025-11-20 19:43:42] [INFO] Rest P100: latency=0.120s, peak=6.61µV, mean=4.96µV
+[2025-11-20 19:43:42] [INFO] Plotting P100
+[2025-11-20 19:43:42] [INFO] Initializing Plotter
+[2025-11-20 19:43:42] [INFO] Plotting Evoked
+[2025-11-20 19:43:43] [INFO] Saving results to CSV
+[2025-11-20 19:43:43] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 19:43:43] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-12_ses-02_p100_Visual_Rest.csv
+[2025-11-20 19:43:43] [INFO] Loading data for sub-13, ses-01
+[2025-11-20 19:43:43] [INFO] ************************************************************
+[2025-11-20 19:43:43] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:43:43] [INFO] ************************************************************
+[2025-11-20 19:43:43] [INFO] Loading Raw Data
+[2025-11-20 19:43:51] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:43:51] [INFO] Setting EEG Reference
+[2025-11-20 19:43:51] [INFO] Precprcessing EEG
+[2025-11-20 19:43:51] [INFO] Applying notch filter
+[2025-11-20 19:44:01] [INFO] Notch filter completed
+[2025-11-20 19:44:01] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 19:44:08] [INFO] Bandpass completed
+[2025-11-20 19:44:08] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 19:48:51] [INFO] ICA Completed
+[2025-11-20 19:48:54] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-13_ses-01_processed.fif
+[2025-11-20 19:48:54] [INFO] Building epochs
+[2025-11-20 19:48:54] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 19:48:54] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 19:48:54] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 19:48:54] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 19:48:54] [INFO] Visual P100: latency=0.119s, peak=13.02µV, mean=3.73µV
+[2025-11-20 19:48:54] [INFO] Rest P100: latency=0.119s, peak=-0.13µV, mean=-2.14µV
+[2025-11-20 19:48:54] [INFO] Plotting P100
+[2025-11-20 19:48:54] [INFO] Initializing Plotter
+[2025-11-20 19:48:54] [INFO] Plotting Evoked
+[2025-11-20 19:48:55] [INFO] Saving results to CSV
+[2025-11-20 19:48:55] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 19:48:55] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-13_ses-01_p100_Visual_Rest.csv
+[2025-11-20 19:48:55] [INFO] Loading data for sub-13, ses-02
+[2025-11-20 19:48:55] [INFO] ************************************************************
+[2025-11-20 19:48:55] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:48:55] [INFO] ************************************************************
+[2025-11-20 19:48:55] [INFO] Loading Raw Data
+[2025-11-20 19:49:02] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:49:03] [INFO] Setting EEG Reference
+[2025-11-20 19:49:03] [INFO] Precprcessing EEG
+[2025-11-20 19:49:03] [INFO] Applying notch filter
+[2025-11-20 19:49:13] [INFO] Notch filter completed
+[2025-11-20 19:49:13] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 19:49:19] [INFO] Bandpass completed
+[2025-11-20 19:49:19] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 19:53:36] [INFO] ICA Completed
+[2025-11-20 19:53:38] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-13_ses-02_processed.fif
+[2025-11-20 19:53:38] [INFO] Building epochs
+[2025-11-20 19:53:38] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 19:53:38] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 19:53:39] [INFO]  Epochs 1: (130, 3, 701)
+[2025-11-20 19:53:39] [INFO]  Epochs 2: (130, 3, 701)
+[2025-11-20 19:53:39] [INFO] Visual P100: latency=0.120s, peak=14.34µV, mean=4.66µV
+[2025-11-20 19:53:39] [INFO] Rest P100: latency=0.120s, peak=0.63µV, mean=-3.06µV
+[2025-11-20 19:53:39] [INFO] Plotting P100
+[2025-11-20 19:53:39] [INFO] Initializing Plotter
+[2025-11-20 19:53:39] [INFO] Plotting Evoked
+[2025-11-20 19:53:39] [INFO] Saving results to CSV
+[2025-11-20 19:53:39] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 19:53:39] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-13_ses-02_p100_Visual_Rest.csv
+[2025-11-20 19:53:39] [INFO] Loading data for sub-14, ses-01
+[2025-11-20 19:53:39] [INFO] ************************************************************
+[2025-11-20 19:53:39] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:53:39] [INFO] ************************************************************
+[2025-11-20 19:53:39] [INFO] Loading Raw Data
+[2025-11-20 19:53:47] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:53:48] [INFO] Setting EEG Reference
+[2025-11-20 19:53:48] [INFO] Precprcessing EEG
+[2025-11-20 19:53:48] [INFO] Applying notch filter
+[2025-11-20 19:54:00] [INFO] Notch filter completed
+[2025-11-20 19:54:00] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 19:54:07] [INFO] Bandpass completed
+[2025-11-20 19:54:07] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 19:57:55] [INFO] ICA Completed
+[2025-11-20 19:57:58] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-14_ses-01_processed.fif
+[2025-11-20 19:57:58] [INFO] Building epochs
+[2025-11-20 19:57:58] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 19:57:58] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 19:57:58] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 19:57:58] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 19:57:59] [INFO] Visual P100: latency=0.119s, peak=4.78µV, mean=-0.75µV
+[2025-11-20 19:57:59] [INFO] Rest P100: latency=0.101s, peak=0.36µV, mean=-0.19µV
+[2025-11-20 19:57:59] [INFO] Plotting P100
+[2025-11-20 19:57:59] [INFO] Initializing Plotter
+[2025-11-20 19:57:59] [INFO] Plotting Evoked
+[2025-11-20 19:57:59] [INFO] Saving results to CSV
+[2025-11-20 19:57:59] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 19:57:59] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-14_ses-01_p100_Visual_Rest.csv
+[2025-11-20 19:57:59] [INFO] Loading data for sub-15, ses-01
+[2025-11-20 19:57:59] [INFO] ************************************************************
+[2025-11-20 19:57:59] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 19:57:59] [INFO] ************************************************************
+[2025-11-20 19:57:59] [INFO] Loading Raw Data
+[2025-11-20 19:58:06] [INFO] Setting refrence : ['FCz']
+[2025-11-20 19:58:07] [INFO] Setting EEG Reference
+[2025-11-20 19:58:07] [INFO] Precprcessing EEG
+[2025-11-20 19:58:07] [INFO] Applying notch filter
+[2025-11-20 19:58:15] [INFO] Notch filter completed
+[2025-11-20 19:58:15] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 19:58:20] [INFO] Bandpass completed
+[2025-11-20 19:58:20] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 20:00:44] [INFO] ICA Completed
+[2025-11-20 20:00:46] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-15_ses-01_processed.fif
+[2025-11-20 20:00:46] [INFO] Building epochs
+[2025-11-20 20:00:46] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 20:00:46] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 20:00:46] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 20:00:46] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 20:00:46] [INFO] Visual P100: latency=0.119s, peak=2.12µV, mean=-0.98µV
+[2025-11-20 20:00:46] [INFO] Rest P100: latency=0.104s, peak=2.12µV, mean=1.04µV
+[2025-11-20 20:00:46] [INFO] Plotting P100
+[2025-11-20 20:00:46] [INFO] Initializing Plotter
+[2025-11-20 20:00:46] [INFO] Plotting Evoked
+[2025-11-20 20:00:46] [INFO] Saving results to CSV
+[2025-11-20 20:00:46] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 20:00:46] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-15_ses-01_p100_Visual_Rest.csv
+[2025-11-20 20:00:46] [INFO] Loading data for sub-15, ses-02
+[2025-11-20 20:00:46] [INFO] ************************************************************
+[2025-11-20 20:00:46] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:00:46] [INFO] ************************************************************
+[2025-11-20 20:00:46] [INFO] Loading Raw Data
+[2025-11-20 20:00:47] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:00:48] [INFO] Setting EEG Reference
+[2025-11-20 20:00:48] [INFO] Precprcessing EEG
+[2025-11-20 20:00:48] [INFO] Applying notch filter
+[2025-11-20 20:00:49] [INFO] Notch filter completed
+[2025-11-20 20:00:49] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 20:00:51] [INFO] Bandpass completed
+[2025-11-20 20:00:51] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 20:01:30] [INFO] ICA Completed
+[2025-11-20 20:01:31] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-15_ses-02_processed.fif
+[2025-11-20 20:01:31] [INFO] Building epochs
+[2025-11-20 20:01:31] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 20:01:31] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 20:01:31] [INFO]  Epochs 1: (61, 3, 701)
+[2025-11-20 20:01:31] [INFO]  Epochs 2: (61, 3, 701)
+[2025-11-20 20:01:31] [INFO] Visual P100: latency=0.120s, peak=4.09µV, mean=0.42µV
+[2025-11-20 20:01:31] [INFO] Rest P100: latency=0.080s, peak=-1.28µV, mean=-3.69µV
+[2025-11-20 20:01:31] [INFO] Plotting P100
+[2025-11-20 20:01:31] [INFO] Initializing Plotter
+[2025-11-20 20:01:31] [INFO] Plotting Evoked
+[2025-11-20 20:01:31] [INFO] Saving results to CSV
+[2025-11-20 20:01:31] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 20:01:31] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-15_ses-02_p100_Visual_Rest.csv
