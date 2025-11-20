@@ -27,7 +27,7 @@ def run_snr_per_subject_session(
     ):
     
     
-    data_loader = ICADataLoader(
+    ica_data_loader = ICADataLoader(
         subject_id=subject_id,
         session_id=session_id,
         config=config,
@@ -37,7 +37,7 @@ def run_snr_per_subject_session(
     
     
     epoch_builder_overt = EEGEpochBuilder(
-        eeg_data=data_loader.raw,
+        eeg_data=ica_data_loader.raw,
         trial_mode='Real',
         trial_unit='Words',
         experiment_mode='Experiment',
@@ -51,7 +51,7 @@ def run_snr_per_subject_session(
         tmax=1.5,
     )
     epoch_builder_overt = EEGEpochBuilder(
-        eeg_data=data_loader.cleaned_raw,
+        eeg_data=ica_data_loader.cleaned_raw,
         trial_mode='Real',
         trial_unit='Words',
         experiment_mode='Experiment',
@@ -66,7 +66,7 @@ def run_snr_per_subject_session(
     
     
     epoch_builder_covert = EEGEpochBuilder(
-        eeg_data=data_loader.raw,
+        eeg_data=ica_data_loader.raw,
         trial_mode='Silent',
         trial_unit='Words',
         experiment_mode='Experiment',
@@ -80,7 +80,7 @@ def run_snr_per_subject_session(
         tmax=1.5,
     )
     epoch_builder_covert = EEGEpochBuilder(
-        eeg_data=data_loader.cleaned_raw,
+        eeg_data=ica_data_loader.cleaned_raw,
         trial_mode='Silent',
         trial_unit='Words',
         experiment_mode='Experiment',

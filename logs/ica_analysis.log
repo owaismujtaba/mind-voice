@@ -1,57 +1,135 @@
-[2025-11-20 15:30:29] [INFO] Initializing ICADataloader for Subject: 01, Session: 01
-[2025-11-20 15:30:29] [INFO] ************************************************************
-[2025-11-20 15:30:29] [INFO] ********** Initalizing BIDSDatasetReader**********
-[2025-11-20 15:30:29] [INFO] ************************************************************
-[2025-11-20 15:30:29] [INFO] Loading Raw Data
-[2025-11-20 15:30:37] [INFO] Setting refrence : ['FCz']
-[2025-11-20 15:30:38] [INFO] Setting EEG Reference
-[2025-11-20 15:30:38] [INFO] Precprcessing EEG
-[2025-11-20 15:30:38] [INFO] Applying notch filter
-[2025-11-20 15:31:13] [INFO] Initializing ICADataloader for Subject: 01, Session: 01
-[2025-11-20 15:31:13] [INFO] ************************************************************
-[2025-11-20 15:31:13] [INFO] ********** Initalizing BIDSDatasetReader**********
-[2025-11-20 15:31:13] [INFO] ************************************************************
-[2025-11-20 15:31:13] [INFO] Loading Raw Data
-[2025-11-20 15:31:21] [INFO] Setting refrence : ['FCz']
-[2025-11-20 15:31:21] [INFO] Setting EEG Reference
-[2025-11-20 15:31:21] [INFO] Precprcessing EEG
-[2025-11-20 15:31:21] [INFO] Applying notch filter
-[2025-11-20 15:31:26] [INFO] Notch filter completed
-[2025-11-20 15:32:45] [INFO] Initializing ICADataloader for Subject: 01, Session: 01
-[2025-11-20 15:32:45] [INFO] ************************************************************
-[2025-11-20 15:32:45] [INFO] ********** Initalizing BIDSDatasetReader**********
-[2025-11-20 15:32:45] [INFO] ************************************************************
-[2025-11-20 15:32:45] [INFO] Loading Raw Data
-[2025-11-20 15:32:53] [INFO] Setting refrence : ['FCz']
-[2025-11-20 15:32:54] [INFO] Setting EEG Reference
-[2025-11-20 15:32:54] [INFO] Precprcessing EEG
-[2025-11-20 15:32:54] [INFO] Applying notch filter
-[2025-11-20 15:32:59] [INFO] Notch filter completed
-[2025-11-20 15:33:26] [INFO] Applying bandpass low: 0.1, high: 120.0
-[2025-11-20 15:33:53] [INFO] Initializing ICADataloader for Subject: 01, Session: 01
-[2025-11-20 15:33:53] [INFO] ************************************************************
-[2025-11-20 15:33:53] [INFO] ********** Initalizing BIDSDatasetReader**********
-[2025-11-20 15:33:53] [INFO] ************************************************************
-[2025-11-20 15:33:53] [INFO] Loading Raw Data
-[2025-11-20 15:34:01] [INFO] Setting refrence : ['FCz']
-[2025-11-20 15:34:02] [INFO] Setting EEG Reference
-[2025-11-20 15:34:02] [INFO] Precprcessing EEG
-[2025-11-20 15:34:02] [INFO] Applying notch filter
-[2025-11-20 15:34:06] [INFO] Notch filter completed
-[2025-11-20 15:34:06] [INFO] Applying bandpass low: 0.1, high: 120.0
-[2025-11-20 15:34:12] [INFO] Bandpass completed
-[2025-11-20 15:34:12] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
-[2025-11-20 15:37:48] [INFO] ICA Completed
-[2025-11-20 15:38:33] [INFO] Initializing ICADataloader for Subject: 01, Session: 01
-[2025-11-20 15:38:33] [INFO] ************************************************************
-[2025-11-20 15:38:33] [INFO] ********** Initalizing BIDSDatasetReader**********
-[2025-11-20 15:38:33] [INFO] ************************************************************
-[2025-11-20 15:38:33] [INFO] Loading Raw Data
-[2025-11-20 15:38:41] [INFO] Setting refrence : ['FCz']
-[2025-11-20 15:38:42] [INFO] Setting EEG Reference
-[2025-11-20 15:38:42] [INFO] Precprcessing EEG
-[2025-11-20 15:38:42] [INFO] Applying notch filter
-[2025-11-20 15:38:47] [INFO] Notch filter completed
-[2025-11-20 15:38:47] [INFO] Applying bandpass low: 0.1, high: 120.0
-[2025-11-20 15:38:53] [INFO] Bandpass completed
-[2025-11-20 15:38:53] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 15:45:32] [INFO] Initializing ICADataloader for Subject: 01, Session: 01
+[2025-11-20 15:45:32] [INFO] ************************************************************
+[2025-11-20 15:45:32] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 15:45:32] [INFO] ************************************************************
+[2025-11-20 15:45:32] [INFO] Precprcessing EEG
+[2025-11-20 15:46:13] [INFO] Initializing ICADataloader for Subject: 01, Session: 01
+[2025-11-20 15:46:13] [INFO] ************************************************************
+[2025-11-20 15:46:13] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 15:46:13] [INFO] ************************************************************
+[2025-11-20 15:46:13] [INFO] Precprcessing EEG
+[2025-11-20 15:46:13] [INFO] Processed file present
+[2025-11-20 15:48:28] [INFO] Initializing ICADataloader for Subject: 01, Session: 01
+[2025-11-20 15:48:28] [INFO] ************************************************************
+[2025-11-20 15:48:28] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 15:48:28] [INFO] ************************************************************
+[2025-11-20 15:48:28] [INFO] Precprcessing EEG
+[2025-11-20 15:48:28] [INFO] Processed file present
+[2025-11-20 15:48:29] [INFO] Initializing ICADataloader for Subject: 02, Session: 01
+[2025-11-20 15:48:29] [INFO] ************************************************************
+[2025-11-20 15:48:29] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 15:48:29] [INFO] ************************************************************
+[2025-11-20 15:48:29] [INFO] Precprcessing EEG
+[2025-11-20 15:48:29] [INFO] Loading Raw Data
+[2025-11-20 15:48:38] [INFO] Setting refrence : ['FCz']
+[2025-11-20 15:48:38] [INFO] Setting EEG Reference
+[2025-11-20 15:48:38] [INFO] Applying notch filter
+[2025-11-20 15:48:44] [INFO] Notch filter completed
+[2025-11-20 15:48:44] [INFO] Applying bandpass low: 0.1, high: 120.0
+[2025-11-20 15:48:50] [INFO] Bandpass completed
+[2025-11-20 15:48:50] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 15:51:58] [INFO] ICA Completed
+[2025-11-20 15:52:00] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-120.0_ICA-True/sub-02_ses-01_processed.fif
+[2025-11-20 15:52:00] [INFO] Initializing ICADataloader for Subject: 03, Session: 01
+[2025-11-20 15:52:00] [INFO] ************************************************************
+[2025-11-20 15:52:00] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 15:52:00] [INFO] ************************************************************
+[2025-11-20 15:52:00] [INFO] Precprcessing EEG
+[2025-11-20 15:52:00] [INFO] Loading Raw Data
+[2025-11-20 15:52:08] [INFO] Setting refrence : ['FCz']
+[2025-11-20 15:52:09] [INFO] Setting EEG Reference
+[2025-11-20 15:52:09] [INFO] Applying notch filter
+[2025-11-20 15:52:14] [INFO] Notch filter completed
+[2025-11-20 15:52:14] [INFO] Applying bandpass low: 0.1, high: 120.0
+[2025-11-20 15:52:20] [INFO] Bandpass completed
+[2025-11-20 15:52:20] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 15:55:45] [INFO] ICA Completed
+[2025-11-20 15:55:48] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-120.0_ICA-True/sub-03_ses-01_processed.fif
+[2025-11-20 15:55:48] [INFO] Initializing ICADataloader for Subject: 04, Session: 01
+[2025-11-20 15:55:48] [INFO] ************************************************************
+[2025-11-20 15:55:48] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 15:55:48] [INFO] ************************************************************
+[2025-11-20 15:55:48] [INFO] Precprcessing EEG
+[2025-11-20 15:55:48] [INFO] Loading Raw Data
+[2025-11-20 15:55:56] [INFO] Setting refrence : ['FCz']
+[2025-11-20 15:55:57] [INFO] Setting EEG Reference
+[2025-11-20 15:55:57] [INFO] Applying notch filter
+[2025-11-20 15:56:03] [INFO] Notch filter completed
+[2025-11-20 15:56:03] [INFO] Applying bandpass low: 0.1, high: 120.0
+[2025-11-20 15:56:09] [INFO] Bandpass completed
+[2025-11-20 15:56:09] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 15:59:25] [INFO] ICA Completed
+[2025-11-20 15:59:28] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-120.0_ICA-True/sub-04_ses-01_processed.fif
+[2025-11-20 15:59:28] [INFO] Initializing ICADataloader for Subject: 04, Session: 02
+[2025-11-20 15:59:28] [INFO] ************************************************************
+[2025-11-20 15:59:28] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 15:59:28] [INFO] ************************************************************
+[2025-11-20 15:59:28] [INFO] Precprcessing EEG
+[2025-11-20 15:59:28] [INFO] Loading Raw Data
+[2025-11-20 15:59:35] [INFO] Setting refrence : ['FCz']
+[2025-11-20 15:59:36] [INFO] Setting EEG Reference
+[2025-11-20 15:59:36] [INFO] Applying notch filter
+[2025-11-20 15:59:41] [INFO] Notch filter completed
+[2025-11-20 15:59:41] [INFO] Applying bandpass low: 0.1, high: 120.0
+[2025-11-20 15:59:47] [INFO] Bandpass completed
+[2025-11-20 15:59:47] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 16:03:01] [INFO] ICA Completed
+[2025-11-20 16:03:04] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-120.0_ICA-True/sub-04_ses-02_processed.fif
+[2025-11-20 16:03:04] [INFO] Initializing ICADataloader for Subject: 05, Session: 01
+[2025-11-20 16:03:04] [INFO] ************************************************************
+[2025-11-20 16:03:04] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 16:03:04] [INFO] ************************************************************
+[2025-11-20 16:03:04] [INFO] Precprcessing EEG
+[2025-11-20 16:03:04] [INFO] Loading Raw Data
+[2025-11-20 16:03:12] [INFO] Setting refrence : ['FCz']
+[2025-11-20 16:03:13] [INFO] Setting EEG Reference
+[2025-11-20 16:03:13] [INFO] Applying notch filter
+[2025-11-20 16:03:17] [INFO] Notch filter completed
+[2025-11-20 16:03:17] [INFO] Applying bandpass low: 0.1, high: 120.0
+[2025-11-20 16:03:23] [INFO] Bandpass completed
+[2025-11-20 16:03:23] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 16:05:29] [INFO] ICA Completed
+[2025-11-20 16:05:31] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-120.0_ICA-True/sub-05_ses-01_processed.fif
+[2025-11-20 16:05:31] [INFO] Initializing ICADataloader for Subject: 05, Session: 02
+[2025-11-20 16:05:31] [INFO] ************************************************************
+[2025-11-20 16:05:31] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 16:05:31] [INFO] ************************************************************
+[2025-11-20 16:05:31] [INFO] Precprcessing EEG
+[2025-11-20 16:05:31] [INFO] Loading Raw Data
+[2025-11-20 16:05:39] [INFO] Setting refrence : ['FCz']
+[2025-11-20 16:05:39] [INFO] Setting EEG Reference
+[2025-11-20 16:05:39] [INFO] Applying notch filter
+[2025-11-20 16:05:44] [INFO] Notch filter completed
+[2025-11-20 16:05:44] [INFO] Applying bandpass low: 0.1, high: 120.0
+[2025-11-20 16:05:49] [INFO] Bandpass completed
+[2025-11-20 16:05:49] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 16:09:11] [INFO] ICA Completed
+[2025-11-20 16:09:13] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-120.0_ICA-True/sub-05_ses-02_processed.fif
+[2025-11-20 16:09:13] [INFO] Initializing ICADataloader for Subject: 06, Session: 01
+[2025-11-20 16:09:13] [INFO] ************************************************************
+[2025-11-20 16:09:13] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 16:09:13] [INFO] ************************************************************
+[2025-11-20 16:09:13] [INFO] Precprcessing EEG
+[2025-11-20 16:09:13] [INFO] Loading Raw Data
+[2025-11-20 16:09:21] [INFO] Setting refrence : ['FCz']
+[2025-11-20 16:09:22] [INFO] Setting EEG Reference
+[2025-11-20 16:09:22] [INFO] Applying notch filter
+[2025-11-20 16:09:27] [INFO] Notch filter completed
+[2025-11-20 16:09:27] [INFO] Applying bandpass low: 0.1, high: 120.0
+[2025-11-20 16:09:33] [INFO] Bandpass completed
+[2025-11-20 16:09:33] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 16:13:45] [INFO] ICA Completed
+[2025-11-20 16:13:48] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-120.0_ICA-True/sub-06_ses-01_processed.fif
+[2025-11-20 16:13:48] [INFO] Initializing ICADataloader for Subject: 06, Session: 02
+[2025-11-20 16:13:48] [INFO] ************************************************************
+[2025-11-20 16:13:48] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 16:13:48] [INFO] ************************************************************
+[2025-11-20 16:13:48] [INFO] Precprcessing EEG
+[2025-11-20 16:13:48] [INFO] Loading Raw Data
+[2025-11-20 16:13:55] [INFO] Setting refrence : ['FCz']
+[2025-11-20 16:13:56] [INFO] Setting EEG Reference
+[2025-11-20 16:13:56] [INFO] Applying notch filter
+[2025-11-20 16:14:00] [INFO] Notch filter completed
+[2025-11-20 16:14:00] [INFO] Applying bandpass low: 0.1, high: 120.0
+[2025-11-20 16:14:06] [INFO] Bandpass completed
+[2025-11-20 16:14:06] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}

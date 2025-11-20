@@ -53,8 +53,6 @@ class BIDSDatasetReader:
         self.config = config
         log_print(logger, ' Initalizing BIDSDatasetReader')
         self._setup_paths()
-        self.load_raw_eeg()
-        self._set_reference()
         
     def _setup_paths(self):
         self.bidspath = BIDSPath(
@@ -82,10 +80,6 @@ class BIDSDatasetReader:
     def preprocess_eeg(self,bandpass=False, ica=False):
         self.logger.info('Precprcessing EEG')
         folder_name =''
-        self.logger.info('Applying notch filter')
-        self.processed_eeg = self.raw_eeg.copy()
-        self.processed_eeg.notch_filter(self.config['preprocessing']['NOTCH'])
-        self.logger.info('Notch filter completed')
         if bandpass:
             l_freq = self.config['preprocessing']['EEG_FILTER']['l_freq']
             h_freq = self.config['preprocessing']['EEG_FILTER']['h_freq']
@@ -102,6 +96,15 @@ class BIDSDatasetReader:
             self.load_processed(filepath)
             return 
         
+        self.load_raw_eeg()
+        self._set_reference()
+        
+        
+        self.logger.info('Applying notch filter')
+        self.processed_eeg = self.raw_eeg.copy()
+        self.processed_eeg.notch_filter(self.config['preprocessing']['NOTCH'])
+        self.logger.info('Notch filter completed')
+        
         if bandpass:
             self.logger.info(f'Applying bandpass low: {l_freq}, high: {h_freq}')
             self.processed_eeg.filter(l_freq=l_freq, h_freq=h_freq, fir_design='firwin', verbose=False)
@@ -113,8 +116,8 @@ class BIDSDatasetReader:
             
         self._save_processed(filepath)
         
-    def load_processed(filepath):
-        pass
+    def load_processed(self, filepath):
+        self.processed_eeg = mne.io.read_raw_fif(filepath, preload=True)
     
     def apply_ica(self, ica_parms):
         self.logger.info(f"Removing Artifacts using ICA {ica_parms}")
