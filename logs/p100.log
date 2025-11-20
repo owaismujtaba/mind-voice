@@ -606,3 +606,533 @@
 [2025-11-10 18:09:56] [INFO] Plotting Evoked
 [2025-11-10 18:09:56] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
 [2025-11-10 18:09:56] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-15_ses-02_p100_Visual_Rest.csv
+[2025-11-20 16:33:11] [INFO] Setting up P100 Analysis Pipeline
+[2025-11-20 16:33:11] [INFO] Loading data for sub-01, ses-01
+[2025-11-20 16:33:43] [INFO] Setting up P100 Analysis Pipeline
+[2025-11-20 16:33:43] [INFO] Loading data for sub-01, ses-01
+[2025-11-20 16:33:43] [INFO] ************************************************************
+[2025-11-20 16:33:43] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 16:33:43] [INFO] ************************************************************
+[2025-11-20 16:33:43] [INFO] Loading Raw Data
+[2025-11-20 16:33:55] [INFO] Setting refrence : ['FCz']
+[2025-11-20 16:33:56] [INFO] Setting EEG Reference
+[2025-11-20 16:33:56] [INFO] Precprcessing EEG
+[2025-11-20 16:33:56] [INFO] Applying notch filter
+[2025-11-20 16:34:04] [INFO] Notch filter completed
+[2025-11-20 16:34:04] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 16:34:13] [INFO] Bandpass completed
+[2025-11-20 16:34:13] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 16:45:17] [INFO] ICA Completed
+[2025-11-20 16:45:21] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-11-20 16:45:21] [INFO] Building epochs
+[2025-11-20 16:45:21] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 16:45:21] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 16:45:21] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 16:45:21] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 16:45:21] [INFO] Visual P100: latency=0.114s, peak=2.86µV, mean=0.10µV
+[2025-11-20 16:45:21] [INFO] Rest P100: latency=0.096s, peak=0.97µV, mean=-0.64µV
+[2025-11-20 16:45:21] [INFO] Plotting P100
+[2025-11-20 16:45:21] [INFO] Initializing Plotter
+[2025-11-20 16:45:21] [INFO] Plotting Evoked
+[2025-11-20 16:45:22] [INFO] Saving results to CSV
+[2025-11-20 16:45:22] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 16:45:22] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-01_ses-01_p100_Visual_Rest.csv
+[2025-11-20 16:45:22] [INFO] Loading data for sub-02, ses-01
+[2025-11-20 16:45:22] [INFO] ************************************************************
+[2025-11-20 16:45:22] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 16:45:22] [INFO] ************************************************************
+[2025-11-20 16:45:22] [INFO] Loading Raw Data
+[2025-11-20 16:45:32] [INFO] Setting refrence : ['FCz']
+[2025-11-20 16:45:34] [INFO] Setting EEG Reference
+[2025-11-20 16:45:34] [INFO] Precprcessing EEG
+[2025-11-20 16:45:34] [INFO] Applying notch filter
+[2025-11-20 16:45:42] [INFO] Notch filter completed
+[2025-11-20 16:45:42] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-20 16:45:50] [INFO] Bandpass completed
+[2025-11-20 16:45:50] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-20 17:10:20] [INFO] Setting up P100 Analysis Pipeline
+[2025-11-20 17:50:07] [INFO] Setting up P100 Analysis Pipeline
+[2025-11-20 17:50:07] [INFO] Loading data for sub-01, ses-01
+[2025-11-20 17:50:07] [INFO] ************************************************************
+[2025-11-20 17:50:07] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:50:07] [INFO] ************************************************************
+[2025-11-20 17:50:07] [INFO] Loading Raw Data
+[2025-11-20 17:50:15] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:50:16] [INFO] Setting EEG Reference
+[2025-11-20 17:50:16] [INFO] Precprcessing EEG
+[2025-11-20 17:50:16] [INFO] Processed file present
+[2025-11-20 17:50:17] [INFO] Building epochs
+[2025-11-20 17:50:17] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:50:17] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:50:17] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:50:17] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:50:17] [INFO] Visual P100: latency=0.118s, peak=4.18µV, mean=1.02µV
+[2025-11-20 17:50:17] [INFO] Rest P100: latency=0.094s, peak=0.92µV, mean=-0.78µV
+[2025-11-20 17:50:17] [INFO] Plotting P100
+[2025-11-20 17:50:17] [INFO] Initializing Plotter
+[2025-11-20 17:50:17] [INFO] Plotting Evoked
+[2025-11-20 17:50:18] [INFO] Saving results to CSV
+[2025-11-20 17:50:18] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:50:18] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-01_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:50:18] [INFO] Loading data for sub-02, ses-01
+[2025-11-20 17:50:18] [INFO] ************************************************************
+[2025-11-20 17:50:18] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:50:18] [INFO] ************************************************************
+[2025-11-20 17:50:18] [INFO] Loading Raw Data
+[2025-11-20 17:50:25] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:50:26] [INFO] Setting EEG Reference
+[2025-11-20 17:50:26] [INFO] Precprcessing EEG
+[2025-11-20 17:50:26] [INFO] Processed file present
+[2025-11-20 17:50:28] [INFO] Building epochs
+[2025-11-20 17:50:28] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:50:28] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:50:29] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:50:29] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:50:29] [INFO] Visual P100: latency=0.119s, peak=4.56µV, mean=0.86µV
+[2025-11-20 17:50:29] [INFO] Rest P100: latency=0.119s, peak=0.70µV, mean=-2.24µV
+[2025-11-20 17:50:29] [INFO] Plotting P100
+[2025-11-20 17:50:29] [INFO] Initializing Plotter
+[2025-11-20 17:50:29] [INFO] Plotting Evoked
+[2025-11-20 17:50:29] [INFO] Saving results to CSV
+[2025-11-20 17:50:29] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:50:29] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-02_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:50:29] [INFO] Loading data for sub-03, ses-01
+[2025-11-20 17:50:29] [INFO] ************************************************************
+[2025-11-20 17:50:29] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:50:29] [INFO] ************************************************************
+[2025-11-20 17:50:29] [INFO] Loading Raw Data
+[2025-11-20 17:50:37] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:50:37] [INFO] Setting EEG Reference
+[2025-11-20 17:50:37] [INFO] Precprcessing EEG
+[2025-11-20 17:50:37] [INFO] Processed file present
+[2025-11-20 17:50:39] [INFO] Building epochs
+[2025-11-20 17:50:39] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:50:39] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:50:40] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:50:40] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:50:40] [INFO] Visual P100: latency=0.111s, peak=10.73µV, mean=6.49µV
+[2025-11-20 17:50:40] [INFO] Rest P100: latency=0.080s, peak=-1.87µV, mean=-5.90µV
+[2025-11-20 17:50:40] [INFO] Plotting P100
+[2025-11-20 17:50:40] [INFO] Initializing Plotter
+[2025-11-20 17:50:40] [INFO] Plotting Evoked
+[2025-11-20 17:50:40] [INFO] Saving results to CSV
+[2025-11-20 17:50:40] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:50:40] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-03_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:50:40] [INFO] Loading data for sub-04, ses-01
+[2025-11-20 17:50:40] [INFO] ************************************************************
+[2025-11-20 17:50:40] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:50:40] [INFO] ************************************************************
+[2025-11-20 17:50:40] [INFO] Loading Raw Data
+[2025-11-20 17:50:48] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:50:49] [INFO] Setting EEG Reference
+[2025-11-20 17:50:49] [INFO] Precprcessing EEG
+[2025-11-20 17:50:49] [INFO] Processed file present
+[2025-11-20 17:50:51] [INFO] Building epochs
+[2025-11-20 17:50:51] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:50:51] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:50:51] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:50:51] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:50:51] [INFO] Visual P100: latency=0.119s, peak=4.83µV, mean=1.84µV
+[2025-11-20 17:50:51] [INFO] Rest P100: latency=0.103s, peak=2.08µV, mean=1.01µV
+[2025-11-20 17:50:51] [INFO] Plotting P100
+[2025-11-20 17:50:51] [INFO] Initializing Plotter
+[2025-11-20 17:50:51] [INFO] Plotting Evoked
+[2025-11-20 17:50:51] [INFO] Saving results to CSV
+[2025-11-20 17:50:51] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:50:51] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-04_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:50:51] [INFO] Loading data for sub-04, ses-02
+[2025-11-20 17:50:51] [INFO] ************************************************************
+[2025-11-20 17:50:51] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:50:51] [INFO] ************************************************************
+[2025-11-20 17:50:51] [INFO] Loading Raw Data
+[2025-11-20 17:50:59] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:50:59] [INFO] Setting EEG Reference
+[2025-11-20 17:50:59] [INFO] Precprcessing EEG
+[2025-11-20 17:50:59] [INFO] Processed file present
+[2025-11-20 17:51:01] [INFO] Building epochs
+[2025-11-20 17:51:01] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:51:01] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:51:02] [INFO]  Epochs 1: (130, 3, 701)
+[2025-11-20 17:51:02] [INFO]  Epochs 2: (130, 3, 701)
+[2025-11-20 17:51:02] [INFO] Visual P100: latency=0.120s, peak=0.99µV, mean=-0.37µV
+[2025-11-20 17:51:02] [INFO] Rest P100: latency=0.104s, peak=2.46µV, mean=1.45µV
+[2025-11-20 17:51:02] [INFO] Plotting P100
+[2025-11-20 17:51:02] [INFO] Initializing Plotter
+[2025-11-20 17:51:02] [INFO] Plotting Evoked
+[2025-11-20 17:51:02] [INFO] Saving results to CSV
+[2025-11-20 17:51:02] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:51:02] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-04_ses-02_p100_Visual_Rest.csv
+[2025-11-20 17:51:02] [INFO] Loading data for sub-05, ses-01
+[2025-11-20 17:51:02] [INFO] ************************************************************
+[2025-11-20 17:51:02] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:51:02] [INFO] ************************************************************
+[2025-11-20 17:51:02] [INFO] Loading Raw Data
+[2025-11-20 17:51:09] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:51:10] [INFO] Setting EEG Reference
+[2025-11-20 17:51:10] [INFO] Precprcessing EEG
+[2025-11-20 17:51:10] [INFO] Processed file present
+[2025-11-20 17:51:12] [INFO] Building epochs
+[2025-11-20 17:51:12] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:51:12] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:51:12] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:51:12] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:51:12] [INFO] Visual P100: latency=0.119s, peak=1.08µV, mean=-1.04µV
+[2025-11-20 17:51:12] [INFO] Rest P100: latency=0.116s, peak=1.20µV, mean=-0.36µV
+[2025-11-20 17:51:12] [INFO] Plotting P100
+[2025-11-20 17:51:12] [INFO] Initializing Plotter
+[2025-11-20 17:51:12] [INFO] Plotting Evoked
+[2025-11-20 17:51:13] [INFO] Saving results to CSV
+[2025-11-20 17:51:13] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:51:13] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-05_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:51:13] [INFO] Loading data for sub-05, ses-02
+[2025-11-20 17:51:13] [INFO] ************************************************************
+[2025-11-20 17:51:13] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:51:13] [INFO] ************************************************************
+[2025-11-20 17:51:13] [INFO] Loading Raw Data
+[2025-11-20 17:51:20] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:51:20] [INFO] Setting EEG Reference
+[2025-11-20 17:51:20] [INFO] Precprcessing EEG
+[2025-11-20 17:51:20] [INFO] Processed file present
+[2025-11-20 17:51:22] [INFO] Building epochs
+[2025-11-20 17:51:22] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:51:22] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:51:22] [INFO]  Epochs 1: (130, 3, 701)
+[2025-11-20 17:51:22] [INFO]  Epochs 2: (130, 3, 701)
+[2025-11-20 17:51:22] [INFO] Visual P100: latency=0.120s, peak=7.35µV, mean=5.21µV
+[2025-11-20 17:51:22] [INFO] Rest P100: latency=0.116s, peak=-4.71µV, mean=-6.04µV
+[2025-11-20 17:51:22] [INFO] Plotting P100
+[2025-11-20 17:51:22] [INFO] Initializing Plotter
+[2025-11-20 17:51:22] [INFO] Plotting Evoked
+[2025-11-20 17:51:22] [INFO] Saving results to CSV
+[2025-11-20 17:51:22] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:51:22] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-05_ses-02_p100_Visual_Rest.csv
+[2025-11-20 17:51:22] [INFO] Loading data for sub-06, ses-01
+[2025-11-20 17:51:22] [INFO] ************************************************************
+[2025-11-20 17:51:22] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:51:22] [INFO] ************************************************************
+[2025-11-20 17:51:22] [INFO] Loading Raw Data
+[2025-11-20 17:51:30] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:51:31] [INFO] Setting EEG Reference
+[2025-11-20 17:51:31] [INFO] Precprcessing EEG
+[2025-11-20 17:51:31] [INFO] Processed file present
+[2025-11-20 17:51:32] [INFO] Building epochs
+[2025-11-20 17:51:32] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:51:32] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:51:32] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:51:32] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:51:32] [INFO] Visual P100: latency=0.119s, peak=8.51µV, mean=4.37µV
+[2025-11-20 17:51:32] [INFO] Rest P100: latency=0.081s, peak=-3.92µV, mean=-5.01µV
+[2025-11-20 17:51:32] [INFO] Plotting P100
+[2025-11-20 17:51:32] [INFO] Initializing Plotter
+[2025-11-20 17:51:32] [INFO] Plotting Evoked
+[2025-11-20 17:51:33] [INFO] Saving results to CSV
+[2025-11-20 17:51:33] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:51:33] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-06_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:51:33] [INFO] Loading data for sub-06, ses-02
+[2025-11-20 17:51:33] [INFO] ************************************************************
+[2025-11-20 17:51:33] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:51:33] [INFO] ************************************************************
+[2025-11-20 17:51:33] [INFO] Loading Raw Data
+[2025-11-20 17:51:40] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:51:41] [INFO] Setting EEG Reference
+[2025-11-20 17:51:41] [INFO] Precprcessing EEG
+[2025-11-20 17:51:41] [INFO] Processed file present
+[2025-11-20 17:51:42] [INFO] Building epochs
+[2025-11-20 17:51:42] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:51:42] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:51:42] [INFO]  Epochs 1: (130, 3, 701)
+[2025-11-20 17:51:42] [INFO]  Epochs 2: (130, 3, 701)
+[2025-11-20 17:51:42] [INFO] Visual P100: latency=0.120s, peak=10.73µV, mean=4.90µV
+[2025-11-20 17:51:42] [INFO] Rest P100: latency=0.085s, peak=0.34µV, mean=-1.18µV
+[2025-11-20 17:51:42] [INFO] Plotting P100
+[2025-11-20 17:51:42] [INFO] Initializing Plotter
+[2025-11-20 17:51:42] [INFO] Plotting Evoked
+[2025-11-20 17:51:42] [INFO] Saving results to CSV
+[2025-11-20 17:51:42] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:51:42] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-06_ses-02_p100_Visual_Rest.csv
+[2025-11-20 17:51:42] [INFO] Loading data for sub-07, ses-01
+[2025-11-20 17:51:42] [INFO] ************************************************************
+[2025-11-20 17:51:42] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:51:42] [INFO] ************************************************************
+[2025-11-20 17:51:42] [INFO] Loading Raw Data
+[2025-11-20 17:51:50] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:51:51] [INFO] Setting EEG Reference
+[2025-11-20 17:51:51] [INFO] Precprcessing EEG
+[2025-11-20 17:51:51] [INFO] Processed file present
+[2025-11-20 17:51:52] [INFO] Building epochs
+[2025-11-20 17:51:52] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:51:52] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:51:52] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:51:52] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:51:52] [INFO] Visual P100: latency=0.113s, peak=6.26µV, mean=1.01µV
+[2025-11-20 17:51:52] [INFO] Rest P100: latency=0.117s, peak=12.06µV, mean=5.69µV
+[2025-11-20 17:51:52] [INFO] Plotting P100
+[2025-11-20 17:51:52] [INFO] Initializing Plotter
+[2025-11-20 17:51:52] [INFO] Plotting Evoked
+[2025-11-20 17:51:53] [INFO] Saving results to CSV
+[2025-11-20 17:51:53] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:51:53] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-07_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:51:53] [INFO] Loading data for sub-08, ses-01
+[2025-11-20 17:51:53] [INFO] ************************************************************
+[2025-11-20 17:51:53] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:51:53] [INFO] ************************************************************
+[2025-11-20 17:51:53] [INFO] Loading Raw Data
+[2025-11-20 17:52:00] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:52:01] [INFO] Setting EEG Reference
+[2025-11-20 17:52:01] [INFO] Precprcessing EEG
+[2025-11-20 17:52:01] [INFO] Processed file present
+[2025-11-20 17:52:02] [INFO] Building epochs
+[2025-11-20 17:52:02] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:52:02] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:52:02] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:52:02] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:52:02] [INFO] Visual P100: latency=0.119s, peak=14.02µV, mean=7.55µV
+[2025-11-20 17:52:02] [INFO] Rest P100: latency=0.119s, peak=2.00µV, mean=0.91µV
+[2025-11-20 17:52:02] [INFO] Plotting P100
+[2025-11-20 17:52:02] [INFO] Initializing Plotter
+[2025-11-20 17:52:02] [INFO] Plotting Evoked
+[2025-11-20 17:52:02] [INFO] Saving results to CSV
+[2025-11-20 17:52:02] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:52:02] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-08_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:52:03] [INFO] Loading data for sub-09, ses-01
+[2025-11-20 17:52:03] [INFO] ************************************************************
+[2025-11-20 17:52:03] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:52:03] [INFO] ************************************************************
+[2025-11-20 17:52:03] [INFO] Loading Raw Data
+[2025-11-20 17:52:10] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:52:11] [INFO] Setting EEG Reference
+[2025-11-20 17:52:11] [INFO] Precprcessing EEG
+[2025-11-20 17:52:11] [INFO] Processed file present
+[2025-11-20 17:52:12] [INFO] Building epochs
+[2025-11-20 17:52:12] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:52:12] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:52:12] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:52:12] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:52:13] [INFO] Visual P100: latency=0.119s, peak=7.10µV, mean=1.54µV
+[2025-11-20 17:52:13] [INFO] Rest P100: latency=0.119s, peak=-0.07µV, mean=-2.11µV
+[2025-11-20 17:52:13] [INFO] Plotting P100
+[2025-11-20 17:52:13] [INFO] Initializing Plotter
+[2025-11-20 17:52:13] [INFO] Plotting Evoked
+[2025-11-20 17:52:13] [INFO] Saving results to CSV
+[2025-11-20 17:52:13] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:52:13] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-09_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:52:13] [INFO] Loading data for sub-09, ses-02
+[2025-11-20 17:52:13] [INFO] ************************************************************
+[2025-11-20 17:52:13] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:52:13] [INFO] ************************************************************
+[2025-11-20 17:52:13] [INFO] Loading Raw Data
+[2025-11-20 17:52:20] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:52:21] [INFO] Setting EEG Reference
+[2025-11-20 17:52:21] [INFO] Precprcessing EEG
+[2025-11-20 17:52:21] [INFO] Processed file present
+[2025-11-20 17:52:22] [INFO] Building epochs
+[2025-11-20 17:52:22] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:52:22] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:52:22] [INFO]  Epochs 1: (130, 3, 701)
+[2025-11-20 17:52:22] [INFO]  Epochs 2: (130, 3, 701)
+[2025-11-20 17:52:22] [INFO] Visual P100: latency=0.120s, peak=4.06µV, mean=0.71µV
+[2025-11-20 17:52:22] [INFO] Rest P100: latency=0.120s, peak=1.92µV, mean=1.07µV
+[2025-11-20 17:52:22] [INFO] Plotting P100
+[2025-11-20 17:52:22] [INFO] Initializing Plotter
+[2025-11-20 17:52:22] [INFO] Plotting Evoked
+[2025-11-20 17:52:22] [INFO] Saving results to CSV
+[2025-11-20 17:52:22] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:52:22] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-09_ses-02_p100_Visual_Rest.csv
+[2025-11-20 17:52:22] [INFO] Loading data for sub-10, ses-01
+[2025-11-20 17:52:22] [INFO] ************************************************************
+[2025-11-20 17:52:22] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:52:22] [INFO] ************************************************************
+[2025-11-20 17:52:22] [INFO] Loading Raw Data
+[2025-11-20 17:52:30] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:52:31] [INFO] Setting EEG Reference
+[2025-11-20 17:52:31] [INFO] Precprcessing EEG
+[2025-11-20 17:52:31] [INFO] Processed file present
+[2025-11-20 17:52:32] [INFO] Building epochs
+[2025-11-20 17:52:32] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:52:32] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:52:32] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:52:32] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:52:32] [INFO] Visual P100: latency=0.119s, peak=8.62µV, mean=3.73µV
+[2025-11-20 17:52:32] [INFO] Rest P100: latency=0.119s, peak=2.45µV, mean=0.56µV
+[2025-11-20 17:52:32] [INFO] Plotting P100
+[2025-11-20 17:52:32] [INFO] Initializing Plotter
+[2025-11-20 17:52:32] [INFO] Plotting Evoked
+[2025-11-20 17:52:32] [INFO] Saving results to CSV
+[2025-11-20 17:52:32] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:52:32] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-10_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:52:32] [INFO] Loading data for sub-11, ses-01
+[2025-11-20 17:52:32] [INFO] ************************************************************
+[2025-11-20 17:52:32] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:52:32] [INFO] ************************************************************
+[2025-11-20 17:52:32] [INFO] Loading Raw Data
+[2025-11-20 17:52:40] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:52:41] [INFO] Setting EEG Reference
+[2025-11-20 17:52:41] [INFO] Precprcessing EEG
+[2025-11-20 17:52:41] [INFO] Processed file present
+[2025-11-20 17:52:42] [INFO] Building epochs
+[2025-11-20 17:52:42] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:52:42] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:52:42] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:52:42] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:52:42] [INFO] Visual P100: latency=0.085s, peak=2.20µV, mean=0.97µV
+[2025-11-20 17:52:42] [INFO] Rest P100: latency=0.118s, peak=1.98µV, mean=0.52µV
+[2025-11-20 17:52:42] [INFO] Plotting P100
+[2025-11-20 17:52:42] [INFO] Initializing Plotter
+[2025-11-20 17:52:42] [INFO] Plotting Evoked
+[2025-11-20 17:52:43] [INFO] Saving results to CSV
+[2025-11-20 17:52:43] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:52:43] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-11_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:52:43] [INFO] Loading data for sub-12, ses-01
+[2025-11-20 17:52:43] [INFO] ************************************************************
+[2025-11-20 17:52:43] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:52:43] [INFO] ************************************************************
+[2025-11-20 17:52:43] [INFO] Loading Raw Data
+[2025-11-20 17:52:51] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:52:51] [INFO] Setting EEG Reference
+[2025-11-20 17:52:51] [INFO] Precprcessing EEG
+[2025-11-20 17:52:51] [INFO] Processed file present
+[2025-11-20 17:52:53] [INFO] Building epochs
+[2025-11-20 17:52:53] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:52:53] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:52:53] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:52:53] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:52:53] [INFO] Visual P100: latency=0.119s, peak=2.98µV, mean=0.92µV
+[2025-11-20 17:52:53] [INFO] Rest P100: latency=0.119s, peak=3.66µV, mean=2.36µV
+[2025-11-20 17:52:53] [INFO] Plotting P100
+[2025-11-20 17:52:53] [INFO] Initializing Plotter
+[2025-11-20 17:52:53] [INFO] Plotting Evoked
+[2025-11-20 17:52:54] [INFO] Saving results to CSV
+[2025-11-20 17:52:54] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:52:54] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-12_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:52:54] [INFO] Loading data for sub-12, ses-02
+[2025-11-20 17:52:54] [INFO] ************************************************************
+[2025-11-20 17:52:54] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:52:54] [INFO] ************************************************************
+[2025-11-20 17:52:54] [INFO] Loading Raw Data
+[2025-11-20 17:53:01] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:53:02] [INFO] Setting EEG Reference
+[2025-11-20 17:53:02] [INFO] Precprcessing EEG
+[2025-11-20 17:53:02] [INFO] Processed file present
+[2025-11-20 17:53:03] [INFO] Building epochs
+[2025-11-20 17:53:03] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:53:03] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:53:04] [INFO]  Epochs 1: (130, 3, 701)
+[2025-11-20 17:53:04] [INFO]  Epochs 2: (130, 3, 701)
+[2025-11-20 17:53:04] [INFO] Visual P100: latency=0.118s, peak=5.87µV, mean=2.52µV
+[2025-11-20 17:53:04] [INFO] Rest P100: latency=0.120s, peak=6.90µV, mean=4.90µV
+[2025-11-20 17:53:04] [INFO] Plotting P100
+[2025-11-20 17:53:04] [INFO] Initializing Plotter
+[2025-11-20 17:53:04] [INFO] Plotting Evoked
+[2025-11-20 17:53:04] [INFO] Saving results to CSV
+[2025-11-20 17:53:04] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:53:04] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-12_ses-02_p100_Visual_Rest.csv
+[2025-11-20 17:53:04] [INFO] Loading data for sub-13, ses-01
+[2025-11-20 17:53:04] [INFO] ************************************************************
+[2025-11-20 17:53:04] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:53:04] [INFO] ************************************************************
+[2025-11-20 17:53:04] [INFO] Loading Raw Data
+[2025-11-20 17:53:12] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:53:13] [INFO] Setting EEG Reference
+[2025-11-20 17:53:13] [INFO] Precprcessing EEG
+[2025-11-20 17:53:13] [INFO] Processed file present
+[2025-11-20 17:53:14] [INFO] Building epochs
+[2025-11-20 17:53:14] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:53:14] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:53:14] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:53:14] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:53:14] [INFO] Visual P100: latency=0.119s, peak=13.17µV, mean=3.52µV
+[2025-11-20 17:53:14] [INFO] Rest P100: latency=0.119s, peak=-0.09µV, mean=-2.06µV
+[2025-11-20 17:53:14] [INFO] Plotting P100
+[2025-11-20 17:53:14] [INFO] Initializing Plotter
+[2025-11-20 17:53:14] [INFO] Plotting Evoked
+[2025-11-20 17:53:15] [INFO] Saving results to CSV
+[2025-11-20 17:53:15] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:53:15] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-13_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:53:15] [INFO] Loading data for sub-13, ses-02
+[2025-11-20 17:53:15] [INFO] ************************************************************
+[2025-11-20 17:53:15] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:53:15] [INFO] ************************************************************
+[2025-11-20 17:53:15] [INFO] Loading Raw Data
+[2025-11-20 17:53:22] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:53:23] [INFO] Setting EEG Reference
+[2025-11-20 17:53:23] [INFO] Precprcessing EEG
+[2025-11-20 17:53:23] [INFO] Processed file present
+[2025-11-20 17:53:24] [INFO] Building epochs
+[2025-11-20 17:53:24] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:53:24] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:53:24] [INFO]  Epochs 1: (130, 3, 701)
+[2025-11-20 17:53:24] [INFO]  Epochs 2: (130, 3, 701)
+[2025-11-20 17:53:24] [INFO] Visual P100: latency=0.120s, peak=14.11µV, mean=4.51µV
+[2025-11-20 17:53:24] [INFO] Rest P100: latency=0.120s, peak=0.22µV, mean=-3.11µV
+[2025-11-20 17:53:24] [INFO] Plotting P100
+[2025-11-20 17:53:24] [INFO] Initializing Plotter
+[2025-11-20 17:53:24] [INFO] Plotting Evoked
+[2025-11-20 17:53:25] [INFO] Saving results to CSV
+[2025-11-20 17:53:25] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:53:25] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-13_ses-02_p100_Visual_Rest.csv
+[2025-11-20 17:53:25] [INFO] Loading data for sub-14, ses-01
+[2025-11-20 17:53:25] [INFO] ************************************************************
+[2025-11-20 17:53:25] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:53:25] [INFO] ************************************************************
+[2025-11-20 17:53:25] [INFO] Loading Raw Data
+[2025-11-20 17:53:33] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:53:34] [INFO] Setting EEG Reference
+[2025-11-20 17:53:34] [INFO] Precprcessing EEG
+[2025-11-20 17:53:34] [INFO] Processed file present
+[2025-11-20 17:53:35] [INFO] Building epochs
+[2025-11-20 17:53:35] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:53:35] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:53:36] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:53:36] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:53:36] [INFO] Visual P100: latency=0.119s, peak=4.10µV, mean=-0.61µV
+[2025-11-20 17:53:36] [INFO] Rest P100: latency=0.104s, peak=0.56µV, mean=-0.29µV
+[2025-11-20 17:53:36] [INFO] Plotting P100
+[2025-11-20 17:53:36] [INFO] Initializing Plotter
+[2025-11-20 17:53:36] [INFO] Plotting Evoked
+[2025-11-20 17:53:36] [INFO] Saving results to CSV
+[2025-11-20 17:53:36] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:53:36] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-14_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:53:36] [INFO] Loading data for sub-15, ses-01
+[2025-11-20 17:53:36] [INFO] ************************************************************
+[2025-11-20 17:53:36] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:53:36] [INFO] ************************************************************
+[2025-11-20 17:53:36] [INFO] Loading Raw Data
+[2025-11-20 17:53:44] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:53:44] [INFO] Setting EEG Reference
+[2025-11-20 17:53:44] [INFO] Precprcessing EEG
+[2025-11-20 17:53:44] [INFO] Processed file present
+[2025-11-20 17:53:46] [INFO] Building epochs
+[2025-11-20 17:53:46] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:53:46] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:53:46] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 17:53:46] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 17:53:46] [INFO] Visual P100: latency=0.119s, peak=1.77µV, mean=-0.97µV
+[2025-11-20 17:53:46] [INFO] Rest P100: latency=0.103s, peak=2.09µV, mean=0.96µV
+[2025-11-20 17:53:46] [INFO] Plotting P100
+[2025-11-20 17:53:46] [INFO] Initializing Plotter
+[2025-11-20 17:53:46] [INFO] Plotting Evoked
+[2025-11-20 17:53:46] [INFO] Saving results to CSV
+[2025-11-20 17:53:46] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:53:46] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-15_ses-01_p100_Visual_Rest.csv
+[2025-11-20 17:53:46] [INFO] Loading data for sub-15, ses-02
+[2025-11-20 17:53:46] [INFO] ************************************************************
+[2025-11-20 17:53:46] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 17:53:46] [INFO] ************************************************************
+[2025-11-20 17:53:46] [INFO] Loading Raw Data
+[2025-11-20 17:53:47] [INFO] Setting refrence : ['FCz']
+[2025-11-20 17:53:47] [INFO] Setting EEG Reference
+[2025-11-20 17:53:47] [INFO] Precprcessing EEG
+[2025-11-20 17:53:47] [INFO] Processed file present
+[2025-11-20 17:53:48] [INFO] Building epochs
+[2025-11-20 17:53:48] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 17:53:48] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 17:53:48] [INFO]  Epochs 1: (61, 3, 701)
+[2025-11-20 17:53:48] [INFO]  Epochs 2: (61, 3, 701)
+[2025-11-20 17:53:48] [INFO] Visual P100: latency=0.120s, peak=2.74µV, mean=-0.05µV
+[2025-11-20 17:53:48] [INFO] Rest P100: latency=0.082s, peak=-0.52µV, mean=-3.20µV
+[2025-11-20 17:53:48] [INFO] Plotting P100
+[2025-11-20 17:53:48] [INFO] Initializing Plotter
+[2025-11-20 17:53:48] [INFO] Plotting Evoked
+[2025-11-20 17:53:48] [INFO] Saving results to CSV
+[2025-11-20 17:53:48] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 17:53:48] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-15_ses-02_p100_Visual_Rest.csv

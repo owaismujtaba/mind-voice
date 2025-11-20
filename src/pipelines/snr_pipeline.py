@@ -26,7 +26,7 @@ def run_snr_per_subject_session(
     logger, config
     ):
     
-    
+   
     ica_data_loader = ICADataLoader(
         subject_id=subject_id,
         session_id=session_id,

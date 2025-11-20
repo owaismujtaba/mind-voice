@@ -58,12 +58,13 @@ class P100AnalysisPipeline:
         """
         self.logger.info(f'Loading data for sub-{self.subject_id}, ses-{self.session_id}')
         self.bids_reader = BIDSDatasetReader(
-            sub_id=self.subject_id,
-            ses_id=self.session_id,
+            subject=self.subject_id,
+            session=self.session_id,
             logger=self.logger,
             config=self.config
         )
-        self.eeg = self.bids_reader.processed_file
+        self.bids_reader.preprocess_eeg(bandpass=True, ica=True)
+        self.eeg = self.bids_reader.processed_eeg
 
     def build_epochs(self) -> 'P100AnalysisPipeline':
         """
