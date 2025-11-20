@@ -9,6 +9,9 @@ from src.dataset.bids import create_bids_dataset
 from src.pipelines.p100_pipeline import P100AnalysisPipeline
 from src.pipelines.overt_covert_rest_pipeline import OvertCovertRestPipeline
 from src.anonymization.voice_snonymizer import VoiceAnonymizerPipeline
+from src.pipelines.snr_pipeline import run_snr_per_subject_session
+
+
 
 from src.visualizations.peak_mean_visual_rest import plot_peak_mean_visual_novisual
 from src.visualizations.erp_grand_visual_rest import plot_grand_erp_rest_visual
@@ -61,7 +64,7 @@ if analysis_config['p100']:
         "modality": "Pictures",
         "time_window": (0.08, 0.12)  # Optional window for P100
     }
-    logger.info('Setting DIBS')
+    logger.info('Setting up P100 Analysis Pipeline')
     layout = BIDSLayout(dataset_config['BIDS_DIR'], validate=True)
     subject_ids = layout.get_subjects()
 
@@ -131,9 +134,7 @@ if plot_config['grand_erp_visual_real']:
     
 if plot_config['accuracy_plots']:
     plot_accuracy(logger)
-
-
-    
+  
 if plot_config['confusion_matrix']:
     plot_confusion_matrix(logger)
 
@@ -147,8 +148,20 @@ if plot_config['display_per_class_metrics']:
 
 
 
+if analysis_config['ica']:
+    logger = create_logger('ica_analysis')
+    layout = BIDSLayout(dataset_config['BIDS_DIR'], validate=True)
+    subject_ids = layout.get_subjects()
 
-
+    for sub in subject_ids:
+        session_ids = layout.get_sessions(subject=sub)  
+        for ses in session_ids:
+            run_snr_per_subject_session(
+                subject_id=sub,
+                session_id=ses,
+                logger=logger,
+                config=config
+            )
 
 
 

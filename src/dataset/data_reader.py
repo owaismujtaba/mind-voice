@@ -1,4 +1,5 @@
 import mne
+import os
 from pathlib import Path
 from pyprep import NoisyChannels
 from mnelab.io.xdf import read_raw_xdf
@@ -54,14 +55,13 @@ class BIDSDatasetReader:
         self.config = config
         self.logger = logger
         self.logger.info("Initializing BIDSDatasetReader Class")
-        styled_print("🚀", "Initializing BIDSDatasetReader Class", "yellow", panel=True)
         self.sub_id = sub_id
         self.ses_id = ses_id
         
         self.raw = None
         
         self._setup_bidspath()
-        self.processed_dir = Path(config['dataset']['BIDS_DIR']) / "derivatives" / "processed_eeg"
+        self.processed_dir = Path(os.getcwd(),  'processed')
         self.processed_dir.mkdir(parents=True, exist_ok=True)
         self.processed_file = self.processed_dir / f"sub-{sub_id}_ses-{ses_id}_processed-raw.fif"
         
@@ -70,7 +70,6 @@ class BIDSDatasetReader:
     def read_or_process_data(self):
         if self.processed_file.exists():
             self.logger.info(f"Loading Processed EEG Data: sub-{self.sub_id} ses-{self.ses_id}")
-            styled_print("", f"Loading Processed EEG Data: sub-{self.sub_id} ses-{self.ses_id}", color='green')
             self.processed_file = mne.io.read_raw_fif(self.processed_file, preload=True, verbose=False)
         else:
             self.read_bids_subject_data()
@@ -79,7 +78,6 @@ class BIDSDatasetReader:
     
     def preprocess(self):
         self.logger.info("Preprocessing EEG")
-        styled_print('', 'Preprocessing EEG', color='red')
         self._set_channel_types_and_montage()
         self._remove_bad_channels()
         self._apply_filter()
@@ -88,13 +86,12 @@ class BIDSDatasetReader:
     
     def _set_channel_types_and_montage(self):
         self.logger.info("Setting  Channels and Montage")
-        styled_print('', 'Setting Channels and Montage', color='cyan')
         try:
             self.raw.set_channel_types({'EOG1': 'eog', 'EOG2': 'eog'})
         except Exception:
             self.raw.rename_channels({'TP9': 'EOG1', 'TP10': 'EOG2'})
             self.raw.set_channel_types({'EOG1': 'eog', 'EOG2': 'eog'})
-        montage = mne.channels.make_standard_montage(config.EEG_MONTAGE)
+        montage = mne.channels.make_standard_montage(self.config['dataset']['MONTAGE'])
         self.raw.set_montage(montage)
     
     def _remove_bad_channels(self):
@@ -108,19 +105,17 @@ class BIDSDatasetReader:
 
     def _apply_filter(self):
         self.logger.info("Applying Filter")
-        low = self.config['eeg_filter']['low']
-        high = self.config['eeg_filter']['high']
-        self.raw.filter(l_freq=low, h_freq=high, fir_design='firwin', verbose=False)
-        #self.raw.filter(**config.EEG_FILTER, fir_design='firwin', verbose=False)
+        #self.raw.filter(l_freq=low, h_freq=high, fir_design='firwin', verbose=False)
+        self.raw.filter(**self.config['preprocessing']['EEG_FILTER'], fir_design='firwin', verbose=False)
 
     def _set_reference(self):
-        self.raw.set_eeg_reference(config.EEG_REFERENCE)
-
+        self.raw.set_eeg_reference(self.config['preprocessing']['EEG_REFERENCE'])
+        self.logger.info("Setting EEG Reference")
+        
     def _remove_artifacts(self):
         self.logger.info("Removing Artifacts using ICA")
-        styled_print('', 'Removing Artifacts using ICA', color='cyan')
-        ica = mne.preprocessing.ICA(**config.ICA_PARAMS)
-        ica.fit(self.raw)
+        ica = mne.preprocessing.ICA(**self.config['preprocessing']['ICA_PARAMS'])
+        ica.fit(self.raw)   
         eog_indices, _ = ica.find_bads_eog(self.raw, ch_name=['EOG1', 'EOG2'])
         ica.exclude = eog_indices
         self.raw = ica.apply(self.raw)
@@ -134,13 +129,11 @@ class BIDSDatasetReader:
     
     def read_bids_subject_data(self):
         self.logger.info("Loading Raw Data")
-        styled_print('', 'Loading Raw Data', color='cyan')
         self.raw = read_raw_bids(self.bidspath, verbose=False)
         self.raw.load_data()
     
     def save_processed_data(self):
         self.logger.info("Saving Processed EEG Data")
-        styled_print('', 'Saving Processed EEG Data', color='green')
         self.raw.save(self.processed_file, overwrite=True)
         self.processed_file=self.raw
 

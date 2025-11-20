@@ -1,19 +1,21 @@
 dataset:
     create_bids: False
     BIDS_DIR: 'BIDS'
+    MONTAGE: 'standard_1020'
     config_path: 'bids_config.yaml'
     EEG_SR: 1024
     AUDIO_SR: 48000
 
-
+preprocessing:
+    EEG_FILTER: {"l_freq": 0.1, "h_freq": 120.0}
+    EEG_REFERENCE: ['FCz']
+    ICA_PARAMS: {"n_components": 50, "random_state": 97}
+    
 analysis:
     results_dir: 'results'
     p100: False
-    eeg_filter:
-        low: 0.1
-        high: 120
-
     decoding: False
+    ica: True
 
 
 anonymize:
@@ -22,10 +24,11 @@ anonymize:
     formant_ratio: 1.3
 
 
+
 plotting:
-    peak_mean_amplitude: True
-    grand_erp_visual_real: True
-    accuracy_plots: True
-    metrics_plots: True
-    confusion_matrix: True
-    display_per_class_metrics: True
+    peak_mean_amplitude: False
+    grand_erp_visual_real: False
+    accuracy_plots: False
+    metrics_plots: False
+    confusion_matrix: False
+    display_per_class_metrics: False

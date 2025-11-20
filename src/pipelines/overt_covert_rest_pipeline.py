@@ -2,7 +2,7 @@ import os
 import numpy as np
 import pandas as pd
 from pathlib import Path
-from imblearn.over_sampling import RandomOverSampler  # NEW: For oversampling
+from imblearn.over_sampling import RandomOverSampler  
 
 from src.decoding.overt_covert_rest import SpeechEEGDatasetLoader
 from src.decoding.overt_covert_rest_model import OvertCoverRestClassifier
