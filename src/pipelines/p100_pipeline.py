@@ -22,7 +22,7 @@ class P100AnalysisPipeline:
         session_id: str,
         condition1_config: dict,
         condition2_config: dict,
-        channels: list[str],
+        channels,
         logger,
         config
     ) -> None:
