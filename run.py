@@ -73,6 +73,7 @@ if analysis_config['p100']:
     for sub in subject_ids:
         session_ids = layout.get_sessions(subject=sub)
         for ses in session_ids:
+                '''
                 pipeline = P100AnalysisPipeline(
                     subject_id=sub,
                     session_id=ses,
@@ -84,7 +85,16 @@ if analysis_config['p100']:
                 )
 
                 pipeline.run(save_csv=True)
-
+                '''
+                from src.pipelines.p100_pipeline import P100Pipeline
+                pipe = P100Pipeline(
+                    subject_id=sub, session_id=ses,
+                    config=config, logger=logger,
+                    cond_1=visual, cond_2=rest,
+                    channels=['PO3', 'POz', 'PO4']
+                )
+                
+                pipe.run()
 
 if analysis_config['decoding']:
     logger = create_logger('classification')

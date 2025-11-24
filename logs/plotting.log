@@ -1658,3 +1658,413 @@ Name: f1, dtype: float64
 [2025-11-24 13:47:32] [INFO] Precprcessing EEG
 [2025-11-24 13:47:32] [INFO] Processed file present
 [2025-11-24 13:47:32] [INFO] Processed file present
+[2025-11-24 13:47:33] [INFO] Building epochs
+[2025-11-24 13:47:33] [INFO] Building epochs
+[2025-11-24 13:47:33] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:47:33] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:47:33] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:47:33] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:47:33] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:47:33] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:47:33] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:47:33] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:47:33] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:47:33] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:47:33] [INFO] Loading data for sub-05, ses-01
+[2025-11-24 13:47:33] [INFO] Loading data for sub-05, ses-01
+[2025-11-24 13:47:33] [INFO] ************************************************************
+[2025-11-24 13:47:33] [INFO] ************************************************************
+[2025-11-24 13:47:33] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:47:33] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:47:33] [INFO] ************************************************************
+[2025-11-24 13:47:33] [INFO] ************************************************************
+[2025-11-24 13:47:33] [INFO] Loading Raw Data
+[2025-11-24 13:47:33] [INFO] Loading Raw Data
+[2025-11-24 13:47:41] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:47:41] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:47:42] [INFO] Setting EEG Reference
+[2025-11-24 13:47:42] [INFO] Setting EEG Reference
+[2025-11-24 13:47:42] [INFO] Precprcessing EEG
+[2025-11-24 13:47:42] [INFO] Precprcessing EEG
+[2025-11-24 13:47:42] [INFO] Processed file present
+[2025-11-24 13:47:42] [INFO] Processed file present
+[2025-11-24 13:47:43] [INFO] Building epochs
+[2025-11-24 13:47:43] [INFO] Building epochs
+[2025-11-24 13:47:43] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:47:43] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:47:43] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:47:43] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:47:43] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:47:43] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:47:43] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:47:43] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:47:43] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:47:43] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:47:43] [INFO] Loading data for sub-05, ses-02
+[2025-11-24 13:47:43] [INFO] Loading data for sub-05, ses-02
+[2025-11-24 13:47:43] [INFO] ************************************************************
+[2025-11-24 13:47:43] [INFO] ************************************************************
+[2025-11-24 13:47:43] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:47:43] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:47:43] [INFO] ************************************************************
+[2025-11-24 13:47:43] [INFO] ************************************************************
+[2025-11-24 13:47:43] [INFO] Loading Raw Data
+[2025-11-24 13:47:43] [INFO] Loading Raw Data
+[2025-11-24 13:47:50] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:47:50] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:47:51] [INFO] Setting EEG Reference
+[2025-11-24 13:47:51] [INFO] Setting EEG Reference
+[2025-11-24 13:47:51] [INFO] Precprcessing EEG
+[2025-11-24 13:47:51] [INFO] Precprcessing EEG
+[2025-11-24 13:47:51] [INFO] Processed file present
+[2025-11-24 13:47:51] [INFO] Processed file present
+[2025-11-24 13:47:52] [INFO] Building epochs
+[2025-11-24 13:47:52] [INFO] Building epochs
+[2025-11-24 13:47:52] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:47:52] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:47:52] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:47:52] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:47:52] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:47:52] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:47:52] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:47:52] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:47:53] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:47:53] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:47:53] [INFO] Loading data for sub-06, ses-01
+[2025-11-24 13:47:53] [INFO] Loading data for sub-06, ses-01
+[2025-11-24 13:47:53] [INFO] ************************************************************
+[2025-11-24 13:47:53] [INFO] ************************************************************
+[2025-11-24 13:47:53] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:47:53] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:47:53] [INFO] ************************************************************
+[2025-11-24 13:47:53] [INFO] ************************************************************
+[2025-11-24 13:47:53] [INFO] Loading Raw Data
+[2025-11-24 13:47:53] [INFO] Loading Raw Data
+[2025-11-24 13:48:00] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:48:00] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:48:01] [INFO] Setting EEG Reference
+[2025-11-24 13:48:01] [INFO] Setting EEG Reference
+[2025-11-24 13:48:01] [INFO] Precprcessing EEG
+[2025-11-24 13:48:01] [INFO] Precprcessing EEG
+[2025-11-24 13:48:01] [INFO] Processed file present
+[2025-11-24 13:48:01] [INFO] Processed file present
+[2025-11-24 13:48:03] [INFO] Building epochs
+[2025-11-24 13:48:03] [INFO] Building epochs
+[2025-11-24 13:48:03] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:48:03] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:48:03] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:48:03] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:48:03] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:48:03] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:48:03] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:48:03] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:48:03] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:48:03] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:48:03] [INFO] Loading data for sub-06, ses-02
+[2025-11-24 13:48:03] [INFO] Loading data for sub-06, ses-02
+[2025-11-24 13:48:03] [INFO] ************************************************************
+[2025-11-24 13:48:03] [INFO] ************************************************************
+[2025-11-24 13:48:03] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:48:03] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:48:03] [INFO] ************************************************************
+[2025-11-24 13:48:03] [INFO] ************************************************************
+[2025-11-24 13:48:03] [INFO] Loading Raw Data
+[2025-11-24 13:48:03] [INFO] Loading Raw Data
+[2025-11-24 13:48:11] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:48:11] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:48:12] [INFO] Setting EEG Reference
+[2025-11-24 13:48:12] [INFO] Setting EEG Reference
+[2025-11-24 13:48:12] [INFO] Precprcessing EEG
+[2025-11-24 13:48:12] [INFO] Precprcessing EEG
+[2025-11-24 13:48:12] [INFO] Processed file present
+[2025-11-24 13:48:12] [INFO] Processed file present
+[2025-11-24 13:48:13] [INFO] Building epochs
+[2025-11-24 13:48:13] [INFO] Building epochs
+[2025-11-24 13:48:13] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:48:13] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:48:13] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:48:13] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:48:14] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:48:14] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:48:14] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:48:14] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:48:14] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:48:14] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:48:14] [INFO] Loading data for sub-07, ses-01
+[2025-11-24 13:48:14] [INFO] Loading data for sub-07, ses-01
+[2025-11-24 13:48:14] [INFO] ************************************************************
+[2025-11-24 13:48:14] [INFO] ************************************************************
+[2025-11-24 13:48:14] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:48:14] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:48:14] [INFO] ************************************************************
+[2025-11-24 13:48:14] [INFO] ************************************************************
+[2025-11-24 13:48:14] [INFO] Loading Raw Data
+[2025-11-24 13:48:14] [INFO] Loading Raw Data
+[2025-11-24 13:48:21] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:48:21] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:48:22] [INFO] Setting EEG Reference
+[2025-11-24 13:48:22] [INFO] Setting EEG Reference
+[2025-11-24 13:48:22] [INFO] Precprcessing EEG
+[2025-11-24 13:48:22] [INFO] Precprcessing EEG
+[2025-11-24 13:48:22] [INFO] Processed file present
+[2025-11-24 13:48:22] [INFO] Processed file present
+[2025-11-24 13:48:23] [INFO] Building epochs
+[2025-11-24 13:48:23] [INFO] Building epochs
+[2025-11-24 13:48:23] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:48:23] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:48:23] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:48:23] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:48:23] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:48:23] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:48:23] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:48:23] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:48:24] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:48:24] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:48:24] [INFO] Loading data for sub-08, ses-01
+[2025-11-24 13:48:24] [INFO] Loading data for sub-08, ses-01
+[2025-11-24 13:48:24] [INFO] ************************************************************
+[2025-11-24 13:48:24] [INFO] ************************************************************
+[2025-11-24 13:48:24] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:48:24] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:48:24] [INFO] ************************************************************
+[2025-11-24 13:48:24] [INFO] ************************************************************
+[2025-11-24 13:48:24] [INFO] Loading Raw Data
+[2025-11-24 13:48:24] [INFO] Loading Raw Data
+[2025-11-24 13:48:31] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:48:31] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:48:32] [INFO] Setting EEG Reference
+[2025-11-24 13:48:32] [INFO] Setting EEG Reference
+[2025-11-24 13:48:32] [INFO] Precprcessing EEG
+[2025-11-24 13:48:32] [INFO] Precprcessing EEG
+[2025-11-24 13:48:32] [INFO] Processed file present
+[2025-11-24 13:48:32] [INFO] Processed file present
+[2025-11-24 13:48:33] [INFO] Building epochs
+[2025-11-24 13:48:33] [INFO] Building epochs
+[2025-11-24 13:48:33] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:48:33] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:48:33] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:48:33] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:48:33] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:48:33] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:48:33] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:48:33] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:48:33] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:48:33] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:48:33] [INFO] Loading data for sub-09, ses-01
+[2025-11-24 13:48:33] [INFO] Loading data for sub-09, ses-01
+[2025-11-24 13:48:33] [INFO] ************************************************************
+[2025-11-24 13:48:33] [INFO] ************************************************************
+[2025-11-24 13:48:33] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:48:33] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:48:33] [INFO] ************************************************************
+[2025-11-24 13:48:33] [INFO] ************************************************************
+[2025-11-24 13:48:33] [INFO] Loading Raw Data
+[2025-11-24 13:48:33] [INFO] Loading Raw Data
+[2025-11-24 13:48:41] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:48:41] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:48:42] [INFO] Setting EEG Reference
+[2025-11-24 13:48:42] [INFO] Setting EEG Reference
+[2025-11-24 13:48:42] [INFO] Precprcessing EEG
+[2025-11-24 13:48:42] [INFO] Precprcessing EEG
+[2025-11-24 13:48:42] [INFO] Processed file present
+[2025-11-24 13:48:42] [INFO] Processed file present
+[2025-11-24 13:48:43] [INFO] Building epochs
+[2025-11-24 13:48:43] [INFO] Building epochs
+[2025-11-24 13:48:43] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:48:43] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:48:43] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:48:43] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:48:43] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:48:43] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:48:43] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:48:43] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:48:44] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:48:44] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:48:44] [INFO] Loading data for sub-09, ses-02
+[2025-11-24 13:48:44] [INFO] Loading data for sub-09, ses-02
+[2025-11-24 13:48:44] [INFO] ************************************************************
+[2025-11-24 13:48:44] [INFO] ************************************************************
+[2025-11-24 13:48:44] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:48:44] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:48:44] [INFO] ************************************************************
+[2025-11-24 13:48:44] [INFO] ************************************************************
+[2025-11-24 13:48:44] [INFO] Loading Raw Data
+[2025-11-24 13:48:44] [INFO] Loading Raw Data
+[2025-11-24 13:48:51] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:48:51] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:48:51] [INFO] Setting EEG Reference
+[2025-11-24 13:48:51] [INFO] Setting EEG Reference
+[2025-11-24 13:48:51] [INFO] Precprcessing EEG
+[2025-11-24 13:48:51] [INFO] Precprcessing EEG
+[2025-11-24 13:48:51] [INFO] Processed file present
+[2025-11-24 13:48:51] [INFO] Processed file present
+[2025-11-24 13:48:52] [INFO] Building epochs
+[2025-11-24 13:48:52] [INFO] Building epochs
+[2025-11-24 13:48:52] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:48:52] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:48:53] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:48:53] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:48:53] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:48:53] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:48:53] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:48:53] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:48:53] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:48:53] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:48:53] [INFO] Loading data for sub-10, ses-01
+[2025-11-24 13:48:53] [INFO] Loading data for sub-10, ses-01
+[2025-11-24 13:48:53] [INFO] ************************************************************
+[2025-11-24 13:48:53] [INFO] ************************************************************
+[2025-11-24 13:48:53] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:48:53] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:48:53] [INFO] ************************************************************
+[2025-11-24 13:48:53] [INFO] ************************************************************
+[2025-11-24 13:48:53] [INFO] Loading Raw Data
+[2025-11-24 13:48:53] [INFO] Loading Raw Data
+[2025-11-24 13:49:01] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:49:01] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:49:01] [INFO] Setting EEG Reference
+[2025-11-24 13:49:01] [INFO] Setting EEG Reference
+[2025-11-24 13:49:01] [INFO] Precprcessing EEG
+[2025-11-24 13:49:01] [INFO] Precprcessing EEG
+[2025-11-24 13:49:01] [INFO] Processed file present
+[2025-11-24 13:49:01] [INFO] Processed file present
+[2025-11-24 13:49:03] [INFO] Building epochs
+[2025-11-24 13:49:03] [INFO] Building epochs
+[2025-11-24 13:49:03] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:49:03] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:49:03] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:49:03] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:49:03] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:49:03] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:49:03] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:49:03] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:49:03] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:49:03] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:49:03] [INFO] Loading data for sub-11, ses-01
+[2025-11-24 13:49:03] [INFO] Loading data for sub-11, ses-01
+[2025-11-24 13:49:03] [INFO] ************************************************************
+[2025-11-24 13:49:03] [INFO] ************************************************************
+[2025-11-24 13:49:03] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:49:03] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:49:03] [INFO] ************************************************************
+[2025-11-24 13:49:03] [INFO] ************************************************************
+[2025-11-24 13:49:03] [INFO] Loading Raw Data
+[2025-11-24 13:49:03] [INFO] Loading Raw Data
+[2025-11-24 13:49:11] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:49:11] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:49:11] [INFO] Setting EEG Reference
+[2025-11-24 13:49:11] [INFO] Setting EEG Reference
+[2025-11-24 13:49:11] [INFO] Precprcessing EEG
+[2025-11-24 13:49:11] [INFO] Precprcessing EEG
+[2025-11-24 13:49:11] [INFO] Processed file present
+[2025-11-24 13:49:11] [INFO] Processed file present
+[2025-11-24 13:49:13] [INFO] Building epochs
+[2025-11-24 13:49:13] [INFO] Building epochs
+[2025-11-24 13:49:13] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:49:13] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:49:13] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:49:13] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:49:13] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:49:13] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:49:13] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:49:13] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:49:13] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:49:13] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:49:13] [INFO] Loading data for sub-12, ses-01
+[2025-11-24 13:49:13] [INFO] Loading data for sub-12, ses-01
+[2025-11-24 13:49:13] [INFO] ************************************************************
+[2025-11-24 13:49:13] [INFO] ************************************************************
+[2025-11-24 13:49:13] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:49:13] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:49:13] [INFO] ************************************************************
+[2025-11-24 13:49:13] [INFO] ************************************************************
+[2025-11-24 13:49:13] [INFO] Loading Raw Data
+[2025-11-24 13:49:13] [INFO] Loading Raw Data
+[2025-11-24 13:49:21] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:49:21] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:49:22] [INFO] Setting EEG Reference
+[2025-11-24 13:49:22] [INFO] Setting EEG Reference
+[2025-11-24 13:49:22] [INFO] Precprcessing EEG
+[2025-11-24 13:49:22] [INFO] Precprcessing EEG
+[2025-11-24 13:49:22] [INFO] Processed file present
+[2025-11-24 13:49:22] [INFO] Processed file present
+[2025-11-24 13:49:23] [INFO] Building epochs
+[2025-11-24 13:49:23] [INFO] Building epochs
+[2025-11-24 13:49:23] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:49:23] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:49:23] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:49:23] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:49:23] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:49:23] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:49:23] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:49:23] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:49:24] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:49:24] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:49:24] [INFO] Loading data for sub-12, ses-02
+[2025-11-24 13:49:24] [INFO] Loading data for sub-12, ses-02
+[2025-11-24 13:49:24] [INFO] ************************************************************
+[2025-11-24 13:49:24] [INFO] ************************************************************
+[2025-11-24 13:49:24] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:49:24] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:49:24] [INFO] ************************************************************
+[2025-11-24 13:49:24] [INFO] ************************************************************
+[2025-11-24 13:49:24] [INFO] Loading Raw Data
+[2025-11-24 13:49:24] [INFO] Loading Raw Data
+[2025-11-24 13:49:31] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:49:31] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:49:32] [INFO] Setting EEG Reference
+[2025-11-24 13:49:32] [INFO] Setting EEG Reference
+[2025-11-24 13:49:32] [INFO] Precprcessing EEG
+[2025-11-24 13:49:32] [INFO] Precprcessing EEG
+[2025-11-24 13:49:32] [INFO] Applying notch filter
+[2025-11-24 13:49:32] [INFO] Applying notch filter
+[2025-11-24 13:49:43] [INFO] Notch filter completed
+[2025-11-24 13:49:43] [INFO] Notch filter completed
+[2025-11-24 13:49:43] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-24 13:49:43] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-24 13:49:49] [INFO] Bandpass completed
+[2025-11-24 13:49:49] [INFO] Bandpass completed
+[2025-11-24 13:49:49] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-24 13:49:49] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-24 13:54:01] [INFO] ICA Completed
+[2025-11-24 13:54:01] [INFO] ICA Completed
+[2025-11-24 13:54:04] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-12_ses-02_processed.fif
+[2025-11-24 13:54:04] [INFO] processed file saved to BIDS/derivaties/low-0.1_high-40.0_ICA-True/sub-12_ses-02_processed.fif
+[2025-11-24 13:54:04] [INFO] Building epochs
+[2025-11-24 13:54:04] [INFO] Building epochs
+[2025-11-24 13:54:04] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:54:04] [INFO]  Creating epochs for condition: Visual
+[2025-11-24 13:54:04] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:54:04] [INFO]  Creating epochs for condition: Rest
+[2025-11-24 13:54:04] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:54:04] [INFO]  Epochs 1: (24, 3, 701)
+[2025-11-24 13:54:04] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:54:04] [INFO]  Epochs 2: (24, 3, 701)
+[2025-11-24 13:54:04] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:54:04] [INFO] Running pipeline in data-only mode
+[2025-11-24 13:54:04] [INFO] Loading data for sub-13, ses-01
+[2025-11-24 13:54:04] [INFO] Loading data for sub-13, ses-01
+[2025-11-24 13:54:04] [INFO] ************************************************************
+[2025-11-24 13:54:04] [INFO] ************************************************************
+[2025-11-24 13:54:04] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:54:04] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-24 13:54:04] [INFO] ************************************************************
+[2025-11-24 13:54:04] [INFO] ************************************************************
+[2025-11-24 13:54:04] [INFO] Loading Raw Data
+[2025-11-24 13:54:04] [INFO] Loading Raw Data
+[2025-11-24 13:54:12] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:54:12] [INFO] Setting refrence : ['FCz']
+[2025-11-24 13:54:13] [INFO] Setting EEG Reference
+[2025-11-24 13:54:13] [INFO] Setting EEG Reference
+[2025-11-24 13:54:13] [INFO] Precprcessing EEG
+[2025-11-24 13:54:13] [INFO] Precprcessing EEG
+[2025-11-24 13:54:13] [INFO] Applying notch filter
+[2025-11-24 13:54:13] [INFO] Applying notch filter
+[2025-11-24 13:54:23] [INFO] Notch filter completed
+[2025-11-24 13:54:23] [INFO] Notch filter completed
+[2025-11-24 13:54:23] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-24 13:54:23] [INFO] Applying bandpass low: 0.1, high: 40.0
+[2025-11-24 13:54:30] [INFO] Bandpass completed
+[2025-11-24 13:54:30] [INFO] Bandpass completed
+[2025-11-24 13:54:30] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}
+[2025-11-24 13:54:30] [INFO] Removing Artifacts using ICA {'n_components': 50, 'random_state': 97}

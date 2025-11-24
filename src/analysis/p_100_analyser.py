@@ -2,8 +2,10 @@ import numpy as np
 from mne import Evoked
 from mne.epochs import Epochs
 
+from src.utils.graphics import log_print
+
 class P100ComponentAnalyzer:
-    def __init__(self, epochs: Epochs, channels, time_window=(0.08, 0.12)):
+    def __init__(self, epochs: Epochs,logger, channels, time_window=(0.08, 0.12)):
         """
         Initialize the P100 analyzer.
 
@@ -14,7 +16,8 @@ class P100ComponentAnalyzer:
         """
         self.epochs = epochs
         self.time_window = time_window
-
+        self.logger = logger
+        log_print(text='Initializing P100ComponentAnalyzer', logger=logger)
 
         self.channels = channels
 
@@ -23,7 +26,7 @@ class P100ComponentAnalyzer:
             raise ValueError("None of the selected channels are present in the Epochs object.")
 
         self.channels = valid_chs
-        picked_epochs = self.epochs.copy().pick_channels(self.channels)
+        picked_epochs = self.epochs.copy().pick(self.channels)
         self.evoked = picked_epochs.average()
 
     def get_evoked(self) -> Evoked:
@@ -43,6 +46,7 @@ class P100ComponentAnalyzer:
         Returns:
             tuple: (peak_latency in seconds, peak_amplitude in µV, mean_amplitude in µV)
         """
+        self.logger.info('Caculating Latency, peak and mean')
         valid_chs = [ch for ch in self.channels if ch in self.evoked.ch_names]
         if not valid_chs:
             raise ValueError("None of the selected channels are present in the data.")
@@ -70,4 +74,5 @@ class P100ComponentAnalyzer:
         self.peak_amplitude = data_window[peak_idx] * 1e6  # Convert to µV
         self.mean_amplitude = np.mean(data_window) * 1e6   # Convert to µV
 
+        self.logger.info(f'Latency: {self.latency}, Peak: {self.peak_amplitude}, Mean: {self.mean_amplitude}')
         return self.latency, self.peak_amplitude, self.mean_amplitude

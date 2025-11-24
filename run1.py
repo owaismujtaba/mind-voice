@@ -149,13 +149,14 @@ if plot_config['display_per_class_metrics']:
 
 
 if analysis_config['ica']:
-    logger = create_logger('ica_analysis')
+    logger = create_logger('ica_analysis_1')
     layout = BIDSLayout(dataset_config['BIDS_DIR'], validate=True)
     subject_ids = layout.get_subjects()
 
     for sub in subject_ids:
         session_ids = layout.get_sessions(subject=sub)  
         for ses in session_ids:
+           
             run_snr_per_subject_session(
                 subject_id=sub,
                 session_id=ses,

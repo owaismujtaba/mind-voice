@@ -14,8 +14,8 @@ preprocessing:
     
 analysis:
     results_dir: 'results'
-    p100: False
-    decoding: True
+    p100: True
+    decoding: False
     ica: False
 
 

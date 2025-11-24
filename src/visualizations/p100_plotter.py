@@ -6,7 +6,7 @@ import seaborn as sns
 
 class P100Plotter:
     def __init__(self, 
-            condition1: 'P100ComponentAnalyzer', condition2: 'P100ComponentAnalyzer', 
+            condition1 , condition2, 
             name1, name2, sub_id, ses_id, config, logger
             ):
         """

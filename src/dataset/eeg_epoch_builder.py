@@ -3,8 +3,7 @@ import numpy as np
 
 
 from src.dataset.data_reader import BIDSDatasetReader
-from src.utils.graphics import styled_print, print_criteria
-
+from src.utils.graphics import styled_print, print_criteria, log_print
 
 class EEGEpochBuilder:
     """
@@ -17,8 +16,10 @@ class EEGEpochBuilder:
     """
     def __init__(self, eeg_data, trial_mode='', trial_unit='', 
                  experiment_mode='', trial_boundary='', 
-                 trial_type='', modality='', channels=None):
+                 trial_type='', modality='', channels=None, logger=None):
         styled_print('', 'Initializing EEGEpochBuilder Class', 'red', panel=True)
+        self.logger = logger
+        log_print(text='Initializing Epoch Builder', logger=logger)
         self.eeg_data = eeg_data
         self.annotations = eeg_data.annotations
         self.criteria = [
@@ -27,7 +28,7 @@ class EEGEpochBuilder:
         ]
         self.channels = channels
         if channels:
-            self.eeg_data.pick_channels(self.channels)  # Pick specified channels
+            self.eeg_data.pick(self.channels)  # Pick specified channels
     def _filter_events(self):
         """
         Filters EEG event annotations based on predefined criteria.
@@ -56,6 +57,7 @@ class EEGEpochBuilder:
             ValueError: If no matching events are found.
         """
         styled_print('', 'Creating EPOCHS', color='green')
+        self.logger.info('Creating Epochs')
         print_criteria(self.criteria + [tmin, tmax])
         filtered_events = self._filter_events()
 
