@@ -96,9 +96,9 @@ def plot_peak_mean_visual_novisual(logger):
 
     plt.tight_layout()
 
-    name = 'peakMeanAmplitudeVisualRest.png'
+    name = 'peakMeanAmplitudeVisualRest.pdf'
     filepath = Path(output_dir, name)
-    plt.savefig(filepath, dpi=800)
+    plt.savefig(filepath, format='pdf', dpi=800)
     plt.show()
     plt.close(fig)
 

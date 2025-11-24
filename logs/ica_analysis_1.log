@@ -419,3 +419,168 @@
 [2025-11-20 20:38:48] [INFO] ********** Initalizing BIDSDatasetReader**********
 [2025-11-20 20:38:48] [INFO] ************************************************************
 [2025-11-20 20:38:48] [INFO] Loading Raw Data
+[2025-11-20 20:38:55] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:38:56] [INFO] Setting EEG Reference
+[2025-11-20 20:38:56] [INFO] Precprcessing EEG
+[2025-11-20 20:38:56] [INFO] Processed file present
+[2025-11-20 20:38:58] [INFO] Subject: 05 | Session: 01 | Overt SNR Improvement Ratio: 0.0003 | Covert SNR Improvement Ratio: 0.0010
+[2025-11-20 20:38:58] [INFO] Initializing ICADataloader for Subject: 05, Session: 02
+[2025-11-20 20:38:58] [INFO] ************************************************************
+[2025-11-20 20:38:58] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:38:58] [INFO] ************************************************************
+[2025-11-20 20:38:58] [INFO] Loading Raw Data
+[2025-11-20 20:39:06] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:39:06] [INFO] Setting EEG Reference
+[2025-11-20 20:39:06] [INFO] Precprcessing EEG
+[2025-11-20 20:39:06] [INFO] Processed file present
+[2025-11-20 20:39:08] [INFO] Subject: 05 | Session: 02 | Overt SNR Improvement Ratio: 0.9679 | Covert SNR Improvement Ratio: 0.9683
+[2025-11-20 20:39:08] [INFO] Initializing ICADataloader for Subject: 06, Session: 01
+[2025-11-20 20:39:08] [INFO] ************************************************************
+[2025-11-20 20:39:08] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:39:08] [INFO] ************************************************************
+[2025-11-20 20:39:08] [INFO] Loading Raw Data
+[2025-11-20 20:39:16] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:39:17] [INFO] Setting EEG Reference
+[2025-11-20 20:39:17] [INFO] Precprcessing EEG
+[2025-11-20 20:39:17] [INFO] Processed file present
+[2025-11-20 20:39:19] [INFO] Subject: 06 | Session: 01 | Overt SNR Improvement Ratio: 0.3513 | Covert SNR Improvement Ratio: 0.2278
+[2025-11-20 20:39:19] [INFO] Initializing ICADataloader for Subject: 06, Session: 02
+[2025-11-20 20:39:19] [INFO] ************************************************************
+[2025-11-20 20:39:19] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:39:19] [INFO] ************************************************************
+[2025-11-20 20:39:19] [INFO] Loading Raw Data
+[2025-11-20 20:39:26] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:39:27] [INFO] Setting EEG Reference
+[2025-11-20 20:39:27] [INFO] Precprcessing EEG
+[2025-11-20 20:39:27] [INFO] Processed file present
+[2025-11-20 20:39:30] [INFO] Subject: 06 | Session: 02 | Overt SNR Improvement Ratio: 0.0696 | Covert SNR Improvement Ratio: 0.1608
+[2025-11-20 20:39:30] [INFO] Initializing ICADataloader for Subject: 07, Session: 01
+[2025-11-20 20:39:30] [INFO] ************************************************************
+[2025-11-20 20:39:30] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:39:30] [INFO] ************************************************************
+[2025-11-20 20:39:30] [INFO] Loading Raw Data
+[2025-11-20 20:39:37] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:39:38] [INFO] Setting EEG Reference
+[2025-11-20 20:39:38] [INFO] Precprcessing EEG
+[2025-11-20 20:39:38] [INFO] Processed file present
+[2025-11-20 20:39:40] [INFO] Subject: 07 | Session: 01 | Overt SNR Improvement Ratio: -0.3012 | Covert SNR Improvement Ratio: -0.3768
+[2025-11-20 20:39:40] [INFO] Initializing ICADataloader for Subject: 08, Session: 01
+[2025-11-20 20:39:40] [INFO] ************************************************************
+[2025-11-20 20:39:40] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:39:40] [INFO] ************************************************************
+[2025-11-20 20:39:40] [INFO] Loading Raw Data
+[2025-11-20 20:39:48] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:39:48] [INFO] Setting EEG Reference
+[2025-11-20 20:39:48] [INFO] Precprcessing EEG
+[2025-11-20 20:39:48] [INFO] Processed file present
+[2025-11-20 20:39:51] [INFO] Subject: 08 | Session: 01 | Overt SNR Improvement Ratio: 0.1882 | Covert SNR Improvement Ratio: 0.1982
+[2025-11-20 20:39:51] [INFO] Initializing ICADataloader for Subject: 09, Session: 01
+[2025-11-20 20:39:51] [INFO] ************************************************************
+[2025-11-20 20:39:51] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:39:51] [INFO] ************************************************************
+[2025-11-20 20:39:51] [INFO] Loading Raw Data
+[2025-11-20 20:39:58] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:39:59] [INFO] Setting EEG Reference
+[2025-11-20 20:39:59] [INFO] Precprcessing EEG
+[2025-11-20 20:39:59] [INFO] Processed file present
+[2025-11-20 20:40:01] [INFO] Subject: 09 | Session: 01 | Overt SNR Improvement Ratio: -0.6406 | Covert SNR Improvement Ratio: -0.5035
+[2025-11-20 20:40:01] [INFO] Initializing ICADataloader for Subject: 09, Session: 02
+[2025-11-20 20:40:01] [INFO] ************************************************************
+[2025-11-20 20:40:01] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:40:01] [INFO] ************************************************************
+[2025-11-20 20:40:01] [INFO] Loading Raw Data
+[2025-11-20 20:40:08] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:40:09] [INFO] Setting EEG Reference
+[2025-11-20 20:40:09] [INFO] Precprcessing EEG
+[2025-11-20 20:40:09] [INFO] Processed file present
+[2025-11-20 20:40:11] [INFO] Subject: 09 | Session: 02 | Overt SNR Improvement Ratio: 0.0702 | Covert SNR Improvement Ratio: 0.0619
+[2025-11-20 20:40:11] [INFO] Initializing ICADataloader for Subject: 10, Session: 01
+[2025-11-20 20:40:11] [INFO] ************************************************************
+[2025-11-20 20:40:11] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:40:11] [INFO] ************************************************************
+[2025-11-20 20:40:11] [INFO] Loading Raw Data
+[2025-11-20 20:40:19] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:40:20] [INFO] Setting EEG Reference
+[2025-11-20 20:40:20] [INFO] Precprcessing EEG
+[2025-11-20 20:40:20] [INFO] Processed file present
+[2025-11-20 20:40:23] [INFO] Subject: 10 | Session: 01 | Overt SNR Improvement Ratio: 0.0670 | Covert SNR Improvement Ratio: 0.0282
+[2025-11-20 20:40:23] [INFO] Initializing ICADataloader for Subject: 11, Session: 01
+[2025-11-20 20:40:23] [INFO] ************************************************************
+[2025-11-20 20:40:23] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:40:23] [INFO] ************************************************************
+[2025-11-20 20:40:23] [INFO] Loading Raw Data
+[2025-11-20 20:40:31] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:40:32] [INFO] Setting EEG Reference
+[2025-11-20 20:40:32] [INFO] Precprcessing EEG
+[2025-11-20 20:40:32] [INFO] Processed file present
+[2025-11-20 20:40:35] [INFO] Subject: 11 | Session: 01 | Overt SNR Improvement Ratio: 0.2373 | Covert SNR Improvement Ratio: 0.2566
+[2025-11-20 20:40:35] [INFO] Initializing ICADataloader for Subject: 12, Session: 01
+[2025-11-20 20:40:35] [INFO] ************************************************************
+[2025-11-20 20:40:35] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:40:35] [INFO] ************************************************************
+[2025-11-20 20:40:35] [INFO] Loading Raw Data
+[2025-11-20 20:40:43] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:40:44] [INFO] Setting EEG Reference
+[2025-11-20 20:40:44] [INFO] Precprcessing EEG
+[2025-11-20 20:40:44] [INFO] Processed file present
+[2025-11-20 20:40:46] [INFO] Subject: 12 | Session: 01 | Overt SNR Improvement Ratio: 0.0978 | Covert SNR Improvement Ratio: 0.0996
+[2025-11-20 20:40:46] [INFO] Initializing ICADataloader for Subject: 12, Session: 02
+[2025-11-20 20:40:46] [INFO] ************************************************************
+[2025-11-20 20:40:46] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:40:46] [INFO] ************************************************************
+[2025-11-20 20:40:46] [INFO] Loading Raw Data
+[2025-11-20 20:40:54] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:40:55] [INFO] Setting EEG Reference
+[2025-11-20 20:40:55] [INFO] Precprcessing EEG
+[2025-11-20 20:40:55] [INFO] Processed file present
+[2025-11-20 20:40:59] [INFO] Subject: 12 | Session: 02 | Overt SNR Improvement Ratio: 0.2650 | Covert SNR Improvement Ratio: 0.2315
+[2025-11-20 20:40:59] [INFO] Initializing ICADataloader for Subject: 13, Session: 01
+[2025-11-20 20:40:59] [INFO] ************************************************************
+[2025-11-20 20:40:59] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:40:59] [INFO] ************************************************************
+[2025-11-20 20:40:59] [INFO] Loading Raw Data
+[2025-11-20 20:41:07] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:41:08] [INFO] Setting EEG Reference
+[2025-11-20 20:41:08] [INFO] Precprcessing EEG
+[2025-11-20 20:41:08] [INFO] Processed file present
+[2025-11-20 20:41:12] [INFO] Subject: 13 | Session: 01 | Overt SNR Improvement Ratio: 0.2581 | Covert SNR Improvement Ratio: 0.1889
+[2025-11-20 20:41:12] [INFO] Initializing ICADataloader for Subject: 13, Session: 02
+[2025-11-20 20:41:12] [INFO] ************************************************************
+[2025-11-20 20:41:12] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:41:12] [INFO] ************************************************************
+[2025-11-20 20:41:12] [INFO] Loading Raw Data
+[2025-11-20 20:41:19] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:41:20] [INFO] Setting EEG Reference
+[2025-11-20 20:41:20] [INFO] Precprcessing EEG
+[2025-11-20 20:41:20] [INFO] Processed file present
+[2025-11-20 20:41:24] [INFO] Subject: 13 | Session: 02 | Overt SNR Improvement Ratio: 0.1035 | Covert SNR Improvement Ratio: 0.1061
+[2025-11-20 20:41:24] [INFO] Initializing ICADataloader for Subject: 14, Session: 01
+[2025-11-20 20:41:24] [INFO] ************************************************************
+[2025-11-20 20:41:24] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:41:24] [INFO] ************************************************************
+[2025-11-20 20:41:24] [INFO] Loading Raw Data
+[2025-11-20 20:41:32] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:41:33] [INFO] Setting EEG Reference
+[2025-11-20 20:41:33] [INFO] Precprcessing EEG
+[2025-11-20 20:41:33] [INFO] Processed file present
+[2025-11-20 20:41:38] [INFO] Subject: 14 | Session: 01 | Overt SNR Improvement Ratio: 0.2019 | Covert SNR Improvement Ratio: 0.1282
+[2025-11-20 20:41:38] [INFO] Initializing ICADataloader for Subject: 15, Session: 01
+[2025-11-20 20:41:38] [INFO] ************************************************************
+[2025-11-20 20:41:38] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:41:38] [INFO] ************************************************************
+[2025-11-20 20:41:38] [INFO] Loading Raw Data
+[2025-11-20 20:41:46] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:41:46] [INFO] Setting EEG Reference
+[2025-11-20 20:41:46] [INFO] Precprcessing EEG
+[2025-11-20 20:41:46] [INFO] Processed file present
+[2025-11-20 20:41:50] [INFO] Subject: 15 | Session: 01 | Overt SNR Improvement Ratio: 0.0053 | Covert SNR Improvement Ratio: 0.0026
+[2025-11-20 20:41:50] [INFO] Initializing ICADataloader for Subject: 15, Session: 02
+[2025-11-20 20:41:50] [INFO] ************************************************************
+[2025-11-20 20:41:50] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:41:50] [INFO] ************************************************************
+[2025-11-20 20:41:50] [INFO] Loading Raw Data
+[2025-11-20 20:41:51] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:41:51] [INFO] Setting EEG Reference
+[2025-11-20 20:41:51] [INFO] Precprcessing EEG
+[2025-11-20 20:41:51] [INFO] Processed file present
+[2025-11-20 20:41:53] [INFO] Subject: 15 | Session: 02 | Overt SNR Improvement Ratio: 0.3519 | Covert SNR Improvement Ratio: 0.5770

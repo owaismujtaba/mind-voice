@@ -2140,3 +2140,37 @@
 [2025-11-20 20:01:31] [INFO] Saving results to CSV
 [2025-11-20 20:01:31] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
 [2025-11-20 20:01:31] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-15_ses-02_p100_Visual_Rest.csv
+[2025-11-20 20:43:54] [INFO] Setting up P100 Analysis Pipeline
+[2025-11-20 20:43:54] [INFO] Loading data for sub-01, ses-01
+[2025-11-20 20:43:54] [INFO] ************************************************************
+[2025-11-20 20:43:54] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:43:54] [INFO] ************************************************************
+[2025-11-20 20:43:54] [INFO] Loading Raw Data
+[2025-11-20 20:44:34] [INFO] Setting up P100 Analysis Pipeline
+[2025-11-20 20:44:34] [INFO] Loading data for sub-01, ses-01
+[2025-11-20 20:44:34] [INFO] ************************************************************
+[2025-11-20 20:44:34] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:44:34] [INFO] ************************************************************
+[2025-11-20 20:44:34] [INFO] Loading Raw Data
+[2025-11-20 20:44:42] [INFO] Setting refrence : ['FCz']
+[2025-11-20 20:44:43] [INFO] Setting EEG Reference
+[2025-11-20 20:44:43] [INFO] Precprcessing EEG
+[2025-11-20 20:44:43] [INFO] Processed file present
+[2025-11-20 20:44:44] [INFO] Building epochs
+[2025-11-20 20:44:44] [INFO]  Creating epochs for condition: Visual
+[2025-11-20 20:44:44] [INFO]  Creating epochs for condition: Rest
+[2025-11-20 20:44:44] [INFO]  Epochs 1: (130, 3, 718)
+[2025-11-20 20:44:44] [INFO]  Epochs 2: (130, 3, 718)
+[2025-11-20 20:44:44] [INFO] Visual P100: latency=0.114s, peak=2.86µV, mean=0.10µV
+[2025-11-20 20:44:44] [INFO] Rest P100: latency=0.096s, peak=0.97µV, mean=-0.64µV
+[2025-11-20 20:44:44] [INFO] Plotting P100
+[2025-11-20 20:44:44] [INFO] Initializing Plotter
+[2025-11-20 20:44:44] [INFO] Plotting Evoked
+[2025-11-20 20:44:44] [INFO] Saving results to CSV
+[2025-11-20 20:44:44] [INFO] Saving results to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-11-20 20:44:44] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-01_ses-01_p100_Visual_Rest.csv
+[2025-11-20 20:44:45] [INFO] Loading data for sub-02, ses-01
+[2025-11-20 20:44:45] [INFO] ************************************************************
+[2025-11-20 20:44:45] [INFO] ********** Initalizing BIDSDatasetReader**********
+[2025-11-20 20:44:45] [INFO] ************************************************************
+[2025-11-20 20:44:45] [INFO] Loading Raw Data
