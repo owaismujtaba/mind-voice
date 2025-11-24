@@ -105,7 +105,7 @@ class P100Pipeline:
         self._log(f"Results saved to {csv_path}")
         
         
-    def plot(self):
+    def _plot(self):
         self.logger.info('Plotting P100')
         plotter = P100Plotter(
             condition1=self.analyzer_1,
