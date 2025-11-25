@@ -1,242 +1,212 @@
-[2025-11-20 12:52:50] [INFO] Creating BIDS Dataset
-[2025-11-20 12:52:50] [INFO] Inside create_bids_dataset
-[2025-11-20 12:52:50] [INFO] subjetc:01 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P001/ses-S001/eeg/sub-P001_ses-S001_task-Default_run-001_eeg.xdf
-[2025-11-20 12:52:50] [INFO] ************************************************************
-[2025-11-20 12:52:50] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 12:52:50] [INFO] ************************************************************
-[2025-11-20 12:52:50] [INFO] Resolving streams from XDF file...
-[2025-11-20 12:52:50] [INFO] Reading XDF File...
-[2025-11-20 12:52:50] [INFO] Loading EEG Stream...
-[2025-11-20 12:56:52] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 12:56:52] [INFO] ************************************************************
-[2025-11-20 12:56:52] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 12:56:52] [INFO] ************************************************************
-[2025-11-20 12:56:52] [INFO] Setting paths
-[2025-11-20 12:56:52] [INFO] Preprocessing eeg, resampling
-[2025-11-20 12:57:36] [INFO] Setting  Channels and Montage
-[2025-11-20 12:57:36] [INFO] Interpolating Bad Channels
-[2025-11-20 12:58:49] [INFO] Creating BIDS File for EEG
-[2025-11-20 12:58:53] [INFO] subjetc:02 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P002/ses-S001/eeg/sub-P002_ses-S001_task-Default_run-001_eeg.xdf
-[2025-11-20 12:58:53] [INFO] ************************************************************
-[2025-11-20 12:58:53] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 12:58:53] [INFO] ************************************************************
-[2025-11-20 12:58:53] [INFO] Resolving streams from XDF file...
-[2025-11-20 12:58:53] [INFO] Reading XDF File...
-[2025-11-20 12:58:53] [INFO] Loading EEG Stream...
-[2025-11-20 13:03:01] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 13:03:01] [INFO] ************************************************************
-[2025-11-20 13:03:01] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 13:03:01] [INFO] ************************************************************
-[2025-11-20 13:03:01] [INFO] Setting paths
-[2025-11-20 13:03:01] [INFO] Preprocessing eeg, resampling
-[2025-11-20 13:03:53] [INFO] Setting  Channels and Montage
-[2025-11-20 13:03:53] [INFO] Interpolating Bad Channels
-[2025-11-20 13:05:07] [INFO] Creating BIDS File for EEG
-[2025-11-20 13:05:11] [INFO] subjetc:03 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P003/ses-S002/eeg/sub-P003_ses-S002_task-Default_run-001_eeg.xdf
-[2025-11-20 13:05:11] [INFO] ************************************************************
-[2025-11-20 13:05:11] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 13:05:11] [INFO] ************************************************************
-[2025-11-20 13:05:11] [INFO] Resolving streams from XDF file...
-[2025-11-20 13:05:13] [INFO] Reading XDF File...
-[2025-11-20 13:05:13] [INFO] Loading EEG Stream...
-[2025-11-20 13:09:09] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 13:09:09] [INFO] ************************************************************
-[2025-11-20 13:09:09] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 13:09:09] [INFO] ************************************************************
-[2025-11-20 13:09:09] [INFO] Setting paths
-[2025-11-20 13:09:09] [INFO] Preprocessing eeg, resampling
-[2025-11-20 13:10:03] [INFO] Setting  Channels and Montage
-[2025-11-20 13:10:03] [INFO] Interpolating Bad Channels
-[2025-11-20 13:11:13] [INFO] Creating BIDS File for EEG
-[2025-11-20 13:11:17] [INFO] subjetc:04 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P004/ses-S001/eeg/sub-P004_ses-S001_task-Default_run-001_eeg.xdf
-[2025-11-20 13:11:17] [INFO] ************************************************************
-[2025-11-20 13:11:17] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 13:11:17] [INFO] ************************************************************
-[2025-11-20 13:11:17] [INFO] Resolving streams from XDF file...
-[2025-11-20 13:11:19] [INFO] Reading XDF File...
-[2025-11-20 13:11:19] [INFO] Loading EEG Stream...
-[2025-11-20 13:15:51] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 13:15:51] [INFO] ************************************************************
-[2025-11-20 13:15:51] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 13:15:51] [INFO] ************************************************************
-[2025-11-20 13:15:51] [INFO] Setting paths
-[2025-11-20 13:15:51] [INFO] Preprocessing eeg, resampling
-[2025-11-20 13:16:44] [INFO] Setting  Channels and Montage
-[2025-11-20 13:16:44] [INFO] Interpolating Bad Channels
-[2025-11-20 13:18:05] [INFO] Creating BIDS File for EEG
-[2025-11-20 13:18:09] [INFO] subjetc:05 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P005/ses-S001/eeg/sub-P005_ses-S001_task-Default_run-001_eeg.xdf
-[2025-11-20 13:18:09] [INFO] ************************************************************
-[2025-11-20 13:18:09] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 13:18:09] [INFO] ************************************************************
-[2025-11-20 13:18:09] [INFO] Resolving streams from XDF file...
-[2025-11-20 13:18:11] [INFO] Reading XDF File...
-[2025-11-20 13:18:11] [INFO] Loading EEG Stream...
-[2025-11-20 13:22:04] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 13:22:04] [INFO] ************************************************************
-[2025-11-20 13:22:04] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 13:22:04] [INFO] ************************************************************
-[2025-11-20 13:22:04] [INFO] Setting paths
-[2025-11-20 13:22:04] [INFO] Preprocessing eeg, resampling
-[2025-11-20 13:22:57] [INFO] Setting  Channels and Montage
-[2025-11-20 13:22:57] [INFO] Interpolating Bad Channels
-[2025-11-20 13:24:05] [INFO] Creating BIDS File for EEG
-[2025-11-20 13:24:08] [INFO] subjetc:06 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P006/ses-S001/eeg/sub-P001_ses-S001_task-Default_run-001_eeg.xdf
-[2025-11-20 13:24:08] [INFO] ************************************************************
-[2025-11-20 13:24:08] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 13:24:08] [INFO] ************************************************************
-[2025-11-20 13:24:08] [INFO] Resolving streams from XDF file...
-[2025-11-20 13:24:11] [INFO] Reading XDF File...
-[2025-11-20 13:24:11] [INFO] Loading EEG Stream...
-[2025-11-20 13:32:33] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 13:32:33] [INFO] ************************************************************
-[2025-11-20 13:32:33] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 13:32:33] [INFO] ************************************************************
-[2025-11-20 13:32:33] [INFO] Setting paths
-[2025-11-20 13:32:33] [INFO] Preprocessing eeg, resampling
-[2025-11-20 13:33:28] [INFO] Setting  Channels and Montage
-[2025-11-20 13:33:28] [INFO] Interpolating Bad Channels
-[2025-11-20 13:34:45] [INFO] Creating BIDS File for EEG
-[2025-11-20 13:34:49] [INFO] subjetc:07 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P007/ses-S002_Elbueno/eeg/sub-P007_ses-S002_task-Default_run-001_eeg.xdf
-[2025-11-20 13:34:49] [INFO] ************************************************************
-[2025-11-20 13:34:49] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 13:34:49] [INFO] ************************************************************
-[2025-11-20 13:34:49] [INFO] Resolving streams from XDF file...
-[2025-11-20 13:34:51] [INFO] Reading XDF File...
-[2025-11-20 13:34:51] [INFO] Loading EEG Stream...
-[2025-11-20 13:38:41] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 13:38:41] [INFO] ************************************************************
-[2025-11-20 13:38:41] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 13:38:41] [INFO] ************************************************************
-[2025-11-20 13:38:41] [INFO] Setting paths
-[2025-11-20 13:38:41] [INFO] Preprocessing eeg, resampling
-[2025-11-20 13:40:15] [INFO] Setting  Channels and Montage
-[2025-11-20 13:40:15] [INFO] Interpolating Bad Channels
-[2025-11-20 13:41:23] [INFO] Creating BIDS File for EEG
-[2025-11-20 13:41:27] [INFO] subjetc:08 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P008/ses-S001/eeg/sub-P008_ses-S001_task-Default_run-001_eeg.xdf
-[2025-11-20 13:41:27] [INFO] ************************************************************
-[2025-11-20 13:41:27] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 13:41:27] [INFO] ************************************************************
-[2025-11-20 13:41:27] [INFO] Resolving streams from XDF file...
-[2025-11-20 13:41:29] [INFO] Reading XDF File...
-[2025-11-20 13:41:29] [INFO] Loading EEG Stream...
-[2025-11-20 13:45:15] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 13:45:15] [INFO] ************************************************************
-[2025-11-20 13:45:15] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 13:45:15] [INFO] ************************************************************
-[2025-11-20 13:45:15] [INFO] Setting paths
-[2025-11-20 13:45:15] [INFO] Preprocessing eeg, resampling
-[2025-11-20 13:46:08] [INFO] Setting  Channels and Montage
-[2025-11-20 13:46:08] [INFO] Interpolating Bad Channels
-[2025-11-20 13:47:15] [INFO] Creating BIDS File for EEG
-[2025-11-20 13:47:18] [INFO] subjetc:09 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P009/ses-S001/eeg/sub-P009_ses-S001_task-Default_run-001_eeg.xdf
-[2025-11-20 13:47:18] [INFO] ************************************************************
-[2025-11-20 13:47:18] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 13:47:18] [INFO] ************************************************************
-[2025-11-20 13:47:18] [INFO] Resolving streams from XDF file...
-[2025-11-20 13:47:20] [INFO] Reading XDF File...
-[2025-11-20 13:47:20] [INFO] Loading EEG Stream...
-[2025-11-20 13:51:20] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 13:51:20] [INFO] ************************************************************
-[2025-11-20 13:51:20] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 13:51:20] [INFO] ************************************************************
-[2025-11-20 13:51:20] [INFO] Setting paths
-[2025-11-20 13:51:20] [INFO] Preprocessing eeg, resampling
-[2025-11-20 13:52:14] [INFO] Setting  Channels and Montage
-[2025-11-20 13:52:14] [INFO] Interpolating Bad Channels
-[2025-11-20 13:53:26] [INFO] Creating BIDS File for EEG
-[2025-11-20 13:53:30] [INFO] subjetc:10 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P010/ses-S001/eeg/sub-P010_ses-S001_task-Default_run-001_eeg.xdf
-[2025-11-20 13:53:30] [INFO] ************************************************************
-[2025-11-20 13:53:30] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 13:53:30] [INFO] ************************************************************
-[2025-11-20 13:53:30] [INFO] Resolving streams from XDF file...
-[2025-11-20 13:53:32] [INFO] Reading XDF File...
-[2025-11-20 13:53:32] [INFO] Loading EEG Stream...
-[2025-11-20 13:57:29] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 13:57:29] [INFO] ************************************************************
-[2025-11-20 13:57:29] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 13:57:29] [INFO] ************************************************************
-[2025-11-20 13:57:29] [INFO] Setting paths
-[2025-11-20 13:57:29] [INFO] Preprocessing eeg, resampling
-[2025-11-20 13:58:20] [INFO] Setting  Channels and Montage
-[2025-11-20 13:58:20] [INFO] Interpolating Bad Channels
-[2025-11-20 13:59:30] [INFO] Creating BIDS File for EEG
-[2025-11-20 13:59:33] [INFO] subjetc:11 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P011/ses-S001/eeg/sub-P011_ses-S001_task-Default_run-001_eeg.xdf
-[2025-11-20 13:59:33] [INFO] ************************************************************
-[2025-11-20 13:59:33] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 13:59:33] [INFO] ************************************************************
-[2025-11-20 13:59:33] [INFO] Resolving streams from XDF file...
-[2025-11-20 13:59:35] [INFO] Reading XDF File...
-[2025-11-20 13:59:35] [INFO] Loading EEG Stream...
-[2025-11-20 14:03:28] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 14:03:28] [INFO] ************************************************************
-[2025-11-20 14:03:28] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 14:03:28] [INFO] ************************************************************
-[2025-11-20 14:03:28] [INFO] Setting paths
-[2025-11-20 14:03:28] [INFO] Preprocessing eeg, resampling
-[2025-11-20 14:04:36] [INFO] Setting  Channels and Montage
-[2025-11-20 14:04:36] [INFO] Interpolating Bad Channels
-[2025-11-20 14:05:46] [INFO] Creating BIDS File for EEG
-[2025-11-20 14:05:49] [INFO] subjetc:12 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P012/ses-S001/eeg/sub-P012_ses-S001_task-Default_run-001_eeg.xdf
-[2025-11-20 14:05:49] [INFO] ************************************************************
-[2025-11-20 14:05:49] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 14:05:49] [INFO] ************************************************************
-[2025-11-20 14:05:49] [INFO] Resolving streams from XDF file...
-[2025-11-20 14:05:51] [INFO] Reading XDF File...
-[2025-11-20 14:05:51] [INFO] Loading EEG Stream...
-[2025-11-20 14:10:23] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 14:10:23] [INFO] ************************************************************
-[2025-11-20 14:10:23] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 14:10:23] [INFO] ************************************************************
-[2025-11-20 14:10:23] [INFO] Setting paths
-[2025-11-20 14:10:23] [INFO] Preprocessing eeg, resampling
-[2025-11-20 14:11:16] [INFO] Setting  Channels and Montage
-[2025-11-20 14:11:16] [INFO] Interpolating Bad Channels
-[2025-11-20 14:12:37] [INFO] Creating BIDS File for EEG
-[2025-11-20 14:12:41] [INFO] subjetc:13 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P013/ses-S001/eeg/sub-P013_ses-S001_task-Default_run-001_eeg.xdf
-[2025-11-20 14:12:41] [INFO] ************************************************************
-[2025-11-20 14:12:41] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 14:12:41] [INFO] ************************************************************
-[2025-11-20 14:12:41] [INFO] Resolving streams from XDF file...
-[2025-11-20 14:12:44] [INFO] Reading XDF File...
-[2025-11-20 14:12:44] [INFO] Loading EEG Stream...
-[2025-11-20 14:17:20] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 14:17:20] [INFO] ************************************************************
-[2025-11-20 14:17:20] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 14:17:20] [INFO] ************************************************************
-[2025-11-20 14:17:20] [INFO] Setting paths
-[2025-11-20 14:17:20] [INFO] Preprocessing eeg, resampling
-[2025-11-20 14:18:14] [INFO] Setting  Channels and Montage
-[2025-11-20 14:18:14] [INFO] Interpolating Bad Channels
-[2025-11-20 14:19:37] [INFO] Creating BIDS File for EEG
-[2025-11-20 14:19:41] [INFO] subjetc:14 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P014/ses-S001/eeg/sub-P014_ses-S001_task-Default_run-001_eeg.xdf
-[2025-11-20 14:19:41] [INFO] ************************************************************
-[2025-11-20 14:19:41] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 14:19:41] [INFO] ************************************************************
-[2025-11-20 14:19:41] [INFO] Resolving streams from XDF file...
-[2025-11-20 14:19:44] [INFO] Reading XDF File...
-[2025-11-20 14:19:44] [INFO] Loading EEG Stream...
-[2025-11-20 14:25:02] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 14:25:02] [INFO] ************************************************************
-[2025-11-20 14:25:02] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 14:25:02] [INFO] ************************************************************
-[2025-11-20 14:25:02] [INFO] Setting paths
-[2025-11-20 14:25:02] [INFO] Preprocessing eeg, resampling
-[2025-11-20 14:25:55] [INFO] Setting  Channels and Montage
-[2025-11-20 14:25:55] [INFO] Interpolating Bad Channels
-[2025-11-20 14:27:30] [INFO] Creating BIDS File for EEG
-[2025-11-20 14:27:34] [INFO] subjetc:15 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P015/ses-S001/eeg/sub-P015_ses-S001_task-Default_run-001_eeg.xdf
-[2025-11-20 14:27:34] [INFO] ************************************************************
-[2025-11-20 14:27:34] [INFO] ********** Initializing XDFDataReader Class**********
-[2025-11-20 14:27:34] [INFO] ************************************************************
-[2025-11-20 14:27:34] [INFO] Resolving streams from XDF file...
-[2025-11-20 14:27:36] [INFO] Reading XDF File...
-[2025-11-20 14:27:36] [INFO] Loading EEG Stream...
-[2025-11-20 14:31:23] [INFO] EEG Stream Loaded Successfully!
-[2025-11-20 14:31:23] [INFO] ************************************************************
-[2025-11-20 14:31:23] [INFO] ********** Initializing BIDSDataset Class**********
-[2025-11-20 14:31:23] [INFO] ************************************************************
-[2025-11-20 14:31:23] [INFO] Setting paths
-[2025-11-20 14:31:23] [INFO] Preprocessing eeg, resampling
-[2025-11-20 14:32:16] [INFO] Setting  Channels and Montage
-[2025-11-20 14:32:16] [INFO] Interpolating Bad Channels
-[2025-11-20 14:33:22] [INFO] Creating BIDS File for EEG
+[2025-11-25 12:31:23] [INFO] Creating BIDS Dataset
+[2025-11-25 12:31:23] [INFO] Inside create_bids_dataset
+[2025-11-25 12:31:23] [INFO] subjetc:01 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P001/ses-S001/eeg/sub-P001_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-25 12:31:23] [INFO] ************************************************************
+[2025-11-25 12:31:23] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 12:31:23] [INFO] ************************************************************
+[2025-11-25 12:31:23] [INFO] Resolving streams from XDF file...
+[2025-11-25 12:31:23] [INFO] Reading XDF File...
+[2025-11-25 12:31:23] [INFO] Loading EEG Stream...
+[2025-11-25 12:35:39] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 12:35:39] [INFO] ************************************************************
+[2025-11-25 12:35:39] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 12:35:39] [INFO] ************************************************************
+[2025-11-25 12:35:39] [INFO] Setting paths
+[2025-11-25 12:35:39] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 12:36:04] [INFO] Creating BIDS File for EEG
+[2025-11-25 12:36:08] [INFO] subjetc:02 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P002/ses-S001/eeg/sub-P002_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-25 12:36:08] [INFO] ************************************************************
+[2025-11-25 12:36:08] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 12:36:08] [INFO] ************************************************************
+[2025-11-25 12:36:08] [INFO] Resolving streams from XDF file...
+[2025-11-25 12:36:10] [INFO] Reading XDF File...
+[2025-11-25 12:36:10] [INFO] Loading EEG Stream...
+[2025-11-25 12:40:22] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 12:40:22] [INFO] ************************************************************
+[2025-11-25 12:40:22] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 12:40:22] [INFO] ************************************************************
+[2025-11-25 12:40:22] [INFO] Setting paths
+[2025-11-25 12:40:22] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 12:41:18] [INFO] Creating BIDS File for EEG
+[2025-11-25 12:41:21] [INFO] subjetc:03 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P003/ses-S002/eeg/sub-P003_ses-S002_task-Default_run-001_eeg.xdf
+[2025-11-25 12:41:21] [INFO] ************************************************************
+[2025-11-25 12:41:21] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 12:41:21] [INFO] ************************************************************
+[2025-11-25 12:41:21] [INFO] Resolving streams from XDF file...
+[2025-11-25 12:41:23] [INFO] Reading XDF File...
+[2025-11-25 12:41:23] [INFO] Loading EEG Stream...
+[2025-11-25 12:45:18] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 12:45:18] [INFO] ************************************************************
+[2025-11-25 12:45:18] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 12:45:18] [INFO] ************************************************************
+[2025-11-25 12:45:18] [INFO] Setting paths
+[2025-11-25 12:45:18] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 12:46:12] [INFO] Creating BIDS File for EEG
+[2025-11-25 12:46:16] [INFO] subjetc:04 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P004/ses-S001/eeg/sub-P004_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-25 12:46:16] [INFO] ************************************************************
+[2025-11-25 12:46:16] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 12:46:16] [INFO] ************************************************************
+[2025-11-25 12:46:16] [INFO] Resolving streams from XDF file...
+[2025-11-25 12:46:18] [INFO] Reading XDF File...
+[2025-11-25 12:46:18] [INFO] Loading EEG Stream...
+[2025-11-25 12:50:51] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 12:50:51] [INFO] ************************************************************
+[2025-11-25 12:50:51] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 12:50:51] [INFO] ************************************************************
+[2025-11-25 12:50:51] [INFO] Setting paths
+[2025-11-25 12:50:51] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 12:51:39] [INFO] Creating BIDS File for EEG
+[2025-11-25 12:51:43] [INFO] subjetc:05 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P005/ses-S001/eeg/sub-P005_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-25 12:51:43] [INFO] ************************************************************
+[2025-11-25 12:51:43] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 12:51:43] [INFO] ************************************************************
+[2025-11-25 12:51:43] [INFO] Resolving streams from XDF file...
+[2025-11-25 12:51:45] [INFO] Reading XDF File...
+[2025-11-25 12:51:45] [INFO] Loading EEG Stream...
+[2025-11-25 12:55:29] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 12:55:29] [INFO] ************************************************************
+[2025-11-25 12:55:29] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 12:55:29] [INFO] ************************************************************
+[2025-11-25 12:55:29] [INFO] Setting paths
+[2025-11-25 12:55:29] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 12:56:28] [INFO] Creating BIDS File for EEG
+[2025-11-25 12:56:32] [INFO] subjetc:06 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P006/ses-S001/eeg/sub-P001_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-25 12:56:32] [INFO] ************************************************************
+[2025-11-25 12:56:32] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 12:56:32] [INFO] ************************************************************
+[2025-11-25 12:56:32] [INFO] Resolving streams from XDF file...
+[2025-11-25 12:56:35] [INFO] Reading XDF File...
+[2025-11-25 12:56:35] [INFO] Loading EEG Stream...
+[2025-11-25 13:04:59] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 13:04:59] [INFO] ************************************************************
+[2025-11-25 13:04:59] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 13:04:59] [INFO] ************************************************************
+[2025-11-25 13:04:59] [INFO] Setting paths
+[2025-11-25 13:04:59] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 13:05:54] [INFO] Creating BIDS File for EEG
+[2025-11-25 13:05:57] [INFO] subjetc:07 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P007/ses-S002_Elbueno/eeg/sub-P007_ses-S002_task-Default_run-001_eeg.xdf
+[2025-11-25 13:05:57] [INFO] ************************************************************
+[2025-11-25 13:05:57] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 13:05:57] [INFO] ************************************************************
+[2025-11-25 13:05:57] [INFO] Resolving streams from XDF file...
+[2025-11-25 13:05:59] [INFO] Reading XDF File...
+[2025-11-25 13:05:59] [INFO] Loading EEG Stream...
+[2025-11-25 13:09:48] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 13:09:48] [INFO] ************************************************************
+[2025-11-25 13:09:48] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 13:09:48] [INFO] ************************************************************
+[2025-11-25 13:09:48] [INFO] Setting paths
+[2025-11-25 13:09:48] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 13:11:05] [INFO] Creating BIDS File for EEG
+[2025-11-25 13:11:08] [INFO] subjetc:08 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P008/ses-S001/eeg/sub-P008_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-25 13:11:08] [INFO] ************************************************************
+[2025-11-25 13:11:08] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 13:11:08] [INFO] ************************************************************
+[2025-11-25 13:11:08] [INFO] Resolving streams from XDF file...
+[2025-11-25 13:11:10] [INFO] Reading XDF File...
+[2025-11-25 13:11:10] [INFO] Loading EEG Stream...
+[2025-11-25 13:14:52] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 13:14:52] [INFO] ************************************************************
+[2025-11-25 13:14:52] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 13:14:52] [INFO] ************************************************************
+[2025-11-25 13:14:52] [INFO] Setting paths
+[2025-11-25 13:14:52] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 13:16:12] [INFO] Creating BIDS File for EEG
+[2025-11-25 13:16:15] [INFO] subjetc:09 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P009/ses-S001/eeg/sub-P009_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-25 13:16:15] [INFO] ************************************************************
+[2025-11-25 13:16:15] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 13:16:15] [INFO] ************************************************************
+[2025-11-25 13:16:15] [INFO] Resolving streams from XDF file...
+[2025-11-25 13:16:17] [INFO] Reading XDF File...
+[2025-11-25 13:16:17] [INFO] Loading EEG Stream...
+[2025-11-25 13:20:20] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 13:20:20] [INFO] ************************************************************
+[2025-11-25 13:20:20] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 13:20:20] [INFO] ************************************************************
+[2025-11-25 13:20:20] [INFO] Setting paths
+[2025-11-25 13:20:20] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 13:22:07] [INFO] Creating BIDS File for EEG
+[2025-11-25 13:22:10] [INFO] subjetc:10 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P010/ses-S001/eeg/sub-P010_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-25 13:22:10] [INFO] ************************************************************
+[2025-11-25 13:22:10] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 13:22:10] [INFO] ************************************************************
+[2025-11-25 13:22:10] [INFO] Resolving streams from XDF file...
+[2025-11-25 13:22:12] [INFO] Reading XDF File...
+[2025-11-25 13:22:12] [INFO] Loading EEG Stream...
+[2025-11-25 13:26:08] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 13:26:08] [INFO] ************************************************************
+[2025-11-25 13:26:08] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 13:26:08] [INFO] ************************************************************
+[2025-11-25 13:26:08] [INFO] Setting paths
+[2025-11-25 13:26:08] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 13:27:04] [INFO] Creating BIDS File for EEG
+[2025-11-25 13:27:07] [INFO] subjetc:11 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P011/ses-S001/eeg/sub-P011_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-25 13:27:07] [INFO] ************************************************************
+[2025-11-25 13:27:07] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 13:27:07] [INFO] ************************************************************
+[2025-11-25 13:27:07] [INFO] Resolving streams from XDF file...
+[2025-11-25 13:27:09] [INFO] Reading XDF File...
+[2025-11-25 13:27:09] [INFO] Loading EEG Stream...
+[2025-11-25 13:31:00] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 13:31:00] [INFO] ************************************************************
+[2025-11-25 13:31:00] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 13:31:00] [INFO] ************************************************************
+[2025-11-25 13:31:00] [INFO] Setting paths
+[2025-11-25 13:31:00] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 13:31:56] [INFO] Creating BIDS File for EEG
+[2025-11-25 13:31:59] [INFO] subjetc:12 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P012/ses-S001/eeg/sub-P012_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-25 13:31:59] [INFO] ************************************************************
+[2025-11-25 13:31:59] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 13:31:59] [INFO] ************************************************************
+[2025-11-25 13:31:59] [INFO] Resolving streams from XDF file...
+[2025-11-25 13:32:01] [INFO] Reading XDF File...
+[2025-11-25 13:32:01] [INFO] Loading EEG Stream...
+[2025-11-25 13:36:30] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 13:36:30] [INFO] ************************************************************
+[2025-11-25 13:36:30] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 13:36:30] [INFO] ************************************************************
+[2025-11-25 13:36:30] [INFO] Setting paths
+[2025-11-25 13:36:30] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 13:37:21] [INFO] Creating BIDS File for EEG
+[2025-11-25 13:37:25] [INFO] subjetc:13 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P013/ses-S001/eeg/sub-P013_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-25 13:37:25] [INFO] ************************************************************
+[2025-11-25 13:37:25] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 13:37:25] [INFO] ************************************************************
+[2025-11-25 13:37:25] [INFO] Resolving streams from XDF file...
+[2025-11-25 13:37:28] [INFO] Reading XDF File...
+[2025-11-25 13:37:28] [INFO] Loading EEG Stream...
+[2025-11-25 13:42:05] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 13:42:05] [INFO] ************************************************************
+[2025-11-25 13:42:05] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 13:42:05] [INFO] ************************************************************
+[2025-11-25 13:42:05] [INFO] Setting paths
+[2025-11-25 13:42:05] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 13:42:59] [INFO] Creating BIDS File for EEG
+[2025-11-25 13:43:03] [INFO] subjetc:14 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P014/ses-S001/eeg/sub-P014_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-25 13:43:03] [INFO] ************************************************************
+[2025-11-25 13:43:03] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 13:43:03] [INFO] ************************************************************
+[2025-11-25 13:43:03] [INFO] Resolving streams from XDF file...
+[2025-11-25 13:43:05] [INFO] Reading XDF File...
+[2025-11-25 13:43:05] [INFO] Loading EEG Stream...
+[2025-11-25 13:48:22] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 13:48:22] [INFO] ************************************************************
+[2025-11-25 13:48:22] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 13:48:22] [INFO] ************************************************************
+[2025-11-25 13:48:22] [INFO] Setting paths
+[2025-11-25 13:48:22] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 13:49:17] [INFO] Creating BIDS File for EEG
+[2025-11-25 13:49:21] [INFO] subjetc:15 session:01 path:/home/owaismujtaba/projects/mind-voice/RawData/sub-P015/ses-S001/eeg/sub-P015_ses-S001_task-Default_run-001_eeg.xdf
+[2025-11-25 13:49:21] [INFO] ************************************************************
+[2025-11-25 13:49:21] [INFO] ********** Initializing XDFDataReader Class**********
+[2025-11-25 13:49:21] [INFO] ************************************************************
+[2025-11-25 13:49:21] [INFO] Resolving streams from XDF file...
+[2025-11-25 13:49:23] [INFO] Reading XDF File...
+[2025-11-25 13:49:23] [INFO] Loading EEG Stream...
+[2025-11-25 13:53:07] [INFO] EEG Stream Loaded Successfully!
+[2025-11-25 13:53:07] [INFO] ************************************************************
+[2025-11-25 13:53:07] [INFO] ********** Initializing BIDSDataset Class**********
+[2025-11-25 13:53:07] [INFO] ************************************************************
+[2025-11-25 13:53:07] [INFO] Setting paths
+[2025-11-25 13:53:07] [INFO] Preprocessing eeg, resampling 1000
+[2025-11-25 13:53:57] [INFO] Creating BIDS File for EEG

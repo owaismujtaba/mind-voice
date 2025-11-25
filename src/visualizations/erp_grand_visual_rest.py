@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 from bids import BIDSLayout
-from src.pipelines.p100_pipeline import P100AnalysisPipeline
+from src.pipelines.p100_pipeline import P100Pipeline
 from src.utils.logger import create_logger
 from src.utils.data import load_yaml
 
@@ -59,24 +59,22 @@ def plot_grand_erp_rest_visual(config, logger):
         session_ids = layout.get_sessions(subject=sub)  
         for ses in session_ids:
             print(sub, ses)
-            pipeline = P100AnalysisPipeline(
+            pipeline = P100Pipeline(
                         subject_id=sub,
                         session_id=ses,
-                        condition1_config=visual,
-                        condition2_config=rest,
+                        cond_1=visual,
+                        cond_2=rest,
                         channels = ['PO3', 'POz', 'PO4'], 
                         logger=logger,
                         config = config
             )
             key = f'sub-{sub}_ses-{ses}'
-            pipeline.run(get_data_only=True)
-            selected_channels = ['PO3', 'POz', 'PO4']
-            visual_epochs =  pipeline.epochs1.copy()
-            epochs_selected = visual_epochs.copy().pick_channels(selected_channels)
-            visual_data.append(epochs_selected.get_data())
-            rest_epochs =  pipeline.epochs2.copy()
-            epochs_selected = rest_epochs.copy().pick_channels(selected_channels)
-            rest_data.append(epochs_selected.get_data())
+            pipeline.run()
+            
+            visual_epochs =  pipeline.cond_1_epochs.copy()
+            visual_data.append(visual_epochs.get_data())
+            rest_epochs =  pipeline.cond_2_epochs.copy()
+            rest_data.append(rest_epochs.get_data())
 
     visual_data = np.concatenate(visual_data, axis=0)
     rest_data = np.concatenate(rest_data, axis=0)

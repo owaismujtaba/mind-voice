@@ -53,7 +53,8 @@ class SpeechEEGDatasetLoader:
             experiment_mode=config["experiment_mode"],
             trial_boundary=config["trial_boundary"],
             trial_type=config["trial_type"],
-            modality=config["modality"]
+            modality=config["modality"],
+            logger=self.logger
         ).create_epochs(
             tmin=config["tmin"],
             tmax=config["tmax"]

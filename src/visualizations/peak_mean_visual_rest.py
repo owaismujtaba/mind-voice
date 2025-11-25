@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 from scipy.stats import ttest_rel
 from glob import glob
+import pdb
+
+
 
 def plot_metric(ax, y_col, title, p_value, df_avg):
     category_order = ['visual', 'rest']
@@ -64,7 +67,6 @@ def plot_peak_mean_visual_novisual(logger):
     # Match subjects
     n = min(len(visual), len(rest))
     subject_ids = range(n)
-
     # Build dataframe
     df_avg = pd.DataFrame({
         'subject_id': list(subject_ids) * 2,

@@ -4,6 +4,9 @@ from mne.epochs import Epochs
 
 from src.utils.graphics import log_print
 
+import pdb
+
+
 class P100ComponentAnalyzer:
     def __init__(self, epochs: Epochs,logger, channels, time_window=(0.08, 0.12)):
         """
@@ -52,7 +55,6 @@ class P100ComponentAnalyzer:
             raise ValueError("None of the selected channels are present in the data.")
 
         ch_indices = [self.evoked.ch_names.index(ch) for ch in valid_chs]
-
         avg_data = np.mean(self.evoked.data[ch_indices, :], axis=0)
 
         if baseline_window:

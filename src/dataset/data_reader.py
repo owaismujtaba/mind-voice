@@ -4,9 +4,7 @@ import numpy as np
 from pathlib import Path
 import json
 from pyprep import NoisyChannels
-from mnelab.io.xdf import read_raw_xdf
 from mne_bids import BIDSPath, read_raw_bids
-from pyxdf import resolve_streams, match_streaminfos
 
 from src.utils.graphics import log_print
 from mne.preprocessing import ICA
@@ -15,37 +13,6 @@ import pdb
 mne.set_config('MNE_USE_CUDA', 'true')
 os.environ['MNE_CUDA_SEGMENT_SIZE'] = '16384'
 
-class XDFDataReader:
-    def __init__(self, filepath,logger, sub_id='01', ses_id='01', load_eeg=True, load_audio=False):
-        self.xdf_filepath = filepath
-        self.sub_id = sub_id
-        self.ses_id = ses_id
-        self.logger = logger
-        log_print(logger, ' Initializing XDFDataReader Class')
-        self.logger.info("Resolving streams from XDF file...")
-        self.streams = resolve_streams(self.xdf_filepath)
-
-        self.read_xdf_file(load_eeg, load_audio)
-
-    def _load_stream(self, stream_type, label):
-        self.logger.info(f"Loading {label} Stream...")
-        try:
-            stream_id = match_streaminfos(self.streams, [{'type': stream_type}])[0]
-            if label=='Audio':
-                self.audio = read_raw_xdf(self.xdf_filepath, stream_ids=[stream_id])
-            else:
-                self.eeg = read_raw_xdf(self.xdf_filepath, stream_ids=[stream_id])
-            #setattr(self, stream_type.lower(), read_raw_xdf(self.xdf_filepath, stream_ids=[stream_id]))
-            self.logger.info(f"{label} Stream Loaded Successfully!")
-        except Exception as e:
-            self.logger.info(f"Error loading {label} stream: {e}")
-
-    def read_xdf_file(self, load_eeg=True, load_audio=False):
-        self.logger.info("Reading XDF File...")
-        if load_eeg:
-            self._load_stream("EEG", "EEG")
-        if load_audio:
-            self._load_stream("Audio", "Audio")
 
 
 
@@ -89,8 +56,12 @@ class BIDSDatasetReader:
         prep = NoisyChannels(self.raw_eeg.copy())
         prep.find_bad_by_deviation()
         prep.find_bad_by_correlation()
-        self.raw_eeg.info['bads'] = prep.get_bads()
-        self._save_bad_channels(prep.get_bads())
+        bads = prep.get_bads()
+        if 'FCz' in bads:
+            bads.remove('FCz')
+        self.raw_eeg.info['bads'] = bads
+        self._save_bad_channels(bads=bads)
+        self.logger.info(f'Bad channels: {bads}')
         self.raw_eeg.interpolate_bads(reset_bads=True)
     
     def _set_channel_types_and_montage(self):
@@ -106,7 +77,7 @@ class BIDSDatasetReader:
         
     def _apply_notch_filter(self):
         self.logger.info('Applying notch filter')
-        self.processed_eeg.notch_filter(self.config['preprocessing']['NOTCH'])
+        self.processed_eeg.notch_filter(self.config['preprocessing']['NOTCH'], picks='eeg')
         self.logger.info('Notch filter completed')
     
     def _apply_bandpass_filter(self, l_freq, h_freq):

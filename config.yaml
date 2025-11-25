@@ -3,7 +3,7 @@ dataset:
     BIDS_DIR: 'BIDS'
     MONTAGE: 'standard_1020'
     config_path: 'bids_config.yaml'
-    EEG_SR: 1024
+    EEG_SR: 1000
     AUDIO_SR: 48000
 
 preprocessing:
@@ -27,7 +27,7 @@ anonymize:
 
 
 plotting:
-    peak_mean_amplitude: False
+    peak_mean_amplitude: True
     grand_erp_visual_real: False
     accuracy_plots: False
     metrics_plots: False

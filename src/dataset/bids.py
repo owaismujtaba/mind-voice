@@ -4,16 +4,51 @@ import numpy as np
 from pathlib import Path
 import csv
 from scipy.io.wavfile import write
-from mne.annotations import Annotations
+from mnelab.io.xdf import read_raw_xdf
+
 from mne_bids import BIDSPath, write_raw_bids
 import mne
-from pyprep import NoisyChannels
+from pyxdf import resolve_streams, match_streaminfos
+
 
 
 from src.dataset.data_reader import XDFDataReader
 from src.utils.graphics import log_print
 
 import pdb
+
+class XDFDataReader:
+    def __init__(self, filepath,logger, sub_id='01', ses_id='01', load_eeg=True, load_audio=False):
+        self.xdf_filepath = filepath
+        self.sub_id = sub_id
+        self.ses_id = ses_id
+        self.logger = logger
+        log_print(logger, ' Initializing XDFDataReader Class')
+        self.logger.info("Resolving streams from XDF file...")
+        self.streams = resolve_streams(self.xdf_filepath)
+
+        self.read_xdf_file(load_eeg, load_audio)
+
+    def _load_stream(self, stream_type, label):
+        self.logger.info(f"Loading {label} Stream...")
+        try:
+            stream_id = match_streaminfos(self.streams, [{'type': stream_type}])[0]
+            if label=='Audio':
+                self.audio = read_raw_xdf(self.xdf_filepath, stream_ids=[stream_id])
+            else:
+                self.eeg = read_raw_xdf(self.xdf_filepath, stream_ids=[stream_id])
+            #setattr(self, stream_type.lower(), read_raw_xdf(self.xdf_filepath, stream_ids=[stream_id]))
+            self.logger.info(f"{label} Stream Loaded Successfully!")
+        except Exception as e:
+            self.logger.info(f"Error loading {label} stream: {e}")
+
+    def read_xdf_file(self, load_eeg=True, load_audio=False):
+        self.logger.info("Reading XDF File...")
+        if load_eeg:
+            self._load_stream("EEG", "EEG")
+        if load_audio:
+            self._load_stream("Audio", "Audio")
+
 
 class BIDSDataset:
     def __init__(self, xdf_reader, logger, config):
@@ -45,10 +80,9 @@ class BIDSDataset:
         self.filename = f'sub-{self.sub_id}_ses-{self.ses_id}_VowelStudy_run-01'
         
     def preprocess_eeg(self):
-        self.logger.info('Preprocessing eeg, resampling')
+        self.logger.info(f'Preprocessing eeg, resampling {self.eeg_sr}')
         self.eeg = self.eeg.resample(self.eeg_sr)
-        self._set_channel_types_and_montage()
-        self._interpolate_bad_channels()
+        
         
         
     def create_bids_files(self):
@@ -96,24 +130,6 @@ class BIDSDataset:
                     annotations.description
                 ):
                 writer.writerow([onset, duration, description])
-     
-    def _set_channel_types_and_montage(self):
-        self.logger.info("Setting  Channels and Montage")
-        try:
-            self.eeg.set_channel_types({'EOG1': 'eog', 'EOG2': 'eog'})
-        except Exception:
-            self.eeg.rename_channels({'TP9': 'EOG1', 'TP10': 'EOG2'})
-            self.eeg.set_channel_types({'EOG1': 'eog', 'EOG2': 'eog'})
-        montage = mne.channels.make_standard_montage(self.config['dataset']['MONTAGE'])
-        self.eeg.set_montage(montage)
-        
-    def _interpolate_bad_channels(self):
-        self.logger.info("Interpolating Bad Channels")
-        prep = NoisyChannels(self.eeg.copy())
-        prep.find_bad_by_deviation()
-        prep.find_bad_by_correlation()
-        self.eeg.info['bads'] = prep.get_bads()
-        self.eeg.interpolate_bads(reset_bads=True)
 
 def create_bids_dataset(dataset_details, logger, config):
     logger.info('Inside create_bids_dataset')

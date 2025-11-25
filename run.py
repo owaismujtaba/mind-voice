@@ -6,7 +6,7 @@ from pathlib import Path
 from src.utils.data import load_yaml
 from src.dataset.bids import create_bids_dataset
 
-from src.pipelines.p100_pipeline import P100AnalysisPipeline
+from src.pipelines.p100_pipeline import P100Pipeline
 from src.pipelines.overt_covert_rest_pipeline import OvertCovertRestPipeline
 from src.anonymization.voice_snonymizer import VoiceAnonymizerPipeline
 from src.pipelines.snr_pipeline import run_snr_per_subject_session
@@ -73,20 +73,6 @@ if analysis_config['p100']:
     for sub in subject_ids:
         session_ids = layout.get_sessions(subject=sub)
         for ses in session_ids:
-                '''
-                pipeline = P100AnalysisPipeline(
-                    subject_id=sub,
-                    session_id=ses,
-                    condition1_config=visual,
-                    condition2_config=rest,
-                    channels = ['PO3', 'POz', 'PO4'], 
-                    logger=logger,
-                    config = config
-                )
-
-                pipeline.run(save_csv=True)
-                '''
-                from src.pipelines.p100_pipeline import P100Pipeline
                 pipe = P100Pipeline(
                     subject_id=sub, session_id=ses,
                     config=config, logger=logger,
