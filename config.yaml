@@ -1,6 +1,6 @@
 dataset:
     create_bids: False
-    BIDS_DIR: 'BIDS'
+    BIDS_DIR: '/home/owaismujtaba/projects/MIND/data/BIDS'
     MONTAGE: 'standard_1020'
     config_path: 'bids_config.yaml'
     EEG_SR: 1000
@@ -14,7 +14,7 @@ preprocessing:
     
 analysis:
     results_dir: 'results'
-    p100: True
+    p100: False
     decoding: False
     ica: False
 

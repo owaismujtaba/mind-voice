@@ -12,7 +12,6 @@ from pyxdf import resolve_streams, match_streaminfos
 
 
 
-from src.dataset.data_reader import XDFDataReader
 from src.utils.graphics import log_print
 
 import pdb

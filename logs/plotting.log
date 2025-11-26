@@ -8835,3 +8835,1542 @@ Name: f1, dtype: float64
  Peak -2.105, 5.378e-02,
  Mean -1.775, 9.766e-02
 [2025-11-25 19:27:08] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.pdf
+[2025-11-25 19:55:44] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-25 19:55:44] [INFO] T-test (Peak): t=-1.504, p=1.548e-01
+[2025-11-25 19:55:44] [INFO] T-test (Mean): t=-1.328, p=2.053e-01
+[2025-11-25 19:55:44] [INFO] Summary: 
+ Peak -1.504, 1.548e-01,
+ Mean -1.328, 2.053e-01
+[2025-11-25 19:55:44] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.pdf
+[2025-11-25 20:00:23] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-25 20:00:23] [INFO] T-test (Peak): t=-2.009, p=5.761e-02
+[2025-11-25 20:00:23] [INFO] T-test (Mean): t=-1.506, p=1.471e-01
+[2025-11-25 20:00:23] [INFO] Summary: 
+ Peak -2.009, 5.761e-02,
+ Mean -1.506, 1.471e-01
+[2025-11-25 20:00:23] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.pdf
+[2025-11-25 20:04:35] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-25 20:04:36] [INFO] T-test (Peak): t=-1.699, p=1.041e-01
+[2025-11-25 20:04:36] [INFO] T-test (Mean): t=-1.359, p=1.886e-01
+[2025-11-25 20:04:36] [INFO] Summary: 
+ Peak -1.699, 1.041e-01,
+ Mean -1.359, 1.886e-01
+[2025-11-25 20:04:36] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.pdf
+[2025-11-26 11:59:54] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 11:59:54] [INFO] T-test (Peak): t=-1.828, p=8.186e-02
+[2025-11-26 11:59:54] [INFO] T-test (Mean): t=-1.410, p=1.732e-01
+[2025-11-26 11:59:54] [INFO] Summary: 
+ Peak -1.828, 8.186e-02,
+ Mean -1.410, 1.732e-01
+[2025-11-26 11:59:54] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.pdf
+[2025-11-26 12:02:40] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:02:41] [INFO] T-test (Peak): t=-1.702, p=1.108e-01
+[2025-11-26 12:02:41] [INFO] T-test (Mean): t=-1.289, p=2.183e-01
+[2025-11-26 12:02:41] [INFO] Summary: 
+ Peak -1.702, 1.108e-01,
+ Mean -1.289, 2.183e-01
+[2025-11-26 12:02:41] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.pdf
+[2025-11-26 12:03:35] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:05:39] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:05:39] [INFO] T-test (Peak): t=-5.673, p=1.439e-04
+[2025-11-26 12:05:39] [INFO] T-test (Mean): t=-3.133, p=9.526e-03
+[2025-11-26 12:05:39] [INFO] Summary: 
+ Peak -5.673, 1.439e-04,
+ Mean -3.133, 9.526e-03
+[2025-11-26 12:05:39] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.pdf
+[2025-11-26 12:13:07] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:13:08] [INFO] T-test (Peak): t=-5.673, p=1.439e-04
+[2025-11-26 12:13:08] [INFO] T-test (Mean): t=-3.133, p=9.526e-03
+[2025-11-26 12:13:08] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.pdf
+[2025-11-26 12:13:08] [INFO] Starting Grand ERP Rest Visualization
+[2025-11-26 12:13:08] [INFO] ************************************************************
+[2025-11-26 12:13:08] [INFO] **********P100 Pipeline sub-01, ses-01**********
+[2025-11-26 12:13:08] [INFO] ************************************************************
+[2025-11-26 12:13:08] [INFO] ************************************************************
+[2025-11-26 12:13:08] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:13:08] [INFO] ************************************************************
+[2025-11-26 12:13:08] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:13:08] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-11-26 12:13:09] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:17] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:15:18] [INFO] T-test (Peak): t=-5.673, p=1.439e-04
+[2025-11-26 12:15:18] [INFO] T-test (Mean): t=-3.133, p=9.526e-03
+[2025-11-26 12:15:18] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.pdf
+[2025-11-26 12:15:18] [INFO] Starting Grand ERP Rest Visualization
+[2025-11-26 12:15:18] [INFO] ************************************************************
+[2025-11-26 12:15:18] [INFO] **********P100 Pipeline sub-01, ses-01**********
+[2025-11-26 12:15:18] [INFO] ************************************************************
+[2025-11-26 12:15:18] [INFO] ************************************************************
+[2025-11-26 12:15:18] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:18] [INFO] ************************************************************
+[2025-11-26 12:15:18] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:18] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-11-26 12:15:19] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:19] [INFO] ************************************************************
+[2025-11-26 12:15:19] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:19] [INFO] ************************************************************
+[2025-11-26 12:15:19] [INFO] Creating Epochs
+[2025-11-26 12:15:20] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:20] [INFO] ************************************************************
+[2025-11-26 12:15:20] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:20] [INFO] ************************************************************
+[2025-11-26 12:15:20] [INFO] Creating Epochs
+[2025-11-26 12:15:20] [INFO] ************************************************************
+[2025-11-26 12:15:20] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:20] [INFO] ************************************************************
+[2025-11-26 12:15:20] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:20] [INFO] Latency: 0.114, Peak: 3.6268973351180986, Mean: -0.5406552462855694
+[2025-11-26 12:15:20] [INFO] ************************************************************
+[2025-11-26 12:15:20] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:20] [INFO] ************************************************************
+[2025-11-26 12:15:20] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:20] [INFO] Latency: 0.1, Peak: 3.227491937133226, Mean: 0.9899423038704191
+[2025-11-26 12:15:20] [INFO] Saving results to CSV
+[2025-11-26 12:15:20] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-01_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:20] [INFO] Plotting P100
+[2025-11-26 12:15:20] [INFO] Initializing Plotter
+[2025-11-26 12:15:20] [INFO] Plotting Evoked
+[2025-11-26 12:15:20] [INFO] ************************************************************
+[2025-11-26 12:15:20] [INFO] **********P100 Pipeline sub-02, ses-01**********
+[2025-11-26 12:15:20] [INFO] ************************************************************
+[2025-11-26 12:15:20] [INFO] ************************************************************
+[2025-11-26 12:15:20] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:20] [INFO] ************************************************************
+[2025-11-26 12:15:20] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:20] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-02_ses-01_processed.fif
+[2025-11-26 12:15:22] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:22] [INFO] ************************************************************
+[2025-11-26 12:15:22] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:22] [INFO] ************************************************************
+[2025-11-26 12:15:22] [INFO] Creating Epochs
+[2025-11-26 12:15:22] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:22] [INFO] ************************************************************
+[2025-11-26 12:15:22] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:22] [INFO] ************************************************************
+[2025-11-26 12:15:22] [INFO] Creating Epochs
+[2025-11-26 12:15:22] [INFO] ************************************************************
+[2025-11-26 12:15:22] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:22] [INFO] ************************************************************
+[2025-11-26 12:15:22] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:22] [INFO] Latency: 0.08, Peak: 5.971771426187577, Mean: -4.107200654682236
+[2025-11-26 12:15:22] [INFO] ************************************************************
+[2025-11-26 12:15:22] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:22] [INFO] ************************************************************
+[2025-11-26 12:15:22] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:22] [INFO] Latency: 0.086, Peak: -0.9280342416388794, Mean: -2.148480850341083
+[2025-11-26 12:15:22] [INFO] Saving results to CSV
+[2025-11-26 12:15:22] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-02_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:22] [INFO] Plotting P100
+[2025-11-26 12:15:22] [INFO] Initializing Plotter
+[2025-11-26 12:15:22] [INFO] Plotting Evoked
+[2025-11-26 12:15:23] [INFO] ************************************************************
+[2025-11-26 12:15:23] [INFO] **********P100 Pipeline sub-03, ses-01**********
+[2025-11-26 12:15:23] [INFO] ************************************************************
+[2025-11-26 12:15:23] [INFO] ************************************************************
+[2025-11-26 12:15:23] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:23] [INFO] ************************************************************
+[2025-11-26 12:15:23] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:23] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-03_ses-01_processed.fif
+[2025-11-26 12:15:24] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:24] [INFO] ************************************************************
+[2025-11-26 12:15:24] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:24] [INFO] ************************************************************
+[2025-11-26 12:15:24] [INFO] Creating Epochs
+[2025-11-26 12:15:24] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:24] [INFO] ************************************************************
+[2025-11-26 12:15:24] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:24] [INFO] ************************************************************
+[2025-11-26 12:15:24] [INFO] Creating Epochs
+[2025-11-26 12:15:24] [INFO] ************************************************************
+[2025-11-26 12:15:24] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:24] [INFO] ************************************************************
+[2025-11-26 12:15:24] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:24] [INFO] Latency: 0.113, Peak: 12.930262795170473, Mean: 6.908515642128625
+[2025-11-26 12:15:24] [INFO] ************************************************************
+[2025-11-26 12:15:24] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:24] [INFO] ************************************************************
+[2025-11-26 12:15:24] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:24] [INFO] Latency: 0.097, Peak: 0.8618870212106546, Mean: -1.3320676605235715
+[2025-11-26 12:15:24] [INFO] Saving results to CSV
+[2025-11-26 12:15:24] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-03_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:24] [INFO] Plotting P100
+[2025-11-26 12:15:24] [INFO] Initializing Plotter
+[2025-11-26 12:15:24] [INFO] Plotting Evoked
+[2025-11-26 12:15:25] [INFO] ************************************************************
+[2025-11-26 12:15:25] [INFO] **********P100 Pipeline sub-04, ses-01**********
+[2025-11-26 12:15:25] [INFO] ************************************************************
+[2025-11-26 12:15:25] [INFO] ************************************************************
+[2025-11-26 12:15:25] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:25] [INFO] ************************************************************
+[2025-11-26 12:15:25] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:25] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-04_ses-01_processed.fif
+[2025-11-26 12:15:26] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:26] [INFO] ************************************************************
+[2025-11-26 12:15:26] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:26] [INFO] ************************************************************
+[2025-11-26 12:15:26] [INFO] Creating Epochs
+[2025-11-26 12:15:27] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:27] [INFO] ************************************************************
+[2025-11-26 12:15:27] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:27] [INFO] ************************************************************
+[2025-11-26 12:15:27] [INFO] Creating Epochs
+[2025-11-26 12:15:27] [INFO] ************************************************************
+[2025-11-26 12:15:27] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:27] [INFO] ************************************************************
+[2025-11-26 12:15:27] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:27] [INFO] Latency: 0.12, Peak: -6.215798048122501, Mean: -7.524566827751343
+[2025-11-26 12:15:27] [INFO] ************************************************************
+[2025-11-26 12:15:27] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:27] [INFO] ************************************************************
+[2025-11-26 12:15:27] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:27] [INFO] Latency: 0.08, Peak: 22.639229446474296, Mean: 17.7426527245867
+[2025-11-26 12:15:27] [INFO] Saving results to CSV
+[2025-11-26 12:15:27] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-04_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:27] [INFO] Plotting P100
+[2025-11-26 12:15:27] [INFO] Initializing Plotter
+[2025-11-26 12:15:27] [INFO] Plotting Evoked
+[2025-11-26 12:15:27] [INFO] ************************************************************
+[2025-11-26 12:15:27] [INFO] **********P100 Pipeline sub-04, ses-02**********
+[2025-11-26 12:15:27] [INFO] ************************************************************
+[2025-11-26 12:15:27] [INFO] ************************************************************
+[2025-11-26 12:15:27] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:27] [INFO] ************************************************************
+[2025-11-26 12:15:27] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:27] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-04_ses-02_processed.fif
+[2025-11-26 12:15:28] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:28] [INFO] ************************************************************
+[2025-11-26 12:15:28] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:28] [INFO] ************************************************************
+[2025-11-26 12:15:28] [INFO] Creating Epochs
+[2025-11-26 12:15:29] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:29] [INFO] ************************************************************
+[2025-11-26 12:15:29] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:29] [INFO] ************************************************************
+[2025-11-26 12:15:29] [INFO] Creating Epochs
+[2025-11-26 12:15:29] [INFO] ************************************************************
+[2025-11-26 12:15:29] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:29] [INFO] ************************************************************
+[2025-11-26 12:15:29] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:29] [INFO] Latency: 0.12, Peak: 4.729835059849121, Mean: 2.460335050576712
+[2025-11-26 12:15:29] [INFO] ************************************************************
+[2025-11-26 12:15:29] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:29] [INFO] ************************************************************
+[2025-11-26 12:15:29] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:29] [INFO] Latency: 0.12, Peak: -3.6994787569292162, Mean: -5.571811960550663
+[2025-11-26 12:15:29] [INFO] Saving results to CSV
+[2025-11-26 12:15:29] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-04_ses-02_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:29] [INFO] Plotting P100
+[2025-11-26 12:15:29] [INFO] Initializing Plotter
+[2025-11-26 12:15:29] [INFO] Plotting Evoked
+[2025-11-26 12:15:29] [INFO] ************************************************************
+[2025-11-26 12:15:29] [INFO] **********P100 Pipeline sub-05, ses-01**********
+[2025-11-26 12:15:29] [INFO] ************************************************************
+[2025-11-26 12:15:29] [INFO] ************************************************************
+[2025-11-26 12:15:29] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:29] [INFO] ************************************************************
+[2025-11-26 12:15:29] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:29] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-05_ses-01_processed.fif
+[2025-11-26 12:15:30] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:30] [INFO] ************************************************************
+[2025-11-26 12:15:30] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:30] [INFO] ************************************************************
+[2025-11-26 12:15:30] [INFO] Creating Epochs
+[2025-11-26 12:15:31] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:31] [INFO] ************************************************************
+[2025-11-26 12:15:31] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:31] [INFO] ************************************************************
+[2025-11-26 12:15:31] [INFO] Creating Epochs
+[2025-11-26 12:15:31] [INFO] ************************************************************
+[2025-11-26 12:15:31] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:31] [INFO] ************************************************************
+[2025-11-26 12:15:31] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:31] [INFO] Latency: 0.12, Peak: -1.0342194998980834, Mean: -2.7721177711422804
+[2025-11-26 12:15:31] [INFO] ************************************************************
+[2025-11-26 12:15:31] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:31] [INFO] ************************************************************
+[2025-11-26 12:15:31] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:31] [INFO] Latency: 0.088, Peak: -0.646818381498474, Mean: -2.206010002646629
+[2025-11-26 12:15:31] [INFO] Saving results to CSV
+[2025-11-26 12:15:31] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-05_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:31] [INFO] Plotting P100
+[2025-11-26 12:15:31] [INFO] Initializing Plotter
+[2025-11-26 12:15:31] [INFO] Plotting Evoked
+[2025-11-26 12:15:31] [INFO] ************************************************************
+[2025-11-26 12:15:31] [INFO] **********P100 Pipeline sub-05, ses-02**********
+[2025-11-26 12:15:31] [INFO] ************************************************************
+[2025-11-26 12:15:31] [INFO] ************************************************************
+[2025-11-26 12:15:31] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:31] [INFO] ************************************************************
+[2025-11-26 12:15:31] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:31] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-05_ses-02_processed.fif
+[2025-11-26 12:15:32] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:32] [INFO] ************************************************************
+[2025-11-26 12:15:32] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:32] [INFO] ************************************************************
+[2025-11-26 12:15:32] [INFO] Creating Epochs
+[2025-11-26 12:15:32] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:32] [INFO] ************************************************************
+[2025-11-26 12:15:32] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:32] [INFO] ************************************************************
+[2025-11-26 12:15:32] [INFO] Creating Epochs
+[2025-11-26 12:15:33] [INFO] ************************************************************
+[2025-11-26 12:15:33] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:33] [INFO] ************************************************************
+[2025-11-26 12:15:33] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:33] [INFO] Latency: 0.091, Peak: 122.18472859737003, Mean: 95.52369363518218
+[2025-11-26 12:15:33] [INFO] ************************************************************
+[2025-11-26 12:15:33] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:33] [INFO] ************************************************************
+[2025-11-26 12:15:33] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:33] [INFO] Latency: 0.12, Peak: 28.201957925259663, Mean: -27.094395005466755
+[2025-11-26 12:15:33] [INFO] Saving results to CSV
+[2025-11-26 12:15:33] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-05_ses-02_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:33] [INFO] Plotting P100
+[2025-11-26 12:15:33] [INFO] Initializing Plotter
+[2025-11-26 12:15:33] [INFO] Plotting Evoked
+[2025-11-26 12:15:33] [INFO] ************************************************************
+[2025-11-26 12:15:33] [INFO] **********P100 Pipeline sub-06, ses-01**********
+[2025-11-26 12:15:33] [INFO] ************************************************************
+[2025-11-26 12:15:33] [INFO] ************************************************************
+[2025-11-26 12:15:33] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:33] [INFO] ************************************************************
+[2025-11-26 12:15:33] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:33] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-06_ses-01_processed.fif
+[2025-11-26 12:15:34] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:34] [INFO] ************************************************************
+[2025-11-26 12:15:34] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:34] [INFO] ************************************************************
+[2025-11-26 12:15:34] [INFO] Creating Epochs
+[2025-11-26 12:15:35] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:35] [INFO] ************************************************************
+[2025-11-26 12:15:35] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:35] [INFO] ************************************************************
+[2025-11-26 12:15:35] [INFO] Creating Epochs
+[2025-11-26 12:15:35] [INFO] ************************************************************
+[2025-11-26 12:15:35] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:35] [INFO] ************************************************************
+[2025-11-26 12:15:35] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:35] [INFO] Latency: 0.12, Peak: 5.901727075734874, Mean: 1.442379100928554
+[2025-11-26 12:15:35] [INFO] ************************************************************
+[2025-11-26 12:15:35] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:35] [INFO] ************************************************************
+[2025-11-26 12:15:35] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:35] [INFO] Latency: 0.08, Peak: 1.4118626646044445, Mean: -3.167282594945993
+[2025-11-26 12:15:35] [INFO] Saving results to CSV
+[2025-11-26 12:15:35] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-06_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:35] [INFO] Plotting P100
+[2025-11-26 12:15:35] [INFO] Initializing Plotter
+[2025-11-26 12:15:35] [INFO] Plotting Evoked
+[2025-11-26 12:15:35] [INFO] ************************************************************
+[2025-11-26 12:15:35] [INFO] **********P100 Pipeline sub-06, ses-02**********
+[2025-11-26 12:15:35] [INFO] ************************************************************
+[2025-11-26 12:15:35] [INFO] ************************************************************
+[2025-11-26 12:15:35] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:35] [INFO] ************************************************************
+[2025-11-26 12:15:35] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:35] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-06_ses-02_processed.fif
+[2025-11-26 12:15:36] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:36] [INFO] ************************************************************
+[2025-11-26 12:15:36] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:36] [INFO] ************************************************************
+[2025-11-26 12:15:36] [INFO] Creating Epochs
+[2025-11-26 12:15:36] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:36] [INFO] ************************************************************
+[2025-11-26 12:15:36] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:36] [INFO] ************************************************************
+[2025-11-26 12:15:36] [INFO] Creating Epochs
+[2025-11-26 12:15:37] [INFO] ************************************************************
+[2025-11-26 12:15:37] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:37] [INFO] ************************************************************
+[2025-11-26 12:15:37] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:37] [INFO] Latency: 0.12, Peak: 12.732331882909106, Mean: 4.108570322887359
+[2025-11-26 12:15:37] [INFO] ************************************************************
+[2025-11-26 12:15:37] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:37] [INFO] ************************************************************
+[2025-11-26 12:15:37] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:37] [INFO] Latency: 0.085, Peak: 4.616641351454859, Mean: 1.6822518973346914
+[2025-11-26 12:15:37] [INFO] Saving results to CSV
+[2025-11-26 12:15:37] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-06_ses-02_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:37] [INFO] Plotting P100
+[2025-11-26 12:15:37] [INFO] Initializing Plotter
+[2025-11-26 12:15:37] [INFO] Plotting Evoked
+[2025-11-26 12:15:37] [INFO] ************************************************************
+[2025-11-26 12:15:37] [INFO] **********P100 Pipeline sub-07, ses-01**********
+[2025-11-26 12:15:37] [INFO] ************************************************************
+[2025-11-26 12:15:37] [INFO] ************************************************************
+[2025-11-26 12:15:37] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:37] [INFO] ************************************************************
+[2025-11-26 12:15:37] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:37] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-07_ses-01_processed.fif
+[2025-11-26 12:15:38] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:38] [INFO] ************************************************************
+[2025-11-26 12:15:38] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:38] [INFO] ************************************************************
+[2025-11-26 12:15:38] [INFO] Creating Epochs
+[2025-11-26 12:15:38] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:38] [INFO] ************************************************************
+[2025-11-26 12:15:38] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:38] [INFO] ************************************************************
+[2025-11-26 12:15:38] [INFO] Creating Epochs
+[2025-11-26 12:15:39] [INFO] ************************************************************
+[2025-11-26 12:15:39] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:39] [INFO] ************************************************************
+[2025-11-26 12:15:39] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:39] [INFO] Latency: 0.088, Peak: 48.36934710582456, Mean: 20.853437551710876
+[2025-11-26 12:15:39] [INFO] ************************************************************
+[2025-11-26 12:15:39] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:39] [INFO] ************************************************************
+[2025-11-26 12:15:39] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:39] [INFO] Latency: 0.081, Peak: 77.668279039942, Mean: 25.71573549111491
+[2025-11-26 12:15:39] [INFO] Saving results to CSV
+[2025-11-26 12:15:39] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-07_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:39] [INFO] Plotting P100
+[2025-11-26 12:15:39] [INFO] Initializing Plotter
+[2025-11-26 12:15:39] [INFO] Plotting Evoked
+[2025-11-26 12:15:39] [INFO] ************************************************************
+[2025-11-26 12:15:39] [INFO] **********P100 Pipeline sub-08, ses-01**********
+[2025-11-26 12:15:39] [INFO] ************************************************************
+[2025-11-26 12:15:39] [INFO] ************************************************************
+[2025-11-26 12:15:39] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:39] [INFO] ************************************************************
+[2025-11-26 12:15:39] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:39] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-08_ses-01_processed.fif
+[2025-11-26 12:15:40] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:40] [INFO] ************************************************************
+[2025-11-26 12:15:40] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:40] [INFO] ************************************************************
+[2025-11-26 12:15:40] [INFO] Creating Epochs
+[2025-11-26 12:15:40] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:40] [INFO] ************************************************************
+[2025-11-26 12:15:40] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:40] [INFO] ************************************************************
+[2025-11-26 12:15:40] [INFO] Creating Epochs
+[2025-11-26 12:15:40] [INFO] ************************************************************
+[2025-11-26 12:15:40] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:40] [INFO] ************************************************************
+[2025-11-26 12:15:40] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:40] [INFO] Latency: 0.12, Peak: 12.910919020505885, Mean: 6.603073231498609
+[2025-11-26 12:15:40] [INFO] ************************************************************
+[2025-11-26 12:15:40] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:40] [INFO] ************************************************************
+[2025-11-26 12:15:41] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:41] [INFO] Latency: 0.08, Peak: 1.9198316720561803, Mean: 0.8595066238804787
+[2025-11-26 12:15:41] [INFO] Saving results to CSV
+[2025-11-26 12:15:41] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-08_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:41] [INFO] Plotting P100
+[2025-11-26 12:15:41] [INFO] Initializing Plotter
+[2025-11-26 12:15:41] [INFO] Plotting Evoked
+[2025-11-26 12:15:41] [INFO] ************************************************************
+[2025-11-26 12:15:41] [INFO] **********P100 Pipeline sub-09, ses-01**********
+[2025-11-26 12:15:41] [INFO] ************************************************************
+[2025-11-26 12:15:41] [INFO] ************************************************************
+[2025-11-26 12:15:41] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:41] [INFO] ************************************************************
+[2025-11-26 12:15:41] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:41] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-09_ses-01_processed.fif
+[2025-11-26 12:15:42] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:42] [INFO] ************************************************************
+[2025-11-26 12:15:42] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:42] [INFO] ************************************************************
+[2025-11-26 12:15:42] [INFO] Creating Epochs
+[2025-11-26 12:15:42] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:42] [INFO] ************************************************************
+[2025-11-26 12:15:42] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:42] [INFO] ************************************************************
+[2025-11-26 12:15:42] [INFO] Creating Epochs
+[2025-11-26 12:15:42] [INFO] ************************************************************
+[2025-11-26 12:15:42] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:42] [INFO] ************************************************************
+[2025-11-26 12:15:42] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:42] [INFO] Latency: 0.12, Peak: 10.214806384187728, Mean: 3.759858984242436
+[2025-11-26 12:15:42] [INFO] ************************************************************
+[2025-11-26 12:15:42] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:42] [INFO] ************************************************************
+[2025-11-26 12:15:43] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:43] [INFO] Latency: 0.12, Peak: -3.011212017454656, Mean: -6.1117208351556
+[2025-11-26 12:15:43] [INFO] Saving results to CSV
+[2025-11-26 12:15:43] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-09_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:43] [INFO] Plotting P100
+[2025-11-26 12:15:43] [INFO] Initializing Plotter
+[2025-11-26 12:15:43] [INFO] Plotting Evoked
+[2025-11-26 12:15:43] [INFO] ************************************************************
+[2025-11-26 12:15:43] [INFO] **********P100 Pipeline sub-09, ses-02**********
+[2025-11-26 12:15:43] [INFO] ************************************************************
+[2025-11-26 12:15:43] [INFO] ************************************************************
+[2025-11-26 12:15:43] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:43] [INFO] ************************************************************
+[2025-11-26 12:15:43] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:43] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-09_ses-02_processed.fif
+[2025-11-26 12:15:44] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:44] [INFO] ************************************************************
+[2025-11-26 12:15:44] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:44] [INFO] ************************************************************
+[2025-11-26 12:15:44] [INFO] Creating Epochs
+[2025-11-26 12:15:44] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:44] [INFO] ************************************************************
+[2025-11-26 12:15:44] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:44] [INFO] ************************************************************
+[2025-11-26 12:15:44] [INFO] Creating Epochs
+[2025-11-26 12:15:44] [INFO] ************************************************************
+[2025-11-26 12:15:44] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:44] [INFO] ************************************************************
+[2025-11-26 12:15:44] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:44] [INFO] Latency: 0.12, Peak: 0.396877415511245, Mean: -1.3181093962475252
+[2025-11-26 12:15:44] [INFO] ************************************************************
+[2025-11-26 12:15:44] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:44] [INFO] ************************************************************
+[2025-11-26 12:15:44] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:44] [INFO] Latency: 0.12, Peak: -1.5769405414547555, Mean: -4.066847543698145
+[2025-11-26 12:15:44] [INFO] Saving results to CSV
+[2025-11-26 12:15:44] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-09_ses-02_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:44] [INFO] Plotting P100
+[2025-11-26 12:15:44] [INFO] Initializing Plotter
+[2025-11-26 12:15:44] [INFO] Plotting Evoked
+[2025-11-26 12:15:45] [INFO] ************************************************************
+[2025-11-26 12:15:45] [INFO] **********P100 Pipeline sub-10, ses-01**********
+[2025-11-26 12:15:45] [INFO] ************************************************************
+[2025-11-26 12:15:45] [INFO] ************************************************************
+[2025-11-26 12:15:45] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:45] [INFO] ************************************************************
+[2025-11-26 12:15:45] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:45] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-10_ses-01_processed.fif
+[2025-11-26 12:15:46] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:46] [INFO] ************************************************************
+[2025-11-26 12:15:46] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:46] [INFO] ************************************************************
+[2025-11-26 12:15:46] [INFO] Creating Epochs
+[2025-11-26 12:15:46] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:46] [INFO] ************************************************************
+[2025-11-26 12:15:46] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:46] [INFO] ************************************************************
+[2025-11-26 12:15:46] [INFO] Creating Epochs
+[2025-11-26 12:15:46] [INFO] ************************************************************
+[2025-11-26 12:15:46] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:46] [INFO] ************************************************************
+[2025-11-26 12:15:46] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:46] [INFO] Latency: 0.12, Peak: 8.438907470709387, Mean: 4.789058545489566
+[2025-11-26 12:15:46] [INFO] ************************************************************
+[2025-11-26 12:15:46] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:46] [INFO] ************************************************************
+[2025-11-26 12:15:47] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:47] [INFO] Latency: 0.09, Peak: -1.6688925683229596, Mean: -2.738561789903434
+[2025-11-26 12:15:47] [INFO] Saving results to CSV
+[2025-11-26 12:15:47] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-10_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:47] [INFO] Plotting P100
+[2025-11-26 12:15:47] [INFO] Initializing Plotter
+[2025-11-26 12:15:47] [INFO] Plotting Evoked
+[2025-11-26 12:15:47] [INFO] ************************************************************
+[2025-11-26 12:15:47] [INFO] **********P100 Pipeline sub-11, ses-01**********
+[2025-11-26 12:15:47] [INFO] ************************************************************
+[2025-11-26 12:15:47] [INFO] ************************************************************
+[2025-11-26 12:15:47] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:47] [INFO] ************************************************************
+[2025-11-26 12:15:47] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:47] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-11_ses-01_processed.fif
+[2025-11-26 12:15:48] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:48] [INFO] ************************************************************
+[2025-11-26 12:15:48] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:48] [INFO] ************************************************************
+[2025-11-26 12:15:48] [INFO] Creating Epochs
+[2025-11-26 12:15:48] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:48] [INFO] ************************************************************
+[2025-11-26 12:15:48] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:48] [INFO] ************************************************************
+[2025-11-26 12:15:48] [INFO] Creating Epochs
+[2025-11-26 12:15:48] [INFO] ************************************************************
+[2025-11-26 12:15:48] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:48] [INFO] ************************************************************
+[2025-11-26 12:15:48] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:48] [INFO] Latency: 0.088, Peak: 0.5906947808766241, Mean: -1.8035269936261948
+[2025-11-26 12:15:48] [INFO] ************************************************************
+[2025-11-26 12:15:48] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:48] [INFO] ************************************************************
+[2025-11-26 12:15:49] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:49] [INFO] Latency: 0.116, Peak: 1.5517305582799723, Mean: 0.6259850659365563
+[2025-11-26 12:15:49] [INFO] Saving results to CSV
+[2025-11-26 12:15:49] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-11_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:49] [INFO] Plotting P100
+[2025-11-26 12:15:49] [INFO] Initializing Plotter
+[2025-11-26 12:15:49] [INFO] Plotting Evoked
+[2025-11-26 12:15:49] [INFO] ************************************************************
+[2025-11-26 12:15:49] [INFO] **********P100 Pipeline sub-12, ses-01**********
+[2025-11-26 12:15:49] [INFO] ************************************************************
+[2025-11-26 12:15:49] [INFO] ************************************************************
+[2025-11-26 12:15:49] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:49] [INFO] ************************************************************
+[2025-11-26 12:15:49] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:49] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-12_ses-01_processed.fif
+[2025-11-26 12:15:50] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:50] [INFO] ************************************************************
+[2025-11-26 12:15:50] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:50] [INFO] ************************************************************
+[2025-11-26 12:15:50] [INFO] Creating Epochs
+[2025-11-26 12:15:50] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:50] [INFO] ************************************************************
+[2025-11-26 12:15:50] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:50] [INFO] ************************************************************
+[2025-11-26 12:15:50] [INFO] Creating Epochs
+[2025-11-26 12:15:50] [INFO] ************************************************************
+[2025-11-26 12:15:50] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:50] [INFO] ************************************************************
+[2025-11-26 12:15:50] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:50] [INFO] Latency: 0.115, Peak: 0.4807870069317302, Mean: -0.48431605639084163
+[2025-11-26 12:15:50] [INFO] ************************************************************
+[2025-11-26 12:15:50] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:50] [INFO] ************************************************************
+[2025-11-26 12:15:51] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:51] [INFO] Latency: 0.12, Peak: 0.13598542568457053, Mean: -2.694234859003127
+[2025-11-26 12:15:51] [INFO] Saving results to CSV
+[2025-11-26 12:15:51] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-12_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:51] [INFO] Plotting P100
+[2025-11-26 12:15:51] [INFO] Initializing Plotter
+[2025-11-26 12:15:51] [INFO] Plotting Evoked
+[2025-11-26 12:15:51] [INFO] ************************************************************
+[2025-11-26 12:15:51] [INFO] **********P100 Pipeline sub-12, ses-02**********
+[2025-11-26 12:15:51] [INFO] ************************************************************
+[2025-11-26 12:15:51] [INFO] ************************************************************
+[2025-11-26 12:15:51] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:51] [INFO] ************************************************************
+[2025-11-26 12:15:51] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:51] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-12_ses-02_processed.fif
+[2025-11-26 12:15:52] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:52] [INFO] ************************************************************
+[2025-11-26 12:15:52] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:52] [INFO] ************************************************************
+[2025-11-26 12:15:52] [INFO] Creating Epochs
+[2025-11-26 12:15:53] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:53] [INFO] ************************************************************
+[2025-11-26 12:15:53] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:53] [INFO] ************************************************************
+[2025-11-26 12:15:53] [INFO] Creating Epochs
+[2025-11-26 12:15:53] [INFO] ************************************************************
+[2025-11-26 12:15:53] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:53] [INFO] ************************************************************
+[2025-11-26 12:15:53] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:53] [INFO] Latency: 0.12, Peak: 4.96541796026594, Mean: 1.2531907306050376
+[2025-11-26 12:15:53] [INFO] ************************************************************
+[2025-11-26 12:15:53] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:53] [INFO] ************************************************************
+[2025-11-26 12:15:53] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:53] [INFO] Latency: 0.12, Peak: -0.021126345616337815, Mean: -3.6593375792154803
+[2025-11-26 12:15:53] [INFO] Saving results to CSV
+[2025-11-26 12:15:53] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-12_ses-02_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:53] [INFO] Plotting P100
+[2025-11-26 12:15:53] [INFO] Initializing Plotter
+[2025-11-26 12:15:53] [INFO] Plotting Evoked
+[2025-11-26 12:15:53] [INFO] ************************************************************
+[2025-11-26 12:15:53] [INFO] **********P100 Pipeline sub-13, ses-01**********
+[2025-11-26 12:15:53] [INFO] ************************************************************
+[2025-11-26 12:15:53] [INFO] ************************************************************
+[2025-11-26 12:15:53] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:53] [INFO] ************************************************************
+[2025-11-26 12:15:53] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:53] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-13_ses-01_processed.fif
+[2025-11-26 12:15:55] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:55] [INFO] ************************************************************
+[2025-11-26 12:15:55] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:55] [INFO] ************************************************************
+[2025-11-26 12:15:55] [INFO] Creating Epochs
+[2025-11-26 12:15:55] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:55] [INFO] ************************************************************
+[2025-11-26 12:15:55] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:55] [INFO] ************************************************************
+[2025-11-26 12:15:55] [INFO] Creating Epochs
+[2025-11-26 12:15:55] [INFO] ************************************************************
+[2025-11-26 12:15:55] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:55] [INFO] ************************************************************
+[2025-11-26 12:15:55] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:55] [INFO] Latency: 0.12, Peak: 13.16653906070634, Mean: 5.03028428041985
+[2025-11-26 12:15:55] [INFO] ************************************************************
+[2025-11-26 12:15:55] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:55] [INFO] ************************************************************
+[2025-11-26 12:15:55] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:55] [INFO] Latency: 0.118, Peak: 1.3992572559073155, Mean: -1.4558999391285459
+[2025-11-26 12:15:55] [INFO] Saving results to CSV
+[2025-11-26 12:15:55] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-13_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:55] [INFO] Plotting P100
+[2025-11-26 12:15:55] [INFO] Initializing Plotter
+[2025-11-26 12:15:55] [INFO] Plotting Evoked
+[2025-11-26 12:15:55] [INFO] ************************************************************
+[2025-11-26 12:15:55] [INFO] **********P100 Pipeline sub-13, ses-02**********
+[2025-11-26 12:15:55] [INFO] ************************************************************
+[2025-11-26 12:15:55] [INFO] ************************************************************
+[2025-11-26 12:15:55] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:55] [INFO] ************************************************************
+[2025-11-26 12:15:55] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:55] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-13_ses-02_processed.fif
+[2025-11-26 12:15:57] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:57] [INFO] ************************************************************
+[2025-11-26 12:15:57] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:57] [INFO] ************************************************************
+[2025-11-26 12:15:57] [INFO] Creating Epochs
+[2025-11-26 12:15:57] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:57] [INFO] ************************************************************
+[2025-11-26 12:15:57] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:57] [INFO] ************************************************************
+[2025-11-26 12:15:57] [INFO] Creating Epochs
+[2025-11-26 12:15:57] [INFO] ************************************************************
+[2025-11-26 12:15:57] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:57] [INFO] ************************************************************
+[2025-11-26 12:15:57] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:57] [INFO] Latency: 0.12, Peak: 17.62556060390469, Mean: 5.931401673542082
+[2025-11-26 12:15:57] [INFO] ************************************************************
+[2025-11-26 12:15:57] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:15:57] [INFO] ************************************************************
+[2025-11-26 12:15:57] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:15:57] [INFO] Latency: 0.12, Peak: 1.9855703813744627, Mean: -6.296480231370109
+[2025-11-26 12:15:57] [INFO] Saving results to CSV
+[2025-11-26 12:15:57] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-13_ses-02_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:15:57] [INFO] Plotting P100
+[2025-11-26 12:15:57] [INFO] Initializing Plotter
+[2025-11-26 12:15:57] [INFO] Plotting Evoked
+[2025-11-26 12:15:58] [INFO] ************************************************************
+[2025-11-26 12:15:58] [INFO] **********P100 Pipeline sub-14, ses-01**********
+[2025-11-26 12:15:58] [INFO] ************************************************************
+[2025-11-26 12:15:58] [INFO] ************************************************************
+[2025-11-26 12:15:58] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:15:58] [INFO] ************************************************************
+[2025-11-26 12:15:58] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:15:58] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-14_ses-01_processed.fif
+[2025-11-26 12:15:59] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:15:59] [INFO] ************************************************************
+[2025-11-26 12:15:59] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:59] [INFO] ************************************************************
+[2025-11-26 12:15:59] [INFO] Creating Epochs
+[2025-11-26 12:15:59] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:15:59] [INFO] ************************************************************
+[2025-11-26 12:15:59] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:15:59] [INFO] ************************************************************
+[2025-11-26 12:16:00] [INFO] Creating Epochs
+[2025-11-26 12:16:00] [INFO] ************************************************************
+[2025-11-26 12:16:00] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:16:00] [INFO] ************************************************************
+[2025-11-26 12:16:00] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:16:00] [INFO] Latency: 0.12, Peak: 7.256654564866312, Mean: 2.04820958695588
+[2025-11-26 12:16:00] [INFO] ************************************************************
+[2025-11-26 12:16:00] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:16:00] [INFO] ************************************************************
+[2025-11-26 12:16:00] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:16:00] [INFO] Latency: 0.102, Peak: -0.06685214596973274, Mean: -2.343712892068168
+[2025-11-26 12:16:00] [INFO] Saving results to CSV
+[2025-11-26 12:16:00] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-14_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:16:00] [INFO] Plotting P100
+[2025-11-26 12:16:00] [INFO] Initializing Plotter
+[2025-11-26 12:16:00] [INFO] Plotting Evoked
+[2025-11-26 12:16:00] [INFO] ************************************************************
+[2025-11-26 12:16:00] [INFO] **********P100 Pipeline sub-15, ses-01**********
+[2025-11-26 12:16:00] [INFO] ************************************************************
+[2025-11-26 12:16:00] [INFO] ************************************************************
+[2025-11-26 12:16:00] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:16:00] [INFO] ************************************************************
+[2025-11-26 12:16:00] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:16:00] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-15_ses-01_processed.fif
+[2025-11-26 12:16:01] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:16:01] [INFO] ************************************************************
+[2025-11-26 12:16:01] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:16:01] [INFO] ************************************************************
+[2025-11-26 12:16:01] [INFO] Creating Epochs
+[2025-11-26 12:16:02] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:16:02] [INFO] ************************************************************
+[2025-11-26 12:16:02] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:16:02] [INFO] ************************************************************
+[2025-11-26 12:16:02] [INFO] Creating Epochs
+[2025-11-26 12:16:02] [INFO] ************************************************************
+[2025-11-26 12:16:02] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:16:02] [INFO] ************************************************************
+[2025-11-26 12:16:02] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:16:02] [INFO] Latency: 0.12, Peak: 1.5197041277486192, Mean: -1.97089888596818
+[2025-11-26 12:16:02] [INFO] ************************************************************
+[2025-11-26 12:16:02] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:16:02] [INFO] ************************************************************
+[2025-11-26 12:16:02] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:16:02] [INFO] Latency: 0.102, Peak: 1.8069538299020607, Mean: 0.9419049349308828
+[2025-11-26 12:16:02] [INFO] Saving results to CSV
+[2025-11-26 12:16:02] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-15_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:16:02] [INFO] Plotting P100
+[2025-11-26 12:16:02] [INFO] Initializing Plotter
+[2025-11-26 12:16:02] [INFO] Plotting Evoked
+[2025-11-26 12:16:02] [INFO] ************************************************************
+[2025-11-26 12:16:02] [INFO] **********P100 Pipeline sub-15, ses-02**********
+[2025-11-26 12:16:02] [INFO] ************************************************************
+[2025-11-26 12:16:02] [INFO] ************************************************************
+[2025-11-26 12:16:02] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:16:02] [INFO] ************************************************************
+[2025-11-26 12:16:02] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:16:02] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-15_ses-02_processed.fif
+[2025-11-26 12:16:02] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:16:02] [INFO] ************************************************************
+[2025-11-26 12:16:02] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:16:02] [INFO] ************************************************************
+[2025-11-26 12:16:02] [INFO] Creating Epochs
+[2025-11-26 12:16:02] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:16:02] [INFO] ************************************************************
+[2025-11-26 12:16:02] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:16:02] [INFO] ************************************************************
+[2025-11-26 12:16:03] [INFO] Creating Epochs
+[2025-11-26 12:16:03] [INFO] ************************************************************
+[2025-11-26 12:16:03] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:16:03] [INFO] ************************************************************
+[2025-11-26 12:16:03] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:16:03] [INFO] Latency: 0.12, Peak: 2.577850324197378, Mean: -1.1403927413119666
+[2025-11-26 12:16:03] [INFO] ************************************************************
+[2025-11-26 12:16:03] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:16:03] [INFO] ************************************************************
+[2025-11-26 12:16:03] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:16:03] [INFO] Latency: 0.08, Peak: -1.8248213271713616, Mean: -4.392033370033243
+[2025-11-26 12:16:03] [INFO] Saving results to CSV
+[2025-11-26 12:16:03] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-15_ses-02_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:16:03] [INFO] Plotting P100
+[2025-11-26 12:16:03] [INFO] Initializing Plotter
+[2025-11-26 12:16:03] [INFO] Plotting Evoked
+[2025-11-26 12:16:03] [INFO] Completed Grand ERP Rest Visualization
+[2025-11-26 12:16:03] [INFO] Grand ERP plot saved at: results/images/grand_erp_rest_visual.pdf
+[2025-11-26 12:17:41] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:17:41] [INFO] No files found to plot
+[2025-11-26 12:17:41] [INFO] Starting Grand ERP Rest Visualization
+[2025-11-26 12:17:41] [INFO] ************************************************************
+[2025-11-26 12:17:41] [INFO] **********P100 Pipeline sub-01, ses-01**********
+[2025-11-26 12:17:41] [INFO] ************************************************************
+[2025-11-26 12:17:41] [INFO] ************************************************************
+[2025-11-26 12:17:41] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:17:41] [INFO] ************************************************************
+[2025-11-26 12:17:41] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:17:41] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-11-26 12:17:42] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:17:42] [INFO] ************************************************************
+[2025-11-26 12:17:42] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:42] [INFO] ************************************************************
+[2025-11-26 12:17:42] [INFO] Creating Epochs
+[2025-11-26 12:17:42] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:17:42] [INFO] ************************************************************
+[2025-11-26 12:17:42] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:42] [INFO] ************************************************************
+[2025-11-26 12:17:42] [INFO] Creating Epochs
+[2025-11-26 12:17:43] [INFO] ************************************************************
+[2025-11-26 12:17:43] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:43] [INFO] ************************************************************
+[2025-11-26 12:17:43] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:43] [INFO] Latency: 0.114, Peak: 3.6268973351180986, Mean: -0.5406552462855694
+[2025-11-26 12:17:43] [INFO] ************************************************************
+[2025-11-26 12:17:43] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:43] [INFO] ************************************************************
+[2025-11-26 12:17:43] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:43] [INFO] Latency: 0.099, Peak: 0.004104728150028546, Mean: -1.454783269728858
+[2025-11-26 12:17:43] [INFO] Saving results to CSV
+[2025-11-26 12:17:43] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-01_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:17:43] [INFO] Plotting P100
+[2025-11-26 12:17:43] [INFO] Initializing Plotter
+[2025-11-26 12:17:43] [INFO] Plotting Evoked
+[2025-11-26 12:17:43] [INFO] ************************************************************
+[2025-11-26 12:17:43] [INFO] **********P100 Pipeline sub-02, ses-01**********
+[2025-11-26 12:17:43] [INFO] ************************************************************
+[2025-11-26 12:17:43] [INFO] ************************************************************
+[2025-11-26 12:17:43] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:17:43] [INFO] ************************************************************
+[2025-11-26 12:17:43] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:17:43] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-02_ses-01_processed.fif
+[2025-11-26 12:17:44] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:17:44] [INFO] ************************************************************
+[2025-11-26 12:17:44] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:44] [INFO] ************************************************************
+[2025-11-26 12:17:44] [INFO] Creating Epochs
+[2025-11-26 12:17:44] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:17:44] [INFO] ************************************************************
+[2025-11-26 12:17:44] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:44] [INFO] ************************************************************
+[2025-11-26 12:17:44] [INFO] Creating Epochs
+[2025-11-26 12:17:45] [INFO] ************************************************************
+[2025-11-26 12:17:45] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:45] [INFO] ************************************************************
+[2025-11-26 12:17:45] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:45] [INFO] Latency: 0.08, Peak: 5.971771426187577, Mean: -4.107200654682236
+[2025-11-26 12:17:45] [INFO] ************************************************************
+[2025-11-26 12:17:45] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:45] [INFO] ************************************************************
+[2025-11-26 12:17:45] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:45] [INFO] Latency: 0.093, Peak: -0.8333766630615997, Mean: -1.6348722703259397
+[2025-11-26 12:17:45] [INFO] Saving results to CSV
+[2025-11-26 12:17:45] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-02_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:17:45] [INFO] Plotting P100
+[2025-11-26 12:17:45] [INFO] Initializing Plotter
+[2025-11-26 12:17:45] [INFO] Plotting Evoked
+[2025-11-26 12:17:45] [INFO] ************************************************************
+[2025-11-26 12:17:45] [INFO] **********P100 Pipeline sub-03, ses-01**********
+[2025-11-26 12:17:45] [INFO] ************************************************************
+[2025-11-26 12:17:45] [INFO] ************************************************************
+[2025-11-26 12:17:45] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:17:45] [INFO] ************************************************************
+[2025-11-26 12:17:45] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:17:45] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-03_ses-01_processed.fif
+[2025-11-26 12:17:46] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:17:46] [INFO] ************************************************************
+[2025-11-26 12:17:46] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:46] [INFO] ************************************************************
+[2025-11-26 12:17:46] [INFO] Creating Epochs
+[2025-11-26 12:17:46] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:17:46] [INFO] ************************************************************
+[2025-11-26 12:17:46] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:46] [INFO] ************************************************************
+[2025-11-26 12:17:46] [INFO] Creating Epochs
+[2025-11-26 12:17:47] [INFO] ************************************************************
+[2025-11-26 12:17:47] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:47] [INFO] ************************************************************
+[2025-11-26 12:17:47] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:47] [INFO] Latency: 0.113, Peak: 12.930262795170473, Mean: 6.908515642128625
+[2025-11-26 12:17:47] [INFO] ************************************************************
+[2025-11-26 12:17:47] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:47] [INFO] ************************************************************
+[2025-11-26 12:17:47] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:47] [INFO] Latency: 0.093, Peak: -1.3474317154939388, Mean: -2.6955060173738357
+[2025-11-26 12:17:47] [INFO] Saving results to CSV
+[2025-11-26 12:17:47] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-03_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:17:47] [INFO] Plotting P100
+[2025-11-26 12:17:47] [INFO] Initializing Plotter
+[2025-11-26 12:17:47] [INFO] Plotting Evoked
+[2025-11-26 12:17:47] [INFO] ************************************************************
+[2025-11-26 12:17:47] [INFO] **********P100 Pipeline sub-04, ses-01**********
+[2025-11-26 12:17:47] [INFO] ************************************************************
+[2025-11-26 12:17:47] [INFO] ************************************************************
+[2025-11-26 12:17:47] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:17:47] [INFO] ************************************************************
+[2025-11-26 12:17:47] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:17:47] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-04_ses-01_processed.fif
+[2025-11-26 12:17:48] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:17:48] [INFO] ************************************************************
+[2025-11-26 12:17:48] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:48] [INFO] ************************************************************
+[2025-11-26 12:17:48] [INFO] Creating Epochs
+[2025-11-26 12:17:49] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:17:49] [INFO] ************************************************************
+[2025-11-26 12:17:49] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:49] [INFO] ************************************************************
+[2025-11-26 12:17:49] [INFO] Creating Epochs
+[2025-11-26 12:17:49] [INFO] ************************************************************
+[2025-11-26 12:17:49] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:49] [INFO] ************************************************************
+[2025-11-26 12:17:49] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:49] [INFO] Latency: 0.12, Peak: -6.215798048122501, Mean: -7.524566827751343
+[2025-11-26 12:17:49] [INFO] ************************************************************
+[2025-11-26 12:17:49] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:49] [INFO] ************************************************************
+[2025-11-26 12:17:49] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:49] [INFO] Latency: 0.119, Peak: 11.388399075997095, Mean: 8.994115948147805
+[2025-11-26 12:17:49] [INFO] Saving results to CSV
+[2025-11-26 12:17:49] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-04_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:17:49] [INFO] Plotting P100
+[2025-11-26 12:17:49] [INFO] Initializing Plotter
+[2025-11-26 12:17:49] [INFO] Plotting Evoked
+[2025-11-26 12:17:49] [INFO] ************************************************************
+[2025-11-26 12:17:49] [INFO] **********P100 Pipeline sub-04, ses-02**********
+[2025-11-26 12:17:49] [INFO] ************************************************************
+[2025-11-26 12:17:49] [INFO] ************************************************************
+[2025-11-26 12:17:49] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:17:49] [INFO] ************************************************************
+[2025-11-26 12:17:49] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:17:49] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-04_ses-02_processed.fif
+[2025-11-26 12:17:50] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:17:50] [INFO] ************************************************************
+[2025-11-26 12:17:50] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:50] [INFO] ************************************************************
+[2025-11-26 12:17:50] [INFO] Creating Epochs
+[2025-11-26 12:17:50] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:17:50] [INFO] ************************************************************
+[2025-11-26 12:17:50] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:50] [INFO] ************************************************************
+[2025-11-26 12:17:51] [INFO] Creating Epochs
+[2025-11-26 12:17:51] [INFO] ************************************************************
+[2025-11-26 12:17:51] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:51] [INFO] ************************************************************
+[2025-11-26 12:17:51] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:51] [INFO] Latency: 0.12, Peak: 4.729835059849121, Mean: 2.460335050576712
+[2025-11-26 12:17:51] [INFO] ************************************************************
+[2025-11-26 12:17:51] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:51] [INFO] ************************************************************
+[2025-11-26 12:17:51] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:51] [INFO] Latency: 0.12, Peak: -2.8270964033447745, Mean: -4.070624248262266
+[2025-11-26 12:17:51] [INFO] Saving results to CSV
+[2025-11-26 12:17:51] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-04_ses-02_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:17:51] [INFO] Plotting P100
+[2025-11-26 12:17:51] [INFO] Initializing Plotter
+[2025-11-26 12:17:51] [INFO] Plotting Evoked
+[2025-11-26 12:17:51] [INFO] ************************************************************
+[2025-11-26 12:17:51] [INFO] **********P100 Pipeline sub-05, ses-01**********
+[2025-11-26 12:17:51] [INFO] ************************************************************
+[2025-11-26 12:17:51] [INFO] ************************************************************
+[2025-11-26 12:17:51] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:17:51] [INFO] ************************************************************
+[2025-11-26 12:17:51] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:17:51] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-05_ses-01_processed.fif
+[2025-11-26 12:17:52] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:17:52] [INFO] ************************************************************
+[2025-11-26 12:17:52] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:52] [INFO] ************************************************************
+[2025-11-26 12:17:52] [INFO] Creating Epochs
+[2025-11-26 12:17:52] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:17:52] [INFO] ************************************************************
+[2025-11-26 12:17:52] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:52] [INFO] ************************************************************
+[2025-11-26 12:17:52] [INFO] Creating Epochs
+[2025-11-26 12:17:53] [INFO] ************************************************************
+[2025-11-26 12:17:53] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:53] [INFO] ************************************************************
+[2025-11-26 12:17:53] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:53] [INFO] Latency: 0.12, Peak: -1.0342194998980834, Mean: -2.7721177711422804
+[2025-11-26 12:17:53] [INFO] ************************************************************
+[2025-11-26 12:17:53] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:53] [INFO] ************************************************************
+[2025-11-26 12:17:53] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:53] [INFO] Latency: 0.093, Peak: 0.16128877329187535, Mean: -0.43310097728654545
+[2025-11-26 12:17:53] [INFO] Saving results to CSV
+[2025-11-26 12:17:53] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-05_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:17:53] [INFO] Plotting P100
+[2025-11-26 12:17:53] [INFO] Initializing Plotter
+[2025-11-26 12:17:53] [INFO] Plotting Evoked
+[2025-11-26 12:17:53] [INFO] ************************************************************
+[2025-11-26 12:17:53] [INFO] **********P100 Pipeline sub-05, ses-02**********
+[2025-11-26 12:17:53] [INFO] ************************************************************
+[2025-11-26 12:17:53] [INFO] ************************************************************
+[2025-11-26 12:17:53] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:17:53] [INFO] ************************************************************
+[2025-11-26 12:17:53] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:17:53] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-05_ses-02_processed.fif
+[2025-11-26 12:17:54] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:17:54] [INFO] ************************************************************
+[2025-11-26 12:17:54] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:54] [INFO] ************************************************************
+[2025-11-26 12:17:54] [INFO] Creating Epochs
+[2025-11-26 12:17:54] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:17:54] [INFO] ************************************************************
+[2025-11-26 12:17:54] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:54] [INFO] ************************************************************
+[2025-11-26 12:17:54] [INFO] Creating Epochs
+[2025-11-26 12:17:54] [INFO] ************************************************************
+[2025-11-26 12:17:54] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:54] [INFO] ************************************************************
+[2025-11-26 12:17:54] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:54] [INFO] Latency: 0.091, Peak: 122.18472859737003, Mean: 95.52369363518218
+[2025-11-26 12:17:54] [INFO] ************************************************************
+[2025-11-26 12:17:54] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:54] [INFO] ************************************************************
+[2025-11-26 12:17:55] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:55] [INFO] Latency: 0.12, Peak: 4.182003266795193, Mean: -33.06927091483895
+[2025-11-26 12:17:55] [INFO] Saving results to CSV
+[2025-11-26 12:17:55] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-05_ses-02_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:17:55] [INFO] Plotting P100
+[2025-11-26 12:17:55] [INFO] Initializing Plotter
+[2025-11-26 12:17:55] [INFO] Plotting Evoked
+[2025-11-26 12:17:55] [INFO] ************************************************************
+[2025-11-26 12:17:55] [INFO] **********P100 Pipeline sub-06, ses-01**********
+[2025-11-26 12:17:55] [INFO] ************************************************************
+[2025-11-26 12:17:55] [INFO] ************************************************************
+[2025-11-26 12:17:55] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:17:55] [INFO] ************************************************************
+[2025-11-26 12:17:55] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:17:55] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-06_ses-01_processed.fif
+[2025-11-26 12:17:56] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:17:56] [INFO] ************************************************************
+[2025-11-26 12:17:56] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:56] [INFO] ************************************************************
+[2025-11-26 12:17:56] [INFO] Creating Epochs
+[2025-11-26 12:17:56] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:17:56] [INFO] ************************************************************
+[2025-11-26 12:17:56] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:56] [INFO] ************************************************************
+[2025-11-26 12:17:56] [INFO] Creating Epochs
+[2025-11-26 12:17:57] [INFO] ************************************************************
+[2025-11-26 12:17:57] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:57] [INFO] ************************************************************
+[2025-11-26 12:17:57] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:57] [INFO] Latency: 0.12, Peak: 5.901727075734874, Mean: 1.442379100928554
+[2025-11-26 12:17:57] [INFO] ************************************************************
+[2025-11-26 12:17:57] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:57] [INFO] ************************************************************
+[2025-11-26 12:17:57] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:57] [INFO] Latency: 0.08, Peak: 0.32527825440866875, Mean: -2.6260792907101154
+[2025-11-26 12:17:57] [INFO] Saving results to CSV
+[2025-11-26 12:17:57] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-06_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:17:57] [INFO] Plotting P100
+[2025-11-26 12:17:57] [INFO] Initializing Plotter
+[2025-11-26 12:17:57] [INFO] Plotting Evoked
+[2025-11-26 12:17:57] [INFO] ************************************************************
+[2025-11-26 12:17:57] [INFO] **********P100 Pipeline sub-06, ses-02**********
+[2025-11-26 12:17:57] [INFO] ************************************************************
+[2025-11-26 12:17:57] [INFO] ************************************************************
+[2025-11-26 12:17:57] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:17:57] [INFO] ************************************************************
+[2025-11-26 12:17:57] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:17:57] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-06_ses-02_processed.fif
+[2025-11-26 12:17:58] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:17:58] [INFO] ************************************************************
+[2025-11-26 12:17:58] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:58] [INFO] ************************************************************
+[2025-11-26 12:17:58] [INFO] Creating Epochs
+[2025-11-26 12:17:58] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:17:58] [INFO] ************************************************************
+[2025-11-26 12:17:58] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:17:58] [INFO] ************************************************************
+[2025-11-26 12:17:58] [INFO] Creating Epochs
+[2025-11-26 12:17:59] [INFO] ************************************************************
+[2025-11-26 12:17:59] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:59] [INFO] ************************************************************
+[2025-11-26 12:17:59] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:59] [INFO] Latency: 0.12, Peak: 12.732331882909106, Mean: 4.108570322887359
+[2025-11-26 12:17:59] [INFO] ************************************************************
+[2025-11-26 12:17:59] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:17:59] [INFO] ************************************************************
+[2025-11-26 12:17:59] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:17:59] [INFO] Latency: 0.09, Peak: 0.9600137248590728, Mean: -0.5408498360330567
+[2025-11-26 12:17:59] [INFO] Saving results to CSV
+[2025-11-26 12:17:59] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-06_ses-02_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:17:59] [INFO] Plotting P100
+[2025-11-26 12:17:59] [INFO] Initializing Plotter
+[2025-11-26 12:17:59] [INFO] Plotting Evoked
+[2025-11-26 12:17:59] [INFO] ************************************************************
+[2025-11-26 12:17:59] [INFO] **********P100 Pipeline sub-07, ses-01**********
+[2025-11-26 12:17:59] [INFO] ************************************************************
+[2025-11-26 12:17:59] [INFO] ************************************************************
+[2025-11-26 12:17:59] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:17:59] [INFO] ************************************************************
+[2025-11-26 12:17:59] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:17:59] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-07_ses-01_processed.fif
+[2025-11-26 12:18:00] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:18:00] [INFO] ************************************************************
+[2025-11-26 12:18:00] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:00] [INFO] ************************************************************
+[2025-11-26 12:18:00] [INFO] Creating Epochs
+[2025-11-26 12:18:00] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:18:00] [INFO] ************************************************************
+[2025-11-26 12:18:00] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:00] [INFO] ************************************************************
+[2025-11-26 12:18:00] [INFO] Creating Epochs
+[2025-11-26 12:18:00] [INFO] ************************************************************
+[2025-11-26 12:18:00] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:00] [INFO] ************************************************************
+[2025-11-26 12:18:00] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:00] [INFO] Latency: 0.088, Peak: 48.36934710582456, Mean: 20.853437551710876
+[2025-11-26 12:18:00] [INFO] ************************************************************
+[2025-11-26 12:18:00] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:00] [INFO] ************************************************************
+[2025-11-26 12:18:01] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:01] [INFO] Latency: 0.105, Peak: 53.848007815747586, Mean: 43.220946988274314
+[2025-11-26 12:18:01] [INFO] Saving results to CSV
+[2025-11-26 12:18:01] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-07_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:18:01] [INFO] Plotting P100
+[2025-11-26 12:18:01] [INFO] Initializing Plotter
+[2025-11-26 12:18:01] [INFO] Plotting Evoked
+[2025-11-26 12:18:01] [INFO] ************************************************************
+[2025-11-26 12:18:01] [INFO] **********P100 Pipeline sub-08, ses-01**********
+[2025-11-26 12:18:01] [INFO] ************************************************************
+[2025-11-26 12:18:01] [INFO] ************************************************************
+[2025-11-26 12:18:01] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:18:01] [INFO] ************************************************************
+[2025-11-26 12:18:01] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:18:01] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-08_ses-01_processed.fif
+[2025-11-26 12:18:02] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:18:02] [INFO] ************************************************************
+[2025-11-26 12:18:02] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:02] [INFO] ************************************************************
+[2025-11-26 12:18:02] [INFO] Creating Epochs
+[2025-11-26 12:18:02] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:18:02] [INFO] ************************************************************
+[2025-11-26 12:18:02] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:02] [INFO] ************************************************************
+[2025-11-26 12:18:02] [INFO] Creating Epochs
+[2025-11-26 12:18:02] [INFO] ************************************************************
+[2025-11-26 12:18:02] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:02] [INFO] ************************************************************
+[2025-11-26 12:18:02] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:02] [INFO] Latency: 0.12, Peak: 12.910919020505885, Mean: 6.603073231498609
+[2025-11-26 12:18:02] [INFO] ************************************************************
+[2025-11-26 12:18:02] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:02] [INFO] ************************************************************
+[2025-11-26 12:18:02] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:02] [INFO] Latency: 0.12, Peak: -0.17145279595316157, Mean: -1.824498872010248
+[2025-11-26 12:18:02] [INFO] Saving results to CSV
+[2025-11-26 12:18:02] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-08_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:18:02] [INFO] Plotting P100
+[2025-11-26 12:18:02] [INFO] Initializing Plotter
+[2025-11-26 12:18:02] [INFO] Plotting Evoked
+[2025-11-26 12:18:03] [INFO] ************************************************************
+[2025-11-26 12:18:03] [INFO] **********P100 Pipeline sub-09, ses-01**********
+[2025-11-26 12:18:03] [INFO] ************************************************************
+[2025-11-26 12:18:03] [INFO] ************************************************************
+[2025-11-26 12:18:03] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:18:03] [INFO] ************************************************************
+[2025-11-26 12:18:03] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:18:03] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-09_ses-01_processed.fif
+[2025-11-26 12:18:04] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:18:04] [INFO] ************************************************************
+[2025-11-26 12:18:04] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:04] [INFO] ************************************************************
+[2025-11-26 12:18:04] [INFO] Creating Epochs
+[2025-11-26 12:18:04] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:18:04] [INFO] ************************************************************
+[2025-11-26 12:18:04] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:04] [INFO] ************************************************************
+[2025-11-26 12:18:04] [INFO] Creating Epochs
+[2025-11-26 12:18:04] [INFO] ************************************************************
+[2025-11-26 12:18:04] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:04] [INFO] ************************************************************
+[2025-11-26 12:18:04] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:04] [INFO] Latency: 0.12, Peak: 10.214806384187728, Mean: 3.759858984242436
+[2025-11-26 12:18:04] [INFO] ************************************************************
+[2025-11-26 12:18:04] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:04] [INFO] ************************************************************
+[2025-11-26 12:18:04] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:04] [INFO] Latency: 0.12, Peak: -1.5774759304374684, Mean: -4.518816063652153
+[2025-11-26 12:18:04] [INFO] Saving results to CSV
+[2025-11-26 12:18:04] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-09_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:18:04] [INFO] Plotting P100
+[2025-11-26 12:18:04] [INFO] Initializing Plotter
+[2025-11-26 12:18:04] [INFO] Plotting Evoked
+[2025-11-26 12:18:05] [INFO] ************************************************************
+[2025-11-26 12:18:05] [INFO] **********P100 Pipeline sub-09, ses-02**********
+[2025-11-26 12:18:05] [INFO] ************************************************************
+[2025-11-26 12:18:05] [INFO] ************************************************************
+[2025-11-26 12:18:05] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:18:05] [INFO] ************************************************************
+[2025-11-26 12:18:05] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:18:05] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-09_ses-02_processed.fif
+[2025-11-26 12:18:06] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:18:06] [INFO] ************************************************************
+[2025-11-26 12:18:06] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:06] [INFO] ************************************************************
+[2025-11-26 12:18:06] [INFO] Creating Epochs
+[2025-11-26 12:18:06] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:18:06] [INFO] ************************************************************
+[2025-11-26 12:18:06] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:06] [INFO] ************************************************************
+[2025-11-26 12:18:06] [INFO] Creating Epochs
+[2025-11-26 12:18:06] [INFO] ************************************************************
+[2025-11-26 12:18:06] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:06] [INFO] ************************************************************
+[2025-11-26 12:18:06] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:06] [INFO] Latency: 0.12, Peak: 0.396877415511245, Mean: -1.3181093962475252
+[2025-11-26 12:18:06] [INFO] ************************************************************
+[2025-11-26 12:18:06] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:06] [INFO] ************************************************************
+[2025-11-26 12:18:06] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:06] [INFO] Latency: 0.12, Peak: -1.9718606469544235, Mean: -8.042176455929997
+[2025-11-26 12:18:06] [INFO] Saving results to CSV
+[2025-11-26 12:18:06] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-09_ses-02_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:18:06] [INFO] Plotting P100
+[2025-11-26 12:18:06] [INFO] Initializing Plotter
+[2025-11-26 12:18:06] [INFO] Plotting Evoked
+[2025-11-26 12:18:07] [INFO] ************************************************************
+[2025-11-26 12:18:07] [INFO] **********P100 Pipeline sub-10, ses-01**********
+[2025-11-26 12:18:07] [INFO] ************************************************************
+[2025-11-26 12:18:07] [INFO] ************************************************************
+[2025-11-26 12:18:07] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:18:07] [INFO] ************************************************************
+[2025-11-26 12:18:07] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:18:07] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-10_ses-01_processed.fif
+[2025-11-26 12:18:08] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:18:08] [INFO] ************************************************************
+[2025-11-26 12:18:08] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:08] [INFO] ************************************************************
+[2025-11-26 12:18:08] [INFO] Creating Epochs
+[2025-11-26 12:18:08] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:18:08] [INFO] ************************************************************
+[2025-11-26 12:18:08] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:08] [INFO] ************************************************************
+[2025-11-26 12:18:08] [INFO] Creating Epochs
+[2025-11-26 12:18:08] [INFO] ************************************************************
+[2025-11-26 12:18:08] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:08] [INFO] ************************************************************
+[2025-11-26 12:18:08] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:08] [INFO] Latency: 0.12, Peak: 8.438907470709387, Mean: 4.789058545489566
+[2025-11-26 12:18:08] [INFO] ************************************************************
+[2025-11-26 12:18:08] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:08] [INFO] ************************************************************
+[2025-11-26 12:18:08] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:08] [INFO] Latency: 0.12, Peak: -0.22407124304834525, Mean: -1.4567208488587833
+[2025-11-26 12:18:08] [INFO] Saving results to CSV
+[2025-11-26 12:18:08] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-10_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:18:08] [INFO] Plotting P100
+[2025-11-26 12:18:08] [INFO] Initializing Plotter
+[2025-11-26 12:18:08] [INFO] Plotting Evoked
+[2025-11-26 12:18:09] [INFO] ************************************************************
+[2025-11-26 12:18:09] [INFO] **********P100 Pipeline sub-11, ses-01**********
+[2025-11-26 12:18:09] [INFO] ************************************************************
+[2025-11-26 12:18:09] [INFO] ************************************************************
+[2025-11-26 12:18:09] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:18:09] [INFO] ************************************************************
+[2025-11-26 12:18:09] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:18:09] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-11_ses-01_processed.fif
+[2025-11-26 12:18:10] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:18:10] [INFO] ************************************************************
+[2025-11-26 12:18:10] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:10] [INFO] ************************************************************
+[2025-11-26 12:18:10] [INFO] Creating Epochs
+[2025-11-26 12:18:10] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:18:10] [INFO] ************************************************************
+[2025-11-26 12:18:10] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:10] [INFO] ************************************************************
+[2025-11-26 12:18:10] [INFO] Creating Epochs
+[2025-11-26 12:18:10] [INFO] ************************************************************
+[2025-11-26 12:18:10] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:10] [INFO] ************************************************************
+[2025-11-26 12:18:10] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:10] [INFO] Latency: 0.088, Peak: 0.5906947808766241, Mean: -1.8035269936261948
+[2025-11-26 12:18:10] [INFO] ************************************************************
+[2025-11-26 12:18:10] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:10] [INFO] ************************************************************
+[2025-11-26 12:18:10] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:10] [INFO] Latency: 0.118, Peak: 0.19973914112232888, Mean: -0.7340328094141033
+[2025-11-26 12:18:10] [INFO] Saving results to CSV
+[2025-11-26 12:18:10] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-11_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:18:10] [INFO] Plotting P100
+[2025-11-26 12:18:10] [INFO] Initializing Plotter
+[2025-11-26 12:18:10] [INFO] Plotting Evoked
+[2025-11-26 12:18:11] [INFO] ************************************************************
+[2025-11-26 12:18:11] [INFO] **********P100 Pipeline sub-12, ses-01**********
+[2025-11-26 12:18:11] [INFO] ************************************************************
+[2025-11-26 12:18:11] [INFO] ************************************************************
+[2025-11-26 12:18:11] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:18:11] [INFO] ************************************************************
+[2025-11-26 12:18:11] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:18:11] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-12_ses-01_processed.fif
+[2025-11-26 12:18:12] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:18:12] [INFO] ************************************************************
+[2025-11-26 12:18:12] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:12] [INFO] ************************************************************
+[2025-11-26 12:18:12] [INFO] Creating Epochs
+[2025-11-26 12:18:12] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:18:12] [INFO] ************************************************************
+[2025-11-26 12:18:12] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:12] [INFO] ************************************************************
+[2025-11-26 12:18:12] [INFO] Creating Epochs
+[2025-11-26 12:18:12] [INFO] ************************************************************
+[2025-11-26 12:18:12] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:12] [INFO] ************************************************************
+[2025-11-26 12:18:12] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:12] [INFO] Latency: 0.115, Peak: 0.4807870069317302, Mean: -0.48431605639084163
+[2025-11-26 12:18:12] [INFO] ************************************************************
+[2025-11-26 12:18:12] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:12] [INFO] ************************************************************
+[2025-11-26 12:18:12] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:12] [INFO] Latency: 0.12, Peak: -1.0802412924308138, Mean: -3.382359011190078
+[2025-11-26 12:18:12] [INFO] Saving results to CSV
+[2025-11-26 12:18:12] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-12_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:18:12] [INFO] Plotting P100
+[2025-11-26 12:18:12] [INFO] Initializing Plotter
+[2025-11-26 12:18:12] [INFO] Plotting Evoked
+[2025-11-26 12:18:13] [INFO] ************************************************************
+[2025-11-26 12:18:13] [INFO] **********P100 Pipeline sub-12, ses-02**********
+[2025-11-26 12:18:13] [INFO] ************************************************************
+[2025-11-26 12:18:13] [INFO] ************************************************************
+[2025-11-26 12:18:13] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:18:13] [INFO] ************************************************************
+[2025-11-26 12:18:13] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:18:13] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-12_ses-02_processed.fif
+[2025-11-26 12:18:14] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:18:14] [INFO] ************************************************************
+[2025-11-26 12:18:14] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:14] [INFO] ************************************************************
+[2025-11-26 12:18:14] [INFO] Creating Epochs
+[2025-11-26 12:18:14] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:18:14] [INFO] ************************************************************
+[2025-11-26 12:18:14] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:14] [INFO] ************************************************************
+[2025-11-26 12:18:14] [INFO] Creating Epochs
+[2025-11-26 12:18:14] [INFO] ************************************************************
+[2025-11-26 12:18:14] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:14] [INFO] ************************************************************
+[2025-11-26 12:18:14] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:14] [INFO] Latency: 0.12, Peak: 4.96541796026594, Mean: 1.2531907306050376
+[2025-11-26 12:18:14] [INFO] ************************************************************
+[2025-11-26 12:18:14] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:14] [INFO] ************************************************************
+[2025-11-26 12:18:15] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:15] [INFO] Latency: 0.12, Peak: 0.4820481743411935, Mean: -2.133452852713388
+[2025-11-26 12:18:15] [INFO] Saving results to CSV
+[2025-11-26 12:18:15] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-12_ses-02_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:18:15] [INFO] Plotting P100
+[2025-11-26 12:18:15] [INFO] Initializing Plotter
+[2025-11-26 12:18:15] [INFO] Plotting Evoked
+[2025-11-26 12:18:15] [INFO] ************************************************************
+[2025-11-26 12:18:15] [INFO] **********P100 Pipeline sub-13, ses-01**********
+[2025-11-26 12:18:15] [INFO] ************************************************************
+[2025-11-26 12:18:15] [INFO] ************************************************************
+[2025-11-26 12:18:15] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:18:15] [INFO] ************************************************************
+[2025-11-26 12:18:15] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:18:15] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-13_ses-01_processed.fif
+[2025-11-26 12:18:16] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:18:16] [INFO] ************************************************************
+[2025-11-26 12:18:16] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:16] [INFO] ************************************************************
+[2025-11-26 12:18:16] [INFO] Creating Epochs
+[2025-11-26 12:18:16] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:18:16] [INFO] ************************************************************
+[2025-11-26 12:18:16] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:16] [INFO] ************************************************************
+[2025-11-26 12:18:16] [INFO] Creating Epochs
+[2025-11-26 12:18:16] [INFO] ************************************************************
+[2025-11-26 12:18:16] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:16] [INFO] ************************************************************
+[2025-11-26 12:18:16] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:16] [INFO] Latency: 0.12, Peak: 13.16653906070634, Mean: 5.03028428041985
+[2025-11-26 12:18:16] [INFO] ************************************************************
+[2025-11-26 12:18:16] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:16] [INFO] ************************************************************
+[2025-11-26 12:18:16] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:16] [INFO] Latency: 0.12, Peak: -0.37541778359579625, Mean: -2.618576645659806
+[2025-11-26 12:18:16] [INFO] Saving results to CSV
+[2025-11-26 12:18:16] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-13_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:18:16] [INFO] Plotting P100
+[2025-11-26 12:18:16] [INFO] Initializing Plotter
+[2025-11-26 12:18:16] [INFO] Plotting Evoked
+[2025-11-26 12:18:17] [INFO] ************************************************************
+[2025-11-26 12:18:17] [INFO] **********P100 Pipeline sub-13, ses-02**********
+[2025-11-26 12:18:17] [INFO] ************************************************************
+[2025-11-26 12:18:17] [INFO] ************************************************************
+[2025-11-26 12:18:17] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:18:17] [INFO] ************************************************************
+[2025-11-26 12:18:17] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:18:17] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-13_ses-02_processed.fif
+[2025-11-26 12:18:18] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:18:18] [INFO] ************************************************************
+[2025-11-26 12:18:18] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:18] [INFO] ************************************************************
+[2025-11-26 12:18:18] [INFO] Creating Epochs
+[2025-11-26 12:18:18] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:18:18] [INFO] ************************************************************
+[2025-11-26 12:18:18] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:18] [INFO] ************************************************************
+[2025-11-26 12:18:18] [INFO] Creating Epochs
+[2025-11-26 12:18:19] [INFO] ************************************************************
+[2025-11-26 12:18:19] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:19] [INFO] ************************************************************
+[2025-11-26 12:18:19] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:19] [INFO] Latency: 0.12, Peak: 17.62556060390469, Mean: 5.931401673542082
+[2025-11-26 12:18:19] [INFO] ************************************************************
+[2025-11-26 12:18:19] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:19] [INFO] ************************************************************
+[2025-11-26 12:18:19] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:19] [INFO] Latency: 0.12, Peak: 0.7603356881809369, Mean: -3.6314644750136593
+[2025-11-26 12:18:19] [INFO] Saving results to CSV
+[2025-11-26 12:18:19] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-13_ses-02_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:18:19] [INFO] Plotting P100
+[2025-11-26 12:18:19] [INFO] Initializing Plotter
+[2025-11-26 12:18:19] [INFO] Plotting Evoked
+[2025-11-26 12:18:19] [INFO] ************************************************************
+[2025-11-26 12:18:19] [INFO] **********P100 Pipeline sub-14, ses-01**********
+[2025-11-26 12:18:19] [INFO] ************************************************************
+[2025-11-26 12:18:19] [INFO] ************************************************************
+[2025-11-26 12:18:19] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:18:19] [INFO] ************************************************************
+[2025-11-26 12:18:19] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:18:19] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-14_ses-01_processed.fif
+[2025-11-26 12:18:20] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:18:20] [INFO] ************************************************************
+[2025-11-26 12:18:20] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:20] [INFO] ************************************************************
+[2025-11-26 12:18:21] [INFO] Creating Epochs
+[2025-11-26 12:18:21] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:18:21] [INFO] ************************************************************
+[2025-11-26 12:18:21] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:21] [INFO] ************************************************************
+[2025-11-26 12:18:21] [INFO] Creating Epochs
+[2025-11-26 12:18:21] [INFO] ************************************************************
+[2025-11-26 12:18:21] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:21] [INFO] ************************************************************
+[2025-11-26 12:18:21] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:21] [INFO] Latency: 0.12, Peak: 7.256654564866312, Mean: 2.04820958695588
+[2025-11-26 12:18:21] [INFO] ************************************************************
+[2025-11-26 12:18:21] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:21] [INFO] ************************************************************
+[2025-11-26 12:18:21] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:21] [INFO] Latency: 0.106, Peak: -1.2321771251086306, Mean: -1.670401542400868
+[2025-11-26 12:18:21] [INFO] Saving results to CSV
+[2025-11-26 12:18:21] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-14_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:18:21] [INFO] Plotting P100
+[2025-11-26 12:18:21] [INFO] Initializing Plotter
+[2025-11-26 12:18:21] [INFO] Plotting Evoked
+[2025-11-26 12:18:21] [INFO] ************************************************************
+[2025-11-26 12:18:21] [INFO] **********P100 Pipeline sub-15, ses-01**********
+[2025-11-26 12:18:21] [INFO] ************************************************************
+[2025-11-26 12:18:21] [INFO] ************************************************************
+[2025-11-26 12:18:21] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:18:21] [INFO] ************************************************************
+[2025-11-26 12:18:21] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:18:21] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-15_ses-01_processed.fif
+[2025-11-26 12:18:22] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:18:22] [INFO] ************************************************************
+[2025-11-26 12:18:22] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:22] [INFO] ************************************************************
+[2025-11-26 12:18:23] [INFO] Creating Epochs
+[2025-11-26 12:18:23] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:18:23] [INFO] ************************************************************
+[2025-11-26 12:18:23] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:23] [INFO] ************************************************************
+[2025-11-26 12:18:23] [INFO] Creating Epochs
+[2025-11-26 12:18:23] [INFO] ************************************************************
+[2025-11-26 12:18:23] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:23] [INFO] ************************************************************
+[2025-11-26 12:18:23] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:23] [INFO] Latency: 0.12, Peak: 1.5197041277486192, Mean: -1.97089888596818
+[2025-11-26 12:18:23] [INFO] ************************************************************
+[2025-11-26 12:18:23] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:23] [INFO] ************************************************************
+[2025-11-26 12:18:23] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:23] [INFO] Latency: 0.089, Peak: 1.6928521981875608, Mean: 1.2669324255104593
+[2025-11-26 12:18:23] [INFO] Saving results to CSV
+[2025-11-26 12:18:23] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-15_ses-01_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:18:23] [INFO] Plotting P100
+[2025-11-26 12:18:23] [INFO] Initializing Plotter
+[2025-11-26 12:18:23] [INFO] Plotting Evoked
+[2025-11-26 12:18:23] [INFO] ************************************************************
+[2025-11-26 12:18:23] [INFO] **********P100 Pipeline sub-15, ses-02**********
+[2025-11-26 12:18:23] [INFO] ************************************************************
+[2025-11-26 12:18:23] [INFO] ************************************************************
+[2025-11-26 12:18:23] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 12:18:23] [INFO] ************************************************************
+[2025-11-26 12:18:23] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 12:18:23] [INFO] Loading processed EEG from /home/owaismujtaba/projects/MIND/data/BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-15_ses-02_processed.fif
+[2025-11-26 12:18:24] [INFO] Creating epochs for condition: Visual Change
+[2025-11-26 12:18:24] [INFO] ************************************************************
+[2025-11-26 12:18:24] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:24] [INFO] ************************************************************
+[2025-11-26 12:18:24] [INFO] Creating Epochs
+[2025-11-26 12:18:24] [INFO] Creating epochs for condition: No Visual Change
+[2025-11-26 12:18:24] [INFO] ************************************************************
+[2025-11-26 12:18:24] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 12:18:24] [INFO] ************************************************************
+[2025-11-26 12:18:24] [INFO] Creating Epochs
+[2025-11-26 12:18:24] [INFO] ************************************************************
+[2025-11-26 12:18:24] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:24] [INFO] ************************************************************
+[2025-11-26 12:18:24] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:24] [INFO] Latency: 0.12, Peak: 2.577850324197378, Mean: -1.1403927413119666
+[2025-11-26 12:18:24] [INFO] ************************************************************
+[2025-11-26 12:18:24] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-11-26 12:18:24] [INFO] ************************************************************
+[2025-11-26 12:18:24] [INFO] Caculating Latency, peak and mean
+[2025-11-26 12:18:24] [INFO] Latency: 0.1, Peak: 1.5355055633842072, Mean: 0.4576400402132322
+[2025-11-26 12:18:24] [INFO] Saving results to CSV
+[2025-11-26 12:18:24] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/P100/sub-15_ses-02_p100_Visual Change_No Visual Change.csv
+[2025-11-26 12:18:24] [INFO] Plotting P100
+[2025-11-26 12:18:24] [INFO] Initializing Plotter
+[2025-11-26 12:18:24] [INFO] Plotting Evoked
+[2025-11-26 12:18:24] [INFO] Completed Grand ERP Rest Visualization
+[2025-11-26 12:18:24] [INFO] Grand ERP plot saved at: results/images/grand_erp_rest_visual.pdf
+[2025-11-26 12:19:30] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:21:07] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:21:07] [INFO] No files found to plot
+[2025-11-26 12:22:14] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:23:59] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:24:51] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:25:49] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:26:04] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:27:38] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:28:25] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:28:55] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:33:54] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:35:20] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:40:20] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:41:17] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:41:36] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:43:58] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions
+[2025-11-26 12:44:35] [INFO] Plotting Peak and Mean amplitudes for visual and no visual conditions

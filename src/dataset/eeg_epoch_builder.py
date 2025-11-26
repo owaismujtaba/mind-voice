@@ -16,10 +16,10 @@ class EEGEpochBuilder:
     """
     def __init__(self, eeg_data, trial_mode='', trial_unit='', 
                  experiment_mode='', trial_boundary='', 
-                 trial_type='', modality='', channels=None, logger=None):
-        styled_print('', 'Initializing EEGEpochBuilder Class', 'red', panel=True)
+                 trial_type='', modality='', channels=None, logger=None, baseline=None):
         self.logger = logger
         log_print(text='Initializing Epoch Builder', logger=logger)
+        self.baseline=baseline
         self.eeg_data = eeg_data
         self.annotations = eeg_data.annotations
         self.criteria = [
@@ -28,7 +28,7 @@ class EEGEpochBuilder:
         ]
         self.channels = channels
         if channels:
-            self.eeg_data.pick(self.channels)  # Pick specified channels
+            self.eeg_data.pick(self.channels)  
     def _filter_events(self):
         """
         Filters EEG event annotations based on predefined criteria.
@@ -56,7 +56,6 @@ class EEGEpochBuilder:
         Raises:
             ValueError: If no matching events are found.
         """
-        styled_print('', 'Creating EPOCHS', color='green')
         self.logger.info('Creating Epochs')
         print_criteria(self.criteria + [tmin, tmax])
         filtered_events = self._filter_events()
@@ -81,7 +80,7 @@ class EEGEpochBuilder:
         events = np.array(event_list)
         epochs = mne.Epochs(
             self.eeg_data, events, event_id=event_id_map, 
-            tmin=tmin, tmax=tmax, baseline=(tmin, tmin+0.2), 
+            tmin=tmin, tmax=tmax, baseline=(self.baseline["tmin"], self.baseline["tmax"]),
             preload=True
         )
         self.epochs = epochs

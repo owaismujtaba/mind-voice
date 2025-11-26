@@ -24,15 +24,16 @@ def plot_grand_erp_rest_visual(config, logger):
     os.makedirs(output_dir, exist_ok=True)
 
     visual = {
-        "label": "Visual Change",
+        "label": "Visual",
         "trial_type": "Stimulus",
         "tmin": -0.2,
         "tmax": 0.5,
-        "trial_mode": " ",
+        "trial_mode": "",
         "trial_unit": "Words",
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
-        "modality": "Pictures"
+        "modality": "Pictures",
+        "baseline": {"tmin": -0.2, "tmax": 0}
     }
     
 
@@ -41,12 +42,13 @@ def plot_grand_erp_rest_visual(config, logger):
         "trial_type": "Fixation",
         "tmin": -0.2,
         "tmax": 0.5,
-        "trial_mode": " ",
+        "trial_mode": "",
         "trial_unit": "Words",
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
-        "modality": "Pictures",
-        "time_window": (0.08, 0.12)  # Optional window for P100
+        "modality": "",
+        "time_window": (0.08, 0.12),
+        "baseline": {"tmin": 0.1, "tmax": 0.3}
     }
 
 
@@ -69,7 +71,7 @@ def plot_grand_erp_rest_visual(config, logger):
                         config = config
             )
             key = f'sub-{sub}_ses-{ses}'
-            pipeline.run()
+            pipeline.run(plot=False)
             
             visual_epochs =  pipeline.cond_1_epochs.copy()
             visual_data.append(visual_epochs.get_data())
@@ -124,8 +126,8 @@ def plot_grand_erp_rest_visual(config, logger):
 
     plt.tight_layout()
     
-    name = os.path.join(output_dir, 'grand_erp_rest_visual.png')
-    plt.savefig(name, dpi=800)
+    name = os.path.join(output_dir, 'grand_erp_rest_visual.pdf')
+    plt.savefig(name, format='pdf', dpi=800)
     logger.info('Completed Grand ERP Rest Visualization')
     logger.info(f'Grand ERP plot saved at: {name}')
     

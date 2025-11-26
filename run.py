@@ -48,12 +48,13 @@ if analysis_config['p100']:
         "trial_unit": "Words",
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
-        "modality": "Pictures"
+        "modality": "Pictures",
+        "baseline": {"tmin": -0.2, "tmax": 0}
     }
     
 
     rest = {
-        "label": "Rest",
+        "label": "No Visual Change",
         "trial_type": "Fixation",
         "tmin": -0.2,
         "tmax": 0.5,
@@ -61,8 +62,9 @@ if analysis_config['p100']:
         "trial_unit": "Words",
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
-        "modality": "Pictures",
-        "time_window": (0.08, 0.12)  # Optional window for P100
+        "modality": "",
+        "time_window": (0.08, 0.12),
+        "baseline": {"tmin": 0.1, "tmax": 0.3}
     }
     logger.info('Setting up P100 Analysis Pipeline')
     layout = BIDSLayout(dataset_config['BIDS_DIR'], validate=True)

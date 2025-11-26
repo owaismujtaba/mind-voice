@@ -25,7 +25,7 @@ class P100Pipeline:
         self.cond_2 = cond_2
         self.channels = channels
 
-    def run(self):
+    def run(self, plot=True):
         log_print(text=f'P100 Pipeline sub-{self.subject_id}, ses-{self.session_id}', logger=self.logger)
 
         bids_reader = BIDSDatasetReader(
@@ -44,9 +44,9 @@ class P100Pipeline:
         cond_2_res, self. analyzer_2 = self._analyze_p100(self.cond_2_epochs)
         
         
-
-        self._save_results(cond_1_res, cond_2_res)
-        self._plot()
+        if plot:
+            self._save_results(cond_1_res, cond_2_res)
+            self._plot()
 
     def _analyze_p100(self, epochs):
         analyzer = P100ComponentAnalyzer(
@@ -69,7 +69,8 @@ class P100Pipeline:
             trial_type=condition_cfg["trial_type"],
             modality=condition_cfg["modality"],
             channels=self.channels,
-            logger=self.logger
+            logger=self.logger,
+            baseline=condition_cfg['baseline']
         )
 
         epochs = epocher.create_epochs(
