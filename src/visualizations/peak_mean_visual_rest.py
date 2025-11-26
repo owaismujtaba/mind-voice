@@ -114,6 +114,7 @@ def plot_metric(ax, y_col, title, p_value, df_avg):
     ax.tick_params(axis='y', labelsize=14)
     for label in ax.get_yticklabels():
         label.set_fontweight('bold')
+        label.set_fontsize('14')
 
     sns.despine(ax=ax)
 
@@ -191,7 +192,7 @@ def plot_peak_mean_visual_novisual(logger):
     logger.info(f"T-test (Peak): t={t_peak:.3f}, p={p_peak:.3e}")
     logger.info(f"T-test (Mean): t={t_mean:.3f}, p={p_mean:.3e}")
     logger.info('Visual')
-    logger.info(visual.mean())
+    logger.info(visual.describe())
     logger.info('No visual Change')
-    logger.info(novisual.mean())
+    logger.info(novisual.describe())
     logger.info(f'Plot saved to {filepath}')

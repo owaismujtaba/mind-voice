@@ -34,7 +34,8 @@ class OvertCovertRestPipeline:
             "trial_type": trial_type,
             "modality": '',
             "tmin": -0.2,
-            "tmax": 1.5
+            "tmax": 1.5,
+            "baseline": {"tmin": -0.2, "tmax": 0}
         }
 
     def _load_condition_data(self, label, config):

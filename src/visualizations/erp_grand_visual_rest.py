@@ -93,7 +93,7 @@ def plot_grand_erp_rest_visual(config, logger):
     n_timepoints = len(mean_visual_uv)
     time = np.linspace(-0.2, 0.5, n_timepoints)
 
-    plt.figure(figsize=(10, 5))
+    plt.figure(figsize=(10, 6))
 
     # Plotting with stylish colors
     plt.plot(time, mean_visual_uv, label='Visual Change', color='#0072B2', linewidth=2.5)
@@ -106,15 +106,15 @@ def plot_grand_erp_rest_visual(config, logger):
     plt.axvspan(0.08, 0.12, color="#A9C7B1", alpha=0.2, label='Window (80-120 ms)')
 
     # Labels and title
-    plt.xlabel('Time (s)', fontsize=12, fontweight='bold')
-    plt.ylabel('Amplitude (µV)', fontsize=12, fontweight='bold')
+    plt.xlabel('Time (s)', fontsize=16, fontweight='bold')
+    plt.ylabel('Amplitude (µV)', fontsize=16, fontweight='bold')
 
     # Grid
     plt.grid(alpha=0.3, linestyle='--')
 
     # Customize ticks
-    plt.xticks(np.arange(-0.2, 0.6, 0.1), fontsize=10, fontweight='bold', color='black')
-    plt.yticks(fontsize=10, fontweight='bold', color='black')
+    plt.xticks(np.arange(-0.2, 0.6, 0.1), fontsize=14, fontweight='bold', color='black')
+    plt.yticks(fontsize=14, fontweight='bold', color='black')
 
     # Remove top and right spines
     ax = plt.gca()
