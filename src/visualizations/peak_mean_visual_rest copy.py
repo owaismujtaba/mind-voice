@@ -19,38 +19,20 @@ def remove_outliers_iqr(df, columns):
     return cleaned_df
 
 
-def get_significance_stars(p):
-    """Returns asterisk representation of p-value."""
-    if p < 0.001:
-        return '***'
-    elif p < 0.01:
-        return '**'
-    elif p < 0.05:
-        return '*'
-    else:
-        return 'ns'
-
-
 def plot_metric(ax, y_col, title, p_value, df_avg):
     category_order = ['Visual', 'No Visual Change']
     xtick_labels = ['Visual', 'No Visual Change']
-
-    # --- CHANGED: Different Colors (Blue & Green) ---
-    # You can change these hex codes to whatever you prefer
-    new_palette = ["#0072B2", "#D55E00"] 
 
     sns.boxplot(
         data=df_avg,
         x='condition', y=y_col,
         order=category_order,
         hue='condition',
-        palette=new_palette, 
+        palette='Set3',
         width=0.5,
         legend=False,
-        boxprops={'alpha': 0.8, 'linewidth': 1.2, 'edgecolor': '#333333'},
-        medianprops={'linewidth': 2, 'color': 'white'}, # White median often looks cleaner on dark colors
-        whiskerprops={'linewidth': 1.2, 'color': '#333333'},
-        capprops={'linewidth': 1.2, 'color': '#333333'},
+        boxprops={'alpha': 0.8, 'linewidth': 1.5},
+        medianprops={'linewidth': 2, 'color': 'darkblue'},
         ax=ax
     )
 
@@ -68,44 +50,10 @@ def plot_metric(ax, y_col, title, p_value, df_avg):
     x_pos = range(len(category_order))
     ax.scatter(
         x_pos, means.values,
-        marker='s', s=80, color='lightgrey', zorder=6, label='Mean', edgecolor='black'
+        marker='s', s=100, color='red', zorder=6, label='Mean'
     )
 
-    # --- CHANGED: Add Bar and Asterisk ---
-    
-    # 1. Calculate height for the bar (slightly above the highest data point)
-    y_max = df_avg[y_col].max()
-    y_min = df_avg[y_col].min()
-    y_range = y_max - y_min
-    
-    # Dynamic height adjustment
-    bar_h = y_max + (y_range * 0.1)      # Horizontal bar height
-    bar_tips = bar_h - (y_range * 0.02)  # Tips of the brackets pointing down
-    
-    # 2. Draw the Bracket (Bar)
-    # Plot lines: [x1, x1, x2, x2], [y_tip, y_bar, y_bar, y_tip]
-    ax.plot(
-        [0, 0, 1, 1], 
-        [bar_tips, bar_h, bar_h, bar_tips], 
-        lw=1.5, c='k'
-    )
-
-    # 3. Add the Asterisk on top of the bar
-    stars = get_significance_stars(p_value)
-    ax.text(
-        0.5, bar_h + (y_range * 0.01), 
-        stars, 
-        ha='center', va='bottom', 
-        fontsize=22, fontweight='bold', color='black'
-    )
-
-    # 4. Set Y-limit to ensure bar and stars are visible
-    # Increase the upper limit slightly to fit the star
-    ax.set_ylim(bottom=None, top=bar_h + (y_range * 0.15))
-
-    # --- Title (Removed p-value from title since it's on the bar) ---
-    ax.set_title(title, fontsize=20, fontweight='bold')
-    
+    ax.set_title(f"{title}\np = {p_value:.3f}", fontsize=20, fontweight='bold')
     ax.set_ylabel(f"{y_col.capitalize()} Amplitude (µV)", fontsize=16, fontweight='bold')
     ax.set_xlabel("")
     ax.set_xticks(x_pos)
@@ -141,6 +89,9 @@ def plot_peak_mean_visual_novisual(logger):
     visual = combined_df.loc[combined_df['condition'] == category_order[0], ['mean', 'peak']].reset_index(drop=True)
     novisual = combined_df.loc[combined_df['condition'] == category_order[1], ['mean', 'peak']].reset_index(drop=True)
 
+    #visual = remove_outliers_iqr(visual, columns=['peak', 'mean'])
+    #novisual = remove_outliers_iqr(novisual, columns=['peak', 'mean'])
+    
     # Match subjects
     n = min(len(visual), len(novisual))
     subject_ids = range(n)
@@ -157,7 +108,7 @@ def plot_peak_mean_visual_novisual(logger):
     peak_pivot = df_avg.pivot(index='subject_id', columns='condition', values='peak')
     mean_pivot = df_avg.pivot(index='subject_id', columns='condition', values='mean')
 
-    # Paired t-tests
+    # Paired t-tests (correct labels)
     t_peak, p_peak = ttest_rel(
         peak_pivot['No Visual Change'],
         peak_pivot['Visual'],

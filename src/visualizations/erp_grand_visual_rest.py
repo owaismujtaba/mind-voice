@@ -96,14 +96,14 @@ def plot_grand_erp_rest_visual(config, logger):
     plt.figure(figsize=(10, 5))
 
     # Plotting with stylish colors
-    plt.plot(time, mean_visual_uv, label='Visual Change', color='#1f77b4', linewidth=2.5)
-    plt.plot(time, mean_rest_uv, label='No Visual Change', color='#ff7f0e', linewidth=2.5, linestyle='--')
+    plt.plot(time, mean_visual_uv, label='Visual Change', color='#0072B2', linewidth=2.5)
+    plt.plot(time, mean_rest_uv, label='No Visual Change', color="#D55E00", linewidth=2.5, linestyle='--')
 
     # Vertical line at 0
     plt.axvline(0, color='k', linestyle='--', linewidth=2.0, label='Stimulus Onset (0 s)')
 
     # Highlight 80-120 ms
-    plt.axvspan(0.08, 0.12, color='green', alpha=0.2, label='Window (80-120 ms)')
+    plt.axvspan(0.08, 0.12, color="#A9C7B1", alpha=0.2, label='Window (80-120 ms)')
 
     # Labels and title
     plt.xlabel('Time (s)', fontsize=12, fontweight='bold')
