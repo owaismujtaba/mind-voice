@@ -60,7 +60,7 @@ def plot_cmfusion_matrix_heatmap(cm):
     plt.xlabel("Predicted Label", fontweight='bold')
     plt.ylabel("True Label", fontweight='bold')
     plt.tight_layout()
-    plt.savefig('results/images/cm.png', dpi=800)
+    plt.savefig('results/images/cm.pdf', format='pdf', dpi=800)
 
 def plot_confusion_matrix(logger):
     logger.info('Plotting confusion matrix')

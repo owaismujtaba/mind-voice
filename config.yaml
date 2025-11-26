@@ -27,9 +27,9 @@ anonymize:
 
 
 plotting:
-    peak_mean_amplitude: True
-    grand_erp_visual_real: True
+    peak_mean_amplitude: False
+    grand_erp_visual_real: False
     accuracy_plots: False
-    metrics_plots: False
-    confusion_matrix: False
-    display_per_class_metrics: False
+    metrics_plots: True
+    confusion_matrix: True
+    display_per_class_metrics: True

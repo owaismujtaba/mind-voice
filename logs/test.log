@@ -689,3 +689,94 @@ min    -4.825191  -3.208833
 max    -0.341672   1.330464
 [2025-11-26 15:32:52] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.pdf
 [2025-11-26 15:32:52] [INFO] Plot saved to results/images/peakMeanAmplitudeVisualRest.pdf
+[2025-11-26 16:44:37] [INFO] Plotting metrics
+[2025-11-26 16:44:39] [INFO] Metrics plot saved to results/images/overt_covert_rest_metrics.pdf
+[2025-11-26 16:44:39] [INFO] Metrics summary per subject:
+   subject_id  precision    recall        f1
+0          01   0.740118  0.738562  0.731894
+1          02   0.686747  0.643791  0.631565
+2          03   0.774526  0.745098  0.730855
+3          04   0.765776  0.705882  0.672643
+4          05   0.667229  0.643791  0.638658
+5          06   0.641337  0.604575  0.598678
+6          07   0.508984  0.415033  0.371319
+7          08   0.814583  0.800654  0.798260
+8          09   0.855446  0.844771  0.844620
+9          10   0.808963  0.797386  0.793083
+10         11   0.724514  0.692810  0.683802
+11         12   0.784627  0.732026  0.708780
+12         13   0.809236  0.799020  0.792986
+13         14   0.866969  0.856209  0.855794
+14         15   0.815055  0.776682  0.775519
+[2025-11-26 16:46:06] [INFO] Class-wise precision:
+class_id
+0    0.801227
+1    0.735786
+2    0.727056
+Name: precision, dtype: float64
+[2025-11-26 16:46:06] [INFO] Class-wise recall:
+class_id
+0    0.829425
+1    0.677286
+2    0.661899
+Name: recall, dtype: float64
+[2025-11-26 16:46:06] [INFO] Class-wise F1 score:
+class_id
+0    0.792203
+1    0.675329
+2    0.668006
+Name: f1, dtype: float64
+[2025-11-26 16:46:06] [INFO] Class-wise precision standard deviation:
+class_id
+0    0.128688
+1    0.144721
+2    0.168645
+Name: precision, dtype: float64
+[2025-11-26 16:46:06] [INFO] Class-wise recall standard deviation:
+class_id
+0    0.221939
+1    0.228563
+2    0.150544
+Name: recall, dtype: float64
+[2025-11-26 16:46:06] [INFO] Class-wise F1 score standard deviation:
+class_id
+0    0.161809
+1    0.158941
+2    0.115190
+Name: f1, dtype: float64
+[2025-11-26 17:04:17] [INFO] Class-wise precision:
+class_id
+0    0.801227
+1    0.735786
+2    0.727056
+Name: precision, dtype: float64
+[2025-11-26 17:04:17] [INFO] Class-wise recall:
+class_id
+0    0.829425
+1    0.677286
+2    0.661899
+Name: recall, dtype: float64
+[2025-11-26 17:04:17] [INFO] Class-wise F1 score:
+class_id
+0    0.792203
+1    0.675329
+2    0.668006
+Name: f1, dtype: float64
+[2025-11-26 17:04:17] [INFO] Class-wise precision standard deviation:
+class_id
+0    0.128688
+1    0.144721
+2    0.168645
+Name: precision, dtype: float64
+[2025-11-26 17:04:17] [INFO] Class-wise recall standard deviation:
+class_id
+0    0.221939
+1    0.228563
+2    0.150544
+Name: recall, dtype: float64
+[2025-11-26 17:04:17] [INFO] Class-wise F1 score standard deviation:
+class_id
+0    0.161809
+1    0.158941
+2    0.115190
+Name: f1, dtype: float64
