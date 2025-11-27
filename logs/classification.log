@@ -1048,3 +1048,1055 @@
 [2025-11-26 15:13:40] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-15_ses-02_overt_covert_rest_accuracy.csv
 [2025-11-26 15:13:40] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-15_ses-02_classification_report.csv
 [2025-11-26 15:13:40] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-15_ses-02_confusion_matrix.csv
+[2025-11-26 20:55:18] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 20:55:18] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 20:55:18] [INFO] ************************************************************
+[2025-11-26 20:55:18] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 20:55:18] [INFO] ************************************************************
+[2025-11-26 20:55:18] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 20:55:18] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-11-26 20:55:19] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 20:55:19] [INFO] ************************************************************
+[2025-11-26 20:55:19] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 20:55:19] [INFO] ************************************************************
+[2025-11-26 20:55:19] [INFO] Creating Epochs
+[2025-11-26 20:55:19] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 20:55:19] [INFO] ************************************************************
+[2025-11-26 20:55:19] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 20:55:19] [INFO] ************************************************************
+[2025-11-26 20:55:19] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 20:55:19] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-11-26 20:55:20] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 20:55:20] [INFO] ************************************************************
+[2025-11-26 20:55:20] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 20:55:20] [INFO] ************************************************************
+[2025-11-26 20:55:20] [INFO] Creating Epochs
+[2025-11-26 20:55:20] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 20:55:20] [INFO] ************************************************************
+[2025-11-26 20:55:20] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 20:55:20] [INFO] ************************************************************
+[2025-11-26 20:55:20] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 20:55:20] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-11-26 20:55:22] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 20:55:22] [INFO] ************************************************************
+[2025-11-26 20:55:22] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 20:55:22] [INFO] ************************************************************
+[2025-11-26 20:55:22] [INFO] Creating Epochs
+[2025-11-26 20:55:22] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 20:55:22] [INFO] Normalizing X
+[2025-11-26 20:55:23] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 20:56:42] [INFO] Epoch 1/50 - loss: 1.2089, val_loss: 0.9295, accuracy: 0.6225, val_accuracy:0.4804
+[2025-11-26 20:56:42] [INFO] Epoch 2/50 - loss: 0.4163, val_loss: 0.5983, accuracy: 0.8521, val_accuracy:0.7549
+[2025-11-26 20:56:42] [INFO] Epoch 3/50 - loss: 0.2026, val_loss: 0.9431, accuracy: 0.9330, val_accuracy:0.6111
+[2025-11-26 20:56:42] [INFO] Epoch 4/50 - loss: 0.1179, val_loss: 2.9092, accuracy: 0.9592, val_accuracy:0.3660
+[2025-11-26 20:56:42] [INFO] Epoch 5/50 - loss: 0.0641, val_loss: 5.4635, accuracy: 0.9771, val_accuracy:0.3333
+[2025-11-26 20:56:42] [INFO] Epoch 6/50 - loss: 0.0657, val_loss: 7.7043, accuracy: 0.9763, val_accuracy:0.3333
+[2025-11-26 20:56:42] [INFO] Epoch 7/50 - loss: 0.0369, val_loss: 9.3983, accuracy: 0.9861, val_accuracy:0.3333
+[2025-11-26 20:56:42] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-01_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 20:56:42] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-01_ses-01_classification_report.csv
+[2025-11-26 20:56:42] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-01_ses-01_confusion_matrix.csv
+[2025-11-26 20:56:42] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 20:56:42] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 20:56:42] [INFO] ************************************************************
+[2025-11-26 20:56:42] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 20:56:42] [INFO] ************************************************************
+[2025-11-26 20:56:42] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 20:56:42] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-02_ses-01_processed.fif
+[2025-11-26 20:56:43] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 20:56:43] [INFO] ************************************************************
+[2025-11-26 20:56:43] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 20:56:43] [INFO] ************************************************************
+[2025-11-26 20:56:43] [INFO] Creating Epochs
+[2025-11-26 20:56:43] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 20:56:43] [INFO] ************************************************************
+[2025-11-26 20:56:43] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 20:56:43] [INFO] ************************************************************
+[2025-11-26 20:56:43] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 20:56:43] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-02_ses-01_processed.fif
+[2025-11-26 20:56:45] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 20:56:45] [INFO] ************************************************************
+[2025-11-26 20:56:45] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 20:56:45] [INFO] ************************************************************
+[2025-11-26 20:56:45] [INFO] Creating Epochs
+[2025-11-26 20:56:45] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 20:56:45] [INFO] ************************************************************
+[2025-11-26 20:56:45] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 20:56:45] [INFO] ************************************************************
+[2025-11-26 20:56:45] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 20:56:45] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-02_ses-01_processed.fif
+[2025-11-26 20:56:46] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 20:56:46] [INFO] ************************************************************
+[2025-11-26 20:56:46] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 20:56:46] [INFO] ************************************************************
+[2025-11-26 20:56:46] [INFO] Creating Epochs
+[2025-11-26 20:56:47] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 20:56:47] [INFO] Normalizing X
+[2025-11-26 20:56:48] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 20:58:07] [INFO] Epoch 1/50 - loss: 1.6109, val_loss: 1.0485, accuracy: 0.4771, val_accuracy:0.5752
+[2025-11-26 20:58:07] [INFO] Epoch 2/50 - loss: 0.4195, val_loss: 0.9662, accuracy: 0.8301, val_accuracy:0.5784
+[2025-11-26 20:58:07] [INFO] Epoch 3/50 - loss: 0.2355, val_loss: 0.9791, accuracy: 0.9240, val_accuracy:0.4804
+[2025-11-26 20:58:07] [INFO] Epoch 4/50 - loss: 0.1556, val_loss: 2.4284, accuracy: 0.9469, val_accuracy:0.3922
+[2025-11-26 20:58:07] [INFO] Epoch 5/50 - loss: 0.0930, val_loss: 4.2421, accuracy: 0.9698, val_accuracy:0.3529
+[2025-11-26 20:58:07] [INFO] Epoch 6/50 - loss: 0.0727, val_loss: 5.3756, accuracy: 0.9837, val_accuracy:0.3497
+[2025-11-26 20:58:07] [INFO] Epoch 7/50 - loss: 0.0633, val_loss: 6.4142, accuracy: 0.9804, val_accuracy:0.3431
+[2025-11-26 20:58:07] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-02_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 20:58:07] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-02_ses-01_classification_report.csv
+[2025-11-26 20:58:07] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-02_ses-01_confusion_matrix.csv
+[2025-11-26 20:58:07] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 20:58:07] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 20:58:07] [INFO] ************************************************************
+[2025-11-26 20:58:07] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 20:58:07] [INFO] ************************************************************
+[2025-11-26 20:58:07] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 20:58:07] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-03_ses-01_processed.fif
+[2025-11-26 20:58:08] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 20:58:08] [INFO] ************************************************************
+[2025-11-26 20:58:08] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 20:58:08] [INFO] ************************************************************
+[2025-11-26 20:58:08] [INFO] Creating Epochs
+[2025-11-26 20:58:08] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 20:58:08] [INFO] ************************************************************
+[2025-11-26 20:58:08] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 20:58:08] [INFO] ************************************************************
+[2025-11-26 20:58:08] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 20:58:08] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-03_ses-01_processed.fif
+[2025-11-26 20:58:09] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 20:58:09] [INFO] ************************************************************
+[2025-11-26 20:58:09] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 20:58:09] [INFO] ************************************************************
+[2025-11-26 20:58:09] [INFO] Creating Epochs
+[2025-11-26 20:58:09] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 20:58:09] [INFO] ************************************************************
+[2025-11-26 20:58:09] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 20:58:09] [INFO] ************************************************************
+[2025-11-26 20:58:09] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 20:58:09] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-03_ses-01_processed.fif
+[2025-11-26 20:58:11] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 20:58:11] [INFO] ************************************************************
+[2025-11-26 20:58:11] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 20:58:11] [INFO] ************************************************************
+[2025-11-26 20:58:11] [INFO] Creating Epochs
+[2025-11-26 20:58:11] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 20:58:11] [INFO] Normalizing X
+[2025-11-26 20:58:12] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 20:59:42] [INFO] Epoch 1/50 - loss: 1.2497, val_loss: 0.9493, accuracy: 0.6315, val_accuracy:0.5261
+[2025-11-26 20:59:42] [INFO] Epoch 2/50 - loss: 0.3677, val_loss: 0.7482, accuracy: 0.8799, val_accuracy:0.7124
+[2025-11-26 20:59:42] [INFO] Epoch 3/50 - loss: 0.1887, val_loss: 0.5296, accuracy: 0.9314, val_accuracy:0.8497
+[2025-11-26 20:59:42] [INFO] Epoch 4/50 - loss: 0.0755, val_loss: 0.6288, accuracy: 0.9755, val_accuracy:0.7549
+[2025-11-26 20:59:42] [INFO] Epoch 5/50 - loss: 0.0513, val_loss: 1.7255, accuracy: 0.9788, val_accuracy:0.4935
+[2025-11-26 20:59:42] [INFO] Epoch 6/50 - loss: 0.0545, val_loss: 3.5471, accuracy: 0.9788, val_accuracy:0.3464
+[2025-11-26 20:59:42] [INFO] Epoch 7/50 - loss: 0.0368, val_loss: 5.2310, accuracy: 0.9869, val_accuracy:0.3399
+[2025-11-26 20:59:42] [INFO] Epoch 8/50 - loss: 0.0228, val_loss: 6.3865, accuracy: 0.9926, val_accuracy:0.3366
+[2025-11-26 20:59:42] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-03_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 20:59:42] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-03_ses-01_classification_report.csv
+[2025-11-26 20:59:42] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-03_ses-01_confusion_matrix.csv
+[2025-11-26 20:59:42] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 20:59:42] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 20:59:42] [INFO] ************************************************************
+[2025-11-26 20:59:42] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 20:59:42] [INFO] ************************************************************
+[2025-11-26 20:59:42] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 20:59:42] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-04_ses-01_processed.fif
+[2025-11-26 20:59:43] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 20:59:43] [INFO] ************************************************************
+[2025-11-26 20:59:43] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 20:59:43] [INFO] ************************************************************
+[2025-11-26 20:59:43] [INFO] Creating Epochs
+[2025-11-26 20:59:43] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 20:59:43] [INFO] ************************************************************
+[2025-11-26 20:59:43] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 20:59:43] [INFO] ************************************************************
+[2025-11-26 20:59:43] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 20:59:43] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-04_ses-01_processed.fif
+[2025-11-26 20:59:45] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 20:59:45] [INFO] ************************************************************
+[2025-11-26 20:59:45] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 20:59:45] [INFO] ************************************************************
+[2025-11-26 20:59:45] [INFO] Creating Epochs
+[2025-11-26 20:59:45] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 20:59:45] [INFO] ************************************************************
+[2025-11-26 20:59:45] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 20:59:45] [INFO] ************************************************************
+[2025-11-26 20:59:45] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 20:59:45] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-04_ses-01_processed.fif
+[2025-11-26 20:59:46] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 20:59:46] [INFO] ************************************************************
+[2025-11-26 20:59:46] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 20:59:46] [INFO] ************************************************************
+[2025-11-26 20:59:46] [INFO] Creating Epochs
+[2025-11-26 20:59:47] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 20:59:47] [INFO] Normalizing X
+[2025-11-26 20:59:48] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:01:18] [INFO] Epoch 1/50 - loss: 1.1853, val_loss: 0.8351, accuracy: 0.6699, val_accuracy:0.7222
+[2025-11-26 21:01:18] [INFO] Epoch 2/50 - loss: 0.3021, val_loss: 0.7267, accuracy: 0.9109, val_accuracy:0.7810
+[2025-11-26 21:01:18] [INFO] Epoch 3/50 - loss: 0.1383, val_loss: 0.6140, accuracy: 0.9477, val_accuracy:0.7353
+[2025-11-26 21:01:18] [INFO] Epoch 4/50 - loss: 0.0691, val_loss: 0.8452, accuracy: 0.9706, val_accuracy:0.6209
+[2025-11-26 21:01:18] [INFO] Epoch 5/50 - loss: 0.0310, val_loss: 1.2767, accuracy: 0.9910, val_accuracy:0.5490
+[2025-11-26 21:01:18] [INFO] Epoch 6/50 - loss: 0.0288, val_loss: 1.8607, accuracy: 0.9910, val_accuracy:0.5000
+[2025-11-26 21:01:18] [INFO] Epoch 7/50 - loss: 0.0222, val_loss: 2.4104, accuracy: 0.9910, val_accuracy:0.4510
+[2025-11-26 21:01:18] [INFO] Epoch 8/50 - loss: 0.0211, val_loss: 2.9299, accuracy: 0.9918, val_accuracy:0.4281
+[2025-11-26 21:01:18] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-04_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 21:01:18] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-04_ses-01_classification_report.csv
+[2025-11-26 21:01:18] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-04_ses-01_confusion_matrix.csv
+[2025-11-26 21:01:18] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:01:18] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:01:18] [INFO] ************************************************************
+[2025-11-26 21:01:18] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:01:18] [INFO] ************************************************************
+[2025-11-26 21:01:18] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:01:18] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-04_ses-02_processed.fif
+[2025-11-26 21:01:19] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:01:19] [INFO] ************************************************************
+[2025-11-26 21:01:19] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:01:19] [INFO] ************************************************************
+[2025-11-26 21:01:19] [INFO] Creating Epochs
+[2025-11-26 21:01:19] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:01:19] [INFO] ************************************************************
+[2025-11-26 21:01:19] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:01:19] [INFO] ************************************************************
+[2025-11-26 21:01:19] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:01:19] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-04_ses-02_processed.fif
+[2025-11-26 21:01:20] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:01:20] [INFO] ************************************************************
+[2025-11-26 21:01:20] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:01:20] [INFO] ************************************************************
+[2025-11-26 21:01:20] [INFO] Creating Epochs
+[2025-11-26 21:01:21] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:01:21] [INFO] ************************************************************
+[2025-11-26 21:01:21] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:01:21] [INFO] ************************************************************
+[2025-11-26 21:01:21] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:01:21] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-04_ses-02_processed.fif
+[2025-11-26 21:01:22] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:01:22] [INFO] ************************************************************
+[2025-11-26 21:01:22] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:01:22] [INFO] ************************************************************
+[2025-11-26 21:01:22] [INFO] Creating Epochs
+[2025-11-26 21:01:22] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:01:22] [INFO] Normalizing X
+[2025-11-26 21:01:23] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:02:53] [INFO] Epoch 1/50 - loss: 1.5247, val_loss: 0.9844, accuracy: 0.6111, val_accuracy:0.6078
+[2025-11-26 21:02:53] [INFO] Epoch 2/50 - loss: 0.4819, val_loss: 0.8740, accuracy: 0.8513, val_accuracy:0.6438
+[2025-11-26 21:02:53] [INFO] Epoch 3/50 - loss: 0.2099, val_loss: 0.7707, accuracy: 0.9289, val_accuracy:0.7451
+[2025-11-26 21:02:53] [INFO] Epoch 4/50 - loss: 0.1412, val_loss: 0.8166, accuracy: 0.9567, val_accuracy:0.7353
+[2025-11-26 21:02:53] [INFO] Epoch 5/50 - loss: 0.0981, val_loss: 0.9533, accuracy: 0.9690, val_accuracy:0.7222
+[2025-11-26 21:02:53] [INFO] Epoch 6/50 - loss: 0.0592, val_loss: 1.0968, accuracy: 0.9804, val_accuracy:0.7124
+[2025-11-26 21:02:53] [INFO] Epoch 7/50 - loss: 0.0342, val_loss: 1.1370, accuracy: 0.9910, val_accuracy:0.7092
+[2025-11-26 21:02:53] [INFO] Epoch 8/50 - loss: 0.0297, val_loss: 1.1571, accuracy: 0.9943, val_accuracy:0.7026
+[2025-11-26 21:02:53] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-04_ses-02_overt_covert_rest_accuracy.csv
+[2025-11-26 21:02:53] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-04_ses-02_classification_report.csv
+[2025-11-26 21:02:53] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-04_ses-02_confusion_matrix.csv
+[2025-11-26 21:02:53] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:02:53] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:02:53] [INFO] ************************************************************
+[2025-11-26 21:02:53] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:02:53] [INFO] ************************************************************
+[2025-11-26 21:02:53] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:02:53] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-05_ses-01_processed.fif
+[2025-11-26 21:02:54] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:02:54] [INFO] ************************************************************
+[2025-11-26 21:02:54] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:02:54] [INFO] ************************************************************
+[2025-11-26 21:02:54] [INFO] Creating Epochs
+[2025-11-26 21:02:55] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:02:55] [INFO] ************************************************************
+[2025-11-26 21:02:55] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:02:55] [INFO] ************************************************************
+[2025-11-26 21:02:55] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:02:55] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-05_ses-01_processed.fif
+[2025-11-26 21:02:56] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:02:56] [INFO] ************************************************************
+[2025-11-26 21:02:56] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:02:56] [INFO] ************************************************************
+[2025-11-26 21:02:56] [INFO] Creating Epochs
+[2025-11-26 21:02:56] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:02:56] [INFO] ************************************************************
+[2025-11-26 21:02:56] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:02:56] [INFO] ************************************************************
+[2025-11-26 21:02:56] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:02:56] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-05_ses-01_processed.fif
+[2025-11-26 21:02:57] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:02:57] [INFO] ************************************************************
+[2025-11-26 21:02:57] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:02:57] [INFO] ************************************************************
+[2025-11-26 21:02:57] [INFO] Creating Epochs
+[2025-11-26 21:02:58] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:02:58] [INFO] Normalizing X
+[2025-11-26 21:02:59] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:04:29] [INFO] Epoch 1/50 - loss: 1.4512, val_loss: 0.8898, accuracy: 0.6209, val_accuracy:0.5033
+[2025-11-26 21:04:29] [INFO] Epoch 2/50 - loss: 0.3861, val_loss: 0.6650, accuracy: 0.8636, val_accuracy:0.7778
+[2025-11-26 21:04:29] [INFO] Epoch 3/50 - loss: 0.1434, val_loss: 0.5253, accuracy: 0.9453, val_accuracy:0.7680
+[2025-11-26 21:04:29] [INFO] Epoch 4/50 - loss: 0.0758, val_loss: 0.8258, accuracy: 0.9706, val_accuracy:0.6307
+[2025-11-26 21:04:29] [INFO] Epoch 5/50 - loss: 0.0497, val_loss: 1.5545, accuracy: 0.9820, val_accuracy:0.5196
+[2025-11-26 21:04:29] [INFO] Epoch 6/50 - loss: 0.0340, val_loss: 2.4021, accuracy: 0.9894, val_accuracy:0.4542
+[2025-11-26 21:04:29] [INFO] Epoch 7/50 - loss: 0.0307, val_loss: 3.2687, accuracy: 0.9877, val_accuracy:0.4150
+[2025-11-26 21:04:29] [INFO] Epoch 8/50 - loss: 0.0157, val_loss: 3.9048, accuracy: 0.9943, val_accuracy:0.3954
+[2025-11-26 21:04:29] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-05_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 21:04:29] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-05_ses-01_classification_report.csv
+[2025-11-26 21:04:29] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-05_ses-01_confusion_matrix.csv
+[2025-11-26 21:04:29] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:04:29] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:04:29] [INFO] ************************************************************
+[2025-11-26 21:04:29] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:04:29] [INFO] ************************************************************
+[2025-11-26 21:04:29] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:04:29] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-05_ses-02_processed.fif
+[2025-11-26 21:04:30] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:04:30] [INFO] ************************************************************
+[2025-11-26 21:04:30] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:04:30] [INFO] ************************************************************
+[2025-11-26 21:04:30] [INFO] Creating Epochs
+[2025-11-26 21:04:30] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:04:30] [INFO] ************************************************************
+[2025-11-26 21:04:30] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:04:30] [INFO] ************************************************************
+[2025-11-26 21:04:30] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:04:30] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-05_ses-02_processed.fif
+[2025-11-26 21:04:31] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:04:31] [INFO] ************************************************************
+[2025-11-26 21:04:31] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:04:31] [INFO] ************************************************************
+[2025-11-26 21:04:31] [INFO] Creating Epochs
+[2025-11-26 21:04:31] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:04:31] [INFO] ************************************************************
+[2025-11-26 21:04:31] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:04:31] [INFO] ************************************************************
+[2025-11-26 21:04:31] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:04:31] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-05_ses-02_processed.fif
+[2025-11-26 21:04:32] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:04:32] [INFO] ************************************************************
+[2025-11-26 21:04:32] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:04:32] [INFO] ************************************************************
+[2025-11-26 21:04:32] [INFO] Creating Epochs
+[2025-11-26 21:04:33] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:04:33] [INFO] Normalizing X
+[2025-11-26 21:04:34] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:05:53] [INFO] Epoch 1/50 - loss: 2.2155, val_loss: 1.0695, accuracy: 0.4175, val_accuracy:0.4052
+[2025-11-26 21:05:53] [INFO] Epoch 2/50 - loss: 1.1238, val_loss: 0.9640, accuracy: 0.6471, val_accuracy:0.5359
+[2025-11-26 21:05:53] [INFO] Epoch 3/50 - loss: 0.6148, val_loss: 1.6707, accuracy: 0.7712, val_accuracy:0.4510
+[2025-11-26 21:05:53] [INFO] Epoch 4/50 - loss: 0.3327, val_loss: 5.1111, accuracy: 0.8685, val_accuracy:0.3529
+[2025-11-26 21:05:53] [INFO] Epoch 5/50 - loss: 0.1837, val_loss: 8.7891, accuracy: 0.9322, val_accuracy:0.3366
+[2025-11-26 21:05:53] [INFO] Epoch 6/50 - loss: 0.1443, val_loss: 11.7933, accuracy: 0.9551, val_accuracy:0.3333
+[2025-11-26 21:05:53] [INFO] Epoch 7/50 - loss: 0.1233, val_loss: 13.7154, accuracy: 0.9559, val_accuracy:0.3333
+[2025-11-26 21:05:53] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-05_ses-02_overt_covert_rest_accuracy.csv
+[2025-11-26 21:05:53] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-05_ses-02_classification_report.csv
+[2025-11-26 21:05:53] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-05_ses-02_confusion_matrix.csv
+[2025-11-26 21:05:53] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:05:53] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:05:53] [INFO] ************************************************************
+[2025-11-26 21:05:53] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:05:53] [INFO] ************************************************************
+[2025-11-26 21:05:53] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:05:53] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-06_ses-01_processed.fif
+[2025-11-26 21:05:54] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:05:54] [INFO] ************************************************************
+[2025-11-26 21:05:54] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:05:54] [INFO] ************************************************************
+[2025-11-26 21:05:54] [INFO] Creating Epochs
+[2025-11-26 21:05:54] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:05:54] [INFO] ************************************************************
+[2025-11-26 21:05:54] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:05:54] [INFO] ************************************************************
+[2025-11-26 21:05:54] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:05:54] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-06_ses-01_processed.fif
+[2025-11-26 21:05:56] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:05:56] [INFO] ************************************************************
+[2025-11-26 21:05:56] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:05:56] [INFO] ************************************************************
+[2025-11-26 21:05:56] [INFO] Creating Epochs
+[2025-11-26 21:05:56] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:05:56] [INFO] ************************************************************
+[2025-11-26 21:05:56] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:05:56] [INFO] ************************************************************
+[2025-11-26 21:05:56] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:05:56] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-06_ses-01_processed.fif
+[2025-11-26 21:05:57] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:05:57] [INFO] ************************************************************
+[2025-11-26 21:05:57] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:05:57] [INFO] ************************************************************
+[2025-11-26 21:05:57] [INFO] Creating Epochs
+[2025-11-26 21:05:57] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:05:58] [INFO] Normalizing X
+[2025-11-26 21:05:58] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:07:17] [INFO] Epoch 1/50 - loss: 1.9144, val_loss: 1.0518, accuracy: 0.5139, val_accuracy:0.4804
+[2025-11-26 21:07:17] [INFO] Epoch 2/50 - loss: 0.7566, val_loss: 0.9137, accuracy: 0.7614, val_accuracy:0.6340
+[2025-11-26 21:07:17] [INFO] Epoch 3/50 - loss: 0.3124, val_loss: 0.9584, accuracy: 0.8971, val_accuracy:0.5425
+[2025-11-26 21:07:17] [INFO] Epoch 4/50 - loss: 0.1664, val_loss: 2.2134, accuracy: 0.9444, val_accuracy:0.3856
+[2025-11-26 21:07:17] [INFO] Epoch 5/50 - loss: 0.1208, val_loss: 5.1266, accuracy: 0.9608, val_accuracy:0.3333
+[2025-11-26 21:07:17] [INFO] Epoch 6/50 - loss: 0.0824, val_loss: 8.5031, accuracy: 0.9722, val_accuracy:0.3333
+[2025-11-26 21:07:17] [INFO] Epoch 7/50 - loss: 0.0603, val_loss: 10.5565, accuracy: 0.9779, val_accuracy:0.3333
+[2025-11-26 21:07:17] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-06_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 21:07:17] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-06_ses-01_classification_report.csv
+[2025-11-26 21:07:17] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-06_ses-01_confusion_matrix.csv
+[2025-11-26 21:07:17] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:07:17] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:07:17] [INFO] ************************************************************
+[2025-11-26 21:07:17] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:07:17] [INFO] ************************************************************
+[2025-11-26 21:07:17] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:07:17] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-06_ses-02_processed.fif
+[2025-11-26 21:07:19] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:07:19] [INFO] ************************************************************
+[2025-11-26 21:07:19] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:07:19] [INFO] ************************************************************
+[2025-11-26 21:07:19] [INFO] Creating Epochs
+[2025-11-26 21:07:19] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:07:19] [INFO] ************************************************************
+[2025-11-26 21:07:19] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:07:19] [INFO] ************************************************************
+[2025-11-26 21:07:19] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:07:19] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-06_ses-02_processed.fif
+[2025-11-26 21:07:20] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:07:20] [INFO] ************************************************************
+[2025-11-26 21:07:20] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:07:20] [INFO] ************************************************************
+[2025-11-26 21:07:20] [INFO] Creating Epochs
+[2025-11-26 21:07:20] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:07:20] [INFO] ************************************************************
+[2025-11-26 21:07:20] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:07:20] [INFO] ************************************************************
+[2025-11-26 21:07:20] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:07:20] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-06_ses-02_processed.fif
+[2025-11-26 21:07:21] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:07:21] [INFO] ************************************************************
+[2025-11-26 21:07:21] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:07:21] [INFO] ************************************************************
+[2025-11-26 21:07:21] [INFO] Creating Epochs
+[2025-11-26 21:07:22] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:07:22] [INFO] Normalizing X
+[2025-11-26 21:07:23] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:08:52] [INFO] Epoch 1/50 - loss: 1.8274, val_loss: 1.1127, accuracy: 0.5466, val_accuracy:0.4085
+[2025-11-26 21:08:52] [INFO] Epoch 2/50 - loss: 0.6705, val_loss: 0.8588, accuracy: 0.7851, val_accuracy:0.6307
+[2025-11-26 21:08:52] [INFO] Epoch 3/50 - loss: 0.3724, val_loss: 0.6890, accuracy: 0.8750, val_accuracy:0.7549
+[2025-11-26 21:08:52] [INFO] Epoch 4/50 - loss: 0.1886, val_loss: 0.8172, accuracy: 0.9257, val_accuracy:0.6144
+[2025-11-26 21:08:52] [INFO] Epoch 5/50 - loss: 0.1029, val_loss: 1.6109, accuracy: 0.9608, val_accuracy:0.4804
+[2025-11-26 21:08:52] [INFO] Epoch 6/50 - loss: 0.0744, val_loss: 3.4129, accuracy: 0.9730, val_accuracy:0.3627
+[2025-11-26 21:08:52] [INFO] Epoch 7/50 - loss: 0.0496, val_loss: 4.9275, accuracy: 0.9812, val_accuracy:0.3431
+[2025-11-26 21:08:52] [INFO] Epoch 8/50 - loss: 0.0339, val_loss: 6.3804, accuracy: 0.9910, val_accuracy:0.3399
+[2025-11-26 21:08:53] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-06_ses-02_overt_covert_rest_accuracy.csv
+[2025-11-26 21:08:53] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-06_ses-02_classification_report.csv
+[2025-11-26 21:08:53] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-06_ses-02_confusion_matrix.csv
+[2025-11-26 21:08:53] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:08:53] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:08:53] [INFO] ************************************************************
+[2025-11-26 21:08:53] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:08:53] [INFO] ************************************************************
+[2025-11-26 21:08:53] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:08:53] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-07_ses-01_processed.fif
+[2025-11-26 21:08:54] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:08:54] [INFO] ************************************************************
+[2025-11-26 21:08:54] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:08:54] [INFO] ************************************************************
+[2025-11-26 21:08:54] [INFO] Creating Epochs
+[2025-11-26 21:08:54] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:08:54] [INFO] ************************************************************
+[2025-11-26 21:08:54] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:08:54] [INFO] ************************************************************
+[2025-11-26 21:08:54] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:08:54] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-07_ses-01_processed.fif
+[2025-11-26 21:08:55] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:08:55] [INFO] ************************************************************
+[2025-11-26 21:08:55] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:08:55] [INFO] ************************************************************
+[2025-11-26 21:08:55] [INFO] Creating Epochs
+[2025-11-26 21:08:56] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:08:56] [INFO] ************************************************************
+[2025-11-26 21:08:56] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:08:56] [INFO] ************************************************************
+[2025-11-26 21:08:56] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:08:56] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-07_ses-01_processed.fif
+[2025-11-26 21:08:57] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:08:57] [INFO] ************************************************************
+[2025-11-26 21:08:57] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:08:57] [INFO] ************************************************************
+[2025-11-26 21:08:57] [INFO] Creating Epochs
+[2025-11-26 21:08:57] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:08:57] [INFO] Normalizing X
+[2025-11-26 21:08:58] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:10:06] [INFO] Epoch 1/50 - loss: 2.3800, val_loss: 1.1762, accuracy: 0.4575, val_accuracy:0.3856
+[2025-11-26 21:10:06] [INFO] Epoch 2/50 - loss: 1.1832, val_loss: 1.4698, accuracy: 0.6895, val_accuracy:0.3660
+[2025-11-26 21:10:06] [INFO] Epoch 3/50 - loss: 0.6303, val_loss: 1.5194, accuracy: 0.7876, val_accuracy:0.4444
+[2025-11-26 21:10:06] [INFO] Epoch 4/50 - loss: 0.4208, val_loss: 1.5782, accuracy: 0.8652, val_accuracy:0.4804
+[2025-11-26 21:10:06] [INFO] Epoch 5/50 - loss: 0.2794, val_loss: 2.0433, accuracy: 0.9036, val_accuracy:0.4739
+[2025-11-26 21:10:06] [INFO] Epoch 6/50 - loss: 0.1882, val_loss: 2.7136, accuracy: 0.9265, val_accuracy:0.4575
+[2025-11-26 21:10:06] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-07_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 21:10:06] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-07_ses-01_classification_report.csv
+[2025-11-26 21:10:06] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-07_ses-01_confusion_matrix.csv
+[2025-11-26 21:10:06] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:10:06] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:10:06] [INFO] ************************************************************
+[2025-11-26 21:10:06] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:10:06] [INFO] ************************************************************
+[2025-11-26 21:10:06] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:10:06] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-08_ses-01_processed.fif
+[2025-11-26 21:10:07] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:10:07] [INFO] ************************************************************
+[2025-11-26 21:10:07] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:10:07] [INFO] ************************************************************
+[2025-11-26 21:10:07] [INFO] Creating Epochs
+[2025-11-26 21:10:07] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:10:07] [INFO] ************************************************************
+[2025-11-26 21:10:07] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:10:07] [INFO] ************************************************************
+[2025-11-26 21:10:07] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:10:07] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-08_ses-01_processed.fif
+[2025-11-26 21:10:09] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:10:09] [INFO] ************************************************************
+[2025-11-26 21:10:09] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:10:09] [INFO] ************************************************************
+[2025-11-26 21:10:09] [INFO] Creating Epochs
+[2025-11-26 21:10:09] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:10:09] [INFO] ************************************************************
+[2025-11-26 21:10:09] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:10:09] [INFO] ************************************************************
+[2025-11-26 21:10:09] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:10:09] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-08_ses-01_processed.fif
+[2025-11-26 21:10:10] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:10:10] [INFO] ************************************************************
+[2025-11-26 21:10:10] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:10:10] [INFO] ************************************************************
+[2025-11-26 21:10:10] [INFO] Creating Epochs
+[2025-11-26 21:10:10] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:10:10] [INFO] Normalizing X
+[2025-11-26 21:10:11] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:11:53] [INFO] Epoch 1/50 - loss: 1.2655, val_loss: 0.9644, accuracy: 0.6806, val_accuracy:0.6111
+[2025-11-26 21:11:53] [INFO] Epoch 2/50 - loss: 0.4250, val_loss: 0.8857, accuracy: 0.8799, val_accuracy:0.6144
+[2025-11-26 21:11:53] [INFO] Epoch 3/50 - loss: 0.1757, val_loss: 0.5574, accuracy: 0.9379, val_accuracy:0.8137
+[2025-11-26 21:11:53] [INFO] Epoch 4/50 - loss: 0.0999, val_loss: 0.4355, accuracy: 0.9706, val_accuracy:0.8431
+[2025-11-26 21:11:53] [INFO] Epoch 5/50 - loss: 0.0363, val_loss: 0.5180, accuracy: 0.9877, val_accuracy:0.8235
+[2025-11-26 21:11:53] [INFO] Epoch 6/50 - loss: 0.0393, val_loss: 0.7621, accuracy: 0.9861, val_accuracy:0.7941
+[2025-11-26 21:11:53] [INFO] Epoch 7/50 - loss: 0.0209, val_loss: 1.2124, accuracy: 0.9926, val_accuracy:0.7026
+[2025-11-26 21:11:53] [INFO] Epoch 8/50 - loss: 0.0271, val_loss: 1.8513, accuracy: 0.9886, val_accuracy:0.6275
+[2025-11-26 21:11:53] [INFO] Epoch 9/50 - loss: 0.0178, val_loss: 2.4283, accuracy: 0.9926, val_accuracy:0.5980
+[2025-11-26 21:11:53] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-08_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 21:11:53] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-08_ses-01_classification_report.csv
+[2025-11-26 21:11:53] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-08_ses-01_confusion_matrix.csv
+[2025-11-26 21:11:53] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:11:53] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:11:53] [INFO] ************************************************************
+[2025-11-26 21:11:53] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:11:53] [INFO] ************************************************************
+[2025-11-26 21:11:53] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:11:53] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-09_ses-01_processed.fif
+[2025-11-26 21:11:54] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:11:54] [INFO] ************************************************************
+[2025-11-26 21:11:54] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:11:54] [INFO] ************************************************************
+[2025-11-26 21:11:54] [INFO] Creating Epochs
+[2025-11-26 21:11:54] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:11:54] [INFO] ************************************************************
+[2025-11-26 21:11:54] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:11:54] [INFO] ************************************************************
+[2025-11-26 21:11:54] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:11:54] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-09_ses-01_processed.fif
+[2025-11-26 21:11:55] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:11:55] [INFO] ************************************************************
+[2025-11-26 21:11:55] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:11:55] [INFO] ************************************************************
+[2025-11-26 21:11:55] [INFO] Creating Epochs
+[2025-11-26 21:11:55] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:11:55] [INFO] ************************************************************
+[2025-11-26 21:11:55] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:11:55] [INFO] ************************************************************
+[2025-11-26 21:11:55] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:11:55] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-09_ses-01_processed.fif
+[2025-11-26 21:11:57] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:11:57] [INFO] ************************************************************
+[2025-11-26 21:11:57] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:11:57] [INFO] ************************************************************
+[2025-11-26 21:11:57] [INFO] Creating Epochs
+[2025-11-26 21:11:57] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:11:57] [INFO] Normalizing X
+[2025-11-26 21:11:58] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:13:28] [INFO] Epoch 1/50 - loss: 1.2799, val_loss: 1.0020, accuracy: 0.5809, val_accuracy:0.4804
+[2025-11-26 21:13:28] [INFO] Epoch 2/50 - loss: 0.3392, val_loss: 0.8080, accuracy: 0.8734, val_accuracy:0.7810
+[2025-11-26 21:13:28] [INFO] Epoch 3/50 - loss: 0.1766, val_loss: 0.6462, accuracy: 0.9412, val_accuracy:0.7974
+[2025-11-26 21:13:28] [INFO] Epoch 4/50 - loss: 0.1010, val_loss: 1.2817, accuracy: 0.9616, val_accuracy:0.6144
+[2025-11-26 21:13:28] [INFO] Epoch 5/50 - loss: 0.0833, val_loss: 2.5828, accuracy: 0.9690, val_accuracy:0.5294
+[2025-11-26 21:13:28] [INFO] Epoch 6/50 - loss: 0.0470, val_loss: 3.7105, accuracy: 0.9853, val_accuracy:0.5033
+[2025-11-26 21:13:28] [INFO] Epoch 7/50 - loss: 0.0412, val_loss: 4.9217, accuracy: 0.9886, val_accuracy:0.4575
+[2025-11-26 21:13:28] [INFO] Epoch 8/50 - loss: 0.0382, val_loss: 5.4632, accuracy: 0.9861, val_accuracy:0.4869
+[2025-11-26 21:13:28] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-09_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 21:13:28] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-09_ses-01_classification_report.csv
+[2025-11-26 21:13:28] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-09_ses-01_confusion_matrix.csv
+[2025-11-26 21:13:28] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:13:28] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:13:28] [INFO] ************************************************************
+[2025-11-26 21:13:28] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:13:28] [INFO] ************************************************************
+[2025-11-26 21:13:28] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:13:28] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-09_ses-02_processed.fif
+[2025-11-26 21:13:29] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:13:29] [INFO] ************************************************************
+[2025-11-26 21:13:29] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:13:29] [INFO] ************************************************************
+[2025-11-26 21:13:29] [INFO] Creating Epochs
+[2025-11-26 21:13:29] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:13:29] [INFO] ************************************************************
+[2025-11-26 21:13:29] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:13:29] [INFO] ************************************************************
+[2025-11-26 21:13:29] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:13:29] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-09_ses-02_processed.fif
+[2025-11-26 21:13:31] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:13:31] [INFO] ************************************************************
+[2025-11-26 21:13:31] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:13:31] [INFO] ************************************************************
+[2025-11-26 21:13:31] [INFO] Creating Epochs
+[2025-11-26 21:13:31] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:13:31] [INFO] ************************************************************
+[2025-11-26 21:13:31] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:13:31] [INFO] ************************************************************
+[2025-11-26 21:13:31] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:13:31] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-09_ses-02_processed.fif
+[2025-11-26 21:13:32] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:13:32] [INFO] ************************************************************
+[2025-11-26 21:13:32] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:13:32] [INFO] ************************************************************
+[2025-11-26 21:13:32] [INFO] Creating Epochs
+[2025-11-26 21:13:32] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:13:33] [INFO] Normalizing X
+[2025-11-26 21:13:33] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:14:52] [INFO] Epoch 1/50 - loss: 1.1442, val_loss: 0.9107, accuracy: 0.6511, val_accuracy:0.7908
+[2025-11-26 21:14:52] [INFO] Epoch 2/50 - loss: 0.2677, val_loss: 0.7181, accuracy: 0.9093, val_accuracy:0.7778
+[2025-11-26 21:14:52] [INFO] Epoch 3/50 - loss: 0.1210, val_loss: 0.9872, accuracy: 0.9600, val_accuracy:0.4967
+[2025-11-26 21:14:52] [INFO] Epoch 4/50 - loss: 0.0611, val_loss: 2.0958, accuracy: 0.9812, val_accuracy:0.3856
+[2025-11-26 21:14:52] [INFO] Epoch 5/50 - loss: 0.0414, val_loss: 3.3446, accuracy: 0.9837, val_accuracy:0.3627
+[2025-11-26 21:14:52] [INFO] Epoch 6/50 - loss: 0.0305, val_loss: 4.4510, accuracy: 0.9894, val_accuracy:0.3497
+[2025-11-26 21:14:52] [INFO] Epoch 7/50 - loss: 0.0245, val_loss: 5.7703, accuracy: 0.9910, val_accuracy:0.3431
+[2025-11-26 21:14:52] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-09_ses-02_overt_covert_rest_accuracy.csv
+[2025-11-26 21:14:52] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-09_ses-02_classification_report.csv
+[2025-11-26 21:14:52] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-09_ses-02_confusion_matrix.csv
+[2025-11-26 21:14:52] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:14:52] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:14:52] [INFO] ************************************************************
+[2025-11-26 21:14:52] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:14:52] [INFO] ************************************************************
+[2025-11-26 21:14:52] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:14:52] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-10_ses-01_processed.fif
+[2025-11-26 21:14:53] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:14:53] [INFO] ************************************************************
+[2025-11-26 21:14:53] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:14:53] [INFO] ************************************************************
+[2025-11-26 21:14:53] [INFO] Creating Epochs
+[2025-11-26 21:14:54] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:14:54] [INFO] ************************************************************
+[2025-11-26 21:14:54] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:14:54] [INFO] ************************************************************
+[2025-11-26 21:14:54] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:14:54] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-10_ses-01_processed.fif
+[2025-11-26 21:14:55] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:14:55] [INFO] ************************************************************
+[2025-11-26 21:14:55] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:14:55] [INFO] ************************************************************
+[2025-11-26 21:14:55] [INFO] Creating Epochs
+[2025-11-26 21:14:55] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:14:55] [INFO] ************************************************************
+[2025-11-26 21:14:55] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:14:55] [INFO] ************************************************************
+[2025-11-26 21:14:55] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:14:55] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-10_ses-01_processed.fif
+[2025-11-26 21:14:56] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:14:56] [INFO] ************************************************************
+[2025-11-26 21:14:56] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:14:56] [INFO] ************************************************************
+[2025-11-26 21:14:56] [INFO] Creating Epochs
+[2025-11-26 21:14:57] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:14:57] [INFO] Normalizing X
+[2025-11-26 21:14:58] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:16:17] [INFO] Epoch 1/50 - loss: 1.4943, val_loss: 0.9595, accuracy: 0.5580, val_accuracy:0.6340
+[2025-11-26 21:16:17] [INFO] Epoch 2/50 - loss: 0.4383, val_loss: 0.8331, accuracy: 0.8431, val_accuracy:0.7190
+[2025-11-26 21:16:17] [INFO] Epoch 3/50 - loss: 0.2302, val_loss: 0.8788, accuracy: 0.9109, val_accuracy:0.6078
+[2025-11-26 21:16:17] [INFO] Epoch 4/50 - loss: 0.1428, val_loss: 1.5392, accuracy: 0.9575, val_accuracy:0.6046
+[2025-11-26 21:16:17] [INFO] Epoch 5/50 - loss: 0.0765, val_loss: 2.3496, accuracy: 0.9763, val_accuracy:0.6176
+[2025-11-26 21:16:17] [INFO] Epoch 6/50 - loss: 0.0659, val_loss: 3.2729, accuracy: 0.9837, val_accuracy:0.5948
+[2025-11-26 21:16:17] [INFO] Epoch 7/50 - loss: 0.0385, val_loss: 4.0940, accuracy: 0.9894, val_accuracy:0.5752
+[2025-11-26 21:16:17] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-10_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 21:16:17] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-10_ses-01_classification_report.csv
+[2025-11-26 21:16:17] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-10_ses-01_confusion_matrix.csv
+[2025-11-26 21:16:17] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:16:17] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:16:17] [INFO] ************************************************************
+[2025-11-26 21:16:17] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:16:17] [INFO] ************************************************************
+[2025-11-26 21:16:17] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:16:17] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-11_ses-01_processed.fif
+[2025-11-26 21:16:18] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:16:18] [INFO] ************************************************************
+[2025-11-26 21:16:18] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:16:18] [INFO] ************************************************************
+[2025-11-26 21:16:18] [INFO] Creating Epochs
+[2025-11-26 21:16:18] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:16:18] [INFO] ************************************************************
+[2025-11-26 21:16:18] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:16:18] [INFO] ************************************************************
+[2025-11-26 21:16:18] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:16:18] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-11_ses-01_processed.fif
+[2025-11-26 21:16:19] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:16:19] [INFO] ************************************************************
+[2025-11-26 21:16:19] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:16:19] [INFO] ************************************************************
+[2025-11-26 21:16:19] [INFO] Creating Epochs
+[2025-11-26 21:16:20] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:16:20] [INFO] ************************************************************
+[2025-11-26 21:16:20] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:16:20] [INFO] ************************************************************
+[2025-11-26 21:16:20] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:16:20] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-11_ses-01_processed.fif
+[2025-11-26 21:16:21] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:16:21] [INFO] ************************************************************
+[2025-11-26 21:16:21] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:16:21] [INFO] ************************************************************
+[2025-11-26 21:16:21] [INFO] Creating Epochs
+[2025-11-26 21:16:21] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:16:21] [INFO] Normalizing X
+[2025-11-26 21:16:22] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:17:41] [INFO] Epoch 1/50 - loss: 1.5683, val_loss: 1.0024, accuracy: 0.5351, val_accuracy:0.5458
+[2025-11-26 21:17:41] [INFO] Epoch 2/50 - loss: 0.5689, val_loss: 0.8544, accuracy: 0.7925, val_accuracy:0.7549
+[2025-11-26 21:17:41] [INFO] Epoch 3/50 - loss: 0.2347, val_loss: 1.2698, accuracy: 0.9216, val_accuracy:0.4020
+[2025-11-26 21:17:41] [INFO] Epoch 4/50 - loss: 0.1440, val_loss: 3.4397, accuracy: 0.9518, val_accuracy:0.3366
+[2025-11-26 21:17:41] [INFO] Epoch 5/50 - loss: 0.0908, val_loss: 5.7479, accuracy: 0.9673, val_accuracy:0.3333
+[2025-11-26 21:17:41] [INFO] Epoch 6/50 - loss: 0.0675, val_loss: 8.1884, accuracy: 0.9796, val_accuracy:0.3333
+[2025-11-26 21:17:41] [INFO] Epoch 7/50 - loss: 0.0431, val_loss: 10.3961, accuracy: 0.9877, val_accuracy:0.3333
+[2025-11-26 21:17:41] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-11_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 21:17:41] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-11_ses-01_classification_report.csv
+[2025-11-26 21:17:41] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-11_ses-01_confusion_matrix.csv
+[2025-11-26 21:17:41] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:17:41] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:17:41] [INFO] ************************************************************
+[2025-11-26 21:17:41] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:17:41] [INFO] ************************************************************
+[2025-11-26 21:17:41] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:17:41] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-12_ses-01_processed.fif
+[2025-11-26 21:17:42] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:17:42] [INFO] ************************************************************
+[2025-11-26 21:17:42] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:17:42] [INFO] ************************************************************
+[2025-11-26 21:17:42] [INFO] Creating Epochs
+[2025-11-26 21:17:43] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:17:43] [INFO] ************************************************************
+[2025-11-26 21:17:43] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:17:43] [INFO] ************************************************************
+[2025-11-26 21:17:43] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:17:43] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-12_ses-01_processed.fif
+[2025-11-26 21:17:44] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:17:44] [INFO] ************************************************************
+[2025-11-26 21:17:44] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:17:44] [INFO] ************************************************************
+[2025-11-26 21:17:44] [INFO] Creating Epochs
+[2025-11-26 21:17:44] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:17:44] [INFO] ************************************************************
+[2025-11-26 21:17:44] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:17:44] [INFO] ************************************************************
+[2025-11-26 21:17:44] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:17:44] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-12_ses-01_processed.fif
+[2025-11-26 21:17:46] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:17:46] [INFO] ************************************************************
+[2025-11-26 21:17:46] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:17:46] [INFO] ************************************************************
+[2025-11-26 21:17:46] [INFO] Creating Epochs
+[2025-11-26 21:17:46] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:17:46] [INFO] Normalizing X
+[2025-11-26 21:17:47] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:19:17] [INFO] Epoch 1/50 - loss: 1.8370, val_loss: 0.9576, accuracy: 0.5482, val_accuracy:0.5261
+[2025-11-26 21:19:17] [INFO] Epoch 2/50 - loss: 0.6395, val_loss: 0.8616, accuracy: 0.7737, val_accuracy:0.6405
+[2025-11-26 21:19:17] [INFO] Epoch 3/50 - loss: 0.3183, val_loss: 0.6962, accuracy: 0.8783, val_accuracy:0.6961
+[2025-11-26 21:19:17] [INFO] Epoch 4/50 - loss: 0.2393, val_loss: 1.7292, accuracy: 0.9175, val_accuracy:0.5294
+[2025-11-26 21:19:17] [INFO] Epoch 5/50 - loss: 0.1475, val_loss: 3.9921, accuracy: 0.9477, val_accuracy:0.3660
+[2025-11-26 21:19:17] [INFO] Epoch 6/50 - loss: 0.1006, val_loss: 6.4566, accuracy: 0.9649, val_accuracy:0.3399
+[2025-11-26 21:19:17] [INFO] Epoch 7/50 - loss: 0.0692, val_loss: 8.6843, accuracy: 0.9698, val_accuracy:0.3399
+[2025-11-26 21:19:17] [INFO] Epoch 8/50 - loss: 0.0718, val_loss: 10.9018, accuracy: 0.9755, val_accuracy:0.3333
+[2025-11-26 21:19:17] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-12_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 21:19:17] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-12_ses-01_classification_report.csv
+[2025-11-26 21:19:17] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-12_ses-01_confusion_matrix.csv
+[2025-11-26 21:19:17] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:19:17] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:19:17] [INFO] ************************************************************
+[2025-11-26 21:19:17] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:19:17] [INFO] ************************************************************
+[2025-11-26 21:19:17] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:19:17] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-12_ses-02_processed.fif
+[2025-11-26 21:19:18] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:19:18] [INFO] ************************************************************
+[2025-11-26 21:19:18] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:19:18] [INFO] ************************************************************
+[2025-11-26 21:19:18] [INFO] Creating Epochs
+[2025-11-26 21:19:19] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:19:19] [INFO] ************************************************************
+[2025-11-26 21:19:19] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:19:19] [INFO] ************************************************************
+[2025-11-26 21:19:19] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:19:19] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-12_ses-02_processed.fif
+[2025-11-26 21:19:20] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:19:20] [INFO] ************************************************************
+[2025-11-26 21:19:20] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:19:20] [INFO] ************************************************************
+[2025-11-26 21:19:20] [INFO] Creating Epochs
+[2025-11-26 21:19:20] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:19:20] [INFO] ************************************************************
+[2025-11-26 21:19:20] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:19:20] [INFO] ************************************************************
+[2025-11-26 21:19:20] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:19:20] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-12_ses-02_processed.fif
+[2025-11-26 21:19:22] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:19:22] [INFO] ************************************************************
+[2025-11-26 21:19:22] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:19:22] [INFO] ************************************************************
+[2025-11-26 21:19:22] [INFO] Creating Epochs
+[2025-11-26 21:19:22] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:19:22] [INFO] Normalizing X
+[2025-11-26 21:19:23] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:20:53] [INFO] Epoch 1/50 - loss: 1.4113, val_loss: 0.9365, accuracy: 0.6168, val_accuracy:0.6307
+[2025-11-26 21:20:53] [INFO] Epoch 2/50 - loss: 0.5048, val_loss: 0.7034, accuracy: 0.8391, val_accuracy:0.7974
+[2025-11-26 21:20:53] [INFO] Epoch 3/50 - loss: 0.2708, val_loss: 0.6852, accuracy: 0.9020, val_accuracy:0.6863
+[2025-11-26 21:20:53] [INFO] Epoch 4/50 - loss: 0.1597, val_loss: 1.1464, accuracy: 0.9387, val_accuracy:0.5588
+[2025-11-26 21:20:53] [INFO] Epoch 5/50 - loss: 0.0975, val_loss: 1.7317, accuracy: 0.9624, val_accuracy:0.4739
+[2025-11-26 21:20:53] [INFO] Epoch 6/50 - loss: 0.0843, val_loss: 2.1398, accuracy: 0.9739, val_accuracy:0.4510
+[2025-11-26 21:20:53] [INFO] Epoch 7/50 - loss: 0.0534, val_loss: 2.7090, accuracy: 0.9820, val_accuracy:0.4183
+[2025-11-26 21:20:53] [INFO] Epoch 8/50 - loss: 0.0385, val_loss: 3.2140, accuracy: 0.9894, val_accuracy:0.4052
+[2025-11-26 21:20:53] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-12_ses-02_overt_covert_rest_accuracy.csv
+[2025-11-26 21:20:53] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-12_ses-02_classification_report.csv
+[2025-11-26 21:20:53] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-12_ses-02_confusion_matrix.csv
+[2025-11-26 21:20:53] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:20:53] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:20:53] [INFO] ************************************************************
+[2025-11-26 21:20:53] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:20:53] [INFO] ************************************************************
+[2025-11-26 21:20:53] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:20:53] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-13_ses-01_processed.fif
+[2025-11-26 21:20:54] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:20:54] [INFO] ************************************************************
+[2025-11-26 21:20:54] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:20:54] [INFO] ************************************************************
+[2025-11-26 21:20:54] [INFO] Creating Epochs
+[2025-11-26 21:20:54] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:20:54] [INFO] ************************************************************
+[2025-11-26 21:20:54] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:20:54] [INFO] ************************************************************
+[2025-11-26 21:20:54] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:20:54] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-13_ses-01_processed.fif
+[2025-11-26 21:20:56] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:20:56] [INFO] ************************************************************
+[2025-11-26 21:20:56] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:20:56] [INFO] ************************************************************
+[2025-11-26 21:20:56] [INFO] Creating Epochs
+[2025-11-26 21:20:56] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:20:56] [INFO] ************************************************************
+[2025-11-26 21:20:56] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:20:56] [INFO] ************************************************************
+[2025-11-26 21:20:56] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:20:56] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-13_ses-01_processed.fif
+[2025-11-26 21:20:57] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:20:57] [INFO] ************************************************************
+[2025-11-26 21:20:57] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:20:57] [INFO] ************************************************************
+[2025-11-26 21:20:57] [INFO] Creating Epochs
+[2025-11-26 21:20:58] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:20:58] [INFO] Normalizing X
+[2025-11-26 21:20:59] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:22:29] [INFO] Epoch 1/50 - loss: 1.5466, val_loss: 0.9633, accuracy: 0.5833, val_accuracy:0.4444
+[2025-11-26 21:22:29] [INFO] Epoch 2/50 - loss: 0.3349, val_loss: 0.8193, accuracy: 0.8840, val_accuracy:0.7059
+[2025-11-26 21:22:29] [INFO] Epoch 3/50 - loss: 0.1457, val_loss: 0.6061, accuracy: 0.9453, val_accuracy:0.8529
+[2025-11-26 21:22:29] [INFO] Epoch 4/50 - loss: 0.0857, val_loss: 0.8350, accuracy: 0.9739, val_accuracy:0.6993
+[2025-11-26 21:22:29] [INFO] Epoch 5/50 - loss: 0.0596, val_loss: 2.0308, accuracy: 0.9796, val_accuracy:0.5654
+[2025-11-26 21:22:29] [INFO] Epoch 6/50 - loss: 0.0448, val_loss: 3.7511, accuracy: 0.9861, val_accuracy:0.5392
+[2025-11-26 21:22:29] [INFO] Epoch 7/50 - loss: 0.0251, val_loss: 5.3871, accuracy: 0.9918, val_accuracy:0.5098
+[2025-11-26 21:22:29] [INFO] Epoch 8/50 - loss: 0.0192, val_loss: 6.5839, accuracy: 0.9951, val_accuracy:0.4902
+[2025-11-26 21:22:29] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-13_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 21:22:29] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-13_ses-01_classification_report.csv
+[2025-11-26 21:22:29] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-13_ses-01_confusion_matrix.csv
+[2025-11-26 21:22:29] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:22:29] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:22:29] [INFO] ************************************************************
+[2025-11-26 21:22:29] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:22:29] [INFO] ************************************************************
+[2025-11-26 21:22:29] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:22:29] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-13_ses-02_processed.fif
+[2025-11-26 21:22:30] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:22:30] [INFO] ************************************************************
+[2025-11-26 21:22:30] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:22:30] [INFO] ************************************************************
+[2025-11-26 21:22:30] [INFO] Creating Epochs
+[2025-11-26 21:22:30] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:22:30] [INFO] ************************************************************
+[2025-11-26 21:22:30] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:22:30] [INFO] ************************************************************
+[2025-11-26 21:22:30] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:22:30] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-13_ses-02_processed.fif
+[2025-11-26 21:22:32] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:22:32] [INFO] ************************************************************
+[2025-11-26 21:22:32] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:22:32] [INFO] ************************************************************
+[2025-11-26 21:22:32] [INFO] Creating Epochs
+[2025-11-26 21:22:32] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:22:32] [INFO] ************************************************************
+[2025-11-26 21:22:32] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:22:32] [INFO] ************************************************************
+[2025-11-26 21:22:32] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:22:32] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-13_ses-02_processed.fif
+[2025-11-26 21:22:33] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:22:33] [INFO] ************************************************************
+[2025-11-26 21:22:33] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:22:33] [INFO] ************************************************************
+[2025-11-26 21:22:33] [INFO] Creating Epochs
+[2025-11-26 21:22:34] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:22:34] [INFO] Normalizing X
+[2025-11-26 21:22:35] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:24:16] [INFO] Epoch 1/50 - loss: 1.2789, val_loss: 0.8673, accuracy: 0.6250, val_accuracy:0.6013
+[2025-11-26 21:24:16] [INFO] Epoch 2/50 - loss: 0.3455, val_loss: 0.8030, accuracy: 0.8652, val_accuracy:0.7157
+[2025-11-26 21:24:16] [INFO] Epoch 3/50 - loss: 0.1603, val_loss: 0.6275, accuracy: 0.9526, val_accuracy:0.8399
+[2025-11-26 21:24:16] [INFO] Epoch 4/50 - loss: 0.0839, val_loss: 0.4647, accuracy: 0.9747, val_accuracy:0.8627
+[2025-11-26 21:24:16] [INFO] Epoch 5/50 - loss: 0.0410, val_loss: 0.5418, accuracy: 0.9828, val_accuracy:0.8137
+[2025-11-26 21:24:16] [INFO] Epoch 6/50 - loss: 0.0233, val_loss: 0.8407, accuracy: 0.9967, val_accuracy:0.7386
+[2025-11-26 21:24:16] [INFO] Epoch 7/50 - loss: 0.0166, val_loss: 1.1974, accuracy: 0.9967, val_accuracy:0.7026
+[2025-11-26 21:24:16] [INFO] Epoch 8/50 - loss: 0.0151, val_loss: 1.5820, accuracy: 0.9959, val_accuracy:0.6699
+[2025-11-26 21:24:16] [INFO] Epoch 9/50 - loss: 0.0107, val_loss: 1.9245, accuracy: 0.9975, val_accuracy:0.6307
+[2025-11-26 21:24:16] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-13_ses-02_overt_covert_rest_accuracy.csv
+[2025-11-26 21:24:16] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-13_ses-02_classification_report.csv
+[2025-11-26 21:24:16] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-13_ses-02_confusion_matrix.csv
+[2025-11-26 21:24:16] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:24:16] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:24:16] [INFO] ************************************************************
+[2025-11-26 21:24:16] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:24:16] [INFO] ************************************************************
+[2025-11-26 21:24:16] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:24:16] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-14_ses-01_processed.fif
+[2025-11-26 21:24:17] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:24:17] [INFO] ************************************************************
+[2025-11-26 21:24:17] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:24:17] [INFO] ************************************************************
+[2025-11-26 21:24:17] [INFO] Creating Epochs
+[2025-11-26 21:24:17] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:24:17] [INFO] ************************************************************
+[2025-11-26 21:24:17] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:24:17] [INFO] ************************************************************
+[2025-11-26 21:24:17] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:24:17] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-14_ses-01_processed.fif
+[2025-11-26 21:24:19] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:24:19] [INFO] ************************************************************
+[2025-11-26 21:24:19] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:24:19] [INFO] ************************************************************
+[2025-11-26 21:24:19] [INFO] Creating Epochs
+[2025-11-26 21:24:19] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:24:19] [INFO] ************************************************************
+[2025-11-26 21:24:19] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:24:19] [INFO] ************************************************************
+[2025-11-26 21:24:19] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:24:19] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-14_ses-01_processed.fif
+[2025-11-26 21:24:20] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:24:20] [INFO] ************************************************************
+[2025-11-26 21:24:20] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:24:20] [INFO] ************************************************************
+[2025-11-26 21:24:20] [INFO] Creating Epochs
+[2025-11-26 21:24:21] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:24:21] [INFO] Normalizing X
+[2025-11-26 21:24:22] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:25:52] [INFO] Epoch 1/50 - loss: 1.2935, val_loss: 0.9278, accuracy: 0.6283, val_accuracy:0.5719
+[2025-11-26 21:25:52] [INFO] Epoch 2/50 - loss: 0.3656, val_loss: 0.8317, accuracy: 0.8709, val_accuracy:0.6830
+[2025-11-26 21:25:52] [INFO] Epoch 3/50 - loss: 0.2205, val_loss: 0.5488, accuracy: 0.9199, val_accuracy:0.8529
+[2025-11-26 21:25:52] [INFO] Epoch 4/50 - loss: 0.0814, val_loss: 0.7496, accuracy: 0.9722, val_accuracy:0.6863
+[2025-11-26 21:25:52] [INFO] Epoch 5/50 - loss: 0.0674, val_loss: 1.7908, accuracy: 0.9747, val_accuracy:0.4935
+[2025-11-26 21:25:52] [INFO] Epoch 6/50 - loss: 0.0404, val_loss: 3.3371, accuracy: 0.9869, val_accuracy:0.3856
+[2025-11-26 21:25:52] [INFO] Epoch 7/50 - loss: 0.0427, val_loss: 4.7979, accuracy: 0.9861, val_accuracy:0.3529
+[2025-11-26 21:25:52] [INFO] Epoch 8/50 - loss: 0.0299, val_loss: 5.9583, accuracy: 0.9935, val_accuracy:0.3431
+[2025-11-26 21:25:52] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-14_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 21:25:52] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-14_ses-01_classification_report.csv
+[2025-11-26 21:25:52] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-14_ses-01_confusion_matrix.csv
+[2025-11-26 21:25:52] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:25:52] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:25:52] [INFO] ************************************************************
+[2025-11-26 21:25:52] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:25:52] [INFO] ************************************************************
+[2025-11-26 21:25:52] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:25:52] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-15_ses-01_processed.fif
+[2025-11-26 21:25:53] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:25:53] [INFO] ************************************************************
+[2025-11-26 21:25:53] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:25:53] [INFO] ************************************************************
+[2025-11-26 21:25:53] [INFO] Creating Epochs
+[2025-11-26 21:25:53] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:25:53] [INFO] ************************************************************
+[2025-11-26 21:25:53] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:25:53] [INFO] ************************************************************
+[2025-11-26 21:25:53] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:25:53] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-15_ses-01_processed.fif
+[2025-11-26 21:25:54] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:25:54] [INFO] ************************************************************
+[2025-11-26 21:25:54] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:25:54] [INFO] ************************************************************
+[2025-11-26 21:25:54] [INFO] Creating Epochs
+[2025-11-26 21:25:55] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:25:55] [INFO] ************************************************************
+[2025-11-26 21:25:55] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:25:55] [INFO] ************************************************************
+[2025-11-26 21:25:55] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:25:55] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-15_ses-01_processed.fif
+[2025-11-26 21:25:56] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:25:56] [INFO] ************************************************************
+[2025-11-26 21:25:56] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:25:56] [INFO] ************************************************************
+[2025-11-26 21:25:56] [INFO] Creating Epochs
+[2025-11-26 21:25:56] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:25:56] [INFO] Normalizing X
+[2025-11-26 21:25:57] [INFO] Data loaded and oversampled: 1530 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:27:16] [INFO] Epoch 1/50 - loss: 1.2460, val_loss: 0.8433, accuracy: 0.6422, val_accuracy:0.6895
+[2025-11-26 21:27:16] [INFO] Epoch 2/50 - loss: 0.3722, val_loss: 0.7596, accuracy: 0.8954, val_accuracy:0.6765
+[2025-11-26 21:27:16] [INFO] Epoch 3/50 - loss: 0.1377, val_loss: 0.7695, accuracy: 0.9551, val_accuracy:0.6307
+[2025-11-26 21:27:16] [INFO] Epoch 4/50 - loss: 0.1017, val_loss: 1.3566, accuracy: 0.9681, val_accuracy:0.4935
+[2025-11-26 21:27:16] [INFO] Epoch 5/50 - loss: 0.0645, val_loss: 2.0445, accuracy: 0.9796, val_accuracy:0.4608
+[2025-11-26 21:27:16] [INFO] Epoch 6/50 - loss: 0.0349, val_loss: 2.7149, accuracy: 0.9869, val_accuracy:0.4248
+[2025-11-26 21:27:16] [INFO] Epoch 7/50 - loss: 0.0187, val_loss: 3.3032, accuracy: 0.9959, val_accuracy:0.4052
+[2025-11-26 21:27:16] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-15_ses-01_overt_covert_rest_accuracy.csv
+[2025-11-26 21:27:16] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-15_ses-01_classification_report.csv
+[2025-11-26 21:27:16] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-15_ses-01_confusion_matrix.csv
+[2025-11-26 21:27:16] [INFO] Initializing OvertCovertRestPipeline
+[2025-11-26 21:27:16] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:27:16] [INFO] ************************************************************
+[2025-11-26 21:27:16] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:27:16] [INFO] ************************************************************
+[2025-11-26 21:27:16] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:27:16] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-15_ses-02_processed.fif
+[2025-11-26 21:27:16] [INFO] {'trial_mode': 'Real', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:27:16] [INFO] ************************************************************
+[2025-11-26 21:27:16] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:27:16] [INFO] ************************************************************
+[2025-11-26 21:27:16] [INFO] Creating Epochs
+[2025-11-26 21:27:17] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:27:17] [INFO] ************************************************************
+[2025-11-26 21:27:17] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:27:17] [INFO] ************************************************************
+[2025-11-26 21:27:17] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:27:17] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-15_ses-02_processed.fif
+[2025-11-26 21:27:17] [INFO] {'trial_mode': 'Silent', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Speech', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:27:17] [INFO] ************************************************************
+[2025-11-26 21:27:17] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:27:17] [INFO] ************************************************************
+[2025-11-26 21:27:17] [INFO] Creating Epochs
+[2025-11-26 21:27:17] [INFO] Initializing SpeechEEGDatasetLoader
+[2025-11-26 21:27:17] [INFO] ************************************************************
+[2025-11-26 21:27:17] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-11-26 21:27:17] [INFO] ************************************************************
+[2025-11-26 21:27:17] [INFO] Processed EEG file exists. Loading...
+[2025-11-26 21:27:17] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-15_ses-02_processed.fif
+[2025-11-26 21:27:17] [INFO] {'trial_mode': '', 'trial_unit': 'Words', 'experiment_mode': 'Experiment', 'trial_boundary': 'Start', 'trial_type': 'Fixation', 'modality': '', 'tmin': -0.2, 'tmax': 1.5, 'baseline': {'tmin': -0.2, 'tmax': 0}}
+[2025-11-26 21:27:17] [INFO] ************************************************************
+[2025-11-26 21:27:17] [INFO] **********Initializing Epoch Builder**********
+[2025-11-26 21:27:17] [INFO] ************************************************************
+[2025-11-26 21:27:17] [INFO] Creating Epochs
+[2025-11-26 21:27:17] [INFO] Removing data imbalance using RandomOverSampler
+[2025-11-26 21:27:17] [INFO] Normalizing X
+[2025-11-26 21:27:18] [INFO] Data loaded and oversampled: 789 samples, 64 channels, 1701 timepoints
+[2025-11-26 21:28:28] [INFO] Epoch 1/50 - loss: 1.5240, val_loss: 0.8982, accuracy: 0.5784, val_accuracy:0.7089
+[2025-11-26 21:28:28] [INFO] Epoch 2/50 - loss: 0.5759, val_loss: 0.8485, accuracy: 0.8257, val_accuracy:0.6899
+[2025-11-26 21:28:28] [INFO] Epoch 3/50 - loss: 0.1992, val_loss: 0.7604, accuracy: 0.9303, val_accuracy:0.8165
+[2025-11-26 21:28:28] [INFO] Epoch 4/50 - loss: 0.1415, val_loss: 0.6595, accuracy: 0.9461, val_accuracy:0.8608
+[2025-11-26 21:28:28] [INFO] Epoch 5/50 - loss: 0.0731, val_loss: 0.5777, accuracy: 0.9699, val_accuracy:0.8228
+[2025-11-26 21:28:28] [INFO] Epoch 6/50 - loss: 0.0715, val_loss: 0.4710, accuracy: 0.9699, val_accuracy:0.8418
+[2025-11-26 21:28:28] [INFO] Epoch 7/50 - loss: 0.0470, val_loss: 0.4356, accuracy: 0.9857, val_accuracy:0.8544
+[2025-11-26 21:28:28] [INFO] Epoch 8/50 - loss: 0.0252, val_loss: 0.4821, accuracy: 0.9873, val_accuracy:0.8418
+[2025-11-26 21:28:28] [INFO] Epoch 9/50 - loss: 0.0559, val_loss: 0.5333, accuracy: 0.9794, val_accuracy:0.8101
+[2025-11-26 21:28:28] [INFO] Epoch 10/50 - loss: 0.0192, val_loss: 0.5666, accuracy: 0.9921, val_accuracy:0.8291
+[2025-11-26 21:28:28] [INFO] Epoch 11/50 - loss: 0.0427, val_loss: 0.6157, accuracy: 0.9873, val_accuracy:0.7911
+[2025-11-26 21:28:28] [INFO] Epoch 12/50 - loss: 0.0202, val_loss: 0.6900, accuracy: 0.9937, val_accuracy:0.7658
+[2025-11-26 21:28:28] [INFO] Training history saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-15_ses-02_overt_covert_rest_accuracy.csv
+[2025-11-26 21:28:28] [INFO] Classification report saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-15_ses-02_classification_report.csv
+[2025-11-26 21:28:28] [INFO] Confusion matrix saved to /home/owaismujtaba/projects/mind-voice/results/DecodingResults/sub-15_ses-02_confusion_matrix.csv

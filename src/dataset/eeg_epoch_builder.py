@@ -78,10 +78,17 @@ class EEGEpochBuilder:
             event_list.append([onset_sample, 0, event_id_map[description]])
 
         events = np.array(event_list)
-        epochs = mne.Epochs(
-            self.eeg_data, events, event_id=event_id_map, 
-            tmin=tmin, tmax=tmax, baseline=(self.baseline["tmin"], self.baseline["tmax"]),
-            preload=True
-        )
+        if self.baseline:
+            epochs = mne.Epochs(
+                self.eeg_data, events, event_id=event_id_map, 
+                tmin=tmin, tmax=tmax, baseline=(self.baseline["tmin"], self.baseline["tmax"]),
+                preload=True
+            )
+        else:
+            epochs = mne.Epochs(
+                self.eeg_data, events, event_id=event_id_map, 
+                tmin=tmin, tmax=tmax,
+                preload=True
+            )
         self.epochs = epochs
         return epochs

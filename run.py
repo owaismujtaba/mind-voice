@@ -9,7 +9,7 @@ from src.dataset.bids import create_bids_dataset
 from src.pipelines.p100_pipeline import P100Pipeline
 from src.pipelines.overt_covert_rest_pipeline import OvertCovertRestPipeline
 from src.anonymization.voice_snonymizer import VoiceAnonymizerPipeline
-from src.pipelines.snr_pipeline import run_snr_per_subject_session
+from src.pipelines.snr_pipeline import run_snr_pipeline
 
 
 
@@ -19,6 +19,7 @@ from src.visualizations.plot_accuracy import plot_accuracy
 from src.visualizations.plot_confusion_matrix import plot_confusion_matrix
 from src.visualizations.plot_metrics import plot_metrics
 from src.visualizations.display_per_class_metrics import display_classwise
+from src.visualizations.plot_snr import plot_snr_visual
 
 from src.utils.logger import create_logger
 
@@ -84,20 +85,7 @@ if analysis_config['p100']:
                 
                 pipe.run()
 
-if analysis_config['decoding']:
-    logger = create_logger('classification')
-    layout = BIDSLayout(dataset_config['BIDS_DIR'], validate=True)
-    subject_ids = layout.get_subjects()
-
-    for sub in subject_ids:
-        session_ids = layout.get_sessions(subject=sub)  
-        for ses in session_ids:
-            pipeline = OvertCovertRestPipeline(
-                    subject_id=sub, session_id=ses,
-                    config=config, logger=logger
-                )
-            pipeline.run()
-            
+        
 
 if config['anonymize']['anonymize_audio']:
     anonymize_config = config['anonymize']
@@ -120,7 +108,8 @@ if config['anonymize']['anonymize_audio']:
             pipeline.save(anonymized_audio, pipeline.target_sr, Path(directory, "anonymized.wav"))
 
 
-
+if analysis_config['morter']:
+    pass
 
 plot_config = config['plotting']
 logger = create_logger('plotting')
@@ -144,26 +133,29 @@ if plot_config['metrics_plots']:
 if plot_config['display_per_class_metrics']:
     display_classwise(logger)
 
+if plot_config['plot_snr']:
+    plot_snr_visual(config=config, logger=logger)
 
 
-if analysis_config['ica']:
-    logger = create_logger('ica_analysis_1')
+if analysis_config['snr']:
+    logger = create_logger('snr')
+    run_snr_pipeline(config=config, logger=logger)
+
+
+if analysis_config['decoding']:
+    logger = create_logger('classification')
     layout = BIDSLayout(dataset_config['BIDS_DIR'], validate=True)
     subject_ids = layout.get_subjects()
 
     for sub in subject_ids:
         session_ids = layout.get_sessions(subject=sub)  
         for ses in session_ids:
-           
-            run_snr_per_subject_session(
-                subject_id=sub,
-                session_id=ses,
-                logger=logger,
-                config=config
-            )
-
-
-
+            pipeline = OvertCovertRestPipeline(
+                    subject_id=sub, session_id=ses,
+                    config=config, logger=logger
+                )
+            pipeline.run()
+    
 
 
     

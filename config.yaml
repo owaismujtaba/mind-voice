@@ -1,6 +1,6 @@
 dataset:
     create_bids: False
-    BIDS_DIR: '/home/owaismujtaba/projects/MIND/data/BIDS'
+    BIDS_DIR: 'BIDS'
     MONTAGE: 'standard_1020'
     config_path: 'bids_config.yaml'
     EEG_SR: 1000
@@ -16,7 +16,9 @@ analysis:
     results_dir: 'results'
     p100: False
     decoding: False
+    morter: False
     ica: False
+    snr: False
 
 
 anonymize:
@@ -30,6 +32,7 @@ plotting:
     peak_mean_amplitude: False
     grand_erp_visual_real: False
     accuracy_plots: False
-    metrics_plots: True
-    confusion_matrix: True
-    display_per_class_metrics: True
+    metrics_plots: False
+    confusion_matrix: False
+    display_per_class_metrics: False
+    plot_snr: True

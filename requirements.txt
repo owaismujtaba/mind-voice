@@ -10,3 +10,4 @@ rich
 seaborn
 tensorflow
 librosa
+statsmodels
