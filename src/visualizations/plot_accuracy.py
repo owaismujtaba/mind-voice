@@ -84,7 +84,7 @@ def plot_accuracy_per_subject(df):
             f'{height:.2f}', # .2f is usually sufficient for publication figures
             ha='center', 
             va='bottom',
-            fontsize=14,
+            fontsize=16,
             fontweight='bold',
             color='black'
         )
@@ -95,6 +95,11 @@ def plot_accuracy_per_subject(df):
 
     plt.tight_layout()
     
+    for label in ax.get_xticklabels():
+        label.set_fontsize(16)
+    
+    for label in ax.get_yticklabels():
+        label.set_fontsize(16)
     # Save as PDF (Vector graphics are required for most submissions)
     output_dir = 'results/images'
     os.makedirs(output_dir, exist_ok=True)
@@ -147,4 +152,5 @@ def plot_accuracy(logger):
     plot_accuracy_per_subject(accuracy_df)
     
     subj_acc = accuracy_df.groupby('subject_id')['accuracy'].mean().reset_index()
+    logger.info(subj_acc)
     logger.info(subj_acc.describe())

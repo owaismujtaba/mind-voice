@@ -122,7 +122,7 @@ def plot_grand_erp_rest_visual(config, logger):
     ax.spines['right'].set_visible(False)
 
     # Legend
-    plt.legend(frameon=False, fontsize=12)
+    plt.legend(frameon=False, fontsize=16)
 
     plt.tight_layout()
     

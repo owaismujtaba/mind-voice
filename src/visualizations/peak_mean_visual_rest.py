@@ -33,7 +33,7 @@ def get_significance_stars(p):
 
 def plot_metric(ax, y_col, title, p_value, df_avg):
     category_order = ['Visual', 'No Visual Change']
-    xtick_labels = ['Visual', 'No Visual Change']
+    xtick_labels = ['Visual Change', 'No Visual Change']
 
     # --- CHANGED: Different Colors (Blue & Green) ---
     # You can change these hex codes to whatever you prefer

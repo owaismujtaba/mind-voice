@@ -165,8 +165,16 @@ def plot_metrics_per_subject(records):
     output_dir = 'results/images'
     os.makedirs(output_dir, exist_ok=True)
     plt.yticks(fontweight='bold')
+    
+    for label in ax.get_xticklabels():
+        label.set_fontsize(16)
+    
+    for label in ax.get_yticklabels():
+        label.set_fontsize(16)
     save_path = os.path.join(output_dir, 'overt_covert_rest_metrics.pdf')
     plt.savefig(save_path, format='pdf', bbox_inches='tight')
+    
+    
     plt.show()
 
 def get_precision_recall_f1(df):
