@@ -1,0 +1,3 @@
+subject_id,session_id,condition,latency,peak,mean
+05,02,Auditory,0.105,8.087069040312395,5.285599362950378
+05,02,Non Auditory,0.12,5.528083862621936,-0.9688779217230096

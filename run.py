@@ -10,7 +10,8 @@ from src.pipelines.p100_pipeline import P100Pipeline
 from src.pipelines.overt_covert_rest_pipeline import OvertCovertRestPipeline
 from src.anonymization.voice_snonymizer import VoiceAnonymizerPipeline
 from src.pipelines.snr_pipeline import run_snr_pipeline
-
+from src.pipelines.motor_pipeline import motor_analysis_pipeline
+from src.pipelines.n100_pipeline import run_n100_pipeline
 
 
 from src.visualizations.peak_mean_visual_rest import plot_peak_mean_visual_novisual
@@ -20,6 +21,8 @@ from src.visualizations.plot_confusion_matrix import plot_confusion_matrix
 from src.visualizations.plot_metrics import plot_metrics
 from src.visualizations.display_per_class_metrics import display_classwise
 from src.visualizations.plot_snr import plot_snr_visual
+from src.visualizations.erp_grand_audio_no_audio import plot_grand_erp_audio_no_audio
+from src.visualizations.peak_mean_audio_no_audio import plot_peak_mean_audio_no_audio
 
 from src.utils.logger import create_logger
 
@@ -85,7 +88,9 @@ if analysis_config['p100']:
                 
                 pipe.run()
 
-        
+if analysis_config['n100']:
+    logger = create_logger('n100')
+    run_n100_pipeline(config=config, logger=logger)       
 
 if config['anonymize']['anonymize_audio']:
     anonymize_config = config['anonymize']
@@ -109,7 +114,8 @@ if config['anonymize']['anonymize_audio']:
 
 
 if analysis_config['morter']:
-    pass
+    logger = create_logger('motor')
+    motor_analysis_pipeline(config, logger)
 
 plot_config = config['plotting']
 logger = create_logger('plotting')
@@ -129,6 +135,11 @@ if plot_config['confusion_matrix']:
 if plot_config['metrics_plots']:
     plot_metrics(logger)
 
+if plot_config['peak_mean_amplitude_audio']:
+    plot_peak_mean_audio_no_audio(logger)
+
+if plot_config['grand_erp_audio_no_audio']:
+    plot_grand_erp_audio_no_audio(config, logger)
 
 if plot_config['display_per_class_metrics']:
     display_classwise(logger)
