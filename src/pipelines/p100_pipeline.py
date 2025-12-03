@@ -2,12 +2,14 @@ import os
 import pandas as pd
 from mne.epochs import Epochs
 from pathlib import Path
+from bids import BIDSLayout
 
 from src.dataset.data_reader import BIDSDatasetReader
 from src.dataset.eeg_epoch_builder import EEGEpochBuilder
 from src.analysis.p_100_analyser import P100ComponentAnalyzer
 from src.visualizations.p100_plotter import P100Plotter
 
+from src.utils.logger import create_logger
 from src.utils.graphics import log_print
 
 import pdb
@@ -40,14 +42,15 @@ class P100Pipeline:
         self.cond_1_epochs = self._get_epochs_condition(eeg, self.cond_1)
         self.cond_2_epochs = self._get_epochs_condition(eeg, self.cond_2)
 
-        cond_1_res, self.analyzer_1 = self._analyze_p100(self.cond_1_epochs, time_window=(0.08, 0.12))
-        cond_2_res, self. analyzer_2 = self._analyze_p100(self.cond_2_epochs, time_window=(0.38, 0.42))
+        cond_1_res, self.analyzer_1 = self._analyze_p100(self.cond_1_epochs, time_window=self.cond_1['time_window'])
+        cond_2_res, self. analyzer_2 = self._analyze_p100(self.cond_2_epochs, time_window=self.cond_2['time_window'])
         
         if plot:
             self._save_results(cond_1_res, cond_2_res)
             self._plot()
 
-    def _analyze_p100(self, epochs, time_window=(0.08, 0.12)):
+    def _analyze_p100(self, epochs, time_window=None):
+        self.logger.info(f'time window {time_window}')
         analyzer = P100ComponentAnalyzer(
             epochs=epochs,
             logger=self.logger,
@@ -128,3 +131,50 @@ class P100Pipeline:
 
 
 
+def run_p100_pipeline(config, logger):
+    
+    dataset_config = config['dataset']
+    logger = create_logger('p100')
+    visual = {
+        "label": "Visual",
+        "trial_type": "Stimulus",
+        "tmin": -0.1,
+        "tmax": 0.5,
+        "trial_mode": "",
+        "trial_unit": "Words",
+        "experiment_mode": "Experiment",
+        "trial_boundary": "Start",
+        "modality": "Pictures",
+        "time_window": (0.08, 0.15),
+        "baseline": {"tmin": -0.1, "tmax": 0}
+    }
+    
+
+    rest = {
+        "label": "No Visual Change",
+        "trial_type": "Fixation",
+        "tmin": 0.3,
+        "tmax": 0.9,
+        "trial_mode": "",
+        "trial_unit": "Words",
+        "experiment_mode": "Experiment",
+        "trial_boundary": "Start",
+        "modality": "Pictures",
+        "time_window": (0.38, 0.45), 
+        "baseline": {"tmin": 0.3, "tmax": 0.4}
+    }
+    logger.info('Setting up P100 Analysis Pipeline')
+    layout = BIDSLayout(dataset_config['BIDS_DIR'], validate=True)
+    subject_ids = layout.get_subjects()
+
+    for sub in subject_ids:
+        session_ids = layout.get_sessions(subject=sub)
+        for ses in session_ids:
+                pipe = P100Pipeline(
+                    subject_id=sub, session_id=ses,
+                    config=config, logger=logger,
+                    cond_1=visual, cond_2=rest,
+                    channels=['PO3', 'POz', 'PO4']
+                )
+                
+                pipe.run()

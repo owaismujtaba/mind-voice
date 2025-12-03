@@ -30,7 +30,7 @@ anonymize:
 
 
 plotting:
-    grand_erp_visual_real: True
+    grand_erp_visual_real: False
     peak_mean_amplitude: True
     
     grand_erp_audio_no_audio: False

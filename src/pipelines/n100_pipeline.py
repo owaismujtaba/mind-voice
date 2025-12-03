@@ -173,16 +173,15 @@ class N100Pipeline:
         bids_reader.preprocess_eeg(bandpass=True, ica=True)
         self.eeg = bids_reader.processed_eeg
     
-    def extract_n100_evoked(self, evoked):
+    def extract_n100_evoked(self, evoked, time_window):
         
-        n1_window = (0.08, 0.13)           
-        baseline = (-0.2, 0.0)             
-        ev = evoked.copy().apply_baseline(baseline)
+         
+        #ev = evoked.copy().apply_baseline(baseline)
         ev = ev.average()
         
         data = ev.get_data().mean(axis=0)   # mean across channels
         times = ev.times
-        i0, i1 = np.searchsorted(times, n1_window)
+        i0, i1 = np.searchsorted(times, time_window)
         window_data = data[i0:i1]
         mean_amp = window_data.mean()
         peak_idx = window_data.argmin()    # most negative point
@@ -197,8 +196,8 @@ class N100Pipeline:
         cond1_epochs = self._get_epochs_condition(self.eeg, self.cond_1)
         cond2_epochs = self._get_epochs_condition(self.eeg, self.cond_2)
         
-        res_1 = self.extract_n100_evoked(cond1_epochs)
-        res_2 = self.extract_n100_evoked(cond2_epochs)
+        res_1 = self.extract_n100_evoked(cond1_epochs, self.cond_1['time_window'])
+        res_2 = self.extract_n100_evoked(cond2_epochs, self.cond_2['time_window'])
         self._save_results(res_1=res_1, res_2=res_2)
         
     def _log(self, message):
@@ -248,6 +247,7 @@ def run_n100_pipeline(config, logger):
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
         "modality": "Audio",
+        "time_window": (0.08, 0.12),
         "baseline": {"tmin": -0.1, "tmax": 0}
     }
     

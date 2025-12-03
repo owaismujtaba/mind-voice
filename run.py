@@ -6,9 +6,9 @@ from pathlib import Path
 from src.utils.data import load_yaml
 from src.dataset.bids import create_bids_dataset
 
-from src.pipelines.p100_pipeline import P100Pipeline
 from src.pipelines.overt_covert_rest_pipeline import OvertCovertRestPipeline
 from src.anonymization.voice_snonymizer import VoiceAnonymizerPipeline
+from src.pipelines.p100_pipeline import run_p100_pipeline
 from src.pipelines.snr_pipeline import run_snr_pipeline
 from src.pipelines.motor_pipeline import motor_analysis_pipeline
 from src.pipelines.n100_pipeline import run_n100_pipeline
@@ -43,50 +43,7 @@ if dataset_config['create_bids']:
 analysis_config = config['analysis']
 if analysis_config['p100']:
     logger = create_logger('p100')
-    visual = {
-        "label": "Visual",
-        "trial_type": "Stimulus",
-        "tmin": -0.1,
-        "tmax": 0.5,
-        "trial_mode": "",
-        "trial_unit": "Words",
-        "experiment_mode": "Experiment",
-        "trial_boundary": "Start",
-        "modality": "Pictures",
-        "baseline": {"tmin": -0.1, "tmax": 0}
-    }
-    
-
-    rest = {
-        "label": "No Visual Change",
-        "trial_type": "Fixation",
-        "tmin": 0.3,
-        "tmax": 0.9,
-        "trial_mode": "",
-        "trial_unit": "Words",
-        "experiment_mode": "Experiment",
-        "trial_boundary": "Start",
-        "modality": "Pictures",
-        "time_window": (0.08, 0.12),
-        "baseline": {"tmin": 0.3, "tmax": 0.4}
-    }
-    logger.info('Setting up P100 Analysis Pipeline')
-    layout = BIDSLayout(dataset_config['BIDS_DIR'], validate=True)
-    subject_ids = layout.get_subjects()
-
-    
-
-    for sub in subject_ids:
-        session_ids = layout.get_sessions(subject=sub)
-        for ses in session_ids:
-                pipe = P100Pipeline(
-                    subject_id=sub, session_id=ses,
-                    config=config, logger=logger,
-                    cond_1=visual, cond_2=rest,
-                    channels=['PO3', 'POz', 'PO4']
-                )
-                
-                pipe.run()
+    run_p100_pipeline(config=config, logger=logger)
 
 if analysis_config['n100']:
     logger = create_logger('n100')

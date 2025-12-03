@@ -2,6 +2,7 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 from pathlib import Path
+import pdb
 
 from bids import BIDSLayout
 from src.pipelines.p100_pipeline import P100Pipeline
@@ -22,7 +23,8 @@ def plot_grand_erp_rest_visual(config, logger):
     
     output_dir = 'results/images/'
     os.makedirs(output_dir, exist_ok=True)
-
+    time_window = (0.08, 0.15)
+    
     visual = {
         "label": "Visual",
         "trial_type": "Stimulus",
@@ -33,6 +35,7 @@ def plot_grand_erp_rest_visual(config, logger):
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
         "modality": "Pictures",
+        "time_window": time_window,
         "baseline": {"tmin": -0.1, "tmax": 0}
     }
     
@@ -47,7 +50,7 @@ def plot_grand_erp_rest_visual(config, logger):
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
         "modality": "Pictures",
-        "time_window": (0.08, 0.12),
+        "time_window": time_window,
         "baseline": {"tmin": 0.3, "tmax": 0.4}
     }
 
@@ -80,7 +83,6 @@ def plot_grand_erp_rest_visual(config, logger):
 
     visual_data = np.concatenate(visual_data, axis=0)
     rest_data = np.concatenate(rest_data, axis=0)
-    
     mean_visual = visual_data.mean(axis=0).mean(axis=0)
     mean_rest = rest_data.mean(axis=0).mean(axis=0)
     
@@ -91,7 +93,7 @@ def plot_grand_erp_rest_visual(config, logger):
 
     # Define time axis
     n_timepoints = len(mean_visual_uv)
-    time = np.linspace(-0.2, 0.5, n_timepoints)
+    time = np.linspace(-0.1, 0.5, n_timepoints)
 
     plt.figure(figsize=(10, 6))
 
@@ -113,7 +115,7 @@ def plot_grand_erp_rest_visual(config, logger):
     plt.grid(alpha=0.3, linestyle='--')
 
     # Customize ticks
-    plt.xticks(np.arange(-0.2, 0.6, 0.1), fontsize=14, fontweight='bold', color='black')
+    plt.xticks(np.arange(-0.1, 0.5, 0.1), fontsize=14, fontweight='bold', color='black')
     plt.yticks(fontsize=14, fontweight='bold', color='black')
 
     # Remove top and right spines
