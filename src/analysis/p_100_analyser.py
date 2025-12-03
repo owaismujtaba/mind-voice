@@ -8,7 +8,7 @@ import pdb
 
 
 class P100ComponentAnalyzer:
-    def __init__(self, epochs: Epochs,logger, channels, time_window=(0.08, 0.12)):
+    def __init__(self, epochs: Epochs,logger, channels):
         """
         Initialize the P100 analyzer.
 
@@ -18,7 +18,6 @@ class P100ComponentAnalyzer:
             channels (list or None): List of channel names to average. If None, uses default P100-relevant channels.
         """
         self.epochs = epochs
-        self.time_window = time_window
         self.logger = logger
         log_print(text='Initializing P100ComponentAnalyzer', logger=logger)
 
@@ -39,7 +38,7 @@ class P100ComponentAnalyzer:
         """
         return self.evoked
 
-    def get_p100_peak(self, baseline_window=None):
+    def get_p100_peak(self, time_window=(0.08, 0.12)):
         """
         Compute P100 peak latency and amplitude after averaging across selected channels.
 
@@ -56,15 +55,10 @@ class P100ComponentAnalyzer:
 
         ch_indices = [self.evoked.ch_names.index(ch) for ch in valid_chs]
         avg_data = np.mean(self.evoked.data[ch_indices, :], axis=0)
+        
+       
 
-        if baseline_window:
-            baseline_mask = (self.evoked.times >= baseline_window[0]) & (self.evoked.times <= baseline_window[1])
-            if not np.any(baseline_mask):
-                raise ValueError("No data points found in the baseline window.")
-            baseline = np.mean(avg_data[baseline_mask])
-            avg_data = avg_data - baseline
-
-        time_mask = (self.evoked.times >= self.time_window[0]) & (self.evoked.times <= self.time_window[1])
+        time_mask = (self.evoked.times >= time_window[0]) & (self.evoked.times <= time_window[1])
         if not np.any(time_mask):
             raise ValueError("No data points found within the specified time window.")
 

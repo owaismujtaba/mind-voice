@@ -134,10 +134,10 @@ def plot_peak_mean_audio_no_audio(logger):
 
     all_dfs = [pd.read_csv(f) for f in csv_files]
     combined_df = pd.concat(all_dfs, ignore_index=True)
-    combined_df = combined_df.groupby(by=['subject_id', 'condition']).mean().reset_index()
+    #combined_df = combined_df.groupby(by=['subject_id', 'condition']).mean().reset_index()
 
     # Clean outliers
-    combined_df = remove_outliers_iqr(combined_df, columns=['peak', 'mean'])
+    #combined_df = remove_outliers_iqr(combined_df, columns=['peak', 'mean'])
 
     # Extract for Visual and No Visual Change
     visual = combined_df.loc[combined_df['condition'] == category_order[0], ['mean', 'peak']].reset_index(drop=True)

@@ -40,26 +40,25 @@ class P100Pipeline:
         self.cond_1_epochs = self._get_epochs_condition(eeg, self.cond_1)
         self.cond_2_epochs = self._get_epochs_condition(eeg, self.cond_2)
 
-        cond_1_res, self.analyzer_1 = self._analyze_p100(self.cond_1_epochs)
-        cond_2_res, self. analyzer_2 = self._analyze_p100(self.cond_2_epochs)
-        
+        cond_1_res, self.analyzer_1 = self._analyze_p100(self.cond_1_epochs, time_window=(0.08, 0.12))
+        cond_2_res, self. analyzer_2 = self._analyze_p100(self.cond_2_epochs, time_window=(0.38, 0.42))
         
         if plot:
             self._save_results(cond_1_res, cond_2_res)
             self._plot()
 
-    def _analyze_p100(self, epochs):
+    def _analyze_p100(self, epochs, time_window=(0.08, 0.12)):
         analyzer = P100ComponentAnalyzer(
             epochs=epochs,
             logger=self.logger,
-            channels=self.channels
+            channels=self.channels, 
         )
-        lat, peak, mean = analyzer.get_p100_peak()
+        lat, peak, mean = analyzer.get_p100_peak(time_window=time_window)
         return [lat, peak, mean], analyzer
 
     def _get_epochs_condition(self, eeg, condition_cfg):
         self._log(f"Creating epochs for condition: {condition_cfg['label']}")
-
+        
         epocher = EEGEpochBuilder(
             eeg_data=eeg,
             trial_mode=condition_cfg["trial_mode"],

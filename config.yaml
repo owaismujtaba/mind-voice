@@ -15,7 +15,7 @@ preprocessing:
 analysis:
     results_dir: 'results'
     p100: False
-    n100: True
+    n100: False
     decoding: False
     morter: False
     ica: False
@@ -30,10 +30,13 @@ anonymize:
 
 
 plotting:
-    peak_mean_amplitude: False
-    peak_mean_amplitude_audio: True
-    grand_erp_visual_real: False
+    grand_erp_visual_real: True
+    peak_mean_amplitude: True
+    
     grand_erp_audio_no_audio: False
+    peak_mean_amplitude_audio: False
+    
+    
     accuracy_plots: False
     metrics_plots: False
     confusion_matrix: False

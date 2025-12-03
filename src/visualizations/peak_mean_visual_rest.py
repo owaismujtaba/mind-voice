@@ -133,7 +133,7 @@ def plot_peak_mean_visual_novisual(logger):
 
     all_dfs = [pd.read_csv(f) for f in csv_files]
     combined_df = pd.concat(all_dfs, ignore_index=True)
-    combined_df = combined_df.groupby(by=['subject_id', 'condition']).mean().reset_index()
+    #combined_df = combined_df.groupby(by=['subject_id', 'condition']).mean().reset_index()
 
     # Clean outliers
     combined_df = remove_outliers_iqr(combined_df, columns=['peak', 'mean'])

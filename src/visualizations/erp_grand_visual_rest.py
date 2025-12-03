@@ -26,29 +26,29 @@ def plot_grand_erp_rest_visual(config, logger):
     visual = {
         "label": "Visual",
         "trial_type": "Stimulus",
-        "tmin": -0.2,
+        "tmin": -0.1,
         "tmax": 0.5,
-        "trial_mode": "",
-        "trial_unit": "Words",
+        "trial_mode": "Words",
+        "trial_unit": "",
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
         "modality": "Pictures",
-        "baseline": {"tmin": -0.2, "tmax": 0}
+        "baseline": {"tmin": -0.1, "tmax": 0}
     }
     
 
     rest = {
         "label": "No Visual Change",
         "trial_type": "Fixation",
-        "tmin": -0.2,
-        "tmax": 0.5,
-        "trial_mode": "",
-        "trial_unit": "Words",
+        "tmin": 0.3,
+        "tmax": 0.9,
+        "trial_mode": "Words",
+        "trial_unit": "",
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
-        "modality": "",
+        "modality": "Pictures",
         "time_window": (0.08, 0.12),
-        "baseline": {"tmin": 0.1, "tmax": 0.3}
+        "baseline": {"tmin": 0.3, "tmax": 0.4}
     }
 
 

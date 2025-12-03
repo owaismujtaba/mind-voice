@@ -79,6 +79,7 @@ class EEGEpochBuilder:
 
         events = np.array(event_list)
         if self.baseline:
+            self.logger.info(f'Baseline {self.baseline}')
             epochs = mne.Epochs(
                 self.eeg_data, events, event_id=event_id_map, 
                 tmin=tmin, tmax=tmax, baseline=(self.baseline["tmin"], self.baseline["tmax"]),

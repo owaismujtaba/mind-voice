@@ -46,29 +46,29 @@ if analysis_config['p100']:
     visual = {
         "label": "Visual",
         "trial_type": "Stimulus",
-        "tmin": -0.2,
+        "tmin": -0.1,
         "tmax": 0.5,
         "trial_mode": "",
         "trial_unit": "Words",
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
         "modality": "Pictures",
-        "baseline": {"tmin": -0.2, "tmax": 0}
+        "baseline": {"tmin": -0.1, "tmax": 0}
     }
     
 
     rest = {
         "label": "No Visual Change",
         "trial_type": "Fixation",
-        "tmin": -0.2,
-        "tmax": 0.5,
+        "tmin": 0.3,
+        "tmax": 0.9,
         "trial_mode": "",
         "trial_unit": "Words",
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
-        "modality": "",
+        "modality": "Pictures",
         "time_window": (0.08, 0.12),
-        "baseline": {"tmin": 0.1, "tmax": 0.3}
+        "baseline": {"tmin": 0.3, "tmax": 0.4}
     }
     logger.info('Setting up P100 Analysis Pipeline')
     layout = BIDSLayout(dataset_config['BIDS_DIR'], validate=True)
@@ -119,11 +119,14 @@ if analysis_config['morter']:
 
 plot_config = config['plotting']
 logger = create_logger('plotting')
-if plot_config['peak_mean_amplitude']:
-    plot_peak_mean_visual_novisual(logger)
 
 if plot_config['grand_erp_visual_real']:
     plot_grand_erp_rest_visual(config, logger)
+
+if plot_config['peak_mean_amplitude']:
+    plot_peak_mean_visual_novisual(logger)
+
+
     
 if plot_config['accuracy_plots']:
     plot_accuracy(logger)
