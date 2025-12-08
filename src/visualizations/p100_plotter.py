@@ -3,6 +3,7 @@ import numpy as np
 import os
 from pathlib import Path
 import seaborn as sns
+import pdb
 
 class P100Plotter:
     def __init__(self, 
@@ -34,8 +35,8 @@ class P100Plotter:
         and adds a vertical line at 0 ms.
         """
         self.logger.info('Plotting Evoked')
-        evoked_1 = self.condition1.get_evoked()
-        evoked_2 = self.condition2.get_evoked()
+        evoked_1 = self.condition1.get_evoked().average()
+        evoked_2 = self.condition2.get_evoked().average()
 
         ch_names_1 = self.condition1.channels
         ch_names_2 = self.condition2.channels
@@ -45,16 +46,15 @@ class P100Plotter:
             ch_idx_2 = [evoked_2.ch_names.index(ch) for ch in ch_names_2]
         except ValueError as e:
             raise ValueError(f"Channel not found: {e}")
-
-        data_1 = evoked_1.data[ch_idx_1, :] * 1e6  # Convert to microvolts
-        data_2 = evoked_2.data[ch_idx_2, :] * 1e6  # Convert to microvolts
+        
+        data_1 = evoked_1.get_data()[ch_idx_1, :] * 1e6  # Convert to microvolts
+        data_2 = evoked_2.get_data()[ch_idx_2, :] * 1e6  # Convert to microvolts
 
         min_len = min(data_1.shape[1], data_2.shape[1])
         times = evoked_1.times[:min_len]
 
         data_1 = data_1[:, :min_len]
         data_2 = data_2[:, :min_len]
-
         # Compute average across channels
         mean_1 = data_1.mean(axis=0)
         mean_2 = data_2.mean(axis=0)

@@ -29,7 +29,7 @@ class P100ComponentAnalyzer:
 
         self.channels = valid_chs
         picked_epochs = self.epochs.copy().pick(self.channels)
-        self.evoked = picked_epochs.average()
+        self.evoked = picked_epochs
 
     def get_evoked(self) -> Evoked:
         """
@@ -48,27 +48,28 @@ class P100ComponentAnalyzer:
         Returns:
             tuple: (peak_latency in seconds, peak_amplitude in µV, mean_amplitude in µV)
         """
-        self.logger.info('Caculating Latency, peak and mean')
+        self.logger.info('Caculating  Peak and Mean')
         valid_chs = [ch for ch in self.channels if ch in self.evoked.ch_names]
         if not valid_chs:
             raise ValueError("None of the selected channels are present in the data.")
 
+        
+        
         ch_indices = [self.evoked.ch_names.index(ch) for ch in valid_chs]
-        avg_data = np.mean(self.evoked.data[ch_indices, :], axis=0)
+        avg_data = np.mean(self.evoked.get_data()[:,ch_indices, :], axis=1)
         
        
-
         time_mask = (self.evoked.times >= time_window[0]) & (self.evoked.times <= time_window[1])
         if not np.any(time_mask):
             raise ValueError("No data points found within the specified time window.")
+        
 
-        data_window = avg_data[time_mask]
+        data_window = avg_data[:, time_mask]
         times_window = self.evoked.times[time_mask]
 
-        peak_idx = np.argmax(data_window)
-        self.latency = times_window[peak_idx]
-        self.peak_amplitude = data_window[peak_idx] * 1e6  # Convert to µV
-        self.mean_amplitude = np.mean(data_window) * 1e6   # Convert to µV
+        peak_idx = np.argmax(data_window, axis=1)
 
-        self.logger.info(f'Latency: {self.latency}, Peak: {self.peak_amplitude}, Mean: {self.mean_amplitude}')
-        return self.latency, self.peak_amplitude, self.mean_amplitude
+        self.peak_amplitude =data_window[np.arange(data_window.shape[0]), peak_idx] * 1e6
+        self.mean_amplitude = np.mean(data_window, axis=1) * 1e6   # Convert to µV
+        self.logger.info(f'Peak Shape: {self.peak_amplitude.shape}, Mean SHape: {self.mean_amplitude.shape}')
+        return self.peak_amplitude, self.mean_amplitude

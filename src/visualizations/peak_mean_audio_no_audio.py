@@ -1,200 +1,151 @@
 import os
+from pathlib import Path
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from pathlib import Path
-from scipy.stats import ttest_rel
+from scipy.stats import ttest_ind
 from glob import glob
+import numpy as np
 
-import pdb
+plt.rcParams.update({
+    "font.size": 16,
+    "font.weight": "bold",
+    "axes.labelweight": "bold",
+    "axes.titlesize": 18,
+    "axes.titleweight": "bold",
+    "xtick.labelsize": 16,
+    "ytick.labelsize": 16,
+    "xtick.direction": "out",
+    "ytick.direction": "out",
+    "xtick.major.width": 2,
+    "ytick.major.width": 2,
+    "xtick.major.size": 10,
+    "ytick.major.size": 6
+})
 
-def remove_outliers_iqr(df, columns):
-    cleaned_df = df.copy()
-    for col in columns:
-        q1 = cleaned_df[col].quantile(0.25)
-        q3 = cleaned_df[col].quantile(0.75)
-        iqr = q3 - q1
-        lower = q1 - 1.5 * iqr
-        upper = q3 + 1.5 * iqr
-        cleaned_df = cleaned_df[(cleaned_df[col] >= lower) & (cleaned_df[col] <= upper)]
-    return cleaned_df
+
+def remove_outliers_iqr(data):
+    q1, q3 = np.percentile(data, [25, 75])
+    iqr = q3 - q1
+    lower, upper = q1 - 1.5 * iqr, q3 + 1.5 * iqr
+    return data[(data >= lower) & (data <= upper)]
 
 
 def get_significance_stars(p):
-    """Returns asterisk representation of p-value."""
-    if p < 0.001:
-        return '***'
-    elif p < 0.01:
-        return '**'
-    elif p < 0.05:
-        return '*'
-    else:
-        return 'ns'
+    return '***' if p < 0.001 else '**' if p < 0.01 else '*' if p < 0.05 else 'ns'
 
 
-def plot_metric(ax, y_col, title, p_value, df_avg):
-    category_order = ['Audio', 'No Audio']
-    xtick_labels = ['Auditory Stimulus', 'No Audio']
+def make_long_df(values, condition):
+    return pd.DataFrame({'value': values, 'condition': condition})
 
-    # --- CHANGED: Different Colors (Blue & Green) ---
-    # You can change these hex codes to whatever you prefer
-    new_palette = ["#0072B2", "#D55E00"] 
-    
+
+def load_and_concatenate(files):
+    """Load multiple npy files; each contains [peaks, means]."""
+    data = [np.load(f, allow_pickle=True) for f in files]
+    peaks = np.concatenate([d[0] for d in data])
+    means = np.concatenate([d[1] for d in data])
+    return remove_outliers_iqr(peaks), remove_outliers_iqr(means)
+
+
+def log_stats(logger, name, arr):
+    logger.info(
+        f"{name}: n={len(arr)}, min={np.min(arr):.4f}, max={np.max(arr):.4f}, "
+        f"mean={np.mean(arr):.4f}, std={np.std(arr):.4f}"
+    )
+
+
+def plot_metric(ax, df, metric_name, p_value, category_order, palette):
+    # Boxplot
     sns.boxplot(
-        data=df_avg,
-        x='condition', y=y_col,
-        order=category_order,
-        hue='condition',
-        palette=new_palette, 
-        width=0.5,
-        legend=False,
-        boxprops={'alpha': 0.8, 'linewidth': 1.2, 'edgecolor': '#333333'},
-        medianprops={'linewidth': 2, 'color': 'white'}, # White median often looks cleaner on dark colors
-        whiskerprops={'linewidth': 1.2, 'color': '#333333'},
-        capprops={'linewidth': 1.2, 'color': '#333333'},
+        data=df, x='condition', y='value', order=category_order,
+        palette=dict(zip(category_order, palette)),
+        width=0.5, showfliers=False,
+        boxprops={'alpha': 0.9, 'linewidth': 2, 'edgecolor': '#444'},
+        medianprops={'linewidth': 2.5, 'color': 'white'},
+        whiskerprops={'linewidth': 1.5},
+        capprops={'linewidth': 1.5},
         ax=ax
     )
 
+    # Stripplot
+    df_plot = df.sample(20000) if len(df) > 20000 else df
     sns.stripplot(
-        data=df_avg,
-        x='condition', y=y_col,
-        order=category_order,
-        color='black',
-        size=5, jitter=0.15, alpha=0.6,
-        ax=ax
+        data=df_plot, x='condition', y='value',
+        order=category_order, color='black', size=4,
+        jitter=0.25, alpha=0.35, ax=ax
     )
 
-    # Means
-    means = df_avg.groupby('condition', sort=False)[y_col].mean().reindex(category_order)
-    x_pos = range(len(category_order))
+    # Plot mean markers
+    means = df.groupby('condition')['value'].mean().reindex(category_order)
     ax.scatter(
-        x_pos, means.values,
-        marker='s', s=80, color='lightgrey', zorder=6, label='Mean', edgecolor='black'
+        range(len(category_order)), means.values,
+        marker='D', s=100, facecolor='white', edgecolor='black', zorder=6
     )
 
-    # --- CHANGED: Add Bar and Asterisk ---
-    
-    # 1. Calculate height for the bar (slightly above the highest data point)
-    y_max = df_avg[y_col].max()
-    y_min = df_avg[y_col].min()
+    # Curved significance line
+    y_max, y_min = df['value'].max(), df['value'].min()
     y_range = y_max - y_min
-    
-    # Dynamic height adjustment
-    bar_h = y_max + (y_range * 0.1)      # Horizontal bar height
-    bar_tips = bar_h - (y_range * 0.02)  # Tips of the brackets pointing down
-    
-    # 2. Draw the Bracket (Bar)
-    # Plot lines: [x1, x1, x2, x2], [y_tip, y_bar, y_bar, y_tip]
-    ax.plot(
-        [0, 0, 1, 1], 
-        [bar_tips, bar_h, bar_h, bar_tips], 
-        lw=1.5, c='k'
-    )
+    bar_y = y_max + y_range * 0.12
+    curve_height = y_range * 0.03
+    ax.plot([0, 0, 1, 1], [bar_y, bar_y+curve_height, bar_y+curve_height, bar_y],
+            lw=1.8, c='black')
 
-    # 3. Add the Asterisk on top of the bar
-    stars = get_significance_stars(p_value)
-    ax.text(
-        0.5, bar_h + (y_range * 0.01), 
-        stars, 
-        ha='center', va='bottom', 
-        fontsize=22, fontweight='bold', color='black'
-    )
+    # Significance stars
+    ax.text(0.5, bar_y + curve_height + y_range*0.02, get_significance_stars(p_value),
+            ha='center', fontsize=20, fontweight='bold')
 
-    # 4. Set Y-limit to ensure bar and stars are visible
-    # Increase the upper limit slightly to fit the star
-    ax.set_ylim(bottom=None, top=bar_h + (y_range * 0.15))
-
-    # --- Title (Removed p-value from title since it's on the bar) ---
-    ax.set_title(title, fontsize=20, fontweight='bold')
-    
-    ax.set_ylabel(f"{y_col.capitalize()} Amplitude (µV)", fontsize=16, fontweight='bold')
+    # Styling
+    ax.set_title(f"P100 {metric_name.capitalize()} Amplitude")
+    ax.set_ylabel(f"Amplitude (µV)")
     ax.set_xlabel("")
-    ax.set_xticks(x_pos)
-    ax.set_xticklabels(xtick_labels, fontsize=16, fontweight='bold')
-
-    ax.tick_params(axis='y', labelsize=14)
-    for label in ax.get_yticklabels():
-        label.set_fontweight('bold')
-        label.set_fontsize('14')
-
+    ax.set_xticklabels(category_order)
     sns.despine(ax=ax)
 
 
 def plot_peak_mean_audio_no_audio(logger):
-    logger.info('Plotting Peak and Mean amplitudes for Audio and no Audio conditions')
-    output_dir = 'results/images/'
-    os.makedirs(output_dir, exist_ok=True)
+    logger.info('Plotting Peak and Mean amplitudes for Audio and No Audio conditions')
+    output_dir = Path('results/images/')
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     category_order = ['Auditory', 'Non Auditory']
+    palette = ["#1f77b4", "#ff7f0e"]
 
-    csv_files = glob('results/N100/*.csv')
-    if len(csv_files) < 1:
-        logger.info('No files found to plot')
-        return
+    audio_files = sorted(glob('results/N100/*Auditory.npy'))
+    no_audio_files = sorted(glob('results/N100/*Non Auditory.npy'))
 
-    all_dfs = [pd.read_csv(f) for f in csv_files]
-    combined_df = pd.concat(all_dfs, ignore_index=True)
-    #combined_df = combined_df.groupby(by=['subject_id', 'condition']).mean().reset_index()
+    audio_peaks, audio_means = load_and_concatenate(audio_files)
+    no_audio_peaks, no_audio_means = load_and_concatenate(no_audio_files)
 
-    # Clean outliers
-    #combined_df = remove_outliers_iqr(combined_df, columns=['peak', 'mean'])
+    df_peak = pd.concat([
+        make_long_df(audio_peaks, 'Auditory'),
+        make_long_df(no_audio_peaks, 'Non Auditory')
+    ], ignore_index=True)
 
-    # Extract for Visual and No Visual Change
-    visual = combined_df.loc[combined_df['condition'] == category_order[0], ['mean', 'peak']].reset_index(drop=True)
-    novisual = combined_df.loc[combined_df['condition'] == category_order[1], ['mean', 'peak']].reset_index(drop=True)
+    df_mean = pd.concat([
+        make_long_df(audio_means, 'Auditory'),
+        make_long_df(no_audio_means, 'Non Auditory')
+    ], ignore_index=True)
 
-    # Match subjects
-    n = min(len(visual), len(novisual))
-    subject_ids = range(n)
+    # T-tests
+    t_peak, p_peak = ttest_ind(audio_peaks, no_audio_peaks, equal_var=False)
+    t_mean, p_mean = ttest_ind(audio_means, no_audio_means, equal_var=False)
+    logger.info(f"T-test Peak: t={t_peak:.3f}, p={p_peak:.3e}")
+    logger.info(f"T-test Mean: t={t_mean:.3f}, p={p_mean:.3e}")
 
-    # Build final dataframe
-    df_avg = pd.DataFrame({
-        'subject_id': list(subject_ids) * 2,
-        'condition': ['Audio'] * n + ['No Audio'] * n,
-        'mean': pd.concat([visual['mean'][:n], novisual['mean'][:n]]).values,
-        'peak': pd.concat([visual['peak'][:n], novisual['peak'][:n]]).values
-    })
+    # Log stats
+    log_stats(logger, "Auditory Peaks", audio_peaks)
+    log_stats(logger, "Auditory Means", audio_means)
+    log_stats(logger, "Non-Auditory Peaks", no_audio_peaks)
+    log_stats(logger, "Non-Auditory Means", no_audio_means)
 
-    # pdb.set_trace()
-    # Pivot for paired t-tests
-    peak_pivot = df_avg.pivot(index='subject_id', columns='condition', values='peak')
-    mean_pivot = df_avg.pivot(index='subject_id', columns='condition', values='mean')
-
-    # Paired t-tests
-    t_peak, p_peak = ttest_rel(
-        peak_pivot['Audio'],
-        peak_pivot['No Audio'],
-        nan_policy='omit'
-    )
-    t_mean, p_mean = ttest_rel(
-        mean_pivot['Audio'],
-        mean_pivot['No Audio'],
-        nan_policy='omit'
-    )
-
-    # Visualization
-    sns.set(style="whitegrid", font_scale=1.4)
-    fig, axes = plt.subplots(1, 2, figsize=(12, 7))
-
-    plot_metric(axes[0], 'peak', 'N100 Peak Amplitude', p_peak, df_avg)
-    plot_metric(axes[1], 'mean', 'N100 Mean Amplitude', p_mean, df_avg)
-
-    handles, labels = axes[1].get_legend_handles_labels()
-    if 'Mean' in labels:
-        fig.legend(handles, labels, loc='upper center', bbox_to_anchor=(0.5, 1.0), ncol=1, fontsize=14)
+    # Plotting
+    sns.set(style="whitegrid", font_scale=1.3)
+    fig, axes = plt.subplots(1, 2, figsize=(15, 7), sharey=True)
+    plot_metric(axes[0], df_peak, 'peak', p_peak, category_order, palette)
+    plot_metric(axes[1], df_mean, 'mean', p_mean, category_order, palette)
 
     plt.tight_layout()
-
-    name = 'peakMeanAmplitudeAudio_No_Audio.pdf'
-    filepath = Path(output_dir, name)
-    plt.savefig(filepath, format='pdf', dpi=800)
-    plt.show()
+    filepath = output_dir / "peakMeanAmplitudeAudioNoAudio.pdf"
+    fig.savefig(filepath, format='pdf', dpi=800, bbox_inches='tight')
     plt.close(fig)
-
-    logger.info(f"T-test (Peak): t={t_peak:.3f}, p={p_peak:.3e}")
-    logger.info(f"T-test (Mean): t={t_mean:.3f}, p={p_mean:.3e}")
-    logger.info('Audio')
-    logger.info(visual.describe())
-    logger.info('No Audio')
-    logger.info(novisual.describe())
-    logger.info(f'Plot saved to {filepath}')
+    logger.info(f"Plot saved to {filepath}")

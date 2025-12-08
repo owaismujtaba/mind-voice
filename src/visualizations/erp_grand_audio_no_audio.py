@@ -25,30 +25,31 @@ def plot_grand_erp_audio_no_audio(config, logger):
 
     audio = {
         "label": "Auditory",
-        "trial_type": "Stimulus",
-        "tmin": -0.2,
+        "trial_type": "",
+        "tmin": -0.1,
         "tmax": 0.5,
-        "trial_mode": "",
-        "trial_unit": "",
+        "trial_mode": "Words",
+        "trial_unit": "Speech",
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
         "modality": "Audio",
-        "baseline": {"tmin": -0.2, "tmax": 0}
+        "time_window": (0.08, 0.12),
+        "baseline": {"tmin": -0.1, "tmax": 0}
     }
     
 
     no_audio = {
         "label": "Non Auditory",
-        "trial_type": "Fixation",
-        "tmin": -0.2,
-        "tmax": 0.5,
-        "trial_mode": "",
-        "trial_unit": "",
+        "trial_type": "",
+        "tmin": 0.3,
+        "tmax": 0.9,
+        "trial_mode": "Words",
+        "trial_unit": "Fixation",
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
         "modality": "Audio",
-        "time_window": (0.09, 0.12),
-        "baseline": {"tmin": 0.1, "tmax": 0.3}
+        "time_window": (0.38, 0.42),
+        "baseline": {"tmin": 0.3, "tmax": 0.4}
     }
 
 
@@ -100,10 +101,10 @@ def plot_grand_erp_audio_no_audio(config, logger):
     plt.plot(time, mean_rest_uv, label='No Audio', color="#D55E00", linewidth=2.5, linestyle='--')
 
     # Vertical line at 0
-    plt.axvline(0, color='k', linestyle='--', linewidth=2.0, label='Stimulus Onset (0 s)')
+    plt.axvline(0, color='k', linestyle='--', linewidth=2.0, label='Auditory Onset (0 s)')
 
     # Highlight 80-120 ms
-    plt.axvspan(0.08, 0.12, color="#A9C7B1", alpha=0.2, label='Window (90-120 ms)')
+    plt.axvspan(0.08, 0.12, color="#A9C7B1", alpha=0.2, label='Window (80-120 ms)')
 
     # Labels and title
     plt.xlabel('Time (s)', fontsize=16, fontweight='bold')

@@ -1,0 +1,634 @@
+[2025-12-04 17:12:42] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-04 17:12:42] [INFO] ************************************************************
+[2025-12-04 17:12:42] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:12:42] [INFO] ************************************************************
+[2025-12-04 17:12:42] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:12:42] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-04 17:12:43] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:12:43] [INFO] ************************************************************
+[2025-12-04 17:12:43] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:12:43] [INFO] ************************************************************
+[2025-12-04 17:12:43] [INFO] Creating Epochs
+[2025-12-04 17:14:44] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-04 17:14:44] [INFO] ************************************************************
+[2025-12-04 17:14:44] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:14:44] [INFO] ************************************************************
+[2025-12-04 17:14:44] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:14:44] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-04 17:14:46] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:14:46] [INFO] ************************************************************
+[2025-12-04 17:14:46] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:14:46] [INFO] ************************************************************
+[2025-12-04 17:14:46] [INFO] Creating Epochs
+[2025-12-04 17:14:46] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:14:46] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:14:46] [INFO] ************************************************************
+[2025-12-04 17:14:46] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:14:46] [INFO] ************************************************************
+[2025-12-04 17:14:46] [INFO] Creating Epochs
+[2025-12-04 17:14:46] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:15:57] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-04 17:15:57] [INFO] ************************************************************
+[2025-12-04 17:15:57] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:15:57] [INFO] ************************************************************
+[2025-12-04 17:15:57] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:15:57] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-04 17:15:59] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:15:59] [INFO] ************************************************************
+[2025-12-04 17:15:59] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:15:59] [INFO] ************************************************************
+[2025-12-04 17:15:59] [INFO] Creating Epochs
+[2025-12-04 17:15:59] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:15:59] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:15:59] [INFO] ************************************************************
+[2025-12-04 17:15:59] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:15:59] [INFO] ************************************************************
+[2025-12-04 17:15:59] [INFO] Creating Epochs
+[2025-12-04 17:15:59] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:15:59] [INFO] Saving results to CSV
+[2025-12-04 17:15:59] [INFO] Results saved to /home/owaismujtaba/projects/mind-voice/results/N100/sub-01_ses-01_p100_Auditory_Non Auditory.csv
+[2025-12-04 17:16:49] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-04 17:16:49] [INFO] ************************************************************
+[2025-12-04 17:16:49] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:16:49] [INFO] ************************************************************
+[2025-12-04 17:16:49] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:16:49] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-04 17:16:51] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:16:51] [INFO] ************************************************************
+[2025-12-04 17:16:51] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:16:51] [INFO] ************************************************************
+[2025-12-04 17:16:51] [INFO] Creating Epochs
+[2025-12-04 17:16:51] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:16:51] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:16:51] [INFO] ************************************************************
+[2025-12-04 17:16:51] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:16:51] [INFO] ************************************************************
+[2025-12-04 17:16:51] [INFO] Creating Epochs
+[2025-12-04 17:16:51] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:17:22] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-04 17:17:23] [INFO] ************************************************************
+[2025-12-04 17:17:23] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:17:23] [INFO] ************************************************************
+[2025-12-04 17:17:23] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:17:23] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-04 17:17:24] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:17:24] [INFO] ************************************************************
+[2025-12-04 17:17:24] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:17:24] [INFO] ************************************************************
+[2025-12-04 17:17:24] [INFO] Creating Epochs
+[2025-12-04 17:17:24] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:17:24] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:17:24] [INFO] ************************************************************
+[2025-12-04 17:17:24] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:17:24] [INFO] ************************************************************
+[2025-12-04 17:17:24] [INFO] Creating Epochs
+[2025-12-04 17:17:24] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:18:02] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-04 17:18:03] [INFO] ************************************************************
+[2025-12-04 17:18:03] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:18:03] [INFO] ************************************************************
+[2025-12-04 17:18:03] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:18:03] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-04 17:18:04] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:18:04] [INFO] ************************************************************
+[2025-12-04 17:18:04] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:18:04] [INFO] ************************************************************
+[2025-12-04 17:18:04] [INFO] Creating Epochs
+[2025-12-04 17:18:04] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:18:04] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:18:04] [INFO] ************************************************************
+[2025-12-04 17:18:04] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:18:04] [INFO] ************************************************************
+[2025-12-04 17:18:04] [INFO] Creating Epochs
+[2025-12-04 17:18:04] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:19:30] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-04 17:19:30] [INFO] ************************************************************
+[2025-12-04 17:19:30] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:19:30] [INFO] ************************************************************
+[2025-12-04 17:19:30] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:19:30] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-04 17:19:31] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:19:31] [INFO] ************************************************************
+[2025-12-04 17:19:31] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:19:31] [INFO] ************************************************************
+[2025-12-04 17:19:31] [INFO] Creating Epochs
+[2025-12-04 17:19:31] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:19:32] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:19:32] [INFO] ************************************************************
+[2025-12-04 17:19:32] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:19:32] [INFO] ************************************************************
+[2025-12-04 17:19:32] [INFO] Creating Epochs
+[2025-12-04 17:19:32] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:21:18] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-04 17:21:19] [INFO] ************************************************************
+[2025-12-04 17:21:19] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:21:19] [INFO] ************************************************************
+[2025-12-04 17:21:19] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:21:19] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-04 17:21:20] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:21:20] [INFO] ************************************************************
+[2025-12-04 17:21:20] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:21:20] [INFO] ************************************************************
+[2025-12-04 17:21:20] [INFO] Creating Epochs
+[2025-12-04 17:21:20] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:21:20] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:21:20] [INFO] ************************************************************
+[2025-12-04 17:21:20] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:21:20] [INFO] ************************************************************
+[2025-12-04 17:21:20] [INFO] Creating Epochs
+[2025-12-04 17:21:20] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:23:57] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-04 17:23:57] [INFO] ************************************************************
+[2025-12-04 17:23:57] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:23:57] [INFO] ************************************************************
+[2025-12-04 17:23:57] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:23:57] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-04 17:23:59] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:23:59] [INFO] ************************************************************
+[2025-12-04 17:23:59] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:23:59] [INFO] ************************************************************
+[2025-12-04 17:23:59] [INFO] Creating Epochs
+[2025-12-04 17:23:59] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:23:59] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:23:59] [INFO] ************************************************************
+[2025-12-04 17:23:59] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:23:59] [INFO] ************************************************************
+[2025-12-04 17:23:59] [INFO] Creating Epochs
+[2025-12-04 17:23:59] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:28:00] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-04 17:28:00] [INFO] ************************************************************
+[2025-12-04 17:28:00] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:28:00] [INFO] ************************************************************
+[2025-12-04 17:28:00] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:28:00] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-04 17:28:02] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:28:02] [INFO] ************************************************************
+[2025-12-04 17:28:02] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:28:02] [INFO] ************************************************************
+[2025-12-04 17:28:02] [INFO] Creating Epochs
+[2025-12-04 17:28:02] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:28:02] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:28:02] [INFO] ************************************************************
+[2025-12-04 17:28:02] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:28:02] [INFO] ************************************************************
+[2025-12-04 17:28:02] [INFO] Creating Epochs
+[2025-12-04 17:28:02] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:29:25] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-04 17:29:25] [INFO] ************************************************************
+[2025-12-04 17:29:25] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:29:25] [INFO] ************************************************************
+[2025-12-04 17:29:25] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:29:25] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-04 17:29:27] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:29:27] [INFO] ************************************************************
+[2025-12-04 17:29:27] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:29:27] [INFO] ************************************************************
+[2025-12-04 17:29:27] [INFO] Creating Epochs
+[2025-12-04 17:29:27] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:29:27] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:29:27] [INFO] ************************************************************
+[2025-12-04 17:29:27] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:29:27] [INFO] ************************************************************
+[2025-12-04 17:29:27] [INFO] Creating Epochs
+[2025-12-04 17:29:27] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:29:30] [INFO] Saving results
+[2025-12-04 17:29:30] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:10] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-04 17:30:10] [INFO] ************************************************************
+[2025-12-04 17:30:10] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:10] [INFO] ************************************************************
+[2025-12-04 17:30:10] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:10] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-04 17:30:12] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:12] [INFO] ************************************************************
+[2025-12-04 17:30:12] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:12] [INFO] ************************************************************
+[2025-12-04 17:30:12] [INFO] Creating Epochs
+[2025-12-04 17:30:12] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:12] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:12] [INFO] ************************************************************
+[2025-12-04 17:30:12] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:12] [INFO] ************************************************************
+[2025-12-04 17:30:12] [INFO] Creating Epochs
+[2025-12-04 17:30:12] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:12] [INFO] Saving results
+[2025-12-04 17:30:12] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:31] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-04 17:30:32] [INFO] ************************************************************
+[2025-12-04 17:30:32] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:32] [INFO] ************************************************************
+[2025-12-04 17:30:32] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:32] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-04 17:30:33] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:33] [INFO] ************************************************************
+[2025-12-04 17:30:33] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:33] [INFO] ************************************************************
+[2025-12-04 17:30:33] [INFO] Creating Epochs
+[2025-12-04 17:30:33] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:33] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:33] [INFO] ************************************************************
+[2025-12-04 17:30:33] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:33] [INFO] ************************************************************
+[2025-12-04 17:30:33] [INFO] Creating Epochs
+[2025-12-04 17:30:33] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:34] [INFO] Saving results
+[2025-12-04 17:30:34] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:34] [INFO] ************************************************************
+[2025-12-04 17:30:34] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:34] [INFO] ************************************************************
+[2025-12-04 17:30:34] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:34] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-02_ses-01_processed.fif
+[2025-12-04 17:30:35] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:35] [INFO] ************************************************************
+[2025-12-04 17:30:35] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:35] [INFO] ************************************************************
+[2025-12-04 17:30:35] [INFO] Creating Epochs
+[2025-12-04 17:30:35] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:35] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:35] [INFO] ************************************************************
+[2025-12-04 17:30:35] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:35] [INFO] ************************************************************
+[2025-12-04 17:30:35] [INFO] Creating Epochs
+[2025-12-04 17:30:35] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:35] [INFO] Saving results
+[2025-12-04 17:30:35] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:35] [INFO] ************************************************************
+[2025-12-04 17:30:35] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:35] [INFO] ************************************************************
+[2025-12-04 17:30:35] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:35] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-03_ses-01_processed.fif
+[2025-12-04 17:30:37] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:37] [INFO] ************************************************************
+[2025-12-04 17:30:37] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:37] [INFO] ************************************************************
+[2025-12-04 17:30:37] [INFO] Creating Epochs
+[2025-12-04 17:30:37] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:37] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:37] [INFO] ************************************************************
+[2025-12-04 17:30:37] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:37] [INFO] ************************************************************
+[2025-12-04 17:30:37] [INFO] Creating Epochs
+[2025-12-04 17:30:37] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:37] [INFO] Saving results
+[2025-12-04 17:30:37] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:37] [INFO] ************************************************************
+[2025-12-04 17:30:37] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:37] [INFO] ************************************************************
+[2025-12-04 17:30:37] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:37] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-04_ses-01_processed.fif
+[2025-12-04 17:30:38] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:38] [INFO] ************************************************************
+[2025-12-04 17:30:38] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:38] [INFO] ************************************************************
+[2025-12-04 17:30:38] [INFO] Creating Epochs
+[2025-12-04 17:30:38] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:39] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:39] [INFO] ************************************************************
+[2025-12-04 17:30:39] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:39] [INFO] ************************************************************
+[2025-12-04 17:30:39] [INFO] Creating Epochs
+[2025-12-04 17:30:39] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:39] [INFO] Saving results
+[2025-12-04 17:30:39] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:39] [INFO] ************************************************************
+[2025-12-04 17:30:39] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:39] [INFO] ************************************************************
+[2025-12-04 17:30:39] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:39] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-04_ses-02_processed.fif
+[2025-12-04 17:30:40] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:40] [INFO] ************************************************************
+[2025-12-04 17:30:40] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:40] [INFO] ************************************************************
+[2025-12-04 17:30:40] [INFO] Creating Epochs
+[2025-12-04 17:30:40] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:40] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:40] [INFO] ************************************************************
+[2025-12-04 17:30:40] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:40] [INFO] ************************************************************
+[2025-12-04 17:30:40] [INFO] Creating Epochs
+[2025-12-04 17:30:40] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:40] [INFO] Saving results
+[2025-12-04 17:30:40] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:40] [INFO] ************************************************************
+[2025-12-04 17:30:40] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:40] [INFO] ************************************************************
+[2025-12-04 17:30:40] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:40] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-05_ses-01_processed.fif
+[2025-12-04 17:30:41] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:41] [INFO] ************************************************************
+[2025-12-04 17:30:41] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:41] [INFO] ************************************************************
+[2025-12-04 17:30:41] [INFO] Creating Epochs
+[2025-12-04 17:30:42] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:42] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:42] [INFO] ************************************************************
+[2025-12-04 17:30:42] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:42] [INFO] ************************************************************
+[2025-12-04 17:30:42] [INFO] Creating Epochs
+[2025-12-04 17:30:42] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:42] [INFO] Saving results
+[2025-12-04 17:30:42] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:42] [INFO] ************************************************************
+[2025-12-04 17:30:42] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:42] [INFO] ************************************************************
+[2025-12-04 17:30:42] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:42] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-05_ses-02_processed.fif
+[2025-12-04 17:30:43] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:43] [INFO] ************************************************************
+[2025-12-04 17:30:43] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:43] [INFO] ************************************************************
+[2025-12-04 17:30:43] [INFO] Creating Epochs
+[2025-12-04 17:30:43] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:43] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:43] [INFO] ************************************************************
+[2025-12-04 17:30:43] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:43] [INFO] ************************************************************
+[2025-12-04 17:30:43] [INFO] Creating Epochs
+[2025-12-04 17:30:43] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:44] [INFO] Saving results
+[2025-12-04 17:30:44] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:44] [INFO] ************************************************************
+[2025-12-04 17:30:44] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:44] [INFO] ************************************************************
+[2025-12-04 17:30:44] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:44] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-06_ses-01_processed.fif
+[2025-12-04 17:30:45] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:45] [INFO] ************************************************************
+[2025-12-04 17:30:45] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:45] [INFO] ************************************************************
+[2025-12-04 17:30:45] [INFO] Creating Epochs
+[2025-12-04 17:30:45] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:45] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:45] [INFO] ************************************************************
+[2025-12-04 17:30:45] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:45] [INFO] ************************************************************
+[2025-12-04 17:30:45] [INFO] Creating Epochs
+[2025-12-04 17:30:45] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:45] [INFO] Saving results
+[2025-12-04 17:30:45] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:45] [INFO] ************************************************************
+[2025-12-04 17:30:45] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:45] [INFO] ************************************************************
+[2025-12-04 17:30:45] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:45] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-06_ses-02_processed.fif
+[2025-12-04 17:30:46] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:46] [INFO] ************************************************************
+[2025-12-04 17:30:46] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:46] [INFO] ************************************************************
+[2025-12-04 17:30:46] [INFO] Creating Epochs
+[2025-12-04 17:30:46] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:46] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:46] [INFO] ************************************************************
+[2025-12-04 17:30:46] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:46] [INFO] ************************************************************
+[2025-12-04 17:30:47] [INFO] Creating Epochs
+[2025-12-04 17:30:47] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:47] [INFO] Saving results
+[2025-12-04 17:30:47] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:47] [INFO] ************************************************************
+[2025-12-04 17:30:47] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:47] [INFO] ************************************************************
+[2025-12-04 17:30:47] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:47] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-07_ses-01_processed.fif
+[2025-12-04 17:30:48] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:48] [INFO] ************************************************************
+[2025-12-04 17:30:48] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:48] [INFO] ************************************************************
+[2025-12-04 17:30:48] [INFO] Creating Epochs
+[2025-12-04 17:30:48] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:48] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:48] [INFO] ************************************************************
+[2025-12-04 17:30:48] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:48] [INFO] ************************************************************
+[2025-12-04 17:30:48] [INFO] Creating Epochs
+[2025-12-04 17:30:48] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:48] [INFO] Saving results
+[2025-12-04 17:30:48] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:49] [INFO] ************************************************************
+[2025-12-04 17:30:49] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:49] [INFO] ************************************************************
+[2025-12-04 17:30:49] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:49] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-08_ses-01_processed.fif
+[2025-12-04 17:30:50] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:50] [INFO] ************************************************************
+[2025-12-04 17:30:50] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:50] [INFO] ************************************************************
+[2025-12-04 17:30:50] [INFO] Creating Epochs
+[2025-12-04 17:30:50] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:50] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:50] [INFO] ************************************************************
+[2025-12-04 17:30:50] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:50] [INFO] ************************************************************
+[2025-12-04 17:30:50] [INFO] Creating Epochs
+[2025-12-04 17:30:50] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:50] [INFO] Saving results
+[2025-12-04 17:30:50] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:50] [INFO] ************************************************************
+[2025-12-04 17:30:50] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:50] [INFO] ************************************************************
+[2025-12-04 17:30:50] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:50] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-09_ses-01_processed.fif
+[2025-12-04 17:30:51] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:51] [INFO] ************************************************************
+[2025-12-04 17:30:51] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:51] [INFO] ************************************************************
+[2025-12-04 17:30:51] [INFO] Creating Epochs
+[2025-12-04 17:30:51] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:51] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:51] [INFO] ************************************************************
+[2025-12-04 17:30:51] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:51] [INFO] ************************************************************
+[2025-12-04 17:30:51] [INFO] Creating Epochs
+[2025-12-04 17:30:51] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:52] [INFO] Saving results
+[2025-12-04 17:30:52] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:52] [INFO] ************************************************************
+[2025-12-04 17:30:52] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:52] [INFO] ************************************************************
+[2025-12-04 17:30:52] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:52] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-09_ses-02_processed.fif
+[2025-12-04 17:30:53] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:53] [INFO] ************************************************************
+[2025-12-04 17:30:53] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:53] [INFO] ************************************************************
+[2025-12-04 17:30:53] [INFO] Creating Epochs
+[2025-12-04 17:30:53] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:53] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:53] [INFO] ************************************************************
+[2025-12-04 17:30:53] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:53] [INFO] ************************************************************
+[2025-12-04 17:30:53] [INFO] Creating Epochs
+[2025-12-04 17:30:53] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:53] [INFO] Saving results
+[2025-12-04 17:30:53] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:53] [INFO] ************************************************************
+[2025-12-04 17:30:53] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:53] [INFO] ************************************************************
+[2025-12-04 17:30:53] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:53] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-10_ses-01_processed.fif
+[2025-12-04 17:30:54] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:54] [INFO] ************************************************************
+[2025-12-04 17:30:54] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:54] [INFO] ************************************************************
+[2025-12-04 17:30:54] [INFO] Creating Epochs
+[2025-12-04 17:30:54] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:55] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:55] [INFO] ************************************************************
+[2025-12-04 17:30:55] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:55] [INFO] ************************************************************
+[2025-12-04 17:30:55] [INFO] Creating Epochs
+[2025-12-04 17:30:55] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:55] [INFO] Saving results
+[2025-12-04 17:30:55] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:55] [INFO] ************************************************************
+[2025-12-04 17:30:55] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:55] [INFO] ************************************************************
+[2025-12-04 17:30:55] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:55] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-11_ses-01_processed.fif
+[2025-12-04 17:30:56] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:56] [INFO] ************************************************************
+[2025-12-04 17:30:56] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:56] [INFO] ************************************************************
+[2025-12-04 17:30:56] [INFO] Creating Epochs
+[2025-12-04 17:30:56] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:56] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:56] [INFO] ************************************************************
+[2025-12-04 17:30:56] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:56] [INFO] ************************************************************
+[2025-12-04 17:30:56] [INFO] Creating Epochs
+[2025-12-04 17:30:56] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:56] [INFO] Saving results
+[2025-12-04 17:30:56] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:56] [INFO] ************************************************************
+[2025-12-04 17:30:56] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:56] [INFO] ************************************************************
+[2025-12-04 17:30:56] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:56] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-12_ses-01_processed.fif
+[2025-12-04 17:30:58] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:30:58] [INFO] ************************************************************
+[2025-12-04 17:30:58] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:58] [INFO] ************************************************************
+[2025-12-04 17:30:58] [INFO] Creating Epochs
+[2025-12-04 17:30:58] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:30:58] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:30:58] [INFO] ************************************************************
+[2025-12-04 17:30:58] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:30:58] [INFO] ************************************************************
+[2025-12-04 17:30:58] [INFO] Creating Epochs
+[2025-12-04 17:30:58] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:30:58] [INFO] Saving results
+[2025-12-04 17:30:58] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:30:58] [INFO] ************************************************************
+[2025-12-04 17:30:58] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:30:58] [INFO] ************************************************************
+[2025-12-04 17:30:58] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:30:58] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-12_ses-02_processed.fif
+[2025-12-04 17:31:00] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:31:00] [INFO] ************************************************************
+[2025-12-04 17:31:00] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:31:00] [INFO] ************************************************************
+[2025-12-04 17:31:00] [INFO] Creating Epochs
+[2025-12-04 17:31:00] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:31:00] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:31:00] [INFO] ************************************************************
+[2025-12-04 17:31:00] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:31:00] [INFO] ************************************************************
+[2025-12-04 17:31:00] [INFO] Creating Epochs
+[2025-12-04 17:31:00] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:31:00] [INFO] Saving results
+[2025-12-04 17:31:00] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:31:00] [INFO] ************************************************************
+[2025-12-04 17:31:00] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:31:00] [INFO] ************************************************************
+[2025-12-04 17:31:00] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:31:00] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-13_ses-01_processed.fif
+[2025-12-04 17:31:01] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:31:01] [INFO] ************************************************************
+[2025-12-04 17:31:01] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:31:01] [INFO] ************************************************************
+[2025-12-04 17:31:01] [INFO] Creating Epochs
+[2025-12-04 17:31:01] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:31:02] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:31:02] [INFO] ************************************************************
+[2025-12-04 17:31:02] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:31:02] [INFO] ************************************************************
+[2025-12-04 17:31:02] [INFO] Creating Epochs
+[2025-12-04 17:31:02] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:31:02] [INFO] Saving results
+[2025-12-04 17:31:02] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:31:02] [INFO] ************************************************************
+[2025-12-04 17:31:02] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:31:02] [INFO] ************************************************************
+[2025-12-04 17:31:02] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:31:02] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-13_ses-02_processed.fif
+[2025-12-04 17:31:03] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:31:03] [INFO] ************************************************************
+[2025-12-04 17:31:03] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:31:03] [INFO] ************************************************************
+[2025-12-04 17:31:03] [INFO] Creating Epochs
+[2025-12-04 17:31:03] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:31:03] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:31:03] [INFO] ************************************************************
+[2025-12-04 17:31:03] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:31:03] [INFO] ************************************************************
+[2025-12-04 17:31:03] [INFO] Creating Epochs
+[2025-12-04 17:31:03] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:31:04] [INFO] Saving results
+[2025-12-04 17:31:04] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:31:04] [INFO] ************************************************************
+[2025-12-04 17:31:04] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:31:04] [INFO] ************************************************************
+[2025-12-04 17:31:04] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:31:04] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-14_ses-01_processed.fif
+[2025-12-04 17:31:05] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:31:05] [INFO] ************************************************************
+[2025-12-04 17:31:05] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:31:05] [INFO] ************************************************************
+[2025-12-04 17:31:05] [INFO] Creating Epochs
+[2025-12-04 17:31:05] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:31:05] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:31:05] [INFO] ************************************************************
+[2025-12-04 17:31:05] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:31:05] [INFO] ************************************************************
+[2025-12-04 17:31:05] [INFO] Creating Epochs
+[2025-12-04 17:31:05] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:31:05] [INFO] Saving results
+[2025-12-04 17:31:05] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:31:05] [INFO] ************************************************************
+[2025-12-04 17:31:05] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:31:05] [INFO] ************************************************************
+[2025-12-04 17:31:05] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:31:05] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-15_ses-01_processed.fif
+[2025-12-04 17:31:07] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:31:07] [INFO] ************************************************************
+[2025-12-04 17:31:07] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:31:07] [INFO] ************************************************************
+[2025-12-04 17:31:07] [INFO] Creating Epochs
+[2025-12-04 17:31:07] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:31:07] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:31:07] [INFO] ************************************************************
+[2025-12-04 17:31:07] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:31:07] [INFO] ************************************************************
+[2025-12-04 17:31:07] [INFO] Creating Epochs
+[2025-12-04 17:31:07] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:31:07] [INFO] Saving results
+[2025-12-04 17:31:07] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100
+[2025-12-04 17:31:07] [INFO] ************************************************************
+[2025-12-04 17:31:07] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-04 17:31:07] [INFO] ************************************************************
+[2025-12-04 17:31:07] [INFO] Processed EEG file exists. Loading...
+[2025-12-04 17:31:07] [INFO] Loading processed EEG from BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-15_ses-02_processed.fif
+[2025-12-04 17:31:07] [INFO] Creating epochs for condition: Auditory
+[2025-12-04 17:31:07] [INFO] ************************************************************
+[2025-12-04 17:31:07] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:31:07] [INFO] ************************************************************
+[2025-12-04 17:31:07] [INFO] Creating Epochs
+[2025-12-04 17:31:07] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-04 17:31:07] [INFO] Creating epochs for condition: Non Auditory
+[2025-12-04 17:31:07] [INFO] ************************************************************
+[2025-12-04 17:31:07] [INFO] **********Initializing Epoch Builder**********
+[2025-12-04 17:31:07] [INFO] ************************************************************
+[2025-12-04 17:31:07] [INFO] Creating Epochs
+[2025-12-04 17:31:07] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-04 17:31:08] [INFO] Saving results
+[2025-12-04 17:31:08] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/N100

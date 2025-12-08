@@ -23,7 +23,7 @@ def plot_grand_erp_rest_visual(config, logger):
     
     output_dir = 'results/images/'
     os.makedirs(output_dir, exist_ok=True)
-    time_window = (0.08, 0.15)
+    time_window = (0.08, 0.12)
     
     visual = {
         "label": "Visual",
@@ -35,7 +35,7 @@ def plot_grand_erp_rest_visual(config, logger):
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
         "modality": "Pictures",
-        "time_window": time_window,
+        "time_window": (0.08, 0.12),
         "baseline": {"tmin": -0.1, "tmax": 0}
     }
     
@@ -50,7 +50,7 @@ def plot_grand_erp_rest_visual(config, logger):
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
         "modality": "Pictures",
-        "time_window": time_window,
+        "time_window": (0.38, 0.42), 
         "baseline": {"tmin": 0.3, "tmax": 0.4}
     }
 
@@ -65,15 +65,15 @@ def plot_grand_erp_rest_visual(config, logger):
         for ses in session_ids:
             print(sub, ses)
             pipeline = P100Pipeline(
-                        subject_id=sub,
-                        session_id=ses,
-                        cond_1=visual,
-                        cond_2=rest,
-                        channels = ['PO3', 'POz', 'PO4'], 
-                        logger=logger,
-                        config = config
+                subject_id=sub,
+                session_id=ses,
+                cond_1=visual,
+                cond_2=rest,
+                channels = ['PO3', 'POz', 'PO4'], 
+                logger=logger,
+                config = config
             )
-            key = f'sub-{sub}_ses-{ses}'
+            
             pipeline.run(plot=False)
             
             visual_epochs =  pipeline.cond_1_epochs.copy()
@@ -102,7 +102,7 @@ def plot_grand_erp_rest_visual(config, logger):
     plt.plot(time, mean_rest_uv, label='No Visual Change', color="#D55E00", linewidth=2.5, linestyle='--')
 
     # Vertical line at 0
-    plt.axvline(0, color='k', linestyle='--', linewidth=2.0, label='Stimulus Onset (0 s)')
+    plt.axvline(0, color='k', linestyle='--', linewidth=2.0, label='Visual Onset (0 s)')
 
     # Highlight 80-120 ms
     plt.axvspan(0.08, 0.12, color="#A9C7B1", alpha=0.2, label='Window (80-120 ms)')

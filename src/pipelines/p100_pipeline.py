@@ -1,4 +1,7 @@
 import os
+import json
+import numpy as np
+from unittest import result
 import pandas as pd
 from mne.epochs import Epochs
 from pathlib import Path
@@ -44,23 +47,24 @@ class P100Pipeline:
 
         cond_1_res, self.analyzer_1 = self._analyze_p100(self.cond_1_epochs, time_window=self.cond_1['time_window'])
         cond_2_res, self. analyzer_2 = self._analyze_p100(self.cond_2_epochs, time_window=self.cond_2['time_window'])
-        
+        self._save_results(cond_1_res, cond_2_res)
         if plot:
-            self._save_results(cond_1_res, cond_2_res)
             self._plot()
+        
 
     def _analyze_p100(self, epochs, time_window=None):
+        
         self.logger.info(f'time window {time_window}')
         analyzer = P100ComponentAnalyzer(
             epochs=epochs,
             logger=self.logger,
             channels=self.channels, 
         )
-        lat, peak, mean = analyzer.get_p100_peak(time_window=time_window)
-        return [lat, peak, mean], analyzer
+        peak, mean = analyzer.get_p100_peak(time_window=time_window)
+        return [peak, mean], analyzer
 
     def _get_epochs_condition(self, eeg, condition_cfg):
-        self._log(f"Creating epochs for condition: {condition_cfg['label']}")
+        self.logger.info(f"Creating epochs for condition: {condition_cfg['label']}")
         
         epocher = EEGEpochBuilder(
             eeg_data=eeg,
@@ -82,33 +86,24 @@ class P100Pipeline:
         return epochs
 
     def _save_results(self, res_1, res_2):
-        self._log('Saving results to CSV')
-
+        self.logger.info('Saving results')
+        
         results_dir = self.config['analysis']['results_dir']
         output_dir = Path(os.getcwd(), results_dir, 'P100')
         os.makedirs(output_dir, exist_ok=True)
 
         cond_1_label = self.cond_1["label"]
         cond_2_label = self.cond_2["label"]
-
-        results = {
-            "subject_id": self.subject_id,
-            "session_id": self.session_id,
-            "condition": [cond_1_label, cond_2_label],
-            "latency": [res_1[0], res_2[0]],
-            "peak": [res_1[1], res_2[1]],
-            "mean": [res_1[2], res_2[2]]
-        }
-
-        df = pd.DataFrame(results)
-        csv_path = os.path.join(
-            output_dir,
-            f"sub-{self.subject_id}_ses-{self.session_id}_p100_{cond_1_label}_{cond_2_label}.csv"
+        self.logger.info(f'Saving to {output_dir}')     
+        np.save(
+            Path(output_dir, f"sub-{self.subject_id}_ses-{self.session_id}_{cond_1_label}.npy"),
+            np.array(res_1)
         )
-
-        df.to_csv(csv_path, index=False)
-        self._log(f"Results saved to {csv_path}")
-        
+        np.save(
+            Path(output_dir, f"sub-{self.subject_id}_ses-{self.session_id}_{cond_2_label}.npy"), 
+            np.array(res_2)
+        )
+            
         
     def _plot(self):
         self.logger.info('Plotting P100')
@@ -125,14 +120,13 @@ class P100Pipeline:
         plotter.plot_evokeds()
         
 
-    def _log(self, message):
-        self.logger.info(message)
+    
 
 
 
 
 def run_p100_pipeline(config, logger):
-    
+    log_print(text='Running P100 for all', logger=logger)
     dataset_config = config['dataset']
     logger = create_logger('p100')
     visual = {
@@ -145,7 +139,7 @@ def run_p100_pipeline(config, logger):
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
         "modality": "Pictures",
-        "time_window": (0.08, 0.15),
+        "time_window": (0.08, 0.12),
         "baseline": {"tmin": -0.1, "tmax": 0}
     }
     
@@ -160,7 +154,7 @@ def run_p100_pipeline(config, logger):
         "experiment_mode": "Experiment",
         "trial_boundary": "Start",
         "modality": "Pictures",
-        "time_window": (0.38, 0.45), 
+        "time_window": (0.38, 0.42), 
         "baseline": {"tmin": 0.3, "tmax": 0.4}
     }
     logger.info('Setting up P100 Analysis Pipeline')
