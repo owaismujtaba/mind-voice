@@ -129,10 +129,11 @@ class BIDSDatasetReader:
 
         self.processed_eeg = self.raw_eeg.copy()
         self._apply_notch_filter()
-        if bandpass:
-            self._apply_bandpass_filter(l_freq, h_freq)
         if ica:
             self._apply_ica(self.config['preprocessing']['ICA_PARAMS'])
+        if bandpass:
+            self._apply_bandpass_filter(l_freq, h_freq)
+        
         
         self._save_processed(filepath)
     

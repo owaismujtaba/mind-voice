@@ -14,10 +14,10 @@ preprocessing:
     
 analysis:
     results_dir: 'results'
-    p100: False
+    p100: True
     n100: False
     decoding: False
-    morter: True
+    morter: False
     ica: False
     snr: False
 
