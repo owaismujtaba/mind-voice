@@ -1,0 +1,239 @@
+[2025-12-11 12:30:52] [INFO] ************************************************************
+[2025-12-11 12:30:52] [INFO] **********Running P100 for all**********
+[2025-12-11 12:30:52] [INFO] ************************************************************
+[2025-12-11 12:30:52] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-11 12:30:52] [INFO] Setting up P100 Analysis Pipeline
+[2025-12-11 12:30:52] [INFO] ************************************************************
+[2025-12-11 12:30:52] [INFO] ************************************************************
+[2025-12-11 12:30:52] [INFO] **********P100 Pipeline sub-01, ses-01**********
+[2025-12-11 12:30:52] [INFO] **********P100 Pipeline sub-01, ses-01**********
+[2025-12-11 12:30:52] [INFO] ************************************************************
+[2025-12-11 12:30:52] [INFO] ************************************************************
+[2025-12-11 12:30:52] [INFO] ************************************************************
+[2025-12-11 12:30:52] [INFO] ************************************************************
+[2025-12-11 12:30:52] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-11 12:30:52] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-11 12:30:52] [INFO] ************************************************************
+[2025-12-11 12:30:52] [INFO] ************************************************************
+[2025-12-11 12:30:52] [INFO] Preprocessing EEG
+[2025-12-11 12:30:52] [INFO] Preprocessing EEG
+[2025-12-11 12:30:52] [INFO] Loading raw EEG data
+[2025-12-11 12:30:52] [INFO] Loading raw EEG data
+[2025-12-11 12:31:00] [INFO] Data read sucessfully
+[2025-12-11 12:31:00] [INFO] Data read sucessfully
+[2025-12-11 12:31:00] [INFO] Setting channel types and montage
+[2025-12-11 12:31:00] [INFO] Setting channel types and montage
+[2025-12-11 12:31:00] [INFO] Setting EEG reference: ['FCz']
+[2025-12-11 12:31:00] [INFO] Setting EEG reference: ['FCz']
+[2025-12-11 12:31:01] [INFO] Interpolating bad channels
+[2025-12-11 12:31:01] [INFO] Interpolating bad channels
+[2025-12-11 12:32:23] [INFO] Bad channels saved to results/BadChannels/sub-01_ses-01_bads.json
+[2025-12-11 12:32:23] [INFO] Bad channels saved to results/BadChannels/sub-01_ses-01_bads.json
+[2025-12-11 12:32:23] [INFO] Bad channels: ['Fp1', 'AF3', 'AF4', 'F3']
+[2025-12-11 12:32:23] [INFO] Bad channels: ['Fp1', 'AF3', 'AF4', 'F3']
+[2025-12-11 12:32:24] [INFO] Applying notch filter
+[2025-12-11 12:32:24] [INFO] Applying notch filter
+[2025-12-11 12:32:29] [INFO] Notch filter completed
+[2025-12-11 12:32:29] [INFO] Notch filter completed
+[2025-12-11 12:32:29] [INFO] Applying ICA with params: {'n_components': 50, 'random_state': 97}
+[2025-12-11 12:32:29] [INFO] Applying ICA with params: {'n_components': 50, 'random_state': 97}
+[2025-12-11 12:35:06] [INFO] ICA completed
+[2025-12-11 12:35:06] [INFO] ICA completed
+[2025-12-11 12:35:06] [INFO] Applying bandpass filter: 0.1-40.0 Hz
+[2025-12-11 12:35:06] [INFO] Applying bandpass filter: 0.1-40.0 Hz
+[2025-12-11 12:35:12] [INFO] Bandpass filter completed
+[2025-12-11 12:35:12] [INFO] Bandpass filter completed
+[2025-12-11 12:35:14] [INFO] Processed EEG saved at BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-11 12:35:14] [INFO] Processed EEG saved at BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-01_ses-01_processed.fif
+[2025-12-11 12:35:14] [INFO] Creating epochs for condition: Visual
+[2025-12-11 12:35:14] [INFO] Creating epochs for condition: Visual
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] **********Initializing Epoch Builder**********
+[2025-12-11 12:35:14] [INFO] **********Initializing Epoch Builder**********
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] Creating Epochs
+[2025-12-11 12:35:14] [INFO] Creating Epochs
+[2025-12-11 12:35:14] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-11 12:35:14] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-11 12:35:14] [INFO] Creating epochs for condition: No Visual Change
+[2025-12-11 12:35:14] [INFO] Creating epochs for condition: No Visual Change
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] **********Initializing Epoch Builder**********
+[2025-12-11 12:35:14] [INFO] **********Initializing Epoch Builder**********
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] Creating Epochs
+[2025-12-11 12:35:14] [INFO] Creating Epochs
+[2025-12-11 12:35:14] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-11 12:35:14] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-11 12:35:14] [INFO] time window (0.08, 0.12)
+[2025-12-11 12:35:14] [INFO] time window (0.08, 0.12)
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-12-11 12:35:14] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] Caculating  Peak and Mean
+[2025-12-11 12:35:14] [INFO] Caculating  Peak and Mean
+[2025-12-11 12:35:14] [INFO] Peak Shape: (130,), Mean SHape: (130,)
+[2025-12-11 12:35:14] [INFO] Peak Shape: (130,), Mean SHape: (130,)
+[2025-12-11 12:35:14] [INFO] time window (0.38, 0.42)
+[2025-12-11 12:35:14] [INFO] time window (0.38, 0.42)
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-12-11 12:35:14] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] ************************************************************
+[2025-12-11 12:35:14] [INFO] Caculating  Peak and Mean
+[2025-12-11 12:35:14] [INFO] Caculating  Peak and Mean
+[2025-12-11 12:35:14] [INFO] Peak Shape: (130,), Mean SHape: (130,)
+[2025-12-11 12:35:14] [INFO] Peak Shape: (130,), Mean SHape: (130,)
+[2025-12-11 12:35:14] [INFO] Saving results
+[2025-12-11 12:35:14] [INFO] Saving results
+[2025-12-11 12:35:14] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-12-11 12:35:14] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-12-11 12:35:14] [INFO] Plotting P100
+[2025-12-11 12:35:14] [INFO] Plotting P100
+[2025-12-11 12:35:14] [INFO] Initializing Plotter
+[2025-12-11 12:35:14] [INFO] Initializing Plotter
+[2025-12-11 12:35:14] [INFO] Plotting Evoked
+[2025-12-11 12:35:14] [INFO] Plotting Evoked
+[2025-12-11 12:35:15] [INFO] ************************************************************
+[2025-12-11 12:35:15] [INFO] ************************************************************
+[2025-12-11 12:35:15] [INFO] **********P100 Pipeline sub-02, ses-01**********
+[2025-12-11 12:35:15] [INFO] **********P100 Pipeline sub-02, ses-01**********
+[2025-12-11 12:35:15] [INFO] ************************************************************
+[2025-12-11 12:35:15] [INFO] ************************************************************
+[2025-12-11 12:35:15] [INFO] ************************************************************
+[2025-12-11 12:35:15] [INFO] ************************************************************
+[2025-12-11 12:35:15] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-11 12:35:15] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-11 12:35:15] [INFO] ************************************************************
+[2025-12-11 12:35:15] [INFO] ************************************************************
+[2025-12-11 12:35:15] [INFO] Preprocessing EEG
+[2025-12-11 12:35:15] [INFO] Preprocessing EEG
+[2025-12-11 12:35:15] [INFO] Loading raw EEG data
+[2025-12-11 12:35:15] [INFO] Loading raw EEG data
+[2025-12-11 12:35:22] [INFO] Data read sucessfully
+[2025-12-11 12:35:22] [INFO] Data read sucessfully
+[2025-12-11 12:35:22] [INFO] Setting channel types and montage
+[2025-12-11 12:35:22] [INFO] Setting channel types and montage
+[2025-12-11 12:35:22] [INFO] Setting EEG reference: ['FCz']
+[2025-12-11 12:35:22] [INFO] Setting EEG reference: ['FCz']
+[2025-12-11 12:35:23] [INFO] Interpolating bad channels
+[2025-12-11 12:35:23] [INFO] Interpolating bad channels
+[2025-12-11 12:36:39] [INFO] Bad channels saved to results/BadChannels/sub-02_ses-01_bads.json
+[2025-12-11 12:36:39] [INFO] Bad channels saved to results/BadChannels/sub-02_ses-01_bads.json
+[2025-12-11 12:36:39] [INFO] Bad channels: ['AF3', 'FT7', 'F3', 'FT9']
+[2025-12-11 12:36:39] [INFO] Bad channels: ['AF3', 'FT7', 'F3', 'FT9']
+[2025-12-11 12:36:39] [INFO] Applying notch filter
+[2025-12-11 12:36:39] [INFO] Applying notch filter
+[2025-12-11 12:36:44] [INFO] Notch filter completed
+[2025-12-11 12:36:44] [INFO] Notch filter completed
+[2025-12-11 12:36:44] [INFO] Applying ICA with params: {'n_components': 50, 'random_state': 97}
+[2025-12-11 12:36:44] [INFO] Applying ICA with params: {'n_components': 50, 'random_state': 97}
+[2025-12-11 12:39:26] [INFO] ICA completed
+[2025-12-11 12:39:26] [INFO] ICA completed
+[2025-12-11 12:39:26] [INFO] Applying bandpass filter: 0.1-40.0 Hz
+[2025-12-11 12:39:26] [INFO] Applying bandpass filter: 0.1-40.0 Hz
+[2025-12-11 12:39:31] [INFO] Bandpass filter completed
+[2025-12-11 12:39:31] [INFO] Bandpass filter completed
+[2025-12-11 12:39:34] [INFO] Processed EEG saved at BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-02_ses-01_processed.fif
+[2025-12-11 12:39:34] [INFO] Processed EEG saved at BIDS/derivatives/low-0.1_high-40.0_ICA-True/sub-02_ses-01_processed.fif
+[2025-12-11 12:39:34] [INFO] Creating epochs for condition: Visual
+[2025-12-11 12:39:34] [INFO] Creating epochs for condition: Visual
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] **********Initializing Epoch Builder**********
+[2025-12-11 12:39:34] [INFO] **********Initializing Epoch Builder**********
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] Creating Epochs
+[2025-12-11 12:39:34] [INFO] Creating Epochs
+[2025-12-11 12:39:34] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-11 12:39:34] [INFO] Baseline {'tmin': -0.1, 'tmax': 0}
+[2025-12-11 12:39:34] [INFO] Creating epochs for condition: No Visual Change
+[2025-12-11 12:39:34] [INFO] Creating epochs for condition: No Visual Change
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] **********Initializing Epoch Builder**********
+[2025-12-11 12:39:34] [INFO] **********Initializing Epoch Builder**********
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] Creating Epochs
+[2025-12-11 12:39:34] [INFO] Creating Epochs
+[2025-12-11 12:39:34] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-11 12:39:34] [INFO] Baseline {'tmin': 0.3, 'tmax': 0.4}
+[2025-12-11 12:39:34] [INFO] time window (0.08, 0.12)
+[2025-12-11 12:39:34] [INFO] time window (0.08, 0.12)
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-12-11 12:39:34] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] Caculating  Peak and Mean
+[2025-12-11 12:39:34] [INFO] Caculating  Peak and Mean
+[2025-12-11 12:39:34] [INFO] Peak Shape: (130,), Mean SHape: (130,)
+[2025-12-11 12:39:34] [INFO] Peak Shape: (130,), Mean SHape: (130,)
+[2025-12-11 12:39:34] [INFO] time window (0.38, 0.42)
+[2025-12-11 12:39:34] [INFO] time window (0.38, 0.42)
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-12-11 12:39:34] [INFO] **********Initializing P100ComponentAnalyzer**********
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] Caculating  Peak and Mean
+[2025-12-11 12:39:34] [INFO] Caculating  Peak and Mean
+[2025-12-11 12:39:34] [INFO] Peak Shape: (130,), Mean SHape: (130,)
+[2025-12-11 12:39:34] [INFO] Peak Shape: (130,), Mean SHape: (130,)
+[2025-12-11 12:39:34] [INFO] Saving results
+[2025-12-11 12:39:34] [INFO] Saving results
+[2025-12-11 12:39:34] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-12-11 12:39:34] [INFO] Saving to /home/owaismujtaba/projects/mind-voice/results/P100
+[2025-12-11 12:39:34] [INFO] Plotting P100
+[2025-12-11 12:39:34] [INFO] Plotting P100
+[2025-12-11 12:39:34] [INFO] Initializing Plotter
+[2025-12-11 12:39:34] [INFO] Initializing Plotter
+[2025-12-11 12:39:34] [INFO] Plotting Evoked
+[2025-12-11 12:39:34] [INFO] Plotting Evoked
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] **********P100 Pipeline sub-03, ses-01**********
+[2025-12-11 12:39:34] [INFO] **********P100 Pipeline sub-03, ses-01**********
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-11 12:39:34] [INFO] **********Initializing BIDSDatasetReader**********
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] ************************************************************
+[2025-12-11 12:39:34] [INFO] Preprocessing EEG
+[2025-12-11 12:39:34] [INFO] Preprocessing EEG
+[2025-12-11 12:39:34] [INFO] Loading raw EEG data
+[2025-12-11 12:39:34] [INFO] Loading raw EEG data
+[2025-12-11 12:39:42] [INFO] Data read sucessfully
+[2025-12-11 12:39:42] [INFO] Data read sucessfully
+[2025-12-11 12:39:42] [INFO] Setting channel types and montage
+[2025-12-11 12:39:42] [INFO] Setting channel types and montage
+[2025-12-11 12:39:42] [INFO] Setting EEG reference: ['FCz']
+[2025-12-11 12:39:42] [INFO] Setting EEG reference: ['FCz']
+[2025-12-11 12:39:43] [INFO] Interpolating bad channels
+[2025-12-11 12:39:43] [INFO] Interpolating bad channels
+[2025-12-11 12:40:53] [INFO] Bad channels saved to results/BadChannels/sub-03_ses-01_bads.json
+[2025-12-11 12:40:53] [INFO] Bad channels saved to results/BadChannels/sub-03_ses-01_bads.json
+[2025-12-11 12:40:53] [INFO] Bad channels: []
+[2025-12-11 12:40:53] [INFO] Bad channels: []
+[2025-12-11 12:40:53] [INFO] Applying notch filter
+[2025-12-11 12:40:53] [INFO] Applying notch filter
+[2025-12-11 12:40:57] [INFO] Notch filter completed
+[2025-12-11 12:40:57] [INFO] Notch filter completed
+[2025-12-11 12:40:57] [INFO] Applying ICA with params: {'n_components': 50, 'random_state': 97}
+[2025-12-11 12:40:57] [INFO] Applying ICA with params: {'n_components': 50, 'random_state': 97}
