@@ -14,30 +14,22 @@ class MotorAnalysis:
         
         
     def bandpass_and_power(self, epochs):
-        sfreq = epochs.info['sfreq']
-        data = epochs.get_data()
+        epochs = epochs.copy().filter(
+            self.hf_band[0], self.hf_band[1], 
+            fir_design='firwin'
+        )
         
-        n_epochs, n_ch, n_times = data.shape
-        data_reshaped = data.reshape(n_epochs * n_ch, n_times)
-        filt = mne.filter.filter_data(
-            data_reshaped, sfreq=sfreq, l_freq=self.hf_band[0], 
-            h_freq=self.hf_band[1], verbose=False, method='fir'
-        )  
-        filt = filt.reshape(n_epochs, n_ch, n_times)
+        sfreq = epochs.info['sfreq']  # sampling frequency
+        end_sample = int((self.baseline[1] - epochs.tmin) * sfreq)
+
+        # Slice the epochs to remove baseline
+        epochs_data = epochs.get_data()  # shape: (n_epochs, n_channels, n_times)
+        epochs_data = epochs_data[:, :, end_sample:]
+                
+        power = epochs_data ** 2
+        aveged_power = power.mean(axis=(2))
         
-        analytic = hilbert(filt, axis=-1)
-        power = np.abs(analytic) ** 2
-        
-        return power
+        return aveged_power
         
         
-    def baseline_zscore(self, power, times):
-        bmin, bmax = self.baseline
-        bidx = np.where((times >= bmin) & (times <= bmax))[0]
-        if len(bidx) == 0:
-            raise ValueError("Baseline window matches no time points.")
-        baseline_mean = power[:, :, bidx].mean(axis=-1, keepdims=True)  # shape (n_epochs, n_ch, 1)
-        baseline_std  = power[:, :, bidx].std(axis=-1, keepdims=True)   # shape (n_epochs, n_ch, 1)
-        baseline_std[baseline_std == 0] = 1e-12
-        z = (power - baseline_mean) / baseline_std
-        return z
+    

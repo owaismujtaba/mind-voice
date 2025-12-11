@@ -17493,3 +17493,753 @@ max    41.657687  66.128996
 [2025-12-04 18:19:46] [INFO] Non-Auditory Peaks: n=3520, min=-6.7318, max=2.9937, mean=-1.5792, std=1.5124
 [2025-12-04 18:19:46] [INFO] Non-Auditory Means: n=3579, min=-3.6158, max=3.5773, mean=-0.0343, std=1.2619
 [2025-12-04 18:19:47] [INFO] Plot saved to results/images/peakMeanAmplitudeAudioNoAudio.pdf
+[2025-12-08 17:19:51] [INFO] Plotting accuracy plot
+[2025-12-08 17:19:52] [INFO]    subject_id  accuracy
+0          01  0.836601
+1          02  0.797386
+2          03  0.924837
+3          04  0.898693
+4          05  0.846405
+5          06  0.851307
+6          07  0.689542
+7          08  0.918301
+8          09  0.903595
+9          10  0.872549
+10         11  0.349673
+11         12  0.877451
+12         13  0.875817
+13         14  0.849673
+14         15  0.914433
+[2025-12-08 17:19:52] [INFO]         accuracy
+count  15.000000
+mean    0.827084
+std     0.144605
+min     0.349673
+25%     0.841503
+50%     0.872549
+75%     0.901144
+max     0.924837
+[2025-12-08 17:19:52] [INFO] Plotting confusion matrix
+[2025-12-08 17:19:52] [INFO] Confusion matrix plot saved to results/images/cm.png
+[2025-12-08 17:19:52] [INFO] Confusion matrix data:
+        Overt  Covert  Rest
+Overt    2088      68    38
+Covert    166    1868   161
+Rest      228     378  1589
+[2025-12-08 17:19:52] [INFO] Plotting metrics
+[2025-12-08 17:19:52] [INFO] Metrics plot saved to results/images/overt_covert_rest_metrics.pdf
+[2025-12-08 17:19:52] [INFO] Metrics summary per subject:
+   subject_id  precision    recall        f1
+0          01   0.833350  0.836601  0.833453
+1          02   0.807888  0.797386  0.788887
+2          03   0.927722  0.924837  0.924416
+3          04   0.899364  0.898693  0.898217
+4          05   0.848854  0.846405  0.844799
+5          06   0.853333  0.851307  0.849842
+6          07   0.691533  0.689542  0.688568
+7          08   0.923787  0.918301  0.918412
+8          09   0.906728  0.903595  0.902658
+9          10   0.884693  0.872549  0.868304
+10         11   0.446290  0.349673  0.199887
+11         12   0.884334  0.877451  0.876143
+12         13   0.881643  0.875817  0.874989
+13         14   0.855512  0.849673  0.849857
+14         15   0.917244  0.914433  0.913404
+[2025-12-08 17:19:52] [INFO] Class-wise precision:
+class_id
+0    0.885112
+1    0.775498
+2    0.896670
+Name: precision, dtype: float64
+[2025-12-08 17:19:52] [INFO] Class-wise recall:
+class_id
+0    0.952763
+1    0.853866
+2    0.726239
+Name: recall, dtype: float64
+[2025-12-08 17:19:52] [INFO] Class-wise F1 score:
+class_id
+0    0.910600
+1    0.811996
+2    0.785390
+Name: f1, dtype: float64
+[2025-12-08 17:19:52] [INFO] Class-wise precision standard deviation:
+class_id
+0    0.129467
+1    0.186739
+2    0.079902
+Name: precision, dtype: float64
+[2025-12-08 17:19:52] [INFO] Class-wise recall standard deviation:
+class_id
+0    0.041664
+1    0.202800
+2    0.172761
+Name: recall, dtype: float64
+[2025-12-08 17:19:52] [INFO] Class-wise F1 score standard deviation:
+class_id
+0    0.097097
+1    0.192528
+2    0.171942
+Name: f1, dtype: float64
+[2025-12-08 17:24:13] [INFO] Plotting accuracy plot
+[2025-12-08 17:24:13] [INFO]    subject_id  accuracy
+0          01  0.836601
+1          02  0.797386
+2          03  0.924837
+3          04  0.898693
+4          05  0.846405
+5          06  0.851307
+6          07  0.689542
+7          08  0.918301
+8          09  0.903595
+9          10  0.872549
+10         11  0.349673
+11         12  0.877451
+12         13  0.875817
+13         14  0.849673
+14         15  0.914433
+[2025-12-08 17:24:13] [INFO]         accuracy
+count  15.000000
+mean    0.827084
+std     0.144605
+min     0.349673
+25%     0.841503
+50%     0.872549
+75%     0.901144
+max     0.924837
+[2025-12-08 17:24:13] [INFO] Plotting confusion matrix
+[2025-12-08 17:24:14] [INFO] Confusion matrix plot saved to results/images/cm.png
+[2025-12-08 17:24:14] [INFO] Confusion matrix data:
+        Overt  Covert  Rest
+Overt    2088      68    38
+Covert    166    1868   161
+Rest      228     378  1589
+[2025-12-08 17:24:14] [INFO] Plotting metrics
+[2025-12-08 17:24:14] [INFO] Metrics plot saved to results/images/overt_covert_rest_metrics.pdf
+[2025-12-08 17:24:14] [INFO] Metrics summary per subject:
+   subject_id  precision    recall        f1
+0          01   0.833350  0.836601  0.833453
+1          02   0.807888  0.797386  0.788887
+2          03   0.927722  0.924837  0.924416
+3          04   0.899364  0.898693  0.898217
+4          05   0.848854  0.846405  0.844799
+5          06   0.853333  0.851307  0.849842
+6          07   0.691533  0.689542  0.688568
+7          08   0.923787  0.918301  0.918412
+8          09   0.906728  0.903595  0.902658
+9          10   0.884693  0.872549  0.868304
+10         11   0.446290  0.349673  0.199887
+11         12   0.884334  0.877451  0.876143
+12         13   0.881643  0.875817  0.874989
+13         14   0.855512  0.849673  0.849857
+14         15   0.917244  0.914433  0.913404
+[2025-12-08 17:24:14] [INFO] Class-wise precision:
+class_id
+0    0.885112
+1    0.775498
+2    0.896670
+Name: precision, dtype: float64
+[2025-12-08 17:24:14] [INFO] Class-wise recall:
+class_id
+0    0.952763
+1    0.853866
+2    0.726239
+Name: recall, dtype: float64
+[2025-12-08 17:24:14] [INFO] Class-wise F1 score:
+class_id
+0    0.910600
+1    0.811996
+2    0.785390
+Name: f1, dtype: float64
+[2025-12-08 17:24:14] [INFO] Class-wise precision standard deviation:
+class_id
+0    0.129467
+1    0.186739
+2    0.079902
+Name: precision, dtype: float64
+[2025-12-08 17:24:14] [INFO] Class-wise recall standard deviation:
+class_id
+0    0.041664
+1    0.202800
+2    0.172761
+Name: recall, dtype: float64
+[2025-12-08 17:24:14] [INFO] Class-wise F1 score standard deviation:
+class_id
+0    0.097097
+1    0.192528
+2    0.171942
+Name: f1, dtype: float64
+[2025-12-08 17:25:11] [INFO] Plotting accuracy plot
+[2025-12-08 17:25:11] [INFO]    subject_id  accuracy
+0          01  0.836601
+1          02  0.797386
+2          03  0.924837
+3          04  0.898693
+4          05  0.846405
+5          06  0.851307
+6          07  0.689542
+7          08  0.918301
+8          09  0.903595
+9          10  0.872549
+10         11  0.349673
+11         12  0.877451
+12         13  0.875817
+13         14  0.849673
+14         15  0.914433
+[2025-12-08 17:25:11] [INFO]         accuracy
+count  15.000000
+mean    0.827084
+std     0.144605
+min     0.349673
+25%     0.841503
+50%     0.872549
+75%     0.901144
+max     0.924837
+[2025-12-08 17:25:11] [INFO] Plotting confusion matrix
+[2025-12-08 17:25:12] [INFO] Confusion matrix plot saved to results/images/cm.png
+[2025-12-08 17:25:12] [INFO] Confusion matrix data:
+        Overt  Covert  Rest
+Overt    2088      68    38
+Covert    166    1868   161
+Rest      228     378  1589
+[2025-12-08 17:25:12] [INFO] Plotting metrics
+[2025-12-08 17:25:12] [INFO] Metrics plot saved to results/images/overt_covert_rest_metrics.pdf
+[2025-12-08 17:25:12] [INFO] Metrics summary per subject:
+   subject_id  precision    recall        f1
+0          01   0.833350  0.836601  0.833453
+1          02   0.807888  0.797386  0.788887
+2          03   0.927722  0.924837  0.924416
+3          04   0.899364  0.898693  0.898217
+4          05   0.848854  0.846405  0.844799
+5          06   0.853333  0.851307  0.849842
+6          07   0.691533  0.689542  0.688568
+7          08   0.923787  0.918301  0.918412
+8          09   0.906728  0.903595  0.902658
+9          10   0.884693  0.872549  0.868304
+10         11   0.446290  0.349673  0.199887
+11         12   0.884334  0.877451  0.876143
+12         13   0.881643  0.875817  0.874989
+13         14   0.855512  0.849673  0.849857
+14         15   0.917244  0.914433  0.913404
+[2025-12-08 17:25:12] [INFO] Class-wise precision:
+class_id
+0    0.885112
+1    0.775498
+2    0.896670
+Name: precision, dtype: float64
+[2025-12-08 17:25:12] [INFO] Class-wise recall:
+class_id
+0    0.952763
+1    0.853866
+2    0.726239
+Name: recall, dtype: float64
+[2025-12-08 17:25:12] [INFO] Class-wise F1 score:
+class_id
+0    0.910600
+1    0.811996
+2    0.785390
+Name: f1, dtype: float64
+[2025-12-08 17:25:12] [INFO] Class-wise precision standard deviation:
+class_id
+0    0.129467
+1    0.186739
+2    0.079902
+Name: precision, dtype: float64
+[2025-12-08 17:25:12] [INFO] Class-wise recall standard deviation:
+class_id
+0    0.041664
+1    0.202800
+2    0.172761
+Name: recall, dtype: float64
+[2025-12-08 17:25:12] [INFO] Class-wise F1 score standard deviation:
+class_id
+0    0.097097
+1    0.192528
+2    0.171942
+Name: f1, dtype: float64
+[2025-12-08 17:31:36] [INFO] Plotting accuracy plot
+[2025-12-08 17:31:36] [INFO]    subject_id  accuracy
+0          01  0.836601
+1          02  0.797386
+2          03  0.924837
+3          04  0.898693
+4          05  0.846405
+5          06  0.851307
+6          07  0.689542
+7          08  0.918301
+8          09  0.903595
+9          10  0.872549
+10         11  0.349673
+11         12  0.877451
+12         13  0.875817
+13         14  0.849673
+14         15  0.914433
+[2025-12-08 17:31:36] [INFO]         accuracy
+count  15.000000
+mean    0.827084
+std     0.144605
+min     0.349673
+25%     0.841503
+50%     0.872549
+75%     0.901144
+max     0.924837
+[2025-12-08 17:31:36] [INFO] Plotting confusion matrix
+[2025-12-08 17:31:36] [INFO] Confusion matrix plot saved to results/images/cm.pdf
+[2025-12-08 17:31:36] [INFO] Confusion matrix data:
+        Overt  Covert  Rest
+Overt    2088      68    38
+Covert    166    1868   161
+Rest      228     378  1589
+[2025-12-08 17:31:36] [INFO] Plotting metrics
+[2025-12-08 17:31:36] [INFO] Metrics plot saved to results/images/overt_covert_rest_metrics.pdf
+[2025-12-08 17:31:36] [INFO] Metrics summary per subject:
+   subject_id  precision    recall        f1
+0          01   0.833350  0.836601  0.833453
+1          02   0.807888  0.797386  0.788887
+2          03   0.927722  0.924837  0.924416
+3          04   0.899364  0.898693  0.898217
+4          05   0.848854  0.846405  0.844799
+5          06   0.853333  0.851307  0.849842
+6          07   0.691533  0.689542  0.688568
+7          08   0.923787  0.918301  0.918412
+8          09   0.906728  0.903595  0.902658
+9          10   0.884693  0.872549  0.868304
+10         11   0.446290  0.349673  0.199887
+11         12   0.884334  0.877451  0.876143
+12         13   0.881643  0.875817  0.874989
+13         14   0.855512  0.849673  0.849857
+14         15   0.917244  0.914433  0.913404
+[2025-12-08 17:31:36] [INFO] Class-wise precision:
+class_id
+0    0.885112
+1    0.775498
+2    0.896670
+Name: precision, dtype: float64
+[2025-12-08 17:31:36] [INFO] Class-wise recall:
+class_id
+0    0.952763
+1    0.853866
+2    0.726239
+Name: recall, dtype: float64
+[2025-12-08 17:31:36] [INFO] Class-wise F1 score:
+class_id
+0    0.910600
+1    0.811996
+2    0.785390
+Name: f1, dtype: float64
+[2025-12-08 17:31:36] [INFO] Class-wise precision standard deviation:
+class_id
+0    0.129467
+1    0.186739
+2    0.079902
+Name: precision, dtype: float64
+[2025-12-08 17:31:36] [INFO] Class-wise recall standard deviation:
+class_id
+0    0.041664
+1    0.202800
+2    0.172761
+Name: recall, dtype: float64
+[2025-12-08 17:31:36] [INFO] Class-wise F1 score standard deviation:
+class_id
+0    0.097097
+1    0.192528
+2    0.171942
+Name: f1, dtype: float64
+[2025-12-09 12:06:35] [INFO] Plotting accuracy plot
+[2025-12-09 12:06:35] [INFO]    subject_id  accuracy
+0          01  0.836601
+1          02  0.797386
+2          03  0.924837
+3          04  0.898693
+4          05  0.846405
+5          06  0.851307
+6          07  0.689542
+7          08  0.918301
+8          09  0.903595
+9          10  0.872549
+10         11  0.349673
+11         12  0.877451
+12         13  0.875817
+13         14  0.849673
+14         15  0.914433
+[2025-12-09 12:06:35] [INFO]         accuracy
+count  15.000000
+mean    0.827084
+std     0.144605
+min     0.349673
+25%     0.841503
+50%     0.872549
+75%     0.901144
+max     0.924837
+[2025-12-09 12:06:35] [INFO] Plotting confusion matrix
+[2025-12-09 12:06:35] [INFO] Confusion matrix plot saved to results/images/cm.pdf
+[2025-12-09 12:06:35] [INFO] Confusion matrix data:
+        Overt  Covert  Rest
+Overt    2088      68    38
+Covert    166    1868   161
+Rest      228     378  1589
+[2025-12-09 12:06:35] [INFO] Plotting metrics
+[2025-12-09 12:06:36] [INFO] Metrics plot saved to results/images/overt_covert_rest_metrics.pdf
+[2025-12-09 12:06:36] [INFO] Metrics summary per subject:
+   subject_id  precision    recall        f1
+0          01   0.833350  0.836601  0.833453
+1          02   0.807888  0.797386  0.788887
+2          03   0.927722  0.924837  0.924416
+3          04   0.899364  0.898693  0.898217
+4          05   0.848854  0.846405  0.844799
+5          06   0.853333  0.851307  0.849842
+6          07   0.691533  0.689542  0.688568
+7          08   0.923787  0.918301  0.918412
+8          09   0.906728  0.903595  0.902658
+9          10   0.884693  0.872549  0.868304
+10         11   0.446290  0.349673  0.199887
+11         12   0.884334  0.877451  0.876143
+12         13   0.881643  0.875817  0.874989
+13         14   0.855512  0.849673  0.849857
+14         15   0.917244  0.914433  0.913404
+[2025-12-09 12:06:36] [INFO] Class-wise precision:
+class_id
+0    0.885112
+1    0.775498
+2    0.896670
+Name: precision, dtype: float64
+[2025-12-09 12:06:36] [INFO] Class-wise recall:
+class_id
+0    0.952763
+1    0.853866
+2    0.726239
+Name: recall, dtype: float64
+[2025-12-09 12:06:36] [INFO] Class-wise F1 score:
+class_id
+0    0.910600
+1    0.811996
+2    0.785390
+Name: f1, dtype: float64
+[2025-12-09 12:06:36] [INFO] Class-wise precision standard deviation:
+class_id
+0    0.129467
+1    0.186739
+2    0.079902
+Name: precision, dtype: float64
+[2025-12-09 12:06:36] [INFO] Class-wise recall standard deviation:
+class_id
+0    0.041664
+1    0.202800
+2    0.172761
+Name: recall, dtype: float64
+[2025-12-09 12:06:36] [INFO] Class-wise F1 score standard deviation:
+class_id
+0    0.097097
+1    0.192528
+2    0.171942
+Name: f1, dtype: float64
+[2025-12-09 12:08:14] [INFO] Plotting accuracy plot
+[2025-12-09 12:08:15] [INFO]    subject_id  accuracy
+0          01  0.836601
+1          02  0.797386
+2          03  0.924837
+3          04  0.898693
+4          05  0.846405
+5          06  0.851307
+6          07  0.689542
+7          08  0.918301
+8          09  0.903595
+9          10  0.872549
+10         11  0.349673
+11         12  0.877451
+12         13  0.875817
+13         14  0.849673
+14         15  0.914433
+[2025-12-09 12:08:15] [INFO]         accuracy
+count  15.000000
+mean    0.827084
+std     0.144605
+min     0.349673
+25%     0.841503
+50%     0.872549
+75%     0.901144
+max     0.924837
+[2025-12-09 12:08:15] [INFO] Plotting confusion matrix
+[2025-12-09 12:08:15] [INFO] Confusion matrix plot saved to results/images/cm.pdf
+[2025-12-09 12:08:15] [INFO] Confusion matrix data:
+        Overt  Covert  Rest
+Overt    2088      68    38
+Covert    166    1868   161
+Rest      228     378  1589
+[2025-12-09 12:08:15] [INFO] Plotting metrics
+[2025-12-09 12:08:15] [INFO] Metrics plot saved to results/images/overt_covert_rest_metrics.pdf
+[2025-12-09 12:08:15] [INFO] Metrics summary per subject:
+   subject_id  precision    recall        f1
+0          01   0.833350  0.836601  0.833453
+1          02   0.807888  0.797386  0.788887
+2          03   0.927722  0.924837  0.924416
+3          04   0.899364  0.898693  0.898217
+4          05   0.848854  0.846405  0.844799
+5          06   0.853333  0.851307  0.849842
+6          07   0.691533  0.689542  0.688568
+7          08   0.923787  0.918301  0.918412
+8          09   0.906728  0.903595  0.902658
+9          10   0.884693  0.872549  0.868304
+10         11   0.446290  0.349673  0.199887
+11         12   0.884334  0.877451  0.876143
+12         13   0.881643  0.875817  0.874989
+13         14   0.855512  0.849673  0.849857
+14         15   0.917244  0.914433  0.913404
+[2025-12-09 12:08:15] [INFO] Class-wise precision:
+class_id
+0    0.885112
+1    0.775498
+2    0.896670
+Name: precision, dtype: float64
+[2025-12-09 12:08:15] [INFO] Class-wise recall:
+class_id
+0    0.952763
+1    0.853866
+2    0.726239
+Name: recall, dtype: float64
+[2025-12-09 12:08:15] [INFO] Class-wise F1 score:
+class_id
+0    0.910600
+1    0.811996
+2    0.785390
+Name: f1, dtype: float64
+[2025-12-09 12:08:15] [INFO] Class-wise precision standard deviation:
+class_id
+0    0.129467
+1    0.186739
+2    0.079902
+Name: precision, dtype: float64
+[2025-12-09 12:08:15] [INFO] Class-wise recall standard deviation:
+class_id
+0    0.041664
+1    0.202800
+2    0.172761
+Name: recall, dtype: float64
+[2025-12-09 12:08:15] [INFO] Class-wise F1 score standard deviation:
+class_id
+0    0.097097
+1    0.192528
+2    0.171942
+Name: f1, dtype: float64
+[2025-12-09 12:49:55] [INFO] Plotting accuracy plot
+[2025-12-09 12:53:34] [INFO] Plotting accuracy plot
+[2025-12-09 12:53:34] [INFO]    subject_id  accuracy
+0          01  0.836601
+1          02  0.797386
+2          03  0.924837
+3          04  0.898693
+4          05  0.846405
+5          06  0.851307
+6          07  0.689542
+7          08  0.918301
+8          09  0.903595
+9          10  0.872549
+10         11  0.349673
+11         12  0.877451
+12         13  0.875817
+13         14  0.849673
+14         15  0.914433
+[2025-12-09 12:53:34] [INFO]         accuracy
+count  15.000000
+mean    0.827084
+std     0.144605
+min     0.349673
+25%     0.841503
+50%     0.872549
+75%     0.901144
+max     0.924837
+[2025-12-09 12:53:34] [INFO] Plotting confusion matrix
+[2025-12-09 12:53:34] [INFO] Confusion matrix plot saved to results/images/cm.pdf
+[2025-12-09 12:53:34] [INFO] Confusion matrix data:
+        Overt  Covert  Rest
+Overt    2088      68    38
+Covert    166    1868   161
+Rest      228     378  1589
+[2025-12-09 12:53:34] [INFO] Plotting metrics
+[2025-12-09 12:53:34] [INFO] Metrics plot saved to results/images/overt_covert_rest_metrics.pdf
+[2025-12-09 12:53:34] [INFO] Metrics summary per subject:
+   subject_id  precision    recall        f1
+0          01   0.833350  0.836601  0.833453
+1          02   0.807888  0.797386  0.788887
+2          03   0.927722  0.924837  0.924416
+3          04   0.899364  0.898693  0.898217
+4          05   0.848854  0.846405  0.844799
+5          06   0.853333  0.851307  0.849842
+6          07   0.691533  0.689542  0.688568
+7          08   0.923787  0.918301  0.918412
+8          09   0.906728  0.903595  0.902658
+9          10   0.884693  0.872549  0.868304
+10         11   0.446290  0.349673  0.199887
+11         12   0.884334  0.877451  0.876143
+12         13   0.881643  0.875817  0.874989
+13         14   0.855512  0.849673  0.849857
+14         15   0.917244  0.914433  0.913404
+[2025-12-09 12:53:34] [INFO] Class-wise precision:
+class_id
+0    0.885112
+1    0.775498
+2    0.896670
+Name: precision, dtype: float64
+[2025-12-09 12:53:34] [INFO] Class-wise recall:
+class_id
+0    0.952763
+1    0.853866
+2    0.726239
+Name: recall, dtype: float64
+[2025-12-09 12:53:34] [INFO] Class-wise F1 score:
+class_id
+0    0.910600
+1    0.811996
+2    0.785390
+Name: f1, dtype: float64
+[2025-12-09 12:53:34] [INFO] Class-wise precision standard deviation:
+class_id
+0    0.129467
+1    0.186739
+2    0.079902
+Name: precision, dtype: float64
+[2025-12-09 12:53:34] [INFO] Class-wise recall standard deviation:
+class_id
+0    0.041664
+1    0.202800
+2    0.172761
+Name: recall, dtype: float64
+[2025-12-09 12:53:34] [INFO] Class-wise F1 score standard deviation:
+class_id
+0    0.097097
+1    0.192528
+2    0.171942
+Name: f1, dtype: float64
+[2025-12-09 13:18:17] [INFO] Plotting accuracy plot
+[2025-12-09 13:18:18] [INFO]    subject_id  accuracy
+0          01  0.836601
+1          02  0.797386
+2          03  0.924837
+3          04  0.898693
+4          05  0.846405
+5          06  0.851307
+6          07  0.689542
+7          08  0.918301
+8          09  0.903595
+9          10  0.872549
+10         11  0.349673
+11         12  0.877451
+12         13  0.875817
+13         14  0.849673
+14         15  0.914433
+[2025-12-09 13:18:18] [INFO]         accuracy
+count  15.000000
+mean    0.827084
+std     0.144605
+min     0.349673
+25%     0.841503
+50%     0.872549
+75%     0.901144
+max     0.924837
+[2025-12-09 13:18:18] [INFO] Plotting confusion matrix
+[2025-12-09 13:18:56] [INFO] Plotting accuracy plot
+[2025-12-09 13:18:57] [INFO]    subject_id  accuracy
+0          01  0.836601
+1          02  0.797386
+2          03  0.924837
+3          04  0.898693
+4          05  0.846405
+5          06  0.851307
+6          07  0.689542
+7          08  0.918301
+8          09  0.903595
+9          10  0.872549
+10         11  0.349673
+11         12  0.877451
+12         13  0.875817
+13         14  0.849673
+14         15  0.914433
+[2025-12-09 13:18:57] [INFO]         accuracy
+count  15.000000
+mean    0.827084
+std     0.144605
+min     0.349673
+25%     0.841503
+50%     0.872549
+75%     0.901144
+max     0.924837
+[2025-12-09 13:18:57] [INFO] Plotting confusion matrix
+[2025-12-09 13:20:29] [INFO] Plotting confusion matrix
+[2025-12-09 13:21:24] [INFO] Plotting confusion matrix
+[2025-12-09 13:21:51] [INFO] Plotting confusion matrix
+[2025-12-09 13:22:20] [INFO] Plotting confusion matrix
+[2025-12-09 13:29:18] [INFO] Plotting confusion matrix
+[2025-12-09 13:31:51] [INFO] Plotting confusion matrix
+[2025-12-09 13:34:32] [INFO] Plotting confusion matrix
+[2025-12-09 13:35:08] [INFO] Plotting confusion matrix
+[2025-12-09 13:35:33] [INFO] Plotting confusion matrix
+[2025-12-09 13:36:29] [INFO] Plotting confusion matrix
+[2025-12-09 13:40:58] [INFO] Plotting confusion matrix
+[2025-12-09 13:40:58] [INFO] Confusion matrix plot saved to results/images/cm.pdf
+[2025-12-09 13:40:58] [INFO] Confusion matrix data:
+        Overt  Covert  Rest
+Overt    2088      68    38
+Covert    166    1868   161
+Rest      228     378  1589
+[2025-12-09 13:40:58] [INFO] Class-wise precision:
+class_id
+0    0.885112
+1    0.775498
+2    0.896670
+Name: precision, dtype: float64
+[2025-12-09 13:40:58] [INFO] Class-wise recall:
+class_id
+0    0.952763
+1    0.853866
+2    0.726239
+Name: recall, dtype: float64
+[2025-12-09 13:40:58] [INFO] Class-wise F1 score:
+class_id
+0    0.910600
+1    0.811996
+2    0.785390
+Name: f1, dtype: float64
+[2025-12-09 13:40:58] [INFO] Class-wise precision standard deviation:
+class_id
+0    0.129467
+1    0.186739
+2    0.079902
+Name: precision, dtype: float64
+[2025-12-09 13:40:58] [INFO] Class-wise recall standard deviation:
+class_id
+0    0.041664
+1    0.202800
+2    0.172761
+Name: recall, dtype: float64
+[2025-12-09 13:40:58] [INFO] Class-wise F1 score standard deviation:
+class_id
+0    0.097097
+1    0.192528
+2    0.171942
+Name: f1, dtype: float64
+[2025-12-10 11:16:19] [INFO] Plotting accuracy plot
+[2025-12-10 11:16:19] [INFO]    subject_id  accuracy
+0          01  0.836601
+1          02  0.797386
+2          03  0.924837
+3          04  0.898693
+4          05  0.846405
+5          06  0.851307
+6          07  0.689542
+7          08  0.918301
+8          09  0.903595
+9          10  0.872549
+10         11  0.349673
+11         12  0.877451
+12         13  0.875817
+13         14  0.849673
+14         15  0.914433
+[2025-12-10 11:16:19] [INFO]         accuracy
+count  15.000000
+mean    0.827084
+std     0.144605
+min     0.349673
+25%     0.841503
+50%     0.872549
+75%     0.901144
+max     0.924837

@@ -17,7 +17,7 @@ analysis:
     p100: False
     n100: False
     decoding: False
-    morter: False
+    morter: True
     ica: False
     snr: False
 
@@ -31,10 +31,10 @@ anonymize:
 
 plotting:
     grand_erp_visual_real: False
-    peak_mean_amplitude: True
+    peak_mean_amplitude: False
     
     grand_erp_audio_no_audio: False
-    peak_mean_amplitude_audio: True
+    peak_mean_amplitude_audio: False
     
     
     accuracy_plots: False

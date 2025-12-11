@@ -80,7 +80,8 @@ class N100Pipeline:
         
         res_1 = self.extract_n100_evoked(cond1_epochs, self.cond_1['time_window'])
         res_2 = self.extract_n100_evoked(cond2_epochs, self.cond_2['time_window'])
-        
+        self.cond1_epochs = cond1_epochs
+        self.cond2_epochs = cond2_epochs
         self._save_results(res_1=res_1, res_2=res_2)
         
     def _log(self, message):
