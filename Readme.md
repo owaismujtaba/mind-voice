@@ -104,30 +104,30 @@ mind-voice/
 ├── src/
 │   ├── analysis/                   # Contains core analysis modules
 │   │   ├── motor.py         # processing motor-related neural data, automating epoch creation, time-frequency analysis (TFR), and ROI power extraction across overt, covert, and rest conditions.
-│   │   ├── p100.py       # Analyzes P100 components (latency, amplitude)
-│   │   ├── p100.py       # Analyzes P100 components (latency, amplitude)
-│   │   └── snr.py            # Extracts and processes epochs for visual/rest conditions
+│   │   ├── p100.py           # Analyzes P100 components (peak amplitude, mean apmlitude)
+│   │   ├── n100.py           # Analyzes N100 components (peak amplitude, mean apmlitude)
+│   │   └── snr.py            # SNR for visual conditions
 │   ├── anonymization/              # Modules for voice anonymization
 │   │   └── voice_snonymizer.py     # Pipeline for pitch and formant shifting of audio
 │   ├── data/                    # Data handling, loading, and preprocessing
 │   │   ├── bids.py                 # Functions for creating BIDS datasets from XDF
-│   │   ├── data_reader.py          # Reads raw XDF or BIDS EEG data, handles preprocessing
-│   │   └── epochs.py    # Builds MNE epochs based on event annotations and filters
+│   │   ├── data_reader.py          # Reads  BIDS EEG data, handles preprocessing
+│   │   └── epochs.py              # Builds MNE epochs based on event annotations and filters
 │   ├── decoding/                   # Modules for EEG decoding/classification
 │   │   ├── data_utils.py           # Specific data loader for overt/covert/rest classification
-│   │   ├── decoding.py             # Specific data loader for overt/covert/rest classification
-│   │   └── model.py                # CNN model for overt/covert/rest classification
+│   │   ├── decoding.py             # Decoding module
+│   │   └── model.py                # EEGNet Based model
 │   ├── vis/                  # Orchestrates the execution of analysis workflows
-│   │   ├── accuracy.py # End-to-end pipeline for brainwave decoding
-│   │   ├── confisuion_matrix.py # End-to-end pipeline for brainwave decoding
-│   │   ├── metrics.py # End-to-end pipeline for brainwave decoding
-│   │   ├── motor.py # End-to-end pipeline for brainwave decoding
-│   │   ├── peak_mean_erp_p100.py # End-to-end pipeline for brainwave decoding
-│   │   ├── peak_mean_erp_n100.py # End-to-end pipeline for brainwave decoding
-│   │   ├── per_class_metrics.py # End-to-end pipeline for brainwave decoding
+│   │   ├── accuracy.py # accuracy plot for decoding
+│   │   ├── confisuion_matrix.py # confusion matrix plot for decoding
+│   │   ├── metrics.py # precision, recall and f1
+│   │   ├── motor.py # Muscular actictiviy plots
+│   │   ├── peak_mean_erp_p100.py #peak erp and mean erp
+│   │   ├── peak_mean_erp_n100.py # peak erp and mean erp
+│   │   ├── per_class_metrics.py # class wise metrics
 │   │   └── snr.py        # End-to-end pipeline for P100 ERP analysis
 │   └── utils.py                      # Helper utilities and shared functions
-│   ├──── config.yaml        # End-to-end pipeline for P100 ERP analysis
+│   ├──── config.yaml        # configuration to run the whole 
 └── images/                         # Output directory for CSVs, plots, and models
     
 ```
