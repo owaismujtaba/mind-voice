@@ -17,6 +17,7 @@ Mind-Voice is an advanced research framework designed for the analysis of electr
 - [Usage](#usage)
   - [BIDS Dataset Creation](#bids-dataset-creation)
   - [P100 ERP Analysis](#p100-erp-analysis)
+  - [N100 ERP Analysis](#p100-erp-analysis)
   - [Brainwave Decoding (Overt/Covert Speech)](#brainwave-decoding-overtcovert-speech)
   - [Voice Anonymization](#voice-anonymization)
   - [Visualizations](#visualizations)
@@ -102,7 +103,7 @@ mind-voice/
 ├── requirements.txt                # List of Python dependencies
 ├── src/
 │   ├── analysis/                   # Contains core analysis modules
-│   │   ├── motor.py         # Extracts and processes epochs for covert/overt speech and silence
+│   │   ├── motor.py         # processing motor-related neural data, automating epoch creation, time-frequency analysis (TFR), and ROI power extraction across overt, covert, and rest conditions.
 │   │   ├── p100.py       # Analyzes P100 components (latency, amplitude)
 │   │   ├── p100.py       # Analyzes P100 components (latency, amplitude)
 │   │   └── snr.py            # Extracts and processes epochs for visual/rest conditions
