@@ -102,29 +102,33 @@ mind-voice/
 ├── requirements.txt                # List of Python dependencies
 ├── src/
 │   ├── analysis/                   # Contains core analysis modules
-│   │   ├── covert_overt.py         # Extracts and processes epochs for covert/overt speech and silence
-│   │   ├── p_100_analyser.py       # Analyzes P100 components (latency, amplitude)
-│   │   └── registery.py            # Extracts and processes epochs for visual/rest conditions
+│   │   ├── motor.py         # Extracts and processes epochs for covert/overt speech and silence
+│   │   ├── p100.py       # Analyzes P100 components (latency, amplitude)
+│   │   ├── p100.py       # Analyzes P100 components (latency, amplitude)
+│   │   └── snr.py            # Extracts and processes epochs for visual/rest conditions
 │   ├── anonymization/              # Modules for voice anonymization
 │   │   └── voice_snonymizer.py     # Pipeline for pitch and formant shifting of audio
-│   ├── dataset/                    # Data handling, loading, and preprocessing
+│   ├── data/                    # Data handling, loading, and preprocessing
 │   │   ├── bids.py                 # Functions for creating BIDS datasets from XDF
-│   │   ├── data_loader.py          # General utility for epoch creation from EEG data
 │   │   ├── data_reader.py          # Reads raw XDF or BIDS EEG data, handles preprocessing
-│   │   └── eeg_epoch_builder.py    # Builds MNE epochs based on event annotations and filters
+│   │   └── epochs.py    # Builds MNE epochs based on event annotations and filters
 │   ├── decoding/                   # Modules for EEG decoding/classification
-│   │   ├── overt_covert.py         # Specific data loader for overt/covert/rest classification
-│   │   └── overt_covert_rest_model.py # CNN model for overt/covert/rest classification
-│   ├── pipelines/                  # Orchestrates the execution of analysis workflows
-│   │   ├── overt_covert_rest_pipeline.py # End-to-end pipeline for brainwave decoding
-│   │   └── p100_pipeline.py        # End-to-end pipeline for P100 ERP analysis
-│   └── utils/                      # Helper utilities and shared functions
-│       ├── data.py                 # Utility for loading YAML configuration files
-│       └── graphics.py             # Functions for styled console output (e.g., using rich)
-└── results/                        # Output directory for CSVs, plots, and models
-    ├── DecodingResults/            # Contains accuracy, reports, confusion matrices from decoding
-    ├── P100/                       # Contains P100 analysis results (CSVs, plots)
-    └── images/                     # General image outputs and aggregated plots
+│   │   ├── data_utils.py           # Specific data loader for overt/covert/rest classification
+│   │   ├── decoding.py             # Specific data loader for overt/covert/rest classification
+│   │   └── model.py                # CNN model for overt/covert/rest classification
+│   ├── vis/                  # Orchestrates the execution of analysis workflows
+│   │   ├── accuracy.py # End-to-end pipeline for brainwave decoding
+│   │   ├── confisuion_matrix.py # End-to-end pipeline for brainwave decoding
+│   │   ├── metrics.py # End-to-end pipeline for brainwave decoding
+│   │   ├── motor.py # End-to-end pipeline for brainwave decoding
+│   │   ├── peak_mean_erp_p100.py # End-to-end pipeline for brainwave decoding
+│   │   ├── peak_mean_erp_n100.py # End-to-end pipeline for brainwave decoding
+│   │   ├── per_class_metrics.py # End-to-end pipeline for brainwave decoding
+│   │   └── snr.py        # End-to-end pipeline for P100 ERP analysis
+│   └── utils.py                      # Helper utilities and shared functions
+│   ├──── config.yaml        # End-to-end pipeline for P100 ERP analysis
+└── images/                         # Output directory for CSVs, plots, and models
+    
 ```
 
 ## How It Works
