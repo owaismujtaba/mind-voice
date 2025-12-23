@@ -1,0 +1,13 @@
+mnelab
+pyxdf
+pyprep
+mne
+imblearn
+bids
+mne_bids
+praat-parselmouth
+rich
+seaborn
+tensorflow
+librosa
+statsmodels
