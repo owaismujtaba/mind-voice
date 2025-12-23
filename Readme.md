@@ -137,19 +137,6 @@ mind-voice/
 The `mind-voice` project follows a structured approach, orchestrated by the `run.py` script and `config.yaml`.
 
 1.  **Configuration:** The `config.yaml` file defines which pipelines to run, specifies input/output directories, and sets parameters for data loading, preprocessing, analysis, and plotting.
-2.  **BIDS Dataset Creation (Optional):** If configured, `run.py` first calls the `create_bids_dataset` function from `src/dataset/bids.py`. This process reads raw XDF files (using `src/dataset/data_reader.py`), performs initial EEG resampling, and organizes the data into a BIDS-compliant directory structure using `mne-bids`. This ensures data standardization for subsequent analyses.
-3.  **Data Loading and Preprocessing:** The `BIDSDatasetReader` (`src/dataset/data_reader.py`) is central to loading either raw XDF data or pre-existing BIDS data. It then applies a comprehensive preprocessing pipeline:
-    *   Setting channel types and applying a standard EEG montage.
-    *   Identifying and interpolating noisy channels using `pyprep`.
-    *   Applying band-pass filters to the EEG data.
-    *   Setting an EEG reference.
-    *   Removing artifacts (e.g., EOG) using Independent Component Analysis (ICA). Processed data is saved to a `derivatives` folder to avoid re-computation.
-4.  **Epoching:** `EEGEpochBuilder` (`src/dataset/eeg_epoch_builder.py`) and `DataLoader` (`src/dataset/data_loader.py`) are used to extract specific time segments (epochs) from the continuous EEG data. This is done based on detailed event annotations embedded in the EEG files, allowing for precise isolation of experimental conditions like visual stimuli, overt speech, covert speech, or rest periods.
-5.  **Analysis Pipelines:**
-    *   **P100 Analysis:** The `P100AnalysisPipeline` (`src/pipelines/p100_pipeline.py`) loads epoched data for visual and control (rest/fixation) conditions. The `P100ComponentAnalyzer` (`src/analysis/p_100_analyser.py`) then computes P100 peak latency and amplitude. Results are saved as CSVs and visualized by `P100Plotter` (`src/visualizations/p100_plotter.py`).
-    *   **Brainwave Decoding:** The `OvertCovertRestPipeline` (`src/pipelines/overt_covert_rest_pipeline.py`) prepares epoched data for overt, covert, and rest conditions. It addresses class imbalance using `RandomOverSampler` and normalizes the data. An `OvertCoverRestClassifier` (`src/decoding/overt_covert_rest_model.py`), a custom CNN model, is then trained to classify these states. Performance metrics (accuracy, confusion matrix, classification report) are saved.
-6.  **Voice Anonymization:** The `VoiceAnonymizerPipeline` (`src/anonymization/voice_snonymizer.py`) processes audio files by applying pitch and formant shifting using `librosa` and `parselmouth`, respectively, to create anonymized audio outputs.
-7.  **Visualization & Reporting:** Various scripts in `src/visualizations` (e.g., `plot_accuracy.py`, `plot_confusion_matrix.py`, `erp_grand_visual_rest.py`, `peak_mean_visual_rest.py`) generate informative plots and aggregate statistical summaries to effectively communicate the findings from the analysis pipelines.
 
 ## Getting Started
 
@@ -215,14 +202,20 @@ If `dataset.create_bids` is `true` in `config.yaml`, the pipeline will:
 
 ### P100 ERP Analysis
 
-To run the P100 analysis pipeline, set `analysis.p100` to `true` in `config.yaml`.
+To run the P100 analysis pipeline, set `analysis.p100.run_analysis` to `true` in `config.yaml`.
 The pipeline will:
 1.  Load preprocessed EEG data for each subject and session.
 2.  Create epochs for 'Visual' (stimulus onset) and 'Rest' (fixation) conditions based on annotations.
-3.  Compute P100 peak latency and amplitude for specified occipital channels (default: `PO3`, `POz`, `PO4`).
-4.  Generate individual subject ERP plots and save them to `results/P100/Plots/`.
-5.  Save P100 metrics (latency, peak, mean amplitude) for each subject and condition to `results/P100/` as CSV files.
-6.  Generate grand average ERP plots and statistical comparisons of peak/mean amplitudes across all subjects (if `plot_config.peak_mean_amplitude` and `plot_config.grand_erp_visual_real` are `true`).
+3.  Compute P100 peak latency and amplitude for specified occipital channels (default: ['O1', 'PO3', 'O2', 'PO4']).
+
+
+### N100 ERP Analysis
+
+To run the P100 analysis pipeline, set `analysis.n100.run_analysis` to `true` in `config.yaml`.
+The pipeline will:
+1.  Load preprocessed EEG data for each subject and session.
+2.  Create epochs for 'Audio' (stimulus onset) and 'Rest' (fixation) conditions based on annotations.
+3.  Compute N100 peak latency and amplitude for specified occipital channels (default: ['Cz']).
 
 ### Brainwave Decoding (Overt/Covert Speech)
 
@@ -246,13 +239,18 @@ The pipeline will:
 
 ### Visualizations
 
-The `plot_config` section in `config.yaml` controls which visualizations are generated after the analysis pipelines run. Enabling these flags will:
-*   **`peak_mean_amplitude`**: Plot individual and mean P100 peak and mean amplitudes, including paired t-test results.
-*   **`grand_erp_visual_real`**: Plot the grand average ERP for visual and rest conditions.
-*   **`accuracy_plots`**: Visualize decoding accuracy per subject.
-*   **`confusion_matrix`**: Generate an aggregated heatmap of the confusion matrix from decoding results.
-*   **`metrics_plots`**: Plot aggregated precision, recall, and F1-scores per subject.
-*   **`display_per_class_metrics`**: Log and display class-wise precision, recall, and F1-scores, including standard deviations.
+The `plotting` section in `config.yaml` controls which visualizations are generated after the analysis pipelines run. Enabling these flags will:
+*   **`peak_mean_amplitude_p100`**: Plot individual and mean P100 peak and mean amplitudes, including paired t-test results.
+*   **`peak_mean_amplitude_n100`**: Plot individual and mean N100 peak and mean amplitudes, including paired t-test results.
+*   **`grand_n100`**: Plot the grand average ERP for visual and rest conditions.
+*   **`grand_p100`**: Plot the grand average ERP for visual and rest conditions.
+*   **`accuracy`**: Visualize decoding accuracy per subject.
+*   **`cm`**: Generate an aggregated heatmap of the confusion matrix from decoding results.
+*   **`metrics`**: Plot aggregated precision, recall, and F1-scores per subject.
+*   **`motor_box`**: Boxplots of trf (Overt, Covert, Rest).
+*   **`motor_covert_overt_rest`**: Muscular activity tfr for Overt Covert and Rest.
+*   **`snr_plot`**: SNR Plot for visual events.
+*   **`per_class_metrics`**: Log and display class-wise precision, recall, and F1-scores, including standard deviations.
 
 All plots are saved to the `results/images/` directory.
 
