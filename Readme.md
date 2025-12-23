@@ -277,4 +277,19 @@ Owais Mujtaba - owais.mujtaba123@gmail.com
 
 Project Link: [https://github.com/owaismujtaba/mind-voice](https://github.com/owaismujtaba/mind-voice)
 
+# Citation
+
+If you use this repository, dataset, or any derived work in your research, please cite the following paper.
+
+## BibTeX
+@article{cortina2025ugrmindvoice,
+  title={UGR-MINDVOICE: A Multimodal EEG-Audio Dataset for Overt and Covert Iberian Spanish Speech Production},
+  author={Cortina, Ibon Vales and Khanday, Owais Mujtaba and Ouellet, Marc and Perez-Cordoba, Jose L. and San Esteban, Pablo Rodriguez and Miccoli, Laura and Galdon, Alberto and Olivares Granados, Gonzalo and Gonzalez-Lopez, Jose A.},
+  journal={SSRN},
+  year={2025},
+  note={Available at SSRN: 5576287},
+  url={https://ssrn.com/abstract=5576287},
+  doi={10.2139/ssrn.5576287}
+}
+
 ---
