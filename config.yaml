@@ -1,19 +1,78 @@
 dataset:
     create_bids: False
-    BIDS_DIR: 'BIDS'
+    BIDS_DIR: '/home/owaismujtaba/projects/mind-voice/BIDS'
+    MONTAGE: 'standard_1020'
     config_path: 'bids_config.yaml'
-    EEG_SR: 1024
+    EEG_SR: 1000
     AUDIO_SR: 48000
 
-
+preprocessing:
+    EEG_FILTER: {"l_freq": 0.1, "h_freq": 40.0}
+    ICA_PARAMS: {"n_components": 0.99999999, "random_state": 97, "ica_method": "fastica"}
+    NOTCH: [50, 100]
+    RANDOM_STATE: 42
+    
 analysis:
     results_dir: 'results'
-    p100: False
-    eeg_filter:
-        low: 0.1
-        high: 120
+    
+    p100:
+        run_analysis: False
+        selectd_channels: 'Left_right_occipital'
+        tmin: -0.1
+        tmax: 0.5
+        window: [0.08, 0.12]
+        no_visual_event_offset: 0.4
+        rois : {
+            'Oz': ['Oz'],  
+            'Occipital_triad': ['O1', 'Oz', 'O2'],  
+            'Parieto_occipital': ['PO3', 'POz', 'PO4'],  
+            'Occipital_quad': ['O1', 'Oz', 'O2', 'POz'],  
+            'Left_occipital': ['O1', 'PO3'],  
+            'Right_occipital': ['O2', 'PO4'],  
+            'Left_right_occipital': ['O1', 'PO3', 'O2', 'PO4'],
+            'Occipital_large': ['O1', 'Oz', 'O2', 'PO3', 'POz', 'PO4'],  
+        }
 
-    decoding: False
+    n100:
+        run_analysis: False
+        selectd_channels: 'Cz'
+        tmin: -0.1
+        tmin: -0.1
+        tmax: 0.5
+        window: [0.08, 0.12]
+        no_audio_offset: 0.4
+        rois : {
+            'Cz': ['Cz'],
+        }
+ 
+    motor:
+        run_analysis: False
+        tmin: -0.2
+        tmax: 0.7
+        bandpass: [20, 300]
+        n_freqs: 80
+        linenoise : [50, 150, 250]
+        channels: ['F7', 'T7', 'T8', 'FT7', 'FT8', 'TP7', 'P7', 'PO7', 'TP8', 'P8', 'PO8']
+        
+
+    snr:
+        run_analysis: False
+        selectd_channels: ['O1', 'PO3', 'O2', 'PO4']
+        tmin: -0.2
+        tmax: 0.5
+        baseline_window: [-0.2, 0]
+        signal_window: [0.0, 0.5]
+
+
+
+decoding: 
+    run_decoding: False
+    tmin: -0.2
+    tmax : 1.5
+    bandpass: [0.1, 170]
+
+    epochs: 100
+    batch_size: 128
 
 
 anonymize:
@@ -21,11 +80,26 @@ anonymize:
     pitch_steps: 5
     formant_ratio: 1.3
 
-
 plotting:
-    peak_mean_amplitude: True
-    grand_erp_visual_real: True
-    accuracy_plots: True
-    metrics_plots: True
-    confusion_matrix: True
-    display_per_class_metrics: True
+    peak_mean_amplitude_p100: False
+    grand_p100: False
+
+    peak_mean_amplitude_n100: False
+    grand_n100: False
+
+    motor_covert_overt_rest: True
+    motor_box: False
+    snr_plot: False
+
+
+
+    accuracy: False
+    metrics: False
+    cm: False
+    per_class_metrics: False
+
+
+
+
+
+   

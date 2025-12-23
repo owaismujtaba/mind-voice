@@ -1,9 +1,0 @@
-mnelab
-pyxdf
-pyprep
-mne
-imblearn
-praat-parselmouth
-bids
-mne_bids
-librosa

@@ -1,157 +1,111 @@
+
 import pdb
-import os
-from bids import BIDSLayout
-from pathlib import Path
+from src.utils import create_logger, load_config
+from src.analysis.p100 import run_p100_pipeline
+from src.analysis.n100 import run_n100_pipeline
+from src.analysis.motor import MotorPipeline
+from src.analysis.snr import run_snr
 
-from src.utils.data import load_yaml
-from src.dataset.bids import create_bids_dataset
-
-from src.pipelines.p100_pipeline import P100AnalysisPipeline
-from src.pipelines.overt_covert_rest_pipeline import OvertCovertRestPipeline
-from src.anonymization.voice_snonymizer import VoiceAnonymizerPipeline
-
-from src.visualizations.peak_mean_visual_rest import plot_peak_mean_visual_novisual
-from src.visualizations.erp_grand_visual_rest import plot_grand_erp_rest_visual
-from src.visualizations.plot_accuracy import plot_accuracy
-from src.visualizations.plot_confusion_matrix import plot_confusion_matrix
-from src.visualizations.plot_metrics import plot_metrics
-from src.visualizations.display_per_class_metrics import display_classwise
-
-from src.utils.logger import create_logger
+import pdb
 
 
-config = 'config.yaml'
-config = load_yaml(config)
-
-dataset_config = config['dataset']
-if dataset_config['create_bids']:
-    logger = create_logger('bids')
-    logger.info('Creating BIDS Dataset')
-    file_info = dataset_config['config_path']
-    dataset_info = load_yaml(file_info)
-    dataset_details = dataset_info['filepaths']
-    create_bids_dataset(dataset_details, logger, dataset_config)
-
-
-analysis_config = config['analysis']
-if analysis_config['p100']:
-    logger = create_logger('p100')
-    visual = {
-        "label": "Visual",
-        "trial_type": "Stimulus",
-        "tmin": -0.2,
-        "tmax": 0.5,
-        "trial_mode": "",
-        "trial_unit": "Words",
-        "experiment_mode": "Experiment",
-        "trial_boundary": "Start",
-        "modality": "Pictures"
-    }
+def main():
+    config = load_config('config.yaml')
+    ########### Analysis
+    if config['analysis'].get('p100', {}).get('run_analysis', False):
+        logger = create_logger('p100_analysis')
+        run_p100_pipeline(config, logger)
+        
+    if config['analysis'].get('n100', {}).get('run_analysis', False):
+        logger = create_logger('n100_analysis')
+        run_n100_pipeline(config, logger)
     
+    if config['analysis'].get('motor', {}).get('run_analysis', False):
+        logger = create_logger('motor_analysis')
+        pipe = MotorPipeline(config, logger)
+        pipe.run()
+    if config['analysis'].get('snr', {}).get('run_analysis', False):
+        logger = create_logger('snr_analysis')
+        run_snr(config, logger)
+        
+    ########### Decoding   
+    if config['decoding'].get('run_decoding', False):
+        logger = create_logger('decoding')
+        from src.decoding.decoding import run_decoding_pipeline
+        run_decoding_pipeline(config, logger)
+        
 
-    rest = {
-        "label": "Rest",
-        "trial_type": "Fixation",
-        "tmin": -0.2,
-        "tmax": 0.5,
-        "trial_mode": "",
-        "trial_unit": "Words",
-        "experiment_mode": "Experiment",
-        "trial_boundary": "Start",
-        "modality": "Pictures",
-        "time_window": (0.08, 0.12)  # Optional window for P100
-    }
-    logger.info('Setting DIBS')
-    layout = BIDSLayout(dataset_config['BIDS_DIR'], validate=True)
-    subject_ids = layout.get_subjects()
-
+    ########### P100
+    if config['plotting'].get('peak_mean_amplitude_p100', False):
+        logger = create_logger('plotting')
+        from src.vis.peak_mean_erp_p100 import plot_p100_mean_peak
+        plot_p100_mean_peak(config, logger)
+        
+    if config['plotting'].get('grand_p100', False):
+        logger = create_logger('plotting')
+        from src.vis.grand_erp_p100 import plot_p100_grand
+        plot_p100_grand(config, logger)
     
-
-    for sub in subject_ids:
-        session_ids = layout.get_sessions(subject=sub)
-        for ses in session_ids:
-                pipeline = P100AnalysisPipeline(
-                    subject_id=sub,
-                    session_id=ses,
-                    condition1_config=visual,
-                    condition2_config=rest,
-                    channels = ['PO3', 'POz', 'PO4'], 
-                    logger=logger,
-                    config = config
-                )
-
-                pipeline.run(save_csv=True)
-
-
-if analysis_config['decoding']:
-    logger = create_logger('classification')
-    layout = BIDSLayout(dataset_config['BIDS_DIR'], validate=True)
-    subject_ids = layout.get_subjects()
-
-    for sub in subject_ids:
-        session_ids = layout.get_sessions(subject=sub)  
-        for ses in session_ids:
-            pipeline = OvertCovertRestPipeline(
-                    subject_id=sub, session_id=ses,
-                    config=config, logger=logger
-                )
-            pipeline.run()
+    #############  Motor
+    if config['plotting'].get('motror_covert_overt_rest', False):
+        logger = create_logger('plotting')
+        from src.vis.motor import plot_motor_average
+        plot_motor_average(config, logger)
+    
+    #############  Decoding Plots
+    if config['plotting'].get('accuracy', False):
+        logger = create_logger('plotting')
+        from src.vis.accuracy import plot_accuracy
+        plot_accuracy(logger)
+        
+    if config['plotting'].get('metrics', False):
+        logger = create_logger('plotting')
+        from src.vis.metrics import plot_metrics
+        plot_metrics(logger)
+        
+    if config['plotting'].get('cm', False):
+        logger = create_logger('plotting')
+        from src.vis.confusion_matrix import plot_confusion_matrix
+        plot_confusion_matrix(logger)
+        
+    if config['plotting'].get('per_class_metrics', False):
+        logger = create_logger('plotting')
+        from src.vis.per_class_metrics import display_classwise
+        display_classwise(logger)
+        
+    if config['plotting'].get('motor_box', False):
+        logger = create_logger('plotting')
+        from src.vis.motor import plot_motor_box
+        plot_motor_box(logger=logger)
+        
+    if config['plotting'].get('motor_covert_overt_rest', False):
+        logger = create_logger('plotting')
+        from src.vis.motor import plot_motor_average
+        plot_motor_average(logger=logger)
+        
+        
+    ########### N100
+    if config['plotting'].get('grand_n100', False):
+        logger = create_logger('grand_n100')
+        from src.vis.grand_erp_n100 import plot_n100_grand
+        plot_n100_grand(config, logger)
+        
+        
+    if config['plotting'].get('peak_mean_amplitude_n100', False):
+        logger = create_logger('peak_mean_n100')
+        from src.vis.peak_mean_erp_n100 import plot_n100_mean_peak
+        plot_n100_mean_peak(config, logger)
+        
+    if config['plotting'].get('snr_plot', False):
+        logger = create_logger('peak_mean_n100')
+        from src.vis.snr import plot_snr
+        plot_snr(config, logger)
+        
+    
+        
+    
+    
             
 
-if config['anonymize']['anonymize_audio']:
-    anonymize_config = config['anonymize']
-    logger = create_logger('anonymize')
-    layout = BIDSLayout(dataset_config['BIDS_DIR'], validate=True)
-    subject_ids = layout.get_subjects()
-
-    for sub in subject_ids:
-        session_ids = layout.get_sessions(subject=sub)  
-        for ses in session_ids:
-            directory = Path(dataset_config['BIDS_DIR'], f'sub-{sub}', f'ses-{ses}', 'audio')
-            filepath = [os.path.join(directory, file) for file in os.listdir(directory) if file.lower().endswith(".wav")][0]
-            logger.info(filepath)
-            pipeline = VoiceAnonymizerPipeline(
-                pitch_steps=anonymize_config['pitch_steps'], 
-                formant_ratio=anonymize_config['formant_ratio'],
-                logger=logger
-            )
-            anonymized_audio = pipeline.fit_transform(filepath)
-            pipeline.save(anonymized_audio, pipeline.target_sr, Path(directory, "anonymized.wav"))
-
-
-
-
-plot_config = config['plotting']
-logger = create_logger('plotting')
-if plot_config['peak_mean_amplitude']:
-    plot_peak_mean_visual_novisual(logger)
-
-if plot_config['grand_erp_visual_real']:
-    plot_grand_erp_rest_visual(config, logger)
-    
-if plot_config['accuracy_plots']:
-    plot_accuracy(logger)
-
-
-    
-if plot_config['confusion_matrix']:
-    plot_confusion_matrix(logger)
-
-
-if plot_config['metrics_plots']:
-    plot_metrics(logger)
-
-
-if plot_config['display_per_class_metrics']:
-    display_classwise(logger)
-
-
-
-
-
-
-
-
-
-
-    
+if __name__ == "__main__":
+    main()
